@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Gaddi Ethnography, Sociolinguistics, and Vitality Profile",
+    "source_id": "kumari_2026",
+    "source_citation": "Kumari et al. (2026), Chapter 1 (pp. 1-10)",
+    "variety_id": "hp_kangra_palampur",
+    "variety_name": "Kangra Gaddi (Palampur)",
+    "license": "CC BY-NC 4.0",
+    "is_jk_verified": false,
+    "evidence_status": "comparative_only"
+  },
+  "community_profile": {
+    "name": "Gaddi",
+    "endonym_pronunciation_ipa": "/ɡəd̪d̪i/",
+    "mythical_homeland": "Bharmaur region of Chamba in Himachal Pradesh, on the river basins of the Ravi and Budhil (Kapila 2008)",
+    "pastoral_identity": "Traditional migratory pastoralists owning sheep and goats. Self-conception as 'ghomtus' (people born with moving feet)",
+    "herding_cycle": "Year-round seasonal transhumance across Himalayan grazing corridors; shearing, slaughtering, penning",
+    "herding_roles": "Large flock owners (>200) hold community leadership; 'puhal' are herding assistants regarded as lower socio-economic status",
+    "women_roles": "Farming, animal husbandry, woollen blanket and clothes weaving, domestic water and fuel collection",
+    "social_structure": "Patriarchal lineage; preference for male offspring for shepherding continuity; gotra exogamy (father's clan); parallel and cross-cousin marriage permitted",
+    "customary_divorce": "Decided by family elders; husband provides 'kharcha' (living allowance), legally fixed at 50% of income for government servants",
+    "polygyny": "Known as 'sɒkəɳ' or 'sɒkəɳi', permitted if first wife unable to bear a male heir"
+  },
+  "geographic_distribution": {
+    "himachal_pradesh": [
+      "Chamba (Bharmaur, Budhil, Ravi)",
+      "Kangra (Palampur, Dharamshala)",
+      "Mandi",
+      "Kullu (outer foothills of Dhauladhar, fringes of Pir-Panjal)"
+    ],
+    "jammu_and_kashmir": [
+      "Badherwah",
+      "Basoli",
+      "Ram Nagar",
+      "Udhampur",
+      "Bilawar",
+      "Ramban",
+      "Batot (Government of J&K n.d.)"
+    ],
+    "other_states": [
+      "Punjab",
+      "Haryana"
+    ]
+  },
+  "demographics": {
+    "census_2011_mother_tongue": 181069,
+    "scheduled_tribe_population_2013": {
+      "himachal_pradesh": 178130,
+      "jammu_and_kashmir": 46489
+    },
+    "census_classification_note": "Grouped as a mother tongue under Hindi in Census 2011; Scheduled Tribe figures represent constitutional ST category"
+  },
+  "language_vitality": {
+    "unesco_classification": "Definitely endangered (under name 'Bharmauri', UNESCO Atlas of World's Languages in Danger, 3rd ed.)",
+    "authors_field_assessment": "Fieldwork in Kangra did not reveal severe endangerment or active language loss; intergenerational transmission remains active; used in elementary classrooms",
+    "vulnerabilities": "Attrition of native-stock vocabulary (especially kinship terms, Sharma 2016); rapid encroachment and lexical replacement by Hindi-Urdu",
+    "language_planning_needs": "Need for extensive documentation, orthographic standardization/script development, and mother-tongue educational materials"
+  },
+  "fieldwork_methodology": {
+    "institution": "Centre for Linguistics (CLIN), Jawaharlal Nehru University (JNU), New Delhi",
+    "initiator_and_mentors": "Field methods course instituted by Prof. Anvita Abbi, mentored by Prof. Ayesha Kidwai and Dr. Hari Madhav Ray",
+    "field_cohorts": "2013 and 2015 MA Linguistics batches; follow-up online elicitation in February 2022",
+    "fieldwork_villages": [
+      "Palampur",
+      "Saperu",
+      "Banuri",
+      "Kandbari (Kangra District, HP)"
+    ],
+    "language_consultants": [
+      "Tek Chand Sharma",
+      "Urmila Rana",
+      "Ratan Pahl (and others unnamed)"
+    ],
+    "elicitation_instruments": "Modified Morris Swadesh word list (Abbi 2001, p. 248) and Abbi's basic sentence list",
+    "digital_tools": "FieldWorks Language Explorer™ (FLEx) and Fling@JNU archive"
+  },
+  "dialectological_isolation_warning": {
+    "authors_statement_p5": "Gaddi has varieties apart from the one described in this book, which is the variety spoken in and around Palampur. The varieties spoken in the districts of Chamba, Mandi, Kullu, and the state of Punjab and the Union Territory of Jammu and Kashmir require fresh descriptions.",
+    "project_implication": "Kumari et al. (2026) cannot be cited as direct primary evidence for J&K Gaddi lexical usage. Its entries serve strictly as high-credibility comparative Western Pahari baseline data."
+  }
+}

@@ -1,0 +1,920 @@
+[
+  {
+    "id": "comp-num-00001",
+    "lemma_devanagari": "एक",
+    "lemma_ipa": "eːk",
+    "lemma_perso_arabic": "ایک",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "numeral",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "One (numeral: 1).",
+        "definition_hi": "एक (संख्या: १)।",
+        "definition_ur": "ایک (عدد: ۱)۔",
+        "semantic_field": "numerals"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 842",
+        "source_spelling": "ēk",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 1."
+      }
+    ],
+    "comparative_notes": "Chamba Bharmauri historical record. Baseline numeral.",
+    "editorial_notes": "Strictly comparative baseline; requires J&K field attestation.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-num-00002",
+    "lemma_devanagari": "दुई",
+    "lemma_ipa": "d̪uːiː",
+    "lemma_perso_arabic": "دوئی",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "numeral",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Two (numeral: 2).",
+        "definition_hi": "दो (संख्या: २)।",
+        "definition_ur": "دو (عدد: ۲)۔",
+        "semantic_field": "numerals"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 843",
+        "source_spelling": "dui",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 2."
+      }
+    ],
+    "comparative_notes": "Cognate across Western Pahari and Dogri.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-num-00003",
+    "lemma_devanagari": "त्रे",
+    "lemma_ipa": "t̪reː",
+    "lemma_perso_arabic": "ترے",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "numeral",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Three (numeral: 3).",
+        "definition_hi": "तीन (संख्या: ३)।",
+        "definition_ur": "تین (عدد: ۳)۔",
+        "semantic_field": "numerals"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 844",
+        "source_spelling": "trē",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 3."
+      }
+    ],
+    "comparative_notes": "Classic Western Pahari and Dogri numeral with initial tr- cluster.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-num-00004",
+    "lemma_devanagari": "चौर",
+    "lemma_ipa": "tʃɔːr",
+    "lemma_perso_arabic": "چور",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "numeral",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Four (numeral: 4).",
+        "definition_hi": "चार (संख्या: ४)।",
+        "definition_ur": "چار (عدد: ۴)۔",
+        "semantic_field": "numerals"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 845",
+        "source_spelling": "chāur",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 4."
+      }
+    ],
+    "comparative_notes": "Compare Dogri 'चार' (chār).",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-num-00005",
+    "lemma_devanagari": "पंज",
+    "lemma_ipa": "pəɲdʒ",
+    "lemma_perso_arabic": "پنج",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "numeral",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Five (numeral: 5).",
+        "definition_hi": "पाँच (संख्या: ५)।",
+        "definition_ur": "پانچ (عدد: ۵)۔",
+        "semantic_field": "numerals"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 846",
+        "source_spelling": "pãñj",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 5."
+      }
+    ],
+    "comparative_notes": "Shared across Pahari and Punjabi.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-num-00010",
+    "lemma_devanagari": "दश",
+    "lemma_ipa": "d̪əʃ",
+    "lemma_perso_arabic": "دش",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "numeral",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Ten (numeral: 10).",
+        "definition_hi": "दस (संख्या: १०)।",
+        "definition_ur": "دس (عدد: ۱۰)۔",
+        "semantic_field": "numerals"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 851",
+        "source_spelling": "dāsh",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 10."
+      }
+    ],
+    "comparative_notes": "Retains palatal sibilant sh.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-nat-00001",
+    "lemma_devanagari": "पाणी",
+    "lemma_ipa": "ˈpaːɳiː",
+    "lemma_perso_arabic": "پانی",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Water.",
+        "definition_hi": "पानी, जल।",
+        "definition_ur": "پانی۔",
+        "semantic_field": "nature_elements"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 855",
+        "source_spelling": "pāṇī",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'water'."
+      }
+    ],
+    "comparative_notes": "Common Indo-Aryan water root with retroflex nasal ṇ.",
+    "editorial_notes": "Documented in Chamba Bharmauri; widely expected in J&K but kept comparative until field checked.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-nat-00002",
+    "lemma_devanagari": "अग्ग",
+    "lemma_ipa": "əɡː",
+    "lemma_perso_arabic": "اگ",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Fire.",
+        "definition_hi": "आग, अग्नि।",
+        "definition_ur": "آگ۔",
+        "semantic_field": "nature_elements"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 856",
+        "source_spelling": "agg",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'fire'."
+      }
+    ],
+    "comparative_notes": "Sanskrit agni -> Prakrit aggi -> Western Pahari agg.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-nat-00003",
+    "lemma_devanagari": "धुप्प",
+    "lemma_ipa": "d̪ʰʊpː",
+    "lemma_perso_arabic": "دھپ",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Sunlight, sunshine.",
+        "definition_hi": "धूप, सूर्य का प्रकाश।",
+        "definition_ur": "دھوپ۔",
+        "semantic_field": "nature_weather"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 857",
+        "source_spelling": "dhupp",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'sunlight'."
+      }
+    ],
+    "comparative_notes": "Shared across Pahari, Punjabi, and Dogri.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-nat-00004",
+    "lemma_devanagari": "रात",
+    "lemma_ipa": "raːt̪",
+    "lemma_perso_arabic": "رات",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Night.",
+        "definition_hi": "रात, रात्रि।",
+        "definition_ur": "رات۔",
+        "semantic_field": "time_and_nature"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 859",
+        "source_spelling": "rāt",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'night'."
+      }
+    ],
+    "comparative_notes": "Common Indo-Aryan.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-nat-00005",
+    "lemma_devanagari": "रुख",
+    "lemma_ipa": "rʊkʰ",
+    "lemma_perso_arabic": "رکھ",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Tree.",
+        "definition_hi": "पेड़, वृक्ष।",
+        "definition_ur": "درخت، پیڑ۔",
+        "semantic_field": "plants_and_flora"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Appendix II: Basic Word List, p. 288",
+        "source_spelling": "rʊkʰ",
+        "context": "Kangra Gaddi Swadesh wordlist entry for 'tree'."
+      }
+    ],
+    "comparative_notes": "Sanskrit vṛkṣa -> Prakrit rukkha -> Pahari rukh.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-nat-00006",
+    "lemma_devanagari": "खड्ड",
+    "lemma_ipa": "kʰəɖː",
+    "lemma_perso_arabic": "کھڈ",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Mountain brook, stream, or ravine.",
+        "definition_hi": "पहाड़ी नाला, नदी या खड्ड।",
+        "definition_ur": "پہاڑی نالہ یا کھائی۔",
+        "semantic_field": "landscape_water"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 42",
+        "source_spelling": "kʰədː",
+        "context": "Kangra phonological examples."
+      }
+    ],
+    "comparative_notes": "Western Pahari and Dogri geographical landscape term.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-bod-00001",
+    "lemma_devanagari": "अक्ख",
+    "lemma_ipa": "əkːʰ",
+    "lemma_perso_arabic": "اکھ",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Eye.",
+        "definition_hi": "आँख, नेत्र।",
+        "definition_ur": "آنکھ۔",
+        "semantic_field": "body_parts"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 862",
+        "source_spelling": "akkh",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'eye'."
+      }
+    ],
+    "comparative_notes": "Sanskrit akṣi -> Prakrit akkhi -> Pahari akkh.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-bod-00002",
+    "lemma_devanagari": "कन्न",
+    "lemma_ipa": "kənː",
+    "lemma_perso_arabic": "کن",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Ear.",
+        "definition_hi": "कान, कर्ण।",
+        "definition_ur": "کان۔",
+        "semantic_field": "body_parts"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 863",
+        "source_spelling": "kann",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'ear'."
+      }
+    ],
+    "comparative_notes": "Sanskrit karṇa -> Prakrit kaṇṇa -> Pahari kann.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-bod-00003",
+    "lemma_devanagari": "नक्क",
+    "lemma_ipa": "nəkː",
+    "lemma_perso_arabic": "نک",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Nose.",
+        "definition_hi": "नाक, नासिका।",
+        "definition_ur": "ناک۔",
+        "semantic_field": "body_parts"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 864",
+        "source_spelling": "nakk",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'nose'."
+      }
+    ],
+    "comparative_notes": "Common Indo-Aryan dialectal form.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-bod-00004",
+    "lemma_devanagari": "हथ",
+    "lemma_ipa": "hət̪ʰ",
+    "lemma_perso_arabic": "ہتھ",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Hand.",
+        "definition_hi": "हाथ, हस्त।",
+        "definition_ur": "ہاتھ۔",
+        "semantic_field": "body_parts"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 867",
+        "source_spelling": "hāth / hath",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'hand'."
+      }
+    ],
+    "comparative_notes": "Sanskrit hasta -> hath.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-bod-00005",
+    "lemma_devanagari": "पैर",
+    "lemma_ipa": "pɛːr",
+    "lemma_perso_arabic": "پیر",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Foot, leg.",
+        "definition_hi": "पैर, पाँव।",
+        "definition_ur": "پاؤں، پیر۔",
+        "semantic_field": "body_parts"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 868",
+        "source_spelling": "pair",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'foot'."
+      }
+    ],
+    "comparative_notes": "Common Indo-Aryan.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-kin-00001",
+    "lemma_devanagari": "बाप",
+    "lemma_ipa": "baːp",
+    "lemma_perso_arabic": "باپ",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Father.",
+        "definition_hi": "पिता, बाप।",
+        "definition_ur": "والد، باپ۔",
+        "semantic_field": "kinship"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 870",
+        "source_spelling": "bāp / bāpu",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'father'."
+      }
+    ],
+    "comparative_notes": "Kinship baseline.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-kin-00002",
+    "lemma_devanagari": "मा",
+    "lemma_ipa": "maː",
+    "lemma_perso_arabic": "ماں",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Mother.",
+        "definition_hi": "माता, माँ।",
+        "definition_ur": "والدہ، ماں۔",
+        "semantic_field": "kinship"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 871",
+        "source_spelling": "mā / māī",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'mother'."
+      }
+    ],
+    "comparative_notes": "Kinship baseline.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-kin-00003",
+    "lemma_devanagari": "भाई",
+    "lemma_ipa": "bʰaːiː",
+    "lemma_perso_arabic": "بھائی",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Brother.",
+        "definition_hi": "भाई, भ्राता।",
+        "definition_ur": "بھائی۔",
+        "semantic_field": "kinship"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 872",
+        "source_spelling": "bhāī",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'brother'."
+      }
+    ],
+    "comparative_notes": "Kinship baseline.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-vrb-00001",
+    "lemma_devanagari": "औणा",
+    "lemma_ipa": "ɔːˈɳaː",
+    "lemma_perso_arabic": "آؤنا",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "verb",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "To come.",
+        "definition_hi": "आना (क्रिया)।",
+        "definition_ur": "آنا۔",
+        "semantic_field": "motion_verbs"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 885",
+        "source_spelling": "āuṇā",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'to come'."
+      }
+    ],
+    "comparative_notes": "Infinitive in -ṇā characteristic of Western Pahari and Punjabi.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-vrb-00002",
+    "lemma_devanagari": "जाणा",
+    "lemma_ipa": "dʒaːˈɳaː",
+    "lemma_perso_arabic": "جانا",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "verb",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "To go.",
+        "definition_hi": "जाना (क्रिया)।",
+        "definition_ur": "جانا۔",
+        "semantic_field": "motion_verbs"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 886",
+        "source_spelling": "jāṇā",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'to go'."
+      }
+    ],
+    "comparative_notes": "Infinitive in -ṇā.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-vrb-00003",
+    "lemma_devanagari": "खाणा",
+    "lemma_ipa": "kʰaːˈɳaː",
+    "lemma_perso_arabic": "کھانا",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "verb",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "To eat.",
+        "definition_hi": "खाना (क्रिया)।",
+        "definition_ur": "کھانا۔",
+        "semantic_field": "ingestion_verbs"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 887",
+        "source_spelling": "khāṇā",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'to eat'."
+      }
+    ],
+    "comparative_notes": "Infinitive in -ṇā.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-vrb-00004",
+    "lemma_devanagari": "पीणा",
+    "lemma_ipa": "piːˈɳaː",
+    "lemma_perso_arabic": "پینا",
+    "lemma_takri": null,
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "verb",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "To drink.",
+        "definition_hi": "पीना (क्रिया)।",
+        "definition_ur": "پینا۔",
+        "semantic_field": "ingestion_verbs"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "p. 888",
+        "source_spelling": "pīṇā",
+        "context": "Standard List of Words, Bharmauri/Gadi column, entry 'to drink'."
+      }
+    ],
+    "comparative_notes": "Infinitive in -ṇā.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-prn-00001",
+    "lemma_devanagari": "कुण",
+    "lemma_ipa": "kuɳ",
+    "lemma_perso_arabic": "کُن",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "pronoun",
+    "gender": "common",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Interrogative pronoun: who.",
+        "definition_hi": "प्रश्नवाचक सर्वनाम: कौन।",
+        "definition_ur": "استفہامیہ ضمیر: کون۔",
+        "semantic_field": "interrogatives",
+        "examples": [
+          {
+            "text_gaddi": "कुण आया?",
+            "translation_en": "Who came?",
+            "translation_hi": "कौन आया?",
+            "translation_ur": "کون آیا؟",
+            "source_citation": "kumari_2026, p. 119"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 119",
+        "source_spelling": "kuɳ",
+        "context": "Argument wh-word 'who' documented in Palampur variety."
+      }
+    ],
+    "comparative_notes": "Kangra baseline. Compare with Dogri 'कुन' (kun). Requires J&K field attestation.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-prn-00002",
+    "lemma_devanagari": "के",
+    "lemma_ipa": "kɛ",
+    "lemma_perso_arabic": "کے",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "pronoun",
+    "gender": "neutral",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Interrogative pronoun: what.",
+        "definition_hi": "प्रश्नवाचक सर्वनाम: क्या।",
+        "definition_ur": "استفہامیہ ضمیر: کیا / کون سی चीज।",
+        "semantic_field": "interrogatives",
+        "examples": [
+          {
+            "text_gaddi": "के होआ?",
+            "translation_en": "What happened?",
+            "translation_hi": "क्या हुआ?",
+            "translation_ur": "کیا ہوا؟",
+            "source_citation": "kumari_2026, p. 120"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 120",
+        "source_spelling": "kɛ",
+        "context": "Argument wh-word 'what' documented in Kangra Gaddi."
+      }
+    ],
+    "comparative_notes": "Kangra baseline. Cognate with Western Pahari and Dogri 'के' (ke).",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-prt-00001",
+    "lemma_devanagari": "नी",
+    "lemma_ipa": "niː",
+    "lemma_perso_arabic": "نی",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "particle",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Sentential negative particle: not.",
+        "definition_hi": "नकारात्मक निपात: नहीं।",
+        "definition_ur": "نفی کا کلمہ: نہیں / نہ۔",
+        "semantic_field": "negation"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 135",
+        "source_spelling": "ni",
+        "context": "Standard sentential negation marker."
+      }
+    ],
+    "comparative_notes": "Cognate with Punjabi 'nahī̃' / Dogri 'ni'.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-prt-00002",
+    "lemma_devanagari": "नथी",
+    "lemma_ipa": "nəˈtʰiː",
+    "lemma_perso_arabic": "نتھی",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "verb",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Negative copula / auxiliary: is not, does not exist.",
+        "definition_hi": "नकारात्मक संयोजक क्रिया: नहीं है।",
+        "definition_ur": "نفی کی ربطی فعل: نہیں ہے۔",
+        "semantic_field": "negation_copula"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 136",
+        "source_spelling": "nətʰi",
+        "context": "Negative copula in indicative mood."
+      }
+    ],
+    "comparative_notes": "Compare Gujarati 'natʰi' (નથી) and Rajasthani negative copulas.",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  },
+  {
+    "id": "comp-prt-00003",
+    "lemma_devanagari": "मथ",
+    "lemma_ipa": "mətʰ",
+    "lemma_perso_arabic": "متھ",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "particle",
+    "gender": "not_applicable",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Prohibitive negative particle: don't, do not (used with imperative).",
+        "definition_hi": "निषेधवाचक निपात: मत (आज्ञार्थक वाक्यों में)।",
+        "definition_ur": "ممانعت کا کلمہ: مت (حکمیہ جملوں میں)۔",
+        "semantic_field": "negation_imperative"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 137",
+        "source_spelling": "matʰ",
+        "context": "Negative imperative marker in Kangra Gaddi."
+      }
+    ],
+    "comparative_notes": "Sanskrit mā -> Prakrit matth -> Gaddi matʰ. Cognate with Dogri 'मत' (mat).",
+    "editorial_notes": "Strictly comparative baseline.",
+    "metadata": {"compiler": "Gaddi Language Project", "created_at": "2026-10-30"}
+  }
+]
+

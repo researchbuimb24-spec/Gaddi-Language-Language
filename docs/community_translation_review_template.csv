@@ -1,0 +1,5 @@
+entry_id,lemma_devanagari,current_meaning_en,current_meaning_hi,reviewer_code,reviewer_district,is_form_recognized,is_meaning_accurate,local_pronunciation_notes,disputed_meaning,suggested_correction,reviewer_decision,review_date
+jk-lex-00001,नवाला,An all-night thanksgiving ritual ceremony dedicated to Lord Shiva,भगवान शिव को समर्पित रात भर चलने वाला पूजा अनुष्ठान,REV_KTH_01,Kathua (Bani),yes,yes,Standard pronunciation /nəwaːlaː/,none,none,accepted,2026-10-30
+comp-nat-00001,पाणी,Water,पानी,REV_UDH_01,Udhampur (Ramnagar),yes,yes,Spoken with retroflex ṇ (/paːɳiː/),none,also pronounced pani in some lower hamlets,verified_local,2026-10-30
+comp-prn-00001,कुण,Who (interrogative),कौन,REV_DOD_01,Doda (Bhaderwah),yes,yes,Shared with Dogri kun,none,none,accepted_comparative,2026-10-30
+

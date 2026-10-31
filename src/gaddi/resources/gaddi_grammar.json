@@ -1,0 +1,1267 @@
+{
+  "metadata": {
+    "title": "Descriptive Grammar of Kangra Gaddi (Palampur)",
+    "source_id": "kumari_2026",
+    "source_citation": "Kumari et al. (2026), Chapters 3, 4, 5",
+    "variety_id": "hp_kangra_palampur",
+    "variety_name": "Kangra Gaddi (Palampur)",
+    "license": "CC BY-NC 4.0",
+    "evidence_status": "comparative_only"
+  },
+  "phonology_summary": {
+    "metadata": {
+      "title": "Phonetics and Phonology of Kangra Gaddi",
+      "source_id": "kumari_2026",
+      "source_citation": "Kumari et al. (2026), Chapter 2 (pp. 11-37) & Appendix I (pp. 117-118)",
+      "variety_id": "hp_kangra_palampur",
+      "variety_name": "Kangra Gaddi (Palampur)",
+      "license": "CC BY-NC 4.0",
+      "is_jk_verified": false,
+      "evidence_status": "comparative_only"
+    },
+    "vowel_system": {
+      "total_oral_monophthongs": 8,
+      "oral_monophthongs": [
+        {
+          "ipa": "i",
+          "height": "close",
+          "frontness": "front",
+          "rounding": "unrounded",
+          "features": {
+            "high": true,
+            "mid": false,
+            "low": false,
+            "front": true,
+            "back": false,
+            "round": false
+          }
+        },
+        {
+          "ipa": "e",
+          "height": "close-mid",
+          "frontness": "front",
+          "rounding": "unrounded",
+          "features": {
+            "high": true,
+            "mid": true,
+            "low": false,
+            "front": true,
+            "back": false,
+            "round": false
+          }
+        },
+        {
+          "ipa": "ɛ",
+          "height": "open-mid",
+          "frontness": "front",
+          "rounding": "unrounded",
+          "features": {
+            "high": false,
+            "mid": true,
+            "low": true,
+            "front": true,
+            "back": false,
+            "round": false
+          }
+        },
+        {
+          "ipa": "ə",
+          "height": "mid",
+          "frontness": "central",
+          "rounding": "unrounded",
+          "features": {
+            "high": false,
+            "mid": true,
+            "low": false,
+            "front": false,
+            "back": false,
+            "round": false
+          }
+        },
+        {
+          "ipa": "ɑ",
+          "height": "open",
+          "frontness": "central_back",
+          "rounding": "unrounded",
+          "features": {
+            "high": false,
+            "mid": false,
+            "low": true,
+            "front": false,
+            "back": true,
+            "round": false
+          }
+        },
+        {
+          "ipa": "u",
+          "height": "close",
+          "frontness": "back",
+          "rounding": "rounded",
+          "features": {
+            "high": true,
+            "mid": false,
+            "low": false,
+            "front": false,
+            "back": true,
+            "round": true
+          }
+        },
+        {
+          "ipa": "o",
+          "height": "close-mid",
+          "frontness": "back",
+          "rounding": "rounded",
+          "features": {
+            "high": true,
+            "mid": true,
+            "low": false,
+            "front": false,
+            "back": true,
+            "round": true
+          }
+        },
+        {
+          "ipa": "ɔ",
+          "height": "open-mid",
+          "frontness": "back",
+          "rounding": "rounded",
+          "features": {
+            "high": false,
+            "mid": true,
+            "low": true,
+            "front": false,
+            "back": true,
+            "round": true
+          }
+        }
+      ],
+      "nasal_vowels_chapter2": [
+        {
+          "ipa": "ũ",
+          "nature": "inherent_lexical",
+          "examples": [
+            {
+              "word": "kjũ",
+              "gloss": "fava beans"
+            },
+            {
+              "word": "ijũ",
+              "gloss": "snow"
+            },
+            {
+              "word": "dʰũː",
+              "gloss": "smoke"
+            }
+          ]
+        },
+        {
+          "ipa": "ɑ̃",
+          "nature": "inherent_lexical",
+          "examples": [
+            {
+              "word": "bɑ̃",
+              "gloss": "pond"
+            },
+            {
+              "word": "ɡɾɑ̃ː",
+              "gloss": "village"
+            }
+          ]
+        },
+        {
+          "ipa": "ɛ̃",
+          "nature": "inherent_lexical",
+          "examples": [
+            {
+              "word": "pɛ͂tɑli",
+              "gloss": "forty-five"
+            },
+            {
+              "word": "cɛ͂ː",
+              "gloss": "root"
+            }
+          ]
+        }
+      ],
+      "diphthongs": {
+        "oral": [
+          {
+            "ipa": "oi",
+            "type": "raising",
+            "example": "bʰənoi",
+            "gloss": "brother-in-law"
+          },
+          {
+            "ipa": "ei",
+            "type": "raising",
+            "example": "peinnɑ",
+            "gloss": "sharp"
+          },
+          {
+            "ipa": "ɑi",
+            "type": "raising",
+            "example": "bʰɑi",
+            "gloss": "brother"
+          },
+          {
+            "ipa": "əu",
+            "type": "raising",
+            "example": "tʃəuɾə",
+            "gloss": "four"
+          },
+          {
+            "ipa": "eo",
+            "type": "raising",
+            "example": "keolɑ",
+            "gloss": "coal"
+          }
+        ],
+        "nasal": [
+          {
+            "ipa": "əũ",
+            "type": "raising",
+            "example": "bəũkʰɾi",
+            "gloss": "broom"
+          },
+          {
+            "ipa": "ɛ̃i",
+            "type": "raising",
+            "example": "d̪ɛ̃i",
+            "gloss": "curd"
+          },
+          {
+            "ipa": "iũ",
+            "type": "raising",
+            "example": "piũɭɑ",
+            "gloss": "yellow"
+          },
+          {
+            "ipa": "aũ",
+            "type": "raising",
+            "example": "aũ",
+            "gloss": "I"
+          }
+        ]
+      },
+      "length_distinction": {
+        "status": "phonetically_long_not_phonemically_contrastive",
+        "pairs_table_2_3": [
+          {
+            "vowel": "i",
+            "short": "sinnɑ (wet)",
+            "long": "siːɳɑ (to sew)"
+          },
+          {
+            "vowel": "e",
+            "short": "sere (their)",
+            "long": "heːɭə (slate on roof)"
+          },
+          {
+            "vowel": "ɛ",
+            "short": "bɛɡə (morning)",
+            "long": "bɛːɳə (sister)"
+          },
+          {
+            "vowel": "u",
+            "short": "pʰulə (flower)",
+            "long": "luːɳə (salt)"
+          },
+          {
+            "vowel": "o",
+            "short": "boli (language)",
+            "long": "koːlə (big bowl)"
+          },
+          {
+            "vowel": "ɔ",
+            "short": "ʈɔɳɑ (deaf)",
+            "long": "t̪ɔːlə (hammer)"
+          },
+          {
+            "vowel": "ɑ",
+            "short": "kɑɭɑ (black)",
+            "long": "bɑːli (earring)"
+          },
+          {
+            "vowel": "ũ",
+            "short": "kjũ (fava beans)",
+            "long": "dʰũː (smoke)"
+          },
+          {
+            "vowel": "ɑ̃",
+            "short": "bɑ̃ (pond)",
+            "long": "ɡɾɑ̃ː (village)"
+          },
+          {
+            "vowel": "ɛ̃",
+            "short": "pɛ͂t̪ɑli (forty-five)",
+            "long": "cɛ͂ː (root)"
+          }
+        ]
+      }
+    },
+    "consonant_system": {
+      "total_consonants": 31,
+      "consonants": [
+        {
+          "ipa": "p",
+          "manner": "plosive",
+          "place": "bilabial",
+          "voiced": false,
+          "aspirated": false
+        },
+        {
+          "ipa": "pʰ",
+          "manner": "plosive",
+          "place": "bilabial",
+          "voiced": false,
+          "aspirated": true
+        },
+        {
+          "ipa": "b",
+          "manner": "plosive",
+          "place": "bilabial",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "bʰ",
+          "manner": "plosive",
+          "place": "bilabial",
+          "voiced": true,
+          "aspirated": true
+        },
+        {
+          "ipa": "t̪",
+          "manner": "plosive",
+          "place": "dental",
+          "voiced": false,
+          "aspirated": false
+        },
+        {
+          "ipa": "t̪ʰ",
+          "manner": "plosive",
+          "place": "dental",
+          "voiced": false,
+          "aspirated": true
+        },
+        {
+          "ipa": "d̪",
+          "manner": "plosive",
+          "place": "dental",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "d̪ʰ",
+          "manner": "plosive",
+          "place": "dental",
+          "voiced": true,
+          "aspirated": true
+        },
+        {
+          "ipa": "ʈ",
+          "manner": "plosive",
+          "place": "retroflex",
+          "voiced": false,
+          "aspirated": false
+        },
+        {
+          "ipa": "ʈʰ",
+          "manner": "plosive",
+          "place": "retroflex",
+          "voiced": false,
+          "aspirated": true
+        },
+        {
+          "ipa": "ɖ",
+          "manner": "plosive",
+          "place": "retroflex",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "ɖʰ",
+          "manner": "plosive",
+          "place": "retroflex",
+          "voiced": true,
+          "aspirated": true
+        },
+        {
+          "ipa": "k",
+          "manner": "plosive",
+          "place": "velar",
+          "voiced": false,
+          "aspirated": false
+        },
+        {
+          "ipa": "kʰ",
+          "manner": "plosive",
+          "place": "velar",
+          "voiced": false,
+          "aspirated": true
+        },
+        {
+          "ipa": "ɡ",
+          "manner": "plosive",
+          "place": "velar",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "ɡʰ",
+          "manner": "plosive",
+          "place": "velar",
+          "voiced": true,
+          "aspirated": true
+        },
+        {
+          "ipa": "tʃ",
+          "manner": "affricate",
+          "place": "palato-alveolar",
+          "voiced": false,
+          "aspirated": false
+        },
+        {
+          "ipa": "tʃʰ",
+          "manner": "affricate",
+          "place": "palato-alveolar",
+          "voiced": false,
+          "aspirated": true
+        },
+        {
+          "ipa": "dʒ",
+          "manner": "affricate",
+          "place": "palato-alveolar",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "dʒʰ",
+          "manner": "affricate",
+          "place": "palato-alveolar",
+          "voiced": true,
+          "aspirated": true
+        },
+        {
+          "ipa": "s",
+          "manner": "fricative",
+          "place": "alveolar",
+          "voiced": false,
+          "aspirated": false
+        },
+        {
+          "ipa": "h",
+          "manner": "fricative",
+          "place": "glottal",
+          "voiced": false,
+          "aspirated": false
+        },
+        {
+          "ipa": "m",
+          "manner": "nasal",
+          "place": "bilabial",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "n",
+          "manner": "nasal",
+          "place": "alveolar",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "ɳ",
+          "manner": "nasal",
+          "place": "retroflex",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "ɾ",
+          "manner": "flap",
+          "place": "alveolar",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "ɽ",
+          "manner": "flap",
+          "place": "retroflex",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "l",
+          "manner": "lateral_approximant",
+          "place": "alveolar",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "ɭ",
+          "manner": "lateral_approximant",
+          "place": "retroflex",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "ʋ",
+          "manner": "approximant",
+          "place": "labiodental",
+          "voiced": true,
+          "aspirated": false
+        },
+        {
+          "ipa": "j",
+          "manner": "approximant",
+          "place": "palatal",
+          "voiced": true,
+          "aspirated": false
+        }
+      ],
+      "allophones": [
+        {
+          "ipa": "ŋ",
+          "phoneme": "n",
+          "context": "before velar plosives",
+          "examples": [
+            "lɔ͂ŋɡ (nose ring)",
+            "pʰə͂ŋɡ (feather)",
+            "kɑ̃ŋɡi (comb)",
+            "si͂ŋkʰə (meat)"
+          ]
+        }
+      ],
+      "retroflex_series": {
+        "total": 7,
+        "inventory": [
+          "ʈ",
+          "ɖ",
+          "ʈʰ",
+          "ɖʰ",
+          "ɳ",
+          "ɽ",
+          "ɭ"
+        ],
+        "features": "apicality, posteriority, sublingual cavity, retraction (Hamann 2003)",
+        "initial_restriction": "/ɽ/, /ɭ/, /ɳ/ never occur word-initially"
+      }
+    },
+    "phonotactics_and_syllable": {
+      "canonical_syllable": "(C)(C)(V)(C)",
+      "sonority_hierarchy": "Plosives < Fricatives < Nasals < Laterals < Flaps < Vowels",
+      "syllable_principles": [
+        "Onset Maximisation Principle (Kahn 1980): Intervocalic single consonants assigned to following onset",
+        "Geminates split across coda and onset: sut.tu.rɑ, tʃiʈ.ʈʰi, bər.kkʰɑ",
+        "Homorganic oral plosive clusters (unaspirated + aspirated) syllabify as geminates"
+      ],
+      "word_initial_clusters": [
+        "/br/",
+        "/dr/",
+        "/ɡr/",
+        "/kr/",
+        "/ɡl/",
+        "/pj/",
+        "/sʋ/"
+      ],
+      "word_final_codas": "Rare due to excrescent schwa /ə/ release; only /ɾ/, /m/, /s/ occur word-finally without schwa"
+    },
+    "phonological_processes": [
+      {
+        "name": "Regressive Nasal Spread",
+        "rule": "V -> Ṽ / __ [+nasal]",
+        "direction": "right to left",
+        "examples": [
+          "lɔŋɡ -> lɔ̃ŋɡ",
+          "tʃɛnʈe -> tʃɛ̃nʈe",
+          "kɑŋɡi -> kɑ̃ŋɡi",
+          "mɑndʒ -> mɑ̃ndʒ"
+        ]
+      },
+      {
+        "name": "Prenasalisation",
+        "environment": "word-initially before voiced plosives",
+        "examples": [
+          "[ᵐbinnɑ] (mattress)",
+          "[ᵐbəsəndə] (summer)",
+          "[ᵐbɑːldə] (bull)",
+          "[ᵐbəɾkʰɑ] (rain)",
+          "[ⁿɖəkka] (push)",
+          "[ⁿda:rə] (door)",
+          "[ᵑgəttə] (big flower)",
+          "[ᵑgirka] (heavy)"
+        ]
+      },
+      {
+        "name": "Gemination",
+        "types": "derived (across morpheme boundary with ergative -ɛ on sonorants) vs underived",
+        "examples": [
+          "ɾɑm + ɛ -> ɾɑmmɛ",
+          "sjɑm + ɛ -> sjɑmmɛ",
+          "nikkɑ (child)",
+          "buʈʈɑ (tree)",
+          "dʒɑnnu (knee)"
+        ]
+      },
+      {
+        "name": "Loanword Schwa Epenthesis",
+        "purpose": "break illegal clusters in borrowings",
+        "examples": [
+          "/skuːl/ -> [səkul]",
+          "/pʌrs/ -> [pərəs]",
+          "/film/ -> [pʰiləm]",
+          "/bʌlb/ -> [bələb]"
+        ]
+      },
+      {
+        "name": "Glide Epenthesis",
+        "rule": "Ø -> [j] / V1_V2",
+        "purpose": "hiatus resolution across vowel collocation",
+        "examples": [
+          "[ijũ] (snow)",
+          "[tʃəlijɑ] (come)",
+          "[sejɑu] (apple)",
+          "post-lexical before mood marker: dʒərurijɑ, indi(j)ɑ"
+        ]
+      },
+      {
+        "name": "Lyman's Law / OCP Retroflex Dissimilation",
+        "rule": "Prohibits two adjacent aspirated retroflex consonants",
+        "examples": [
+          "[piʈʈʰi] (back)",
+          "[piʈʈʰɑ] (dough)",
+          "[miʈʈʰe] (sweet)"
+        ]
+      }
+    ],
+    "appendix_i_discrepancies": {
+      "vowels": "Appendix I Table A.2 lists 5 nasal vowels (ĩ, ũ, ẽ, ə̃, ɑ̃), whereas Chapter 2 Section 2.2.2 establishes exactly 3 lexical nasal vowels (/ũ/, /ɑ̃/, /ɛ̃/).",
+      "consonants": "Appendix I Table A.3 includes fricatives /f/ and /ʃ/, velar nasal /ŋ/ as a full phoneme, and trill /r/ alongside flap /ɽ/, whereas Chapter 2 Table 2.4 restricts fricatives to /s, h/, treats [ŋ] as an allophone of /n/ before velars, and lists only flap /ɾ/."
+    }
+  },
+  "morphology_summary": {
+    "metadata": {
+      "title": "Morphological System of Kangra Gaddi",
+      "source_id": "kumari_2026",
+      "source_citation": "Kumari et al. (2026), Chapters 2, 3, 4 (pp. 35-98)",
+      "variety_id": "hp_kangra_palampur",
+      "variety_name": "Kangra Gaddi (Palampur)",
+      "license": "CC BY-NC 4.0",
+      "evidence_status": "comparative_only"
+    },
+    "nominal_morphology": {
+      "gender_system": {
+        "type": "two_way",
+        "values": [
+          "masculine",
+          "feminine"
+        ],
+        "phonological_tendencies": "Vowel /u/ typically masculine; vowel /i/ typically feminine; consonant-final variable",
+        "natural_gender_overrides": true,
+        "semantic_classes": {
+          "ornaments": "all feminine (matika, bɑ:li, kəɖoɭi)",
+          "days_of_week": "all masculine (tuɑr, suɑr, breb)"
+        }
+      },
+      "number_system": {
+        "values": [
+          "singular",
+          "plural"
+        ],
+        "count_nouns": "Inflect for plural: -ɑ stems change to -e (nikkɑ -> nikke, buɖʰɑ -> buɖʰe); consonant stems add -ɑ (pɑɽ -> pɑɽɑ, kətɑb -> kətɑbɑ̃); zero inflection (urnu sg/pl)",
+        "mass_nouns": "Do not manifest plural number (teɭi 'oil', čəuɭ 'rice', kʰənɖ 'sugar', kʰɑɳɑ 'food', tɔ:dʒurbɑ: 'experience')"
+      },
+      "case_markers_and_adpositions": [
+        {
+          "case": "nominative",
+          "marker": "Ø (zero marked)",
+          "type": "noun_dependent",
+          "function": "Subject of intransitives, and transitive subjects in imperfective/progressive"
+        },
+        {
+          "case": "accusative",
+          "marker": "-dʒo / -o",
+          "type": "noun_dependent",
+          "function": "Direct object marking; -o is only used on direct objects, never on indirect objects"
+        },
+        {
+          "case": "dative",
+          "marker": "-dʒo",
+          "type": "noun_dependent",
+          "function": "Indirect objects (goals/beneficiaries) and experiencer subjects (pəŋkədʒɑ-dʒo bʰukə ləɡ-ur-i hɑ)"
+        },
+        {
+          "case": "ergative",
+          "marker": "-ɛ (with sonorant gemination on stems) or suppletive oblique",
+          "type": "noun_dependent",
+          "function": "Subject of transitive verbs in perfect tense and perfective aspect (aspect-based split)"
+        },
+        {
+          "case": "oblique",
+          "marker": "stem suppletion: vowel stems unchanged; consonant stems undergo gemination + -ɑ (bisɑl -> bisɑllɑ, rɑm -> rəmmɑ)",
+          "type": "noun_dependent",
+          "function": "Required base for all postpositions and case markers"
+        },
+        {
+          "case": "subject_oblique",
+          "marker": "suppletive oblique stem without overt case suffix",
+          "type": "noun_dependent",
+          "function": "Marks subjects of irrealis mood (future/unrealized events); blocks subject agreement"
+        },
+        {
+          "case": "ablative",
+          "marker": "tʰaũ / hɔ / haũ",
+          "type": "noun_independent_adposition",
+          "function": "Movement away from source, temporal origin, standard of comparison"
+        },
+        {
+          "case": "instrumental",
+          "marker": "-te / -hoɡɡi / -sɔɡi",
+          "type": "noun_independent_adposition",
+          "function": "Instrument of action or comitative accompaniment"
+        },
+        {
+          "case": "locative",
+          "marker": "pur / məndʒ",
+          "type": "noun_independent_adposition",
+          "function": "Spatial/temporal location ('on' = pur, 'in/inside' = məndʒ)"
+        }
+      ]
+    },
+    "pronominal_morphology": {
+      "nominative": {
+        "1sg": "ɑũ / əũ",
+        "1pl": "əsɛ",
+        "2sg": "tu",
+        "2pl": "tussɛ",
+        "3sg_prox": "e",
+        "3sg_dist": "so",
+        "3pl_prox": "e",
+        "3pl_dist": "ɑho"
+      },
+      "accusative": {
+        "1sg": "mindʒo",
+        "1pl": "əsudʒo",
+        "2sg": "tidʒdʒo",
+        "2pl": "tusidʒo",
+        "3sg_prox": "tessijo",
+        "3sg_dist": "tijɑ̃",
+        "3pl_prox": "ijẽdʒo",
+        "3pl_dist": "tijẽdʒo"
+      },
+      "dative": {
+        "1sg": "mindʒo, mu",
+        "1pl": "əsudʒo",
+        "2sg": "tidʒdʒo",
+        "2pl": "tusijo",
+        "3sg_prox": "tessijo",
+        "3sg_dist": "tessijo",
+        "3pl_prox": "ij˜edʒo",
+        "3pl_dist": "tij˜edʒo"
+      },
+      "genitive": {
+        "1sg": "merɑ / meri / mere",
+        "1pl": "indɑ / indi / indɛ",
+        "2sg": "terɑ / teri / tere",
+        "2pl": "təjɑrɑ / təjɑre, tinj̃ɛ",
+        "3sg": "serɑ / seri / serɛ",
+        "3pl": "userɑ / useri, uʋɛrɑ"
+      },
+      "ergative": {
+        "1sg": "mei",
+        "1pl": "ahɛ",
+        "2sg": "tei / tẽi",
+        "2pl": "tussɛ",
+        "3sg": "tinni",
+        "3pl": "tiɳje"
+      },
+      "subject_oblique": {
+        "1sg": "mu",
+        "1pl": "su, əsu",
+        "2sg": "unrecorded",
+        "2pl": "tussu",
+        "3sg": "tessə",
+        "3pl": "unrecorded"
+      },
+      "honorific": {
+        "2nd_person": {
+          "nom": "tussɛ",
+          "acc": "tusijo",
+          "dat": "unrecorded",
+          "gen": "tundɛ",
+          "erg": "tussɛ"
+        },
+        "3rd_person": {
+          "nom": "uɳi",
+          "acc": "tijẽdʒo",
+          "dat": "ijẽdʒo",
+          "gen": "unrecorded",
+          "erg": "unrecorded"
+        }
+      },
+      "reflexive": "ɑpɳ-X (inflects for gender and number: ɑpɳɑ, ɑpɳi, ɑpɳe)",
+      "neutral_pronoun": "ta (words for 'it')"
+    },
+    "verbal_morphology": {
+      "verb_templates": {
+        "template_1": "Verb_Root + TAM_suffix + AGR_suffix",
+        "template_2": "Verb_Root-TAM_suffix.Gend + Auxiliary + AGR_suffix"
+      },
+      "inflectional_affixes": {
+        "infinitive": "-ɳɑ (after vowels) / -nɑ (after liquids /ɾ, ɭ/)",
+        "first_causative_transitiviser": "-ɑ (e.g. kʰil-ɑ-u)",
+        "second_causative_causativiser": "-ʋɑ (e.g. pil-ʋɑ-u, kʰil-ʋɑ-u)",
+        "past_tense_auxiliary": "tʰ-u (masc.sg), tʰ-i (fem.sg), tʰi-jɛ (plural/honorific)",
+        "future_tense_suffix": "-ɳ + agreement (-ɑ/-i/-ɛ)",
+        "perfect_tense_suffix": "-ur + agreement (-ɑ/-i/-ɛ)",
+        "imperfective_aspect_suffix": "-d (after closed stems) / -nd (after open stems) + agreement (-ɑ/-i/-ɛ)",
+        "perfective_aspect_suffix": "-u (masc.sg) / -i (fem.sg) / -ɛ (plural/honorific) - encodes 'Gend' feature (ma/fe)",
+        "indicative_mood_auxiliary": "h-ɑ (singular) / h-in (plural/honorific)",
+        "epistemic_mood_suffix": "-ɭɭ + agreement (-ɑ/-i/-ɛ)",
+        "imperative_mood_suffix": "-ɑ (masc.sg), -i (fem.sg), -ɛ (plural/honorific)"
+      },
+      "agreement_hierarchy": "Honorificity > Number > Gender (Steele 1978; Masica 1991)",
+      "case_blocking_rule": "Case marking on an NP blocks that NP from controlling agreement on the verb. If subject is ergative/dative, agreement falls to direct object. If direct object is also case marked (-dʒo or -o), verb takes default agreement (3sg.m)."
+    }
+  },
+  "syntax_summary": {
+    "metadata": {
+      "title": "Syntactic System and Clause Typology of Kangra Gaddi",
+      "source_id": "kumari_2026",
+      "source_citation": "Kumari et al. (2026), Chapter 5 (pp. 99-116)",
+      "variety_id": "hp_kangra_palampur",
+      "variety_name": "Kangra Gaddi (Palampur)",
+      "license": "CC BY-NC 4.0",
+      "evidence_status": "comparative_only"
+    },
+    "word_order": {
+      "canonical": "SOV (Subject - Object - Verb)",
+      "with_adjuncts": "Subject - Indirect Object - Direct Object - Verb",
+      "modifiers": "Preverbal and prenominal (modifiers precede nouns and verbs)",
+      "adpositions": "Postpositional (nouns precede adpositions)",
+      "scrambling": "Freely permitted for discourse functions; fronted object encodes contrastive focus"
+    },
+    "main_clause_types": [
+      {
+        "type": "declarative",
+        "structure": "SOV canonical; unmarked declarative statements"
+      },
+      {
+        "type": "polar_interrogative",
+        "structure": "Formed by inserting question particle 'kɛ' clause-initially or clause-finally (e.g. 'kɛ tusɛ ədʒ əkhbɑr pəɽ-i' / 'tusɛ ədʒ əkhbɑr pəɽ-i kɛ')"
+      },
+      {
+        "type": "wh_interrogative",
+        "structure": "Wh-in-situ (wh-word replaces questioned constituent without fronting)",
+        "wh_words": {
+          "kɛ": "what",
+          "kuɳ": "who",
+          "kəs": "which",
+          "kijẽ": "how",
+          "kəɖi": "where",
+          "kəjo": "why",
+          "kəɳe": "when"
+        }
+      },
+      {
+        "type": "imperative",
+        "structure": "Second-person subject typically dropped; verb inflects with -ɑ (m), -i (f), -ɛ (pl/hon)",
+        "examples": [
+          "əmb bəɖɖ-ɑ (Cut the mango)",
+          "əndrɑǰo əij-ɑ (Come in)",
+          "behi (Please sit down)"
+        ]
+      },
+      {
+        "type": "exclamative",
+        "structure": "Formed with emotive interjections: 'vah!', 'hɛ bʰəgvan!', 'ərɛ!', 'ərɑ!', 'o:!', 'ʃɑbɑʃ!'"
+      }
+    ],
+    "subordinate_clause_types": [
+      {
+        "type": "relative_clause",
+        "structure": "Correlative construction: relative pronoun 'dʒes' / 'dʒəs' in relative clause + correlative pronoun 'so' / 'təssɑ' in main clause",
+        "reduced_form": "Relative clause directly precedes modified noun without pronouns"
+      },
+      {
+        "type": "non_finite_clause",
+        "structure": "Marked with infinitival suffix -nɑ / -ɳɑ (e.g. 'rəso kər-n-ɑ pəsənd hɑ')"
+      },
+      {
+        "type": "coordinate_clause",
+        "structure": "Nominal or verbal coordination with conjunctions 'tɛ' / 'ətɛ' ('and'), 'pər' ('but')"
+      }
+    ],
+    "core_syntactic_relations": {
+      "wh_in_situ": "Wh-words remain in base structural position; fronting is scrambling for focus, not syntactic movement",
+      "wh_scope_marking": "Direct question reading out of finite complement clauses requires scope marker 'kɛ' in matrix clause (Riemsdijk 1982); single scope marker used for multiple embedded wh-words",
+      "wh_extraction_prohibition": "Syntactic wh-extraction out of finite complement clauses is strictly ungrammatical (*kɛ rɑm dʒɑɳ-d-ɑ hɑ dʒe sitɛ khə-u?)"
+    },
+    "negation_system": {
+      "negation_markers": [
+        {
+          "marker": "/nɑ/",
+          "distribution": "General preverbal negative marker"
+        },
+        {
+          "marker": "/ni/",
+          "distribution": "Preverbal negative marker, interchangeable with /nətʰi/"
+        },
+        {
+          "marker": "/nətʰi/",
+          "distribution": "Negative copular marker, interchangeable with /ni/"
+        },
+        {
+          "marker": "/mət/ or /mətʰ/",
+          "distribution": "Prohibitive marker used in negative imperatives"
+        }
+      ],
+      "tam_interactions": {
+        "perfective": "Negative marker either precedes main verb or intervenes between main verb and past auxiliary",
+        "imperfective": "Negative marker always precedes main verb; indicative copula 'hɑ' is barred when negated",
+        "progressive": "Negative marker precedes main verb or precedes progressive auxiliary 'kər-'",
+        "modals": "Negative marker can precede or follow main verb with modal 'səkɳɑ' ('can')",
+        "complex_predicates": "Negative marker can precede either main verb or light verb"
+      },
+      "negative_polarity_items": [
+        {
+          "npi": "koi bʰi",
+          "meaning": "anyone"
+        },
+        {
+          "npi": "kəddi bʰi",
+          "meaning": "never"
+        },
+        {
+          "npi": "əkkə bʰi",
+          "meaning": "even one"
+        },
+        {
+          "npi": "həlli təkər",
+          "meaning": "until now"
+        }
+      ]
+    },
+    "information_structure": {
+      "topic": "Sentence-initial position; marked by fronting",
+      "contrastive_topic": "Marked by postposed particle 'tɑ'",
+      "focus": "Immediate preverbal position in canonical order",
+      "focus_particles": [
+        {
+          "particle": "hi",
+          "function": "Restrictive focus ('only') / emphasis; attaches to any category"
+        },
+        {
+          "particle": "sirf",
+          "function": "Pre-nominal restrictive focus ('only')"
+        },
+        {
+          "particle": "bʰi",
+          "function": "Additive focus ('even' / 'also')"
+        }
+      ]
+    }
+  },
+  "adjectives_table_3_14": {
+    "dimension": [
+      "bəɽɑ (big)",
+      "hɑlkɑ (small)",
+      "pɑtəɭə (thin)",
+      "ləmmɑ (long)",
+      "tʃɔɖi (wide)",
+      "ɡehro (deep)",
+      "untʃɑ (high)",
+      "muʈʈɑ (big)"
+    ],
+    "physical_properties": [
+      "mitthɑ (sweet)",
+      "sɑf (clean)",
+      "kũɭɑ (soft)",
+      "kʰudrɑ (hard)",
+      "dʒəilɑ (hard)",
+      "kɑtʃtʃɑ (raw)",
+      "məiljɛ (dirty)",
+      "tədi (sharp)",
+      "kʰurdur (rough)",
+      "tʃipʰlɑ (smooth)",
+      "mәʈәmɛlɑ (soiled)",
+      "hiɭɭɑ (cold)",
+      "dʰudʰlɑ (blur)",
+      "tətti (hot)",
+      "trit (sour)",
+      "ɡoɭ (round)",
+      "kәudɑ (bitter)",
+      "luɳkɑ (salty)",
+      "pʰikɑ (tasteless)",
+      "bʰɑddɑ (ugly)",
+      "tʃɛɭ (beautiful)",
+      "kɑ:ɭɑ (black)",
+      "hukke (dry)",
+      "sidʒi (wet)",
+      "bʰədʒuri (broken)",
+      "swɑdi (tasty)",
+      "pʰuki (burnt)"
+    ],
+    "value": [
+      "kʰərɑ (good)",
+      "burɑ (bad)",
+      "mehengɑ (expensive)",
+      "sәstɑ (cheap)",
+      "dʒɑruri (important)"
+    ],
+    "human_propensity": [
+      "takatwar (strong)",
+      "tʰɛɭ (healthy)",
+      "kәmzor (weak)",
+      "udɑːs (sad)",
+      "kʰuʃ (happy)",
+      "tedʒ (sharp)",
+      "ɡʰәmәnɖi (proud)",
+      "duʃʈә (cruel)",
+      "kʰidʒi (tired)",
+      "bimɑr (sick)",
+      "trihəɳɑ (thirsty)",
+      "bukkʰɑ (hungry)",
+      "bədtəmiːz (arrogant)",
+      "bʰoɭɑ (innocent)",
+      "bədmɑʃ (naughty)"
+    ],
+    "speed": [
+      "bəlɛ (slow)",
+      "təũɭɛ (fast)",
+      "dʒəldi (quick)",
+      "dʒɑt (early)"
+    ],
+    "age": [
+      "buɖɖɑ (old)",
+      "dʒəwɑn (young)",
+      "bәtʃtʃɑ (childish)"
+    ]
+  },
+  "levin_verb_classes": {
+    "verbs_of_motion": [
+      "uɖɳɑ (fly)",
+      "tʃəlɳɑ (walk)",
+      "ɡʰumɳɑ (turn/roam)",
+      "peɳɳɑ (put)",
+      "tʃəɭəɳɑ (drive)",
+      "terɳɑ (swim)",
+      "bəɖɳɑ (enter)",
+      "tʃukɳɑ (lift)",
+      "tʃʰɑdɳɑ (quit)",
+      "bəɖəlɳɑ (turn)",
+      "bʰədʒɳɑ (transfer)",
+      "dəŋɡɳɑ (strike)",
+      "bəhɳɑ (flow)",
+      "kʰəɳɳɑ (dig)",
+      "peiɳɑ (fall)",
+      "leɳɑ (take)"
+    ],
+    "verbs_of_change_of_state": [
+      "kʰilɳɑ/kʰidɳɑ (bloom)",
+      "həkɳɑ (dry)",
+      "dʒəmɳɑ (freeze)",
+      "truʈɳɑ/bʰədʒɳɑ (break)",
+      "bənɑɳɑ (make/cook)",
+      "bədəlɳɑ (change)",
+      "ɡʰuhɑɖɳɑ/kholɳɑ (open)",
+      "uʈʰɳɑ (wake)",
+      "muskurana (smile)",
+      "ʃərmɑnɑ (be shy)"
+    ],
+    "verbs_of_perception": [
+      "sunɳɑ (listen)",
+      "dekʰɳɑ/herɳɑ (see)",
+      "huɳɳɑ (listen)",
+      "bəlɳɑ (speak)",
+      "dʒɑnaɳɑ (know)",
+      "ləɡɳɑ (feel)",
+      "tʃəkʰɳɑ (taste)",
+      "tʃɑɳɑ (want)",
+      "tʃuɳɑ (touch)"
+    ],
+    "verbs_of_consumption": [
+      "kʰɑɳɑ (eat)",
+      "piɳɑ (drink)",
+      "kʰilɑɳɑ (feed)",
+      "niɡəlɳɑ (swallow)",
+      "leɳɑ (have/take)",
+      "pəɳɳɑ (put)",
+      "tʃɑɳɑ (want)"
+    ],
+    "verbs_of_image_impression": [
+      "rəŋɡɳɑ (paint)",
+      "pəɽɳɑ (read)",
+      "likʰɳɑ (write)"
+    ],
+    "verbs_of_bodily_processes": [
+      "tʰukɳɑ (spit)",
+      "kʰɑŋɡɳɑ (cough)",
+      "roɳɑ (cry)",
+      "həsɳɑ (laugh)",
+      "uʈʰɳɑ (wake)",
+      "ʃərmɑnɑ (be shy)",
+      "muskurana (smile)",
+      "dekʰɳɑ/herɳɑ (see)",
+      "huɳɳɑ (listen)",
+      "dəŋɡɳɑ (stink)",
+      "bəlɳɑ (speak)",
+      "ləɡɳɑ (feel)",
+      "tʃəkʰɳɑ (taste)",
+      "tʃɑɳɑ (want)"
+    ],
+    "verbs_of_spatial_configuration": [
+      "ləʈəkɳɑ (hang)",
+      "beʃɳɑ (sit)",
+      "kʰədɳɑ (stand)"
+    ],
+    "verbs_of_existence_appearance_disappearance": [
+      "rɛɳɑ (live/stay)",
+      "mərɳɑ (die)",
+      "uʈʰɳɑ (wake)",
+      "hoɳɑ (be)",
+      "bʰuɳɑ (happen)",
+      "tʃəlɳɑ (walk)",
+      "kʰolɳɑ (open)"
+    ],
+    "verbs_of_emission": [
+      "roɳɑ (cry)",
+      "ɡurrana (roar)",
+      "kəɽəkɳɑ (thunder)",
+      "bədʒɳa (ring)",
+      "dəŋɡɳɑ (stink)"
+    ],
+    "verbs_of_contact_attachment": [
+      "tʃipakɳɑ (stick)",
+      "ləɡɑɳɑ (put/attach)",
+      "mɑrɳɑ (beat)",
+      "ləɡɳɑ (feel)"
+    ]
+  },
+  "verbal_paradigm_hasna_table_4_1": {
+    "verb_root": "həs- (to laugh)",
+    "categories": {
+      "PAST_AUX": {
+        "SGM": "tʰu",
+        "SGF": "tʰi",
+        "SGM_HON": "tʰijɛ",
+        "SGF_HON": "tʰijɛ",
+        "PLM": "tʰijɛ",
+        "PLF": "tʰijɛ",
+        "PLM_HON": "tʰijɛ",
+        "PLF_HON": "tʰijɛ"
+      },
+      "FUTURE": {
+        "SGM": "həsɳɑ",
+        "SGF": "həsɳi",
+        "SGM_HON": "həsɳɛ",
+        "SGF_HON": "həsɳɛ",
+        "PLM": "həsɳɛ",
+        "PLF": "həsɳɛ",
+        "PLM_HON": "həsɳɛ",
+        "PLF_HON": "həsɳɛ"
+      },
+      "PERFECT": {
+        "SGM": "həsurɑ",
+        "SGF": "həsuri",
+        "SGM_HON": "həsurɛ",
+        "SGF_HON": "həsurɛ",
+        "PLM": "həsurɛ",
+        "PLF": "həsurɛ",
+        "PLM_HON": "həsurɛ",
+        "PLF_HON": "həsurɛ"
+      },
+      "IMPERATIVE": {
+        "SGM": "həs",
+        "SGF": "həsi",
+        "SGM_HON": "həsɛ",
+        "SGF_HON": "həsɛ",
+        "PLM": "həsɛ",
+        "PLF": "həsɛ",
+        "PLM_HON": "həsɛ",
+        "PLF_HON": "həsɛ"
+      },
+      "EPISTEMIC": {
+        "SGM": "həsɭɭɑ",
+        "SGF": "həsɭɭi",
+        "SGM_HON": "həsɭɭɛ",
+        "SGF_HON": "həsɭɭɛ",
+        "PLM": "həsɭɭɛ",
+        "PLF": "həsɭɭɛ",
+        "PLM_HON": "həsɭɭɛ",
+        "PLF_HON": "həsɭɭɛ"
+      },
+      "INDICATIVE_AUX": {
+        "SGM": "hɑ",
+        "SGF": "hɑ",
+        "SGM_HON": "hin",
+        "SGF_HON": "hin",
+        "PLM": "hin",
+        "PLF": "hin",
+        "PLM_HON": "hin",
+        "PLF_HON": "hin"
+      },
+      "IMPERFECTIVE": {
+        "SGM": "həsdɑ",
+        "SGF": "həsdi",
+        "SGM_HON": "həsdɛ",
+        "SGF_HON": "həsdɛ",
+        "PLM": "həsdɛ",
+        "PLF": "həsdɛ",
+        "PLM_HON": "həsdɛ",
+        "PLF_HON": "həsdɛ"
+      },
+      "PERFECTIVE": {
+        "SGM": "həsu",
+        "SGF": "həsi",
+        "SGM_HON": "həsɛ",
+        "SGF_HON": "həsɛ",
+        "PLM": "həsɛ",
+        "PLF": "həsɛ",
+        "PLM_HON": "həsɛ",
+        "PLF_HON": "həsɛ"
+      },
+      "PROG_V": {
+        "SGM": "həsu",
+        "SGF": "həsi",
+        "SGM_HON": "həsu",
+        "SGF_HON": "həsi",
+        "PLM": "həsu",
+        "PLF": "həsi",
+        "PLM_HON": "həsu",
+        "PLF_HON": "həsi"
+      },
+      "PROG_AUX": {
+        "SGM": "kərdɑ",
+        "SGF": "kərdi",
+        "SGM_HON": "kərdɛ",
+        "SGF_HON": "kərdɛ",
+        "PLM": "kərdɛ",
+        "PLF": "kərdɛ",
+        "PLM_HON": "kərdɛ",
+        "PLF_HON": "kərdɛ"
+      },
+      "INCHO_V": {
+        "SGM": "həsɳɑ",
+        "SGF": "həsɳi",
+        "SGM_HON": "həsɳɛ",
+        "SGF_HON": "həsɳɛ",
+        "PLM": "həsɳɛ",
+        "PLF": "həsɳɛ",
+        "PLM_HON": "həsɳɛ",
+        "PLF_HON": "həsɳɛ"
+      },
+      "INCHO_AUX": {
+        "SGM": "ləɡurɑ",
+        "SGF": "ləɡuri",
+        "SGM_HON": "ləɡurɛ",
+        "SGF_HON": "ləɡurɛ",
+        "PLM": "ləɡurɛ",
+        "PLF": "ləɡurɛ",
+        "PLM_HON": "ləɡurɛ",
+        "PLF_HON": "ləɡurɛ"
+      }
+    }
+  }
+}

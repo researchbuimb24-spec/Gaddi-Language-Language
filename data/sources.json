@@ -1,0 +1,391 @@
+[
+  {
+    "id": "kumari_2026",
+    "title": "A Grammar of Gaddi",
+    "authors": [
+      "Preeti Kumari",
+      "Shreya Mehta",
+      "Anjali Nair",
+      "Anusuya Nayak",
+      "Yangchen Roy",
+      "Vyom Sharma"
+    ],
+    "year": 2026,
+    "publisher": "UCL Press, London",
+    "series": "Grammars of World and Minority Languages",
+    "volume": 5,
+    "doi": "10.14324/111.9781800089938",
+    "isbn": "978-1-80008-993-8 (PDF OA) / 978-1-73935-428-2 (HB) / 978-1-73935-429-9 (PB)",
+    "url": "https://uclpress.co.uk/book/a-grammar-of-gaddi/",
+    "license": "CC BY-NC 4.0",
+    "variety_id": "hp_kangra_palampur",
+    "credibility_tier": 1,
+    "is_jk_primary": false,
+    "evidence_type": "descriptive_grammar_phonology",
+    "notes": "Comprehensive descriptive grammar of Kangra/Palampur Gaddi. Licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0); non-commercial use only, third-party materials excluded. Comparative reference only; authors explicitly state in introduction that J&K varieties require fresh, dedicated descriptions.",
+    "required_attribution": "Kumari, P., Mehta, S., Nair, A., Nayak, A., Roy, Y., and Sharma, V. (2026). A Grammar of Gaddi. London: UCL Press. https://doi.org/10.14324/111.9781800089938",
+    "non_endorsement_disclaimer": "This library is an independent research project and is not affiliated with, endorsed by, or sponsored by UCL Press or the authors.",
+    "adaptations_made": [
+      "Digital PDF extraction and structured JSON normalization",
+      "Documentation and resolution of typographical inversion in Appendix III Table C.3 fractionals (tenth vs sixteenth)",
+      "Systematic part-of-speech classification for Appendix II vocabulary",
+      "Separation of numbered linguistic examples from surrounding analytical prose",
+      "Removal of PDF page running headers from example blocks",
+      "Restoration of inter-word whitespace in multi-word IPA forms"
+    ],
+    "third_party_materials_excluded_from_cc": [
+      "Appendix III numeral data collected by Kumari Mamta (doctoral research, Centre for Linguistics, JNU; p. 125 footnote 1)",
+      "Appendix II word list based on Anvita Abbi (2001, p. 244) Swadesh list template",
+      "Examples 1 and 2 cited from Sir George A. Grierson (LSI 1916)",
+      "Typological categories adapted from R.M.W. Dixon (1977) and Beth Levin (1993)"
+    ]
+  },
+  {
+    "id": "mehta_2016",
+    "title": "Verbal Inflection in Gaddi: A Paradigm-Based Approach",
+    "authors": [
+      "Shreya Mehta"
+    ],
+    "year": 2016,
+    "publisher": "Centre for Linguistics, Jawaharlal Nehru University, New Delhi",
+    "series": "M.Phil. Dissertation",
+    "license": "Academic Research / Fair Dealing",
+    "variety_id": "hp_kangra_palampur",
+    "credibility_tier": 1,
+    "is_jk_primary": false,
+    "evidence_type": "academic_grammar_inflection",
+    "notes": "Detailed morphological and paradigm analysis of Gaddi verbal inflection in Kangra variety."
+  },
+  {
+    "id": "mehta_2021",
+    "title": "Tense, Aspect, and Mood in Gaddi and Neighboring Himalayan Languages",
+    "authors": [
+      "Shreya Mehta"
+    ],
+    "year": 2021,
+    "publisher": "Centre for Linguistics, Jawaharlal Nehru University, New Delhi",
+    "series": "Ph.D. Dissertation",
+    "license": "Academic Research / Fair Dealing",
+    "variety_id": "hp_kangra_palampur",
+    "credibility_tier": 1,
+    "is_jk_primary": false,
+    "evidence_type": "academic_grammar_inflection",
+    "notes": "Empirical study of tense-aspect-mood systems in Western Pahari."
+  },
+  {
+    "id": "grierson_1916",
+    "title": "Linguistic Survey of India, Vol. IX: Indo-Aryan Family, Central Group, Part IV: Specimens of the Pahari Languages and Gujuri",
+    "authors": [
+      "Sir George Abraham Grierson"
+    ],
+    "year": 1916,
+    "publisher": "Office of the Superintendent of Government Printing, Calcutta",
+    "url": "https://archive.org/details/linguisticsurvey094grieuoft",
+    "license": "Public Domain",
+    "variety_id": "hp_chamba_bharmaur",
+    "credibility_tier": 2,
+    "is_jk_primary": false,
+    "evidence_type": "historical_linguistic_lexical",
+    "notes": "Historical baseline documenting Bharmauri/Gadi in Chamba (pp. 792-795) and comparative standard word lists (pp. 840-949)."
+  },
+  {
+    "id": "bailey_1908",
+    "title": "The Languages of the Northern Himalayas: Being Studies in the Grammar of Twenty-Six Himalayan Dialects",
+    "authors": [
+      "Thomas Grahame Bailey"
+    ],
+    "year": 1908,
+    "publisher": "Royal Asiatic Society, London",
+    "series": "Prize Publication Fund, Vol. XII",
+    "license": "Public Domain",
+    "variety_id": "comparative_historical",
+    "credibility_tier": 2,
+    "is_jk_primary": false,
+    "evidence_type": "historical_grammar_phonology",
+    "notes": "Historical grammatical sketches and pioneering tonal observations for Western Pahari."
+  },
+  {
+    "id": "census_2011",
+    "title": "Census of India 2011: Paper 1 of 2018 - Language: Mother Tongue (Table C-16)",
+    "authors": [
+      "Office of the Registrar General & Census Commissioner, India"
+    ],
+    "year": 2018,
+    "publisher": "Ministry of Home Affairs, Government of India, New Delhi",
+    "url": "https://censusindia.gov.in/",
+    "license": "Open Government Data (OGD) India",
+    "variety_id": "jk_general",
+    "credibility_tier": 3,
+    "is_jk_primary": true,
+    "evidence_type": "demographic_mother_tongue",
+    "notes": "Official demographic records: 24,161 Gaddi mother-tongue speakers in Jammu & Kashmir (state level) out of 181,192 all-India Gaddi speakers. Distinct from ST population."
+  },
+  {
+    "id": "census_2011_c16",
+    "title": "Census of India 2011: Paper 1 of 2018 - Language: India, States and Union Territories (Table C-16: Population by Mother Tongue)",
+    "authors": [
+      "Office of the Registrar General & Census Commissioner, India"
+    ],
+    "year": 2018,
+    "publisher": "Ministry of Home Affairs, Government of India, New Delhi",
+    "url": "https://censusindia.gov.in/",
+    "license": "Open Government Data (OGD) India",
+    "variety_id": "jk_general",
+    "credibility_tier": 3,
+    "is_jk_primary": true,
+    "evidence_type": "demographic_mother_tongue",
+    "notes": "Official language mother-tongue census table. Documents 24,161 Gaddi mother-tongue speakers in Jammu & Kashmir at state level."
+  },
+  {
+    "id": "census_2011_st14",
+    "title": "Census of India 2011: Special Tables for Scheduled Tribes (Table ST-14 / Primary Census Abstract for Scheduled Tribes)",
+    "authors": [
+      "Office of the Registrar General & Census Commissioner, India"
+    ],
+    "year": 2013,
+    "publisher": "Ministry of Home Affairs, Government of India, New Delhi",
+    "url": "https://censusindia.gov.in/",
+    "license": "Open Government Data (OGD) India",
+    "variety_id": "jk_general",
+    "credibility_tier": 3,
+    "is_jk_primary": true,
+    "evidence_type": "demographic_scheduled_tribe",
+    "notes": "Official tribal enumeration table. Documents 46,489 Gaddi Scheduled Tribe population in Jammu & Kashmir across Kathua (19,414), Udhampur (14,357), Doda (9,878), Kishtwar (1,326), Ramban (846), and Reasi (382). NOTE: ST population reflects ethnic/administrative classification, not mother-tongue speaker counts."
+  },
+  {
+    "id": "kumar_2019",
+    "title": "The Gaddi Scheduled Tribe of Jammu & Kashmir: A Socio-Cultural Overview",
+    "authors": [
+      "Dr. Banti Kumar",
+      "Pawan Kumar",
+      "Anoupa Devi"
+    ],
+    "year": 2019,
+    "publisher": "Govt Degree College Bhaderwah / Academic ResearchGate Repository",
+    "license": "Academic Citation / Fair Dealing",
+    "variety_id": "jk_doda_bhadarwah",
+    "credibility_tier": 3,
+    "is_jk_primary": true,
+    "evidence_type": "ethnographic_evidence",
+    "notes": "Socio-cultural and anthropological overview of Gaddi ST settlements in Doda/Bhaderwah/Assar. Documents pastoral life, transhumance shelters (Hadwari), handlooms (Khade), and wool production. Does NOT provide descriptive linguistic lexicon."
+  },
+  {
+    "id": "chandar_2024",
+    "title": "Socio-cultural Analysis of Gaddi Tribe: A Sociological Study of Saraj Area in Jammu Region",
+    "authors": [
+      "Subhash Chandar"
+    ],
+    "year": 2024,
+    "publisher": "International Journal for Multidisciplinary Research (IJFMR), Vol. 6, Issue 1",
+    "doi": "10.36948/ijfmr.2024.v06i01.12781",
+    "license": "Open Access / Academic Citation",
+    "variety_id": "jk_doda_bhadarwah",
+    "credibility_tier": 3,
+    "is_jk_primary": true,
+    "evidence_type": "ethnographic_evidence",
+    "notes": "Sociological study of the Gaddi community in the Saraj area of Doda district. Documents transhumance, pastoral leadership (Maalak), and material culture. Does NOT provide descriptive linguistic lexicon."
+  },
+  {
+    "id": "chakraborty_2024",
+    "title": "Blessed by Lord Shiva: The Gaddi Tribe of Jammu and Kashmir",
+    "authors": [
+      "Arka Chakraborty"
+    ],
+    "year": 2024,
+    "publisher": "Jammu & Kashmir Arts Foundation",
+    "url": "https://jkartsfoundation.in/",
+    "license": "Educational / Academic Citation",
+    "variety_id": "jk_general",
+    "credibility_tier": 3,
+    "is_jk_primary": true,
+    "evidence_type": "cultural_documentation",
+    "notes": "Cultural documentation of J&K Gaddi heritage, transhumance, Shaivite Nawala ritual, and traditional garments (Chola, Dora). Does NOT provide descriptive linguistic lexicon."
+  },
+  {
+    "id": "shashi_1977",
+    "title": "The Gaddi Tribe of Himachal Pradesh: A Sociological Study",
+    "authors": [
+      "Dr. Shyam Singh Shashi"
+    ],
+    "year": 1977,
+    "publisher": "Sterling Publishers, New Delhi",
+    "license": "Academic Citation / Fair Dealing",
+    "variety_id": "hp_chamba_bharmaur",
+    "credibility_tier": 3,
+    "is_jk_primary": false,
+    "evidence_type": "ethnographic_evidence",
+    "notes": "Authoritative anthropological monograph on Himachal Gaddi pastoralism, customs, and kinship."
+  },
+  {
+    "id": "nirmohi_duggar",
+    "title": "Saraz: Lok Aur Parampara and Duggar Ka Itihas",
+    "authors": [
+      "Prof. Shiv Nirmohi"
+    ],
+    "year": 2012,
+    "publisher": "Kitab Mahal / Regional Academic Publishers, Jammu",
+    "license": "Academic Citation / Fair Dealing",
+    "variety_id": "jk_general",
+    "credibility_tier": 4,
+    "is_jk_primary": true,
+    "evidence_type": "unverified_lead",
+    "notes": "Regional folkloric background of Duggar and Saraz hill tracts. Unverified lead; lacks linguistic phonetic transcriptions or dedicated Gaddi lexical fieldwork."
+  },
+  {
+    "id": "jkaacl_archive",
+    "title": "Archive of Folk Songs, Anchli Ballads, and Tribal Performing Arts",
+    "authors": [
+      "Jammu and Kashmir Academy of Art, Culture and Languages"
+    ],
+    "year": 2020,
+    "publisher": "JKAACL, Jammu & Srinagar",
+    "license": "State Cultural Documentation / Fair Dealing",
+    "variety_id": "jk_general",
+    "credibility_tier": 4,
+    "is_jk_primary": true,
+    "evidence_type": "unverified_lead",
+    "notes": "Oral cultural performance audio recordings of Ainchali ballads. Unverified lead pending published phonetic/lexical print transcriptions."
+  },
+  {
+    "id": "kaul_2006",
+    "title": "Pahāṛi and Other Tribal Dialects of Jammu (2 Volumes)",
+    "authors": [
+      "Dr. Pritam Krishen Kaul"
+    ],
+    "year": 2006,
+    "publisher": "Eastern Book Linkers, Delhi",
+    "isbn": "978-81-7854-100-6 (Set) / 978-81-7854-101-3 (Vol 1) / 978-81-7854-102-0 (Vol 2)",
+    "license": "Copyright © Dr. P. K. Kaul / Eastern Book Linkers (Non-Open Access)",
+    "variety_id": "jk_general",
+    "credibility_tier": 3,
+    "is_jk_primary": true,
+    "evidence_type": "unverified_lead",
+    "notes": "Comprehensive 2-volume study of Western Pahari and tribal dialects of Jammu. Vol 1 covers linguistic survey and analysis; Vol 2 compiles Padri/Bhalesi texts and a Glossary of Cinali (does NOT contain a standalone Gaddi vocabulary). Print inspection required before extracting any lexical items."
+  },
+  {
+    "id": "plsi_vol12_2014",
+    "title": "People's Linguistic Survey of India, Vol. 12: The Languages of Jammu & Kashmir",
+    "authors": [
+      "G. N. Devy",
+      "Omkar N. Koul"
+    ],
+    "year": 2014,
+    "publisher": "Orient Blackswan, New Delhi",
+    "isbn": "978-81-250-5517-4",
+    "license": "Copyright © Bhasha Research and Publication Centre / Orient Blackswan",
+    "variety_id": "jk_general",
+    "credibility_tier": 2,
+    "is_jk_primary": false,
+    "evidence_type": "comparative_regional_survey",
+    "notes": "Official state-level survey. Table of contents verified directly: Gaddi has no dedicated chapter (omitted from J&K volume). However, contains essential comparative chapters on neighboring Western Pahari languages: Bhadrawahi (authored by Dr. P. K. Kaul), Siraji, Kishtawari, Gojri, and Dogri."
+  },
+  {
+    "id": "dar_sheikh_2022",
+    "title": "Gaddi Speech Community of Jammu and Kashmir: The Self-Claimed Descendants of Lord Shiva",
+    "authors": [
+      "Hilal Ahmad Dar",
+      "Aejaz Mohammed Sheikh"
+    ],
+    "year": 2022,
+    "journal": "Aligarh Journal of Linguistics",
+    "volume": "11 (2021-2022)",
+    "publisher": "Department of Linguistics, Aligarh Muslim University, Aligarh",
+    "issn": "2249-1511",
+    "variety_id": "jk_bhaderwah_doda",
+    "credibility_tier": 1,
+    "is_jk_primary": true,
+    "evidence_type": "fieldwork_sociolinguistic_vocabulary",
+    "access_status": "full_text_accessed_and_verified",
+    "notes": "Fieldwork-based descriptive linguistic and sociolinguistic survey in Bhaderwah (Doda district, J&K), documenting community background, vocabulary (seasons, months, days, cardinals, ordinals), and comprehensive kinship terminology across 13 tables.",
+    "pages": "245-258",
+    "url": "https://api.amu.ac.in/storage//file/10353/file_management/1659595804.pdf",
+    "license": "Academic Research / Open Access (AMU AJL / Author Attribution)"
+  },
+  {
+    "id": "dar_2022_thesis",
+    "title": "Phonological and Morphological Analysis of Gaddi Language: A Descriptive Study",
+    "authors": [
+      "Hilal Ahmad Dar"
+    ],
+    "supervisor": "Prof. Aejaz Mohammed Sheikh",
+    "year": 2022,
+    "publisher": "Department of Linguistics, University of Kashmir, Srinagar",
+    "degree": "Ph.D. Dissertation (142 pp.)",
+    "glottolog_id": "dar2022phonological",
+    "variety_id": "jk_bhaderwah_doda",
+    "locality": "Assar and Bhaderwah tehsils, District Doda, Jammu and Kashmir",
+    "credibility_tier": 1,
+    "is_jk_primary": true,
+    "evidence_type": "descriptive_grammar_phonology_morphology",
+    "access_status": "institutional_thesis_repository",
+    "notes": "First dedicated descriptive linguistic dissertation on Jammu & Kashmir Gaddi as spoken in Doda district (Assar and Bhaderwah). Cataloged on Glottolog. Departmental holding at University of Kashmir."
+  },
+  {
+    "id": "jambu_cdial_gaddi",
+    "title": "Jambu: A Digital Comparative Dictionary of the Indo-Aryan Languages (Gaddi Reflexes)",
+    "authors": [
+      "Sir Ralph Lilley Turner",
+      "Jambu Project (moli-mandala)"
+    ],
+    "year": 2024,
+    "original_publication_year": 1966,
+    "publisher": "Digital CLDF database (moli-mandala / Oxford University Press)",
+    "url": "https://neojambu.herokuapp.com/languages/ga",
+    "variety_id": "comparative_historical",
+    "credibility_tier": 1,
+    "is_jk_primary": false,
+    "evidence_status": "comparative_only",
+    "evidence_type": "etymological_dictionary_reflexes",
+    "forms_count": 1118,
+    "geographic_coordinates": "32.36, 76.57 (Bharmaur, Chamba, Himachal Pradesh)",
+    "underlying_sources": [
+      "T. Grahame Bailey (1908), The Languages of the Northern Himalayas",
+      "Sir George A. Grierson (1916), Linguistic Survey of India, Vol. IX, Part IV"
+    ],
+    "license": "Database code MIT; source dictionary text subject to copyright (OUP / SOAS)",
+    "notes": "Reports 1,118 historical Indo-Aryan etymological reflexes for Gaddi (code ga). Audit confirms coordinates map to Bharmaur, Himachal Pradesh, and underlying data derives from Bailey (1908) and Grierson (1916). Exactly zero forms originate from Jammu & Kashmir. Quarantined as comparative_only."
+  },
+  {
+    "id": "census_2023_lsi",
+    "title": "Linguistic Survey of India: Himachal Pradesh",
+    "authors": [
+      "Language Division, Office of the Registrar General, India",
+      "N. Gopalakrishnan",
+      "Ranjita Pattanaik"
+    ],
+    "year": 2023,
+    "original_publication_year": 2023,
+    "publisher": "Office of the Registrar General, India (ORGI), Ministry of Home Affairs, Government of India, New Delhi",
+    "url": "https://censusindia.gov.in/nada/index.php/catalog/45246/download/48953/LSI_HIMACHAL_PRADESH.pdf",
+    "variety_id": "hp_chamba_bharmaur",
+    "credibility_tier": 1,
+    "is_jk_primary": false,
+    "evidence_status": "comparative_only",
+    "evidence_type": "government_linguistic_survey",
+    "forms_count": 500,
+    "geographic_coordinates": "32.44, 76.53 (Bharmaur Tehsil, Chamba District, Himachal Pradesh)",
+    "underlying_sources": [
+      "Fieldwork in B.P.O. Bharmaur Tehsil, District Chamba (Informant: Shri O.P. Verma)"
+    ],
+    "license": "Open Government Data (OGD) License India",
+    "notes": "Official post-independence Linguistic Survey of India (LSI) report for Himachal Pradesh, published in 2023 by the Office of the Registrar General, India (ORGI). Based on Language Division field surveys conducted between 1995 and 2008 in B.P.O. Bharmaur Tehsil, District Chamba (primary language informant: Shri O.P. Verma). Contains Chapter 2 (Bharmauri/Gaddi descriptive grammar, phonology, morphology, syntax, and narrative text, pp. 58-119) and Chapter 6 (Comparative Lexicon across mother tongues including Bharmauri/Gaddi, pp. 1089-1100). Although introductory notes acknowledge Gaddi settlements in Jammu & Kashmir, all linguistic elicitation in this survey is strictly Himachal Pradesh Bharmauri baseline (hp_chamba_bharmaur).",
+    "publication_year": 2023,
+    "field_survey_period": "1995–2008"
+  },
+  {
+    "id": "dar_ahmad_2024",
+    "title": "Kinship Analysis of Gaddi: A Sociolinguistic Study",
+    "authors": [
+      "Hilal Ahmad Dar",
+      "Zargar Adil Ahmad"
+    ],
+    "year": 2024,
+    "variety_id": "jk_bhaderwah_doda",
+    "credibility_tier": 1,
+    "is_jk_primary": true,
+    "evidence_type": "fieldwork_sociolinguistic_vocabulary",
+    "access_status": "source_inaccessible_inquiry_needed",
+    "license": "Academic Research",
+    "notes": "Research study on Gaddi kinship terminology and sociolinguistics in J&K. Full text was investigated across AMU AJL volumes 11-15, Glottolog, Shodhganga, and ResearchGate; confirmed as currently unhosted/inaccessible in open-access repositories. Preserved as a high-priority research lead."
+  }
+]

@@ -1,0 +1,5 @@
+contributor_code,consent_status,district,village_or_area,date,original_gaddi_script,gaddi_transcription,meaning_hi,meaning_en,meaning_ur,part_of_speech,semantic_domain,audio_filename,notes,reviewer_status
+CONTRIB_001,consent_granted,Kathua,Dhaggar (Bani),2026-10-30,नवाला,nawala,शिव पूजा अनुष्ठान,thanksgiving ritual for Shiva,شیو کی پوجا,noun,religion_and_ritual,dhaggar_nawala_01.wav,Attested by village elders,verified_jk
+CONTRIB_002,consent_granted,Udhampur,Pachound (Ramnagar),2026-10-30,चोला,chola,ऊनी चोगा,woolen tunic,اونی چوغہ,noun,material_culture,pachound_chola_01.wav,Woven from desi sheep fleece,verified_jk
+CONTRIB_003,consent_granted,Doda,Barshalli (Saraj),2026-10-30,खडे,khade,लकड़ी का हथकरघा,wooden handloom,لکڑی کی ہتھ کرگھی,noun,tools_and_technology,saraj_khade_01.wav,Pit-loom in winter room,verified_jk
+
