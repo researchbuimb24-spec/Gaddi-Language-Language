@@ -53,12 +53,12 @@ htmlcov/
 # Project generated artifacts & SQLite cache
 *.db
 *.sqlite3
-scratch/
+# scratch/ (tracked for archive/gaddi-research-assets)
 tmp/
 
 <<<<<<< HEAD
 # Raw copyrighted source intake scans and photographs (never commit or redistribute)
-data/source_intake/**
+# data/source_intake/** (tracked for archive/gaddi-research-assets)
 !data/source_intake/
 !data/source_intake/README.md
 !data/source_intake/.gitkeep
