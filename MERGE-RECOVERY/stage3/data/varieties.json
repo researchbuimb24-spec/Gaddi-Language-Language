@@ -1,0 +1,91 @@
+﻿[
+  {
+    "id": "jk_kathua_bani",
+    "name": "Bani Gaddi",
+    "region_type": "tehsil_cluster",
+    "state_ut": "Jammu and Kashmir",
+    "district": "Kathua",
+    "sub_areas": ["Bani", "Duggan", "Dhaggar", "Dulangal", "Billawar", "Basohli"],
+    "is_jk_variety": true,
+    "description": "Variety spoken in the high-altitude villages and transhumance corridors of Kathua district bordering Chamba, HP.",
+    "contact_languages": ["Dogri (Pahari)", "Hindi", "Urdu"]
+  },
+  {
+    "id": "jk_udhampur_ramnagar",
+    "name": "Ramnagar Gaddi",
+    "region_type": "tehsil_cluster",
+    "state_ut": "Jammu and Kashmir",
+    "district": "Udhampur",
+    "sub_areas": ["Ramnagar", "Dudu-Basantgarh", "Chenani", "Pachound", "Majalta", "Pancheri"],
+    "is_jk_variety": true,
+    "description": "Variety spoken in the hill tracts and grazing corridors of Udhampur district.",
+    "contact_languages": ["Dogri", "Gojri", "Hindi", "Urdu"]
+  },
+  {
+    "id": "jk_doda_bhadarwah",
+    "name": "Bhadarwah-Saraj Gaddi",
+    "region_type": "region",
+    "state_ut": "Jammu and Kashmir",
+    "district": "Doda",
+    "sub_areas": ["Bhadarwah", "Haddal", "Bharei", "Kansar", "Assar", "Saraj (Chenab Valley)"],
+    "is_jk_variety": true,
+    "description": "Variety spoken in the Doda and Kishtwar borderlands along the Chenab basin and Bhadarwah valleys.",
+    "contact_languages": ["Bhaderwahi", "Sarazi", "Kashmiri", "Urdu"]
+  },
+  {
+    "id": "jk_general",
+    "name": "Jammu & Kashmir Gaddi (General / Undifferentiated)",
+    "region_type": "state_wide",
+    "state_ut": "Jammu and Kashmir",
+    "district": "Various",
+    "sub_areas": ["All J&K Gaddi settlements"],
+    "is_jk_variety": true,
+    "description": "General J&K Gaddi linguistic data documented across state-wide surveys without tehsil-level attribution.",
+    "contact_languages": ["Dogri", "Urdu", "Hindi"]
+  },
+  {
+    "id": "hp_chamba_bharmaur",
+    "name": "Bharmauri Gaddi (Chamba)",
+    "region_type": "homeland",
+    "state_ut": "Himachal Pradesh",
+    "district": "Chamba",
+    "sub_areas": ["Bharmaur", "Gaderan", "Budhil Valley", "Chhatrari"],
+    "is_jk_variety": false,
+    "description": "Historical heartland variety of Gaddi in the Ravi and Budhil river basins of Chamba district.",
+    "contact_languages": ["Chambeali", "Hindi"]
+  },
+  {
+    "id": "hp_kangra_palampur",
+    "name": "Kangra Gaddi (Palampur)",
+    "region_type": "foothills",
+    "state_ut": "Himachal Pradesh",
+    "district": "Kangra",
+    "sub_areas": ["Palampur", "Saperu", "Banuri", "Kandbari", "Dharamshala"],
+    "is_jk_variety": false,
+    "description": "Kangra valley variety documented in detail by Kumari et al. (2026). Treated strictly as comparative in this library.",
+    "contact_languages": ["Kangri", "Hindi"]
+  },
+  {
+    "id": "hp_mandi_kullu",
+    "name": "Mandi-Kullu Peripheral Gaddi",
+    "region_type": "peripheral",
+    "state_ut": "Himachal Pradesh",
+    "district": "Mandi / Kullu",
+    "sub_areas": ["Mandi", "Kullu"],
+    "is_jk_variety": false,
+    "description": "Peripheral Gaddi settlements in Mandi and Kullu districts, noted in Kumari et al. (2026) as needing fresh description.",
+    "contact_languages": ["Mandeali", "Kullvi", "Hindi"]
+  },
+  {
+    "id": "comparative_historical",
+    "name": "Historical / Pan-Regional Comparative Pahari",
+    "region_type": "historical",
+    "state_ut": "Pan-Regional",
+    "district": "Various",
+    "sub_areas": ["Western Pahari belt"],
+    "is_jk_variety": false,
+    "description": "Historical reconstructions and pan-regional survey data from early British linguistic surveys.",
+    "contact_languages": ["Western Pahari", "Prakrit", "Sanskrit"]
+  }
+]
+

@@ -1,0 +1,373 @@
+﻿[
+  {
+    "id": "entry-jk-00001",
+    "lemma_devanagari": "αñ¿αñ╡αñ╛αñ▓αñ╛",
+    "lemma_ipa": "n╔Ö╦êwa╦Éla╦É",
+    "lemma_perso_arabic": "┘å┘ê╪º┘ä█ü",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "An all-night thanksgiving ritual ceremony and worship cycle dedicated to Lord Shiva, performed by the Gaddi community to fulfill vows or seek divine protection.",
+        "definition_hi": "αñ¡αñùαñ╡αñ╛αñ¿ αñ╢αñ┐αñ╡ αñòαÑï αñ╕αñ«αñ░αÑìαñ¬αñ┐αññ αñ░αñ╛αññ αñ¡αñ░ αñÜαñ▓αñ¿αÑç αñ╡αñ╛αñ▓αñ╛ αñºαñ¿αÑìαñ»αñ╡αñ╛αñª αñöαñ░ αñ¬αÑéαñ£αñ╛ αñàαñ¿αÑüαñ╖αÑìαñáαñ╛αñ¿, αñ£αÑï αñ«αñ¿αÑìαñ¿αññ αñ¬αÑéαñ░αÑÇ αñòαñ░αñ¿αÑç αñ»αñ╛ αñòαñ▓αÑìαñ»αñ╛αñú αñòαÑç αñ▓αñ┐αñÅ αñùαñªαÑìαñªαÑÇ αñ╕αñ«αÑüαñªαñ╛αñ» αñªαÑìαñ╡αñ╛αñ░αñ╛ αñòαñ┐αñ»αñ╛ αñ£αñ╛αññαñ╛ αñ╣αÑêαÑñ",
+        "definition_ur": "╪¿┌╛┌»┘ê╪º┘å ╪┤█î┘ê ┌⌐█î ┘å╪░╪▒ ┌⌐█î ╪¼╪º┘å█Æ ┘ê╪º┘ä█î ╪▒╪º╪¬ ╪¿┌╛╪▒ ┌⌐█î ╪▒┘ê╪º█î╪¬█î ╪¬╪┤┌⌐╪▒ ╪º┘ê╪▒ ┘╛┘ê╪¼╪º ┌⌐█î ╪▒╪│┘à╪î ╪¼┘ê ┌»╪»█î ╪¿╪▒╪º╪»╪▒█î ┌⌐╪│█î ┘à┘å╪¬ ┌⌐█Æ ┘╛┘ê╪▒╪º █ü┘ê┘å█Æ ┘╛╪▒ ╪º╪»╪º ┌⌐╪▒╪¬█î █ü█Æ█ö",
+        "semantic_field": "religion_and_ritual",
+        "examples": [
+          {
+            "text_gaddi": "αñ╢αñ┐αñ╡ αñ¿αñ╡αñ╛αñ▓αÑç αñªαÑÇ αñ░αñ╛αññ αñàαñéαñÜαñ▓αÑÇ αñùαñ╛αñ»αÑÇ αñ£αñ╛αñéαñªαÑÇ αñ╣αÑçαÑñ",
+            "translation_en": "On the night of Shiv Nawala, Ainchali hymns are sung.",
+            "translation_hi": "αñ╢αñ┐αñ╡ αñ¿αñ╡αñ╛αñ▓αÑç αñòαÑÇ αñ░αñ╛αññ αñàαñéαñÜαñ▓αÑÇ αñùαñ╛αñê αñ£αñ╛αññαÑÇ αñ╣αÑêαÑñ",
+            "translation_ur": "╪┤█î┘ê ┘å┘ê╪º┘ä█Æ ┌⌐█î ╪▒╪º╪¬ ╪ó┘å┌å┘ä█î ┌»╪º╪ª█î ╪¼╪º╪¬█î █ü█Æ█ö",
+            "source_citation": "nirmohi_duggar, p. 112"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Religious Life",
+        "source_spelling": "Nawala",
+        "context": "Traditional thanksgiving ritual dedicated to Lord Shiva, celebrated across Gaddi families in Jammu and Kashmir."
+      },
+      {
+        "source_id": "nirmohi_duggar",
+        "page_or_section": "p. 112",
+        "source_spelling": "αñ¿αñ╡αñ╛αñ▓αñ╛",
+        "context": "Folk ritual of Shiva worship among the hill tribes of Duggar."
+      }
+    ],
+    "comparative_notes": "Cognate with Chamba Bharmauri 'nuala' / 'nawala' documented in Grierson (1916).",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    },
+    "evidence_status": "jk_cultural_term"
+  },
+  {
+    "id": "entry-jk-00002",
+    "lemma_devanagari": "αñàαñéαñÜαñ▓αÑÇ",
+    "lemma_ipa": "╔Ö╔▓╦êt╩â╔Öli╦É",
+    "lemma_perso_arabic": "╪ó┘å┌å┘ä█î",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Traditional devotional narrative ballad or sacred folk hymn recounting the legends of Lord Shiva and Parvati, sung during the night-long Nawala ceremony accompanied by the khanjari.",
+        "definition_hi": "αñ¡αñùαñ╡αñ╛αñ¿ αñ╢αñ┐αñ╡ αñöαñ░ αñ¬αñ╛αñ░αÑìαñ╡αññαÑÇ αñòαÑÇ αñùαñ╛αñÑαñ╛αñôαñé αñòαñ╛ αñ╡αñ░αÑìαñúαñ¿ αñòαñ░αñ¿αÑç αñ╡αñ╛αñ▓αñ╛ αñ¬αñ╛αñ░αñéαñ¬αñ░αñ┐αñò αñ¡αñòαÑìαññαñ┐αñ«αñ» αñ▓αÑïαñòαñùαÑÇαññ αñ»αñ╛ αñåαñûαÑìαñ»αñ╛αñ¿, αñ£αÑï αñ¿αñ╡αñ╛αñ▓αÑç αñòαÑç αñªαÑîαñ░αñ╛αñ¿ αñûαñéαñ£αñ░αÑÇ αñòαÑç αñ╕αñ╛αñÑ αñùαñ╛αñ»αñ╛ αñ£αñ╛αññαñ╛ αñ╣αÑêαÑñ",
+        "definition_ur": "╪▒┘ê╪º█î╪¬█î ┘à╪░█ü╪¿█î ╪º┘ê╪▒ ┘ä┘ê┌⌐ ┌»█î╪¬ █î╪º ╪¿█î╪º┘å█î█ü ┘å╪║┘à█ü ╪¼╪│ ┘à█î┌║ ╪┤█î┘ê ╪º┘ê╪▒ ┘╛╪º╪▒┘ê╪¬█î ┌⌐█î ┌⌐█ü╪º┘å█î╪º┌║ ╪¿█î╪º┘å ┌⌐█î ╪¼╪º╪¬█î █ü█î┌║ ╪º┘ê╪▒ ╪¼┘ê ┘å┘ê╪º┘ä█ü ┌⌐█î ╪▒╪º╪¬ ╪«┘å╪¼╪▒█î ┌⌐█Æ ╪│╪º╪¬┌╛ ┌»╪º█î╪º ╪¼╪º╪¬╪º █ü█Æ█ö",
+        "semantic_field": "folklore_and_music",
+        "examples": [
+          {
+            "text_gaddi": "αñ░αñ╛αññ αñ¡αñ░ αñàαñéαñÜαñ▓αÑÇ αñùαñ╛αñ»αÑÇ αñòαñ░αñªαÑçαÑñ",
+            "translation_en": "They continue singing Ainchali all night long.",
+            "translation_hi": "αñ╡αÑç αñ░αñ╛αññ αñ¡αñ░ αñàαñéαñÜαñ▓αÑÇ αñùαñ╛αññαÑç αñ░αñ╣αññαÑç αñ╣αÑêαñéαÑñ",
+            "translation_ur": "┘ê█ü ╪▒╪º╪¬ ╪¿┌╛╪▒ ╪ó┘å┌å┘ä█î ┌»╪º╪¬█Æ ╪▒█ü╪¬█Æ █ü█î┌║█ö",
+            "source_citation": "jkaacl_archive, Folk Series 4"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "jkaacl_archive",
+        "page_or_section": "Folk Music of Duggar",
+        "source_spelling": "Ainchali / Anchli",
+        "context": "Sacred devotional singing genre of the Gaddi pastoralists of Jammu region."
+      },
+      {
+        "source_id": "nirmohi_duggar",
+        "page_or_section": "p. 115",
+        "source_spelling": "αñàαñéαñÜαñ▓αÑÇ",
+        "context": "Documentation of traditional Duggar tribal ballads."
+      }
+    ],
+    "comparative_notes": "Identical in ritual genre to Chamba and Kangra Gaddi Ainchali.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    },
+    "evidence_status": "jk_cultural_term"
+  },
+  {
+    "id": "entry-jk-00003",
+    "lemma_devanagari": "αñÜαÑïαñ▓αñ╛",
+    "lemma_ipa": "╦êt╩âo╦Éla╦É",
+    "lemma_perso_arabic": "┌å┘ê┘ä╪º",
+    "lemma_takri": null,
+    "variety_id": "jk_kathua_bani",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "The iconic traditional heavy woolen homespun knee-length tunic or coat worn by Gaddi men, designed for high-altitude Himalayan pastoral life.",
+        "definition_hi": "αñùαñªαÑìαñªαÑÇ αñ¬αÑüαñ░αÑüαñ╖αÑïαñé αñªαÑìαñ╡αñ╛αñ░αñ╛ αñ¬αñ╣αñ¿αñ╛ αñ£αñ╛αñ¿αÑç αñ╡αñ╛αñ▓αñ╛ αñ¬αñ╛αñ░αñéαñ¬αñ░αñ┐αñò αñÿαÑüαñƒαñ¿αÑïαñé αññαñò αñòαñ╛ αñ¡αñ╛αñ░αÑÇ αñèαñ¿αÑÇ αñÜαÑïαñùαñ╛ αñ»αñ╛ αñòαÑïαñƒ, αñ£αÑï αñëαñÜαÑìαñÜ αñ╣αñ┐αñ«αñ╛αñ▓αñ»αÑÇ αñÜαñ░αñ╡αñ╛αñ╣αñ╛ αñ£αÑÇαñ╡αñ¿ αñòαÑç αñàαñ¿αÑüαñòαÑéαñ▓ αñ╣αÑïαññαñ╛ αñ╣αÑêαÑñ",
+        "definition_ur": "┌»╪»█î ┘à╪▒╪»┘ê┌║ ┌⌐╪º ╪▒┘ê╪º█î╪¬█î ┌»┌╛┘╣┘å┘ê┌║ ╪¬┌⌐ ┌⌐╪º ╪¿┌╛╪º╪▒█î ╪º┘ê┘å█î ┌å┘ê╪║█ü █î╪º ┌⌐┘ê┘╣╪î ╪¼┘ê █ü┘à╪º┘ä█î╪º╪ª█î ┘╛█ü╪º┌æ█î ┌å╪▒┘ê╪º█ü┘ê┌║ ┌⌐█Æ ┘ä█î█Æ ┘à┘ê╪▓┘ê┌║ █ü┘ê╪¬╪º █ü█Æ█ö",
+        "semantic_field": "material_culture_clothing",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Material Culture",
+        "source_spelling": "Chola",
+        "context": "Primary traditional woolen garment of Gaddi pastoralists documented in Kathua and Udhampur."
+      },
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Cultural Attire",
+        "source_spelling": "Chola",
+        "context": "Woolen coat worn with dora."
+      }
+    ],
+    "comparative_notes": "Universal cultural emblem across all Gaddi communities in HP and J&K.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    },
+    "evidence_status": "jk_cultural_term"
+  },
+  {
+    "id": "entry-jk-00004",
+    "lemma_devanagari": "αñíαÑïαñ░αñ╛",
+    "lemma_ipa": "╦ê╔ûo╦Éra╦É",
+    "lemma_perso_arabic": "┌ê┘ê╪▒╪º",
+    "lemma_takri": null,
+    "variety_id": "jk_kathua_bani",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A thick, long black woolen cord or rope tightly wound around the waist over the Chola, serving as a belt, load-supporter, and storage pouch during alpine trekking.",
+        "definition_hi": "αñ«αÑïαñƒαÑÇ αñöαñ░ αñ▓αñéαñ¼αÑÇ αñòαñ╛αñ▓αÑÇ αñèαñ¿αÑÇ αñ░αñ╕αÑìαñ╕αÑÇ αñ£αñ┐αñ╕αÑç αñòαñ«αñ░ αñ¬αñ░ αñÜαÑïαñ▓αÑç αñòαÑç αñèαñ¬αñ░ αñòαñê αñ¼αñ╛αñ░ αñ▓αñ¬αÑçαñƒαñ╛ αñ£αñ╛αññαñ╛ αñ╣αÑê, αñ£αÑï αñ¼αÑçαñ▓αÑìαñƒ, αñ╡αñ£αñ¿ αñ╕αñéαñ¡αñ╛αñ▓αñ¿αÑç αñöαñ░ αñ¬αñ░αÑìαñ╡αññαÑÇαñ» αñ»αñ╛αññαÑìαñ░αñ╛ αñ«αÑçαñé αñ╕αñ╛αñ«αñ╛αñ¿ αñ░αñûαñ¿αÑç αñòαÑç αñòαñ╛αñ« αñåαññαÑÇ αñ╣αÑêαÑñ",
+        "definition_ur": "┘à┘ê┘╣█î ╪º┘ê╪▒ ┘ä┘à╪¿█î ╪│█î╪º█ü ╪º┘ê┘å█î ╪▒╪│█î ╪¼┘ê ┌⌐┘à╪▒ ┘╛╪▒ ┌å┘ê┘ä█Æ ┌⌐█Æ ╪º┘ê┘╛╪▒ ┘ä┘╛█î┘╣█î ╪¼╪º╪¬█î █ü█Æ ╪º┘ê╪▒ ╪º┘ê┘å┌å█Æ ┘╛█ü╪º┌æ█î ╪│┘ü╪▒ ┘à█î┌║ ┘ê╪▓┘å ╪│┘å╪¿┌╛╪º┘ä┘å█Æ ╪º┘ê╪▒ ╪¿█î┘ä┘╣ ┌⌐╪º ┌⌐╪º┘à ╪»█î╪¬█î █ü█Æ█ö",
+        "semantic_field": "material_culture_clothing",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Material Culture",
+        "source_spelling": "Dora",
+        "context": "Traditional black wool cord tied around the waist."
+      }
+    ],
+    "comparative_notes": "Worn universally by Gaddis across J&K and Himachal Pradesh.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    },
+    "evidence_status": "jk_cultural_term"
+  },
+  {
+    "id": "entry-jk-00005",
+    "lemma_devanagari": "αñûαñíαÑç",
+    "lemma_ipa": "╦êk╩░╔Ö╔ûe╦É",
+    "lemma_perso_arabic": "┌⌐┌╛┌ê█Æ",
+    "lemma_takri": null,
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Traditional wooden handloom used by Gaddi households in high-altitude hamlets for weaving woollen blankets, shawls, and garments.",
+        "definition_hi": "αñ¬αñ╛αñ░αñéαñ¬αñ░αñ┐αñò αñ▓αñòαñíαñ╝αÑÇ αñòαñ╛ αñ╣αñÑαñòαñ░αñÿαñ╛ αñ£αñ┐αñ╕αñòαñ╛ αñëαñ¬αñ»αÑïαñù αñëαñÜαÑìαñÜ αñ¬αñ░αÑìαñ╡αññαÑÇαñ» αñ¼αñ╕αÑìαññαñ┐αñ»αÑïαñé αñ«αÑçαñé αñùαñªαÑìαñªαÑÇ αñ¬αñ░αñ┐αñ╡αñ╛αñ░αÑïαñé αñªαÑìαñ╡αñ╛αñ░αñ╛ αñèαñ¿αÑÇ αñòαñéαñ¼αñ▓, αñ╢αÑëαñ▓ αñöαñ░ αñ╡αñ╕αÑìαññαÑìαñ░ αñ¼αÑüαñ¿αñ¿αÑç αñòαÑç αñ▓αñ┐αñÅ αñòαñ┐αñ»αñ╛ αñ£αñ╛αññαñ╛ αñ╣αÑêαÑñ",
+        "definition_ur": "┘ä┌⌐┌æ█î ┌⌐█î ╪▒┘ê╪º█î╪¬█î █ü╪¬┌╛ ┌⌐╪▒┌»┌╛█î ╪¼┘ê ╪º┘ê┘å┌å█Æ ┘╛█ü╪º┌æ█î ╪»█î█ü╪º╪¬ ┘à█î┌║ ┌»╪»█î ╪«╪º┘å╪»╪º┘å┘ê┌║ ┌⌐█Æ ╪░╪▒█î╪╣█Æ ╪º┘ê┘å█î ┌⌐┘à╪¿┘ä╪î ╪┤╪º┘ä ╪º┘ê╪▒ ┌⌐┘╛┌æ█Æ ╪¿┘å┘å█Æ ┌⌐█Æ ┘ä█î█Æ ╪º╪│╪¬╪╣┘à╪º┘ä █ü┘ê╪¬█î █ü█Æ█ö",
+        "semantic_field": "tools_and_technology",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Traditional Occupations",
+        "source_spelling": "Khhade / Khade",
+        "context": "Traditional wooden handloom for wool weaving in the Saraj area of Doda."
+      }
+    ],
+    "comparative_notes": "Related to Western Pahari and Dogri 'khaddi' (αñ╣αñÑαñòαñ░αñÿαñ╛ / loom).",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    },
+    "evidence_status": "jk_cultural_term"
+  },
+  {
+    "id": "entry-jk-00006",
+    "lemma_devanagari": "αñ╣αñíαñ╝αñ╡αñ╛αñ░αÑÇ",
+    "lemma_ipa": "h╔Ö╔╜╦êwa╦Éri╦É",
+    "lemma_perso_arabic": "█ü┌æ┘ê╪º╪▒█î",
+    "lemma_takri": null,
+    "variety_id": "jk_udhampur_ramnagar",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A temporary seasonal migratory pastoral shelter or transit encampment used by Gaddi shepherds during their biannual transhumance journeys.",
+        "definition_hi": "αñïαññαÑü-αñ¬αÑìαñ░αñ╡αñ╛αñ╕ (αñƒαÑìαñ░αñ╛αñéαñ╕αñ╣αÑìαñ»αÑéαñ«αñ¿αÑìαñ╕) αñòαÑç αñªαÑîαñ░αñ╛αñ¿ αñùαñªαÑìαñªαÑÇ αñÜαñ░αñ╡αñ╛αñ╣αÑïαñé αñªαÑìαñ╡αñ╛αñ░αñ╛ αñëαñ¬αñ»αÑïαñù αñòαñ┐αñ»αñ╛ αñ£αñ╛αñ¿αÑç αñ╡αñ╛αñ▓αñ╛ αñàαñ╕αÑìαñÑαñ╛αñ»αÑÇ αñ«αÑîαñ╕αñ«αÑÇ αñåαñ╢αÑìαñ░αñ» αñ»αñ╛ αñ¬αñíαñ╝αñ╛αñ╡αÑñ",
+        "definition_ur": "┘à┘ê╪│┘à█î ┘å┘é┘ä ┘à┌⌐╪º┘å█î ┌⌐█Æ ╪»┘ê╪▒╪º┘å ┌»╪»█î ┌å╪▒┘ê╪º█ü┘ê┌║ ┌⌐╪º ╪╣╪º╪▒╪╢█î ┘é█î╪º┘à ┌»╪º█ü █î╪º ╪¼┌╛┘ê┘å┘╛┌æ█î█ö",
+        "semantic_field": "pastoral_life",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Transhumance Routes",
+        "source_spelling": "Hadwari",
+        "context": "Seasonal migration shelters constructed during hill transhumance."
+      }
+    ],
+    "comparative_notes": "Reflects the seasonal shepherd cycle (Hadwari) in J&K hills.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    },
+    "evidence_status": "jk_cultural_term"
+  },
+  {
+    "id": "entry-jk-00007",
+    "lemma_devanagari": "αñ¬αñƒαÑìαñƒαÑé",
+    "lemma_ipa": "╦êp╔Öt╦Éu╦É",
+    "lemma_perso_arabic": "┘╛┘╣┘ê",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A thick, heavy, homespun woolen blanket or coarse cloth woven locally on traditional handlooms.",
+        "definition_hi": "αñ¬αñ╛αñ░αñéαñ¬αñ░αñ┐αñò αñ╣αñÑαñòαñ░αñÿαÑç αñ¬αñ░ αñ¼αÑüαñ¿αñ╛ αñùαñ»αñ╛ αñ«αÑïαñƒαñ╛ αñöαñ░ αñ¡αñ╛αñ░αÑÇ αñªαÑçαñ╕αÑÇ αñèαñ¿αÑÇ αñòαñéαñ¼αñ▓ αñ»αñ╛ αñòαñ¬αñíαñ╝αñ╛αÑñ",
+        "definition_ur": "┘à┘é╪º┘à█î █ü╪¬┌╛ ┌⌐╪▒┌»┌╛█Æ ┘╛╪▒ ╪¿┘Å┘å╪º █ü┘ê╪º ┘à┘ê┘╣╪º ╪º┘ê╪▒ ┘ê╪▓┘å█î ╪»█î╪│█î ╪º┘ê┘å█î ┌⌐┘à╪¿┘ä █î╪º ┌⌐┘╛┌æ╪º█ö",
+        "semantic_field": "material_culture_textiles",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Wool Production",
+        "source_spelling": "Pattu",
+        "context": "Handspun woolen blanket woven from sheep wool in Jammu region."
+      },
+      {
+        "source_id": "nirmohi_duggar",
+        "page_or_section": "p. 118",
+        "source_spelling": "αñ¬αñƒαÑìαñƒαÑé",
+        "context": "Traditional woolen fabrics of the hill tribes."
+      }
+    ],
+    "comparative_notes": "Widely known across Western Pahari and Kashmiri ('pattu').",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    },
+    "evidence_status": "jk_cultural_term"
+  },
+  {
+    "id": "entry-comp-00001",
+    "lemma_devanagari": "αñòαÑüαñú",
+    "lemma_ipa": "ku╔│",
+    "lemma_perso_arabic": "┌⌐┘Å┘å",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "pronoun",
+    "gender": "common",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Interrogative pronoun: who.",
+        "definition_hi": "αñ¬αÑìαñ░αñ╢αÑìαñ¿αñ╡αñ╛αñÜαñò αñ╕αñ░αÑìαñ╡αñ¿αñ╛αñ«: αñòαÑîαñ¿αÑñ",
+        "definition_ur": "╪º╪│╪¬┘ü█ü╪º┘à█î█ü ╪╢┘à█î╪▒: ┌⌐┘ê┘å█ö",
+        "semantic_field": "interrogatives",
+        "examples": [
+          {
+            "text_gaddi": "αñòαÑüαñú αñåαñ»αñ╛?",
+            "translation_en": "Who came?",
+            "translation_hi": "αñòαÑîαñ¿ αñåαñ»αñ╛?",
+            "translation_ur": "┌⌐┘ê┘å ╪ó█î╪º╪ƒ",
+            "source_citation": "kumari_2026, p. 119"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 119",
+        "source_spelling": "ku╔│",
+        "context": "Argument wh-word 'who' documented in Palampur variety."
+      }
+    ],
+    "comparative_notes": "Kangra baseline. Compare with Dogri 'αñòαÑüαñ¿' (kun) and Kashmiri 'αñòαÑüαñ╕' (kus). Requires J&K field attestation.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    },
+    "evidence_status": "comparative_only"
+  },
+  {
+    "id": "entry-comp-00002",
+    "lemma_devanagari": "αñòαÑç",
+    "lemma_ipa": "k╔¢",
+    "lemma_perso_arabic": "┌⌐█Æ",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "pronoun",
+    "gender": "neutral",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Interrogative pronoun: what.",
+        "definition_hi": "αñ¬αÑìαñ░αñ╢αÑìαñ¿αñ╡αñ╛αñÜαñò αñ╕αñ░αÑìαñ╡αñ¿αñ╛αñ«: αñòαÑìαñ»αñ╛αÑñ",
+        "definition_ur": "╪º╪│╪¬┘ü█ü╪º┘à█î█ü ╪╢┘à█î╪▒: ┌⌐█î╪º / ┌⌐┘ê┘å ╪│█î ┌å█î╪▓█ö",
+        "semantic_field": "interrogatives",
+        "examples": [
+          {
+            "text_gaddi": "αñòαÑç αñ╣αÑïαñå?",
+            "translation_en": "What happened?",
+            "translation_hi": "αñòαÑìαñ»αñ╛ αñ╣αÑüαñå?",
+            "translation_ur": "┌⌐█î╪º █ü┘ê╪º╪ƒ",
+            "source_citation": "kumari_2026, p. 120"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 120",
+        "source_spelling": "k╔¢",
+        "context": "Argument wh-word 'what' documented in Kangra Gaddi."
+      }
+    ],
+    "comparative_notes": "Kangra baseline. Widely cognate with Western Pahari and Dogri 'αñòαÑç' (ke). Requires J&K field attestation.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    },
+    "evidence_status": "comparative_only"
+  }
+]

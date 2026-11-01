@@ -1,0 +1,972 @@
+[
+  {
+    "id": "jk-cult-00001",
+    "lemma_devanagari": "नवाला",
+    "lemma_ipa": "nəˈwaːlaː",
+    "lemma_perso_arabic": "نوالہ",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "An all-night thanksgiving ritual ceremony and worship cycle dedicated to Lord Shiva, performed by the Gaddi community to fulfill vows or seek divine protection.",
+        "definition_hi": "भगवान शिव को समर्पित रात भर चलने वाला धन्यवाद और पूजा अनुष्ठान, जो मन्नत पूरी करने या कल्याण के लिए गद्दी समुदाय द्वारा किया जाता है।",
+        "definition_ur": "بھگوان شیو کی نذر کی جانے والی رات بھر کی روایتی تشکر اور پوجا کی رسم، جو گدی برادری کسی منت کے پورا ہونے پر ادا کرتی ہے۔",
+        "semantic_field": "religion_and_ritual",
+        "examples": [
+          {
+            "text_gaddi": "शिव नवाले दी रात अंचली गायी जांदी हे।",
+            "translation_en": "On the night of Shiv Nawala, Ainchali hymns are sung.",
+            "translation_hi": "शिव नवाले की रात अंचली गाई जाती है।",
+            "translation_ur": "شیو نوالے کی رات آنچلی گائی جاتی ہے۔",
+            "source_citation": "chakraborty_2024, Section: Religious Life"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Religious Life",
+        "source_spelling": "Nawala",
+        "context": "Traditional thanksgiving ritual dedicated to Lord Shiva, celebrated across Gaddi families in Jammu and Kashmir."
+      },
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Religious Rituals",
+        "source_spelling": "Nawala",
+        "context": "Annual thanksgiving festival of Gaddis in Doda and Kathua."
+      }
+    ],
+    "comparative_notes": "Cognate with Chamba Bharmauri 'nuala' / 'nawala' documented in Grierson (1916).",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00002",
+    "lemma_devanagari": "अंचली",
+    "lemma_ipa": "əɲˈtʃəliː",
+    "lemma_perso_arabic": "آنچلی",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Traditional devotional narrative ballad or sacred folk hymn recounting the legends of Lord Shiva and Parvati, sung during the night-long Nawala ceremony accompanied by the khanjari.",
+        "definition_hi": "भगवान शिव और पार्वती की गाथाओं का वर्णन करने वाला पारंपरिक भक्तिमय लोकगीत या आख्यान, जो नवाले के दौरान खंजरी के साथ गाया जाता है।",
+        "definition_ur": "روایتی مذہبی اور لوک گیت یا بیانیہ نغمہ جس میں شیو اور پاروتی کی کہانیاں بیان کی جاتی ہیں اور جو نوالہ کی رات خنجری کے ساتھ گایا جاتا ہے۔",
+        "semantic_field": "folklore_and_music",
+        "examples": [
+          {
+            "text_gaddi": "रात भर अंचली गायी करदे।",
+            "translation_en": "They continue singing Ainchali all night long.",
+            "translation_hi": "वे रात भर अंचली गाते रहते हैं।",
+            "translation_ur": "وہ رات بھر آنچلی گاتے رہتے ہیں۔",
+            "source_citation": "chakraborty_2024, Section: Oral Traditions"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Oral Traditions",
+        "source_spelling": "Ainchali / Anchli",
+        "context": "Sacred devotional singing genre of the Gaddi pastoralists of Jammu region."
+      },
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Folk Songs",
+        "source_spelling": "Anchali",
+        "context": "Devotional narrative ballads sung during nocturnal vigils."
+      }
+    ],
+    "comparative_notes": "Identical in ritual genre to Chamba and Kangra Gaddi Ainchali.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00003",
+    "lemma_devanagari": "चोला",
+    "lemma_ipa": "ˈtʃoːlaː",
+    "lemma_perso_arabic": "چولا",
+    "lemma_takri": null,
+    "variety_id": "jk_kathua_bani",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "The iconic traditional heavy woolen homespun knee-length tunic or coat worn by Gaddi men, designed for high-altitude Himalayan pastoral life.",
+        "definition_hi": "गद्दी पुरुषों द्वारा पहना जाने वाला पारंपरिक घुटनों तक का भारी ऊनी चोगा या कोट, जो उच्च हिमालयी चरवाहा जीवन के अनुकूल होता है।",
+        "definition_ur": "گدی مردوں کا روایتی گھٹنوں تک کا بھاری اونی چوغہ یا کوٹ، جو ہمالیائی پہاڑی چرواہوں کے لیے موزوں ہوتا ہے۔",
+        "semantic_field": "material_culture_clothing",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Material Culture",
+        "source_spelling": "Chola",
+        "context": "Primary traditional woolen garment of Gaddi pastoralists documented in Kathua and Udhampur."
+      },
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Cultural Attire",
+        "source_spelling": "Chola",
+        "context": "Woolen coat worn with dora."
+      }
+    ],
+    "comparative_notes": "Universal cultural emblem across all Gaddi communities in HP and J&K.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00004",
+    "lemma_devanagari": "डोरा",
+    "lemma_ipa": "ˈɖoːraː",
+    "lemma_perso_arabic": "ڈورا",
+    "lemma_takri": null,
+    "variety_id": "jk_kathua_bani",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A thick, long black woolen cord or rope tightly wound around the waist over the Chola, serving as a belt, load-supporter, and storage pouch during alpine trekking.",
+        "definition_hi": "मोटी और लंबी काली ऊनी रस्सी जिसे कमर पर चोले के ऊपर कई बार लपेटा जाता है, जो बेल्ट, वजन संभालने और पर्वतीय यात्रा में सामान रखने के काम आती है।",
+        "definition_ur": "موٹی اور لمبی سیاہ اونی رسی جو کمر پر چولے کے اوپر لپیٹی جاتی ہے اور اونچے پہاڑی سفر میں وزن سنبھالنے اور بیلٹ کا کام دیتی ہے۔",
+        "semantic_field": "material_culture_clothing",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Material Culture",
+        "source_spelling": "Dora",
+        "context": "Traditional black wool cord tied around the waist."
+      },
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Cultural Attire",
+        "source_spelling": "Dora",
+        "context": "Black cord up to 60 meters long wound around the waist."
+      }
+    ],
+    "comparative_notes": "Worn universally by Gaddis across J&K and Himachal Pradesh.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00005",
+    "lemma_devanagari": "खडे",
+    "lemma_ipa": "ˈkʰəɖeː",
+    "lemma_perso_arabic": "کھڈے",
+    "lemma_takri": null,
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Traditional wooden handloom used by Gaddi households in high-altitude hamlets for weaving woollen blankets, shawls, and garments.",
+        "definition_hi": "पारंपरिक लकड़ी का हथकरघा जिसका उपयोग उच्च पर्वतीय बस्तियों में गद्दी परिवारों द्वारा ऊनी कंबल, शॉल और वस्त्र बुनने के लिए किया जाता है।",
+        "definition_ur": "لکڑی کی روایتی ہتھ کرگھی جو اونچے پہاڑی دیہات میں گدی خاندانوں کے ذریعے اونی کمبل، شال اور کپڑے بننے کے لیے استعمال ہوتی ہے۔",
+        "semantic_field": "tools_and_technology",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Wool Production",
+        "source_spelling": "Khhade / Khade",
+        "context": "Traditional wooden handloom used by Gaddi weavers in Bhaderwah and Doda."
+      },
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Traditional Occupations",
+        "source_spelling": "Khade",
+        "context": "Traditional pit-loom/handloom for home wool production in Saraj."
+      }
+    ],
+    "comparative_notes": "Related to Western Pahari and Dogri 'khaddi' (हथकरघा).",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00006",
+    "lemma_devanagari": "हड़वारी",
+    "lemma_ipa": "həɽˈwaːriː",
+    "lemma_perso_arabic": "ہڑواری",
+    "lemma_takri": null,
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_place_or_ecological_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A temporary seasonal migratory pastoral shelter or transit encampment used by Gaddi shepherds during their biannual transhumance journeys.",
+        "definition_hi": "ऋतु-प्रवास (ट्रांसह्यूमन्स) के दौरान गद्दी चरवाहों द्वारा उपयोग किया जाने वाला अस्थायी मौसमी आश्रय या पड़ाव।",
+        "definition_ur": "موسمی نقل مکانی کے دوران گدی چرواہوں کا عارضی قیام گاہ یا جھونپڑی۔",
+        "semantic_field": "pastoral_life",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Transhumance Routes",
+        "source_spelling": "Hadwari",
+        "context": "Seasonal migration shelters constructed during hill transhumance."
+      },
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Pastoralism",
+        "source_spelling": "Hadwari",
+        "context": "Temporary high-pasture sheep shelters."
+      }
+    ],
+    "comparative_notes": "Core transhumance concept distinguishing pastoral lifestyle.",
+    "editorial_notes": "Documented as a J&K Gaddi regional ecological / toponymic term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00007",
+    "lemma_devanagari": "पट्टू",
+    "lemma_ipa": "ˈpətːuː",
+    "lemma_perso_arabic": "پٹو",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A thick, heavy, homespun woolen blanket or coarse cloth woven locally on traditional handlooms.",
+        "definition_hi": "पारंपरिक हथकरघे पर बुना गया मोटा और भारी देसी ऊनी कंबल या कपड़ा।",
+        "definition_ur": "مقامی ہتھ کرگھے پر بُنا ہوا موٹا اور وزنی دیسی اونی کمبل یا کپڑا۔",
+        "semantic_field": "material_culture_textiles",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Wool Production",
+        "source_spelling": "Pattu",
+        "context": "Handspun woolen blanket woven from sheep wool in Jammu region."
+      },
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Material Life",
+        "source_spelling": "Pattu",
+        "context": "Traditional homespun wool fabric."
+      }
+    ],
+    "comparative_notes": "Widely known across Western Pahari, Dogri, and Kashmiri ('pattu').",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00008",
+    "lemma_devanagari": "लोई",
+    "lemma_ipa": "loːˈiː",
+    "lemma_perso_arabic": "لوئی",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A lighter, finely woven woolen wrap or shawl made of soft sheep wool, used for daily wear during cooler weather.",
+        "definition_hi": "सफेद या हल्के रंग की पतली ऊनी चादर या शॉल, जो दैनिक रूप से ओढ़ने के काम आती है।",
+        "definition_ur": "اون کا ہلکا اونی چادر یا شال جو روزمرہ کے استعمال کے لیے پہنی جاتی ہے۔",
+        "semantic_field": "material_culture_textiles",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Wool Weaving",
+        "source_spelling": "Loi",
+        "context": "Light wool wrap woven from local fleece."
+      }
+    ],
+    "comparative_notes": "Shared with Western Pahari, Dogri, and Punjabi.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00009",
+    "lemma_devanagari": "गाड़ू",
+    "lemma_ipa": "ˈɡaːɽuː",
+    "lemma_perso_arabic": "گاڑو",
+    "lemma_takri": null,
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A heavy, thick patterned woolen blanket featuring traditional checked or striped weaves, valued for outdoor durability.",
+        "definition_hi": "पारंपरिक चौकोर या धारीदार बुनाई वाला भारी और मोटा ऊनी कंबल, जो अत्यंत ठंड में उपयोगी होता है।",
+        "definition_ur": "روایتی دھاری دار یا چوکور بناوٹ والا بھاری دیسی اونی کمبل۔",
+        "semantic_field": "material_culture_textiles",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Wool Products",
+        "source_spelling": "Gardu",
+        "context": "Heavy checked woolen blanket woven by Gaddis."
+      }
+    ],
+    "comparative_notes": "Specific Gaddi woolcraft designation in Western Himalayas.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00010",
+    "lemma_devanagari": "कुल्लू",
+    "lemma_ipa": "ˈkʊlːuː",
+    "lemma_perso_arabic": "کُلو",
+    "lemma_takri": null,
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A wooden drop spindle or whorl used by shepherds to spin wool by hand while walking behind their flocks.",
+        "definition_hi": "लकड़ी की तकली या हाथ-धुरी, जिसका उपयोग चरवाहे रेवड़ के पीछे चलते हुए हाथ से ऊन कातने के लिए करते हैं।",
+        "definition_ur": "لکڑی کی تکلی جس سے چرواہے چلتے پھرتے اون کاتتے ہیں۔",
+        "semantic_field": "tools_and_technology",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Wool Craft",
+        "source_spelling": "Kullu",
+        "context": "Drop spindle used while herding."
+      }
+    ],
+    "comparative_notes": "Compare with Kashmiri 'yender' / Pahari 'takli'.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00011",
+    "lemma_devanagari": "चरखा",
+    "lemma_ipa": "ˈtʃərkʰaː",
+    "lemma_perso_arabic": "چرخہ",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Traditional domestic spinning wheel used by women inside households to spin sheep wool into yarn.",
+        "definition_hi": "पारंपरिक चरखा, जिससे घरों में महिलाएं भेड़ की ऊन से सूत और धागा कातती हैं।",
+        "definition_ur": "روایتی چرخہ جس پر خواتین اون کاتتی ہیں۔",
+        "semantic_field": "tools_and_technology",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Female Occupations",
+        "source_spelling": "Charkha",
+        "context": "Spinning wheel in Gaddi homes."
+      }
+    ],
+    "comparative_notes": "Universal Pan-Indian loan word integrated into mountain woolcraft.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00012",
+    "lemma_devanagari": "चादरू",
+    "lemma_ipa": "tʃaːd̪ˈruː",
+    "lemma_perso_arabic": "چادرو",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Traditional head cloth or veil worn by Gaddi women, pinned with decorative silver jewelry.",
+        "definition_hi": "गद्दी महिलाओं द्वारा सिर पर पहना जाने वाला पारंपरिक वस्त्र या दुपट्टा, जिसे चांदी के आभूषणों से सजाया जाता है।",
+        "definition_ur": "گدی خواتین کی روایتی اوڑھنی یا دوپٹہ۔",
+        "semantic_field": "material_culture_clothing",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Female Dress",
+        "source_spelling": "Chadru",
+        "context": "Head covering worn by married women."
+      }
+    ],
+    "comparative_notes": "Cognate with Pahari 'chaddar' / 'chadru'.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00013",
+    "lemma_devanagari": "भेड़",
+    "lemma_ipa": "bʰeːɖ",
+    "lemma_perso_arabic": "بھیڑ",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Sheep; the central pastoral animal providing wool, milk, and subsistence in the transhumant economy.",
+        "definition_hi": "भेड़; गद्दी चरवाहा अर्थव्यवस्था का मुख्य पशु जिससे ऊन और आजीविका प्राप्त होती है।",
+        "definition_ur": "بھیڑ؛ گدی چرواہوں کا بنیادی مویشی جس سے اون اور معاش حاصل ہوتا ہے۔",
+        "semantic_field": "animals_pastoral",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Livestock",
+        "source_spelling": "Bhed",
+        "context": "Primary sheep flocks managed by Gaddi transhumants."
+      },
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Pastoral Economy",
+        "source_spelling": "Bhed",
+        "context": "Flock composition in Doda."
+      }
+    ],
+    "comparative_notes": "Cognate across Indo-Aryan languages.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00014",
+    "lemma_devanagari": "बकरी",
+    "lemma_ipa": "bəkˈriː",
+    "lemma_perso_arabic": "بکری",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Goat; companion livestock in Gaddi flocks known for leading sheep through rugged rocky terrain.",
+        "definition_hi": "बकरी; गद्दी रेवड़ में भेड़ के साथ पाला जाने वाला पशु जो दुर्गम चट्टानी रास्तों पर आगे चलता है।",
+        "definition_ur": "بکری؛ گدی ریوڑ میں پالا جانے والا جانور۔",
+        "semantic_field": "animals_pastoral",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Livestock",
+        "source_spelling": "Bakri",
+        "context": "Goat herds managed alongside sheep."
+      }
+    ],
+    "comparative_notes": "Standard Indo-Aryan root.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00015",
+    "lemma_devanagari": "सरज",
+    "lemma_ipa": "səˈrədʒ",
+    "lemma_perso_arabic": "سرج",
+    "lemma_takri": null,
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "proper_noun",
+    "gender": "masculine",
+    "evidence_status": "jk_place_or_ecological_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Toponym for the rugged, mountainous geographical area along the Chenab river basin in Doda and Ramban districts where northern J&K Gaddis reside.",
+        "definition_hi": "डोडा और रामबन जिलों में चिनाब नदी बेसिन का एक पर्वतीय क्षेत्र जहाँ गद्दी चरवाहे निवास करते हैं।",
+        "definition_ur": "ڈوڈہ اور رام بن اضلاع میں دریائے چناب کی وادی کا ایک پہاڑی علاقہ جہاں گدی برادری آباد ہے۔",
+        "semantic_field": "geography_toponyms",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "p. 1",
+        "source_spelling": "Saraj / Saraz",
+        "context": "Sociological study area of the Gaddi community in Jammu."
+      }
+    ],
+    "comparative_notes": "Known regionally as Saraz; also gives name to the Sarazi speech variety.",
+    "editorial_notes": "Documented as a J&K Gaddi regional ecological / toponymic term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00016",
+    "lemma_devanagari": "मालक",
+    "lemma_ipa": "ˈmaːlək",
+    "lemma_perso_arabic": "مالک",
+    "lemma_takri": null,
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Flock owner or senior chief shepherd who directs seasonal grazing routes, hires assistants (pohal), and manages mountain logistics.",
+        "definition_hi": "रेवड़ का स्वामी या मुख्य चरवाहा जो मौसमी चराई मार्गों और सहायकों का प्रबंधन करता है।",
+        "definition_ur": "ریوڑ کا مالک یا بڑا چرواہا جو موسمی چرائی کا انتظام سنبھالتا ہے۔",
+        "semantic_field": "occupations_pastoral",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Herd Ownership",
+        "source_spelling": "Malik / Malak",
+        "context": "Gaddi flock owner in Doda pastures."
+      }
+    ],
+    "comparative_notes": "Common northern Indo-Aryan term adapted into pastoral governance.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00017",
+    "lemma_devanagari": "धार",
+    "lemma_ipa": "d̪ʰaːr",
+    "lemma_perso_arabic": "دھار",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_place_or_ecological_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "High mountain ridge or alpine meadow ridge pasture where sheep flocks graze during summer months.",
+        "definition_hi": "ऊँची पर्वत श्रेणी, कटक या अल्पाइन चरागाह जहाँ ग्रीष्मकाल में भेड़ें चरती हैं।",
+        "definition_ur": "اونچی پہاڑی چوٹی یا چراگاہ کا میدان جہاں گرمیوں میں بکریاں اور بھیڑیں چرائی جاتی ہیں۔",
+        "semantic_field": "landscape_pastoral",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Grazing Areas",
+        "source_spelling": "Dhar",
+        "context": "Alpine high pastures in Kathua and Doda."
+      },
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Pastoral Grounds",
+        "source_spelling": "Dhar",
+        "context": "Ridge pastures above tree line."
+      }
+    ],
+    "comparative_notes": "Universal Western Pahari geographical term for a mountain ridge.",
+    "editorial_notes": "Documented as a J&K Gaddi regional ecological / toponymic term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00018",
+    "lemma_devanagari": "जोत",
+    "lemma_ipa": "dʒoːt̪",
+    "lemma_perso_arabic": "جوت",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_place_or_ecological_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "High mountain pass traversed during biannual shepherd migrations between high alpine pastures and winter foothill valleys.",
+        "definition_hi": "ऊँचा पर्वतीय दर्रा जिसे चरवाहे मौसमी प्रवास के समय पार करते हैं।",
+        "definition_ur": "اونچا پہاڑی درہ جسے چرواہے موسمی نقل و حرکت کے دوران عبور کرتے ہیں۔",
+        "semantic_field": "landscape_pastoral",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Migration Passes",
+        "source_spelling": "Jot",
+        "context": "Passes connecting Chamba to Kathua and Bhaderwah."
+      }
+    ],
+    "comparative_notes": "Pahari term corresponding to Hindi 'darra' and Tibetan 'la'.",
+    "editorial_notes": "Documented as a J&K Gaddi regional ecological / toponymic term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00019",
+    "lemma_devanagari": "कंडी",
+    "lemma_ipa": "ˈkəɳɖiː",
+    "lemma_perso_arabic": "کنڈی",
+    "lemma_takri": null,
+    "variety_id": "jk_kathua_bani",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_place_or_ecological_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Sub-Himalayan low foothill tract, dry ravines, and scrub forests bordering the plains where Gaddis shelter flocks during winter.",
+        "definition_hi": "तराई और शिवालिक की निचली पहाड़ियों का क्षेत्र जहाँ गद्दी चरवाहे शीतकाल में रेवड़ चराते हैं।",
+        "definition_ur": "نچلی پہاڑیوں اور کھائیوں کا خشک علاقہ جہاں سردیوں میں ریوڑ رکھے جاتے ہیں۔",
+        "semantic_field": "landscape_pastoral",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Winter Pastures",
+        "source_spelling": "Kandi",
+        "context": "Winter grazing belt in Kathua and Samba."
+      }
+    ],
+    "comparative_notes": "Shared geographic term in Jammu Dogri and Western Pahari.",
+    "editorial_notes": "Documented as a J&K Gaddi regional ecological / toponymic term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00020",
+    "lemma_devanagari": "जातर",
+    "lemma_ipa": "ˈdʒaːt̪ər",
+    "lemma_perso_arabic": "جاتر",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Sacred communal pilgrimage, mountain procession, or ritual fair held in honor of ancestral deities and Lord Shiva.",
+        "definition_hi": "पारंपरिक तीर्थयात्रा, धार्मिक जुलूस या देव-मेला जो कुलदेवताओं और शिव के सम्मान में आयोजित होता है।",
+        "definition_ur": "مذہبی زیارت، جلوس یا میلہ جو مقامی دیوتاؤں کے اعزاز میں منعقد کیا جاتا ہے۔",
+        "semantic_field": "religion_and_ritual",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Fairs and Festivals",
+        "source_spelling": "Jatar",
+        "context": "Pilgrimage festivals celebrated by Gaddi clans."
+      }
+    ],
+    "comparative_notes": "Cognate with Sanskrit 'yātrā' (यात्रा) through Western Pahari phonetic shifts.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00021",
+    "lemma_devanagari": "चेला",
+    "lemma_ipa": "ˈtʃeːlaː",
+    "lemma_perso_arabic": "چیلا",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Traditional spirit medium or ritual oracle through whom Lord Shiva or local deities are believed to communicate during ceremonies.",
+        "definition_hi": "पारंपरिक आध्यात्मिक माध्यम या अनुष्ठानिक पुजारी जिसके माध्यम से देवता संचार करते हैं।",
+        "definition_ur": "روایتی پجاری یا وہ شخص جس پر پوجا کے دوران دیوتا کی سواری مانی جاتی ہے۔",
+        "semantic_field": "religion_and_ritual",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Ritual Functionaries",
+        "source_spelling": "Chela",
+        "context": "Spirit medium in Gaddi Nawala ceremonies."
+      }
+    ],
+    "comparative_notes": "Traditional Western Himalayan shamanic-priestly functionary.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00022",
+    "lemma_devanagari": "त्रिशूल",
+    "lemma_ipa": "t̪rɪˈʃuːl",
+    "lemma_perso_arabic": "ترشول",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Sacred iron trident dedicated to Lord Shiva, consecrated at high mountain passes and household shrines.",
+        "definition_hi": "भगवान शिव का पवित्र लौह त्रिशूल, जिसे दर्रों, पवित्र चोटियों और घरेलू वेदियों पर स्थापित किया जाता है।",
+        "definition_ur": "شیو کا مقدس تین نوک والا نیزہ (ترشول)۔",
+        "semantic_field": "religion_and_ritual",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Sacred Symbols",
+        "source_spelling": "Trishul",
+        "context": "Iron tridents placed at pass cairns and household altars."
+      }
+    ],
+    "comparative_notes": "Shared Shaivite emblem across the Himalayas.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00023",
+    "lemma_devanagari": "धूनी",
+    "lemma_ipa": "ˈd̪ʰuːniː",
+    "lemma_perso_arabic": "دھونی",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Sacred continuous hearth or log fire kept burning during pastoral nights and religious vigils for warmth and spiritual sanctification.",
+        "definition_hi": "पवित्र सतत जलती रहने वाली अग्नि या अलाव, जो चरवाहा पड़ावों और धार्मिक जागरणों में जलाई जाती है।",
+        "definition_ur": "مقدس آگ یا دھونی جو رات کے وقت الاؤ کی صورت میں روشن رکھی جاتی ہے۔",
+        "semantic_field": "religion_and_ritual",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Ritual Fire",
+        "source_spelling": "Dhuni",
+        "context": "Sacred hearth fire of Gaddi camps."
+      }
+    ],
+    "comparative_notes": "Traditional Shaivite yogic and pastoral hearth concept.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00024",
+    "lemma_devanagari": "खंजरी",
+    "lemma_ipa": "ˈkʰəɲdʒriː",
+    "lemma_perso_arabic": "خنجری",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A small circular frame-drum or tambourine-like percussion instrument played by singers during the performance of Ainchali ballads.",
+        "definition_hi": "छोटा गोल डफली जैसा वाद्य यंत्र, जिसे अंचली गाते समय गायक लय देने के लिए बजाते हैं।",
+        "definition_ur": "ڈفلی نما چھوٹا روایتی ساز جو آنچلی گیتوں کے دوران بجایا جاتا ہے۔",
+        "semantic_field": "musical_instruments",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Musical Instruments",
+        "source_spelling": "Khanjari",
+        "context": "Percussion frame drum accompanying Ainchali recitations."
+      }
+    ],
+    "comparative_notes": "Characteristic percussion instrument of Western Pahari devotional singing.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "id": "jk-cult-00025",
+    "lemma_devanagari": "मंडप",
+    "lemma_ipa": "ˈmənɖəp",
+    "lemma_perso_arabic": "منڈپ",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A square consecrated ritual canopy constructed from timber, decorated with seasonal wild flowers and pine foliage for the Nawala ceremony.",
+        "definition_hi": "लकड़ी और ताजे फूलों से निर्मित चौकोर अनुष्ठानिक मंडप, जिसे नवाले की पूजा के लिए घर के आंगन में बनाया जाता है।",
+        "definition_ur": "پوجا کے لیے لکڑی اور پھولوں سے تیار کیا جانے والا چوکور منڈپ۔",
+        "semantic_field": "religion_and_ritual",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Nawala Architecture",
+        "source_spelling": "Mandap",
+        "context": "Ritual square erected in courtyard for the Shiv Nawala ceremony."
+      }
+    ],
+    "comparative_notes": "Sanskrit ritual architectural loan word widely naturalized.",
+    "editorial_notes": "Documented as a J&K Gaddi ethnographic / material / ritual cultural term in ethnographic fieldwork. Preserved in cultural dataset; not established as an independent descriptive linguistic lexical entry.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+    }
+  }
+]

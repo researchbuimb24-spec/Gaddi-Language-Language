@@ -1,0 +1,448 @@
+[
+  {
+    "id": "entry-jk-00001",
+    "lemma_devanagari": "नवाला",
+    "lemma_ipa": "nəˈwaːlaː",
+    "lemma_perso_arabic": "نوالہ",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+<<<<<<< HEAD
+=======
+    "status": "verified",
+>>>>>>> origin/main
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "An all-night thanksgiving ritual ceremony and worship cycle dedicated to Lord Shiva, performed by the Gaddi community to fulfill vows or seek divine protection.",
+        "definition_hi": "भगवान शिव को समर्पित रात भर चलने वाला धन्यवाद और पूजा अनुष्ठान, जो मन्नत पूरी करने या कल्याण के लिए गद्दी समुदाय द्वारा किया जाता है।",
+        "definition_ur": "بھگوان شیو کی نذر کی جانے والی رات بھر کی روایتی تشکر اور پوجا کی رسم، جو گدی برادری کسی منت کے پورا ہونے پر ادا کرتی ہے۔",
+        "semantic_field": "religion_and_ritual",
+        "examples": [
+          {
+            "text_gaddi": "शिव नवाले दी रात अंचली गायी जांदी हे।",
+            "translation_en": "On the night of Shiv Nawala, Ainchali hymns are sung.",
+            "translation_hi": "शिव नवाले की रात अंचली गाई जाती है।",
+            "translation_ur": "شیو نوالے کی رات آنچلی گائی جاتی ہے۔",
+            "source_citation": "nirmohi_duggar, p. 112"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Religious Life",
+        "source_spelling": "Nawala",
+        "context": "Traditional thanksgiving ritual dedicated to Lord Shiva, celebrated across Gaddi families in Jammu and Kashmir."
+      },
+      {
+        "source_id": "nirmohi_duggar",
+        "page_or_section": "p. 112",
+        "source_spelling": "नवाला",
+        "context": "Folk ritual of Shiva worship among the hill tribes of Duggar."
+      }
+    ],
+    "comparative_notes": "Cognate with Chamba Bharmauri 'nuala' / 'nawala' documented in Grierson (1916).",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+<<<<<<< HEAD
+    },
+    "evidence_status": "jk_cultural_term"
+=======
+    }
+>>>>>>> origin/main
+  },
+  {
+    "id": "entry-jk-00002",
+    "lemma_devanagari": "अंचली",
+    "lemma_ipa": "əɲˈtʃəliː",
+    "lemma_perso_arabic": "آنچلی",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+<<<<<<< HEAD
+=======
+    "status": "verified",
+>>>>>>> origin/main
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Traditional devotional narrative ballad or sacred folk hymn recounting the legends of Lord Shiva and Parvati, sung during the night-long Nawala ceremony accompanied by the khanjari.",
+        "definition_hi": "भगवान शिव और पार्वती की गाथाओं का वर्णन करने वाला पारंपरिक भक्तिमय लोकगीत या आख्यान, जो नवाले के दौरान खंजरी के साथ गाया जाता है।",
+        "definition_ur": "روایتی مذہبی اور لوک گیت یا بیانیہ نغمہ جس میں شیو اور پاروتی کی کہانیاں بیان کی جاتی ہیں اور جو نوالہ کی رات خنجری کے ساتھ گایا جاتا ہے۔",
+        "semantic_field": "folklore_and_music",
+        "examples": [
+          {
+            "text_gaddi": "रात भर अंचली गायी करदे।",
+            "translation_en": "They continue singing Ainchali all night long.",
+            "translation_hi": "वे रात भर अंचली गाते रहते हैं।",
+            "translation_ur": "وہ رات بھر آنچلی گاتے رہتے ہیں۔",
+            "source_citation": "jkaacl_archive, Folk Series 4"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "jkaacl_archive",
+        "page_or_section": "Folk Music of Duggar",
+        "source_spelling": "Ainchali / Anchli",
+        "context": "Sacred devotional singing genre of the Gaddi pastoralists of Jammu region."
+      },
+      {
+        "source_id": "nirmohi_duggar",
+        "page_or_section": "p. 115",
+        "source_spelling": "अंचली",
+        "context": "Documentation of traditional Duggar tribal ballads."
+      }
+    ],
+    "comparative_notes": "Identical in ritual genre to Chamba and Kangra Gaddi Ainchali.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+<<<<<<< HEAD
+    },
+    "evidence_status": "jk_cultural_term"
+=======
+    }
+>>>>>>> origin/main
+  },
+  {
+    "id": "entry-jk-00003",
+    "lemma_devanagari": "चोला",
+    "lemma_ipa": "ˈtʃoːlaː",
+    "lemma_perso_arabic": "چولا",
+    "lemma_takri": null,
+    "variety_id": "jk_kathua_bani",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+<<<<<<< HEAD
+=======
+    "status": "verified",
+>>>>>>> origin/main
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "The iconic traditional heavy woolen homespun knee-length tunic or coat worn by Gaddi men, designed for high-altitude Himalayan pastoral life.",
+        "definition_hi": "गद्दी पुरुषों द्वारा पहना जाने वाला पारंपरिक घुटनों तक का भारी ऊनी चोगा या कोट, जो उच्च हिमालयी चरवाहा जीवन के अनुकूल होता है।",
+        "definition_ur": "گدی مردوں کا روایتی گھٹنوں تک کا بھاری اونی چوغہ یا کوٹ، جو ہمالیائی پہاڑی چرواہوں کے لیے موزوں ہوتا ہے۔",
+        "semantic_field": "material_culture_clothing",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Material Culture",
+        "source_spelling": "Chola",
+        "context": "Primary traditional woolen garment of Gaddi pastoralists documented in Kathua and Udhampur."
+      },
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Cultural Attire",
+        "source_spelling": "Chola",
+        "context": "Woolen coat worn with dora."
+      }
+    ],
+    "comparative_notes": "Universal cultural emblem across all Gaddi communities in HP and J&K.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+<<<<<<< HEAD
+    },
+    "evidence_status": "jk_cultural_term"
+=======
+    }
+>>>>>>> origin/main
+  },
+  {
+    "id": "entry-jk-00004",
+    "lemma_devanagari": "डोरा",
+    "lemma_ipa": "ˈɖoːraː",
+    "lemma_perso_arabic": "ڈورا",
+    "lemma_takri": null,
+    "variety_id": "jk_kathua_bani",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+<<<<<<< HEAD
+=======
+    "status": "verified",
+>>>>>>> origin/main
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A thick, long black woolen cord or rope tightly wound around the waist over the Chola, serving as a belt, load-supporter, and storage pouch during alpine trekking.",
+        "definition_hi": "मोटी और लंबी काली ऊनी रस्सी जिसे कमर पर चोले के ऊपर कई बार लपेटा जाता है, जो बेल्ट, वजन संभालने और पर्वतीय यात्रा में सामान रखने के काम आती है।",
+        "definition_ur": "موٹی اور لمبی سیاہ اونی رسی جو کمر پر چولے کے اوپر لپیٹی جاتی ہے اور اونچے پہاڑی سفر میں وزن سنبھالنے اور بیلٹ کا کام دیتی ہے۔",
+        "semantic_field": "material_culture_clothing",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Material Culture",
+        "source_spelling": "Dora",
+        "context": "Traditional black wool cord tied around the waist."
+      }
+    ],
+    "comparative_notes": "Worn universally by Gaddis across J&K and Himachal Pradesh.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+<<<<<<< HEAD
+    },
+    "evidence_status": "jk_cultural_term"
+=======
+    }
+>>>>>>> origin/main
+  },
+  {
+    "id": "entry-jk-00005",
+    "lemma_devanagari": "खडे",
+    "lemma_ipa": "ˈkʰəɖeː",
+    "lemma_perso_arabic": "کھڈے",
+    "lemma_takri": null,
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+<<<<<<< HEAD
+=======
+    "status": "verified",
+>>>>>>> origin/main
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Traditional wooden handloom used by Gaddi households in high-altitude hamlets for weaving woollen blankets, shawls, and garments.",
+        "definition_hi": "पारंपरिक लकड़ी का हथकरघा जिसका उपयोग उच्च पर्वतीय बस्तियों में गद्दी परिवारों द्वारा ऊनी कंबल, शॉल और वस्त्र बुनने के लिए किया जाता है।",
+        "definition_ur": "لکڑی کی روایتی ہتھ کرگھی جو اونچے پہاڑی دیہات میں گدی خاندانوں کے ذریعے اونی کمبل، شال اور کپڑے بننے کے لیے استعمال ہوتی ہے۔",
+        "semantic_field": "tools_and_technology",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Traditional Occupations",
+        "source_spelling": "Khhade / Khade",
+        "context": "Traditional wooden handloom for wool weaving in the Saraj area of Doda."
+      }
+    ],
+    "comparative_notes": "Related to Western Pahari and Dogri 'khaddi' (हथकरघा / loom).",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+<<<<<<< HEAD
+    },
+    "evidence_status": "jk_cultural_term"
+=======
+    }
+>>>>>>> origin/main
+  },
+  {
+    "id": "entry-jk-00006",
+    "lemma_devanagari": "हड़वारी",
+    "lemma_ipa": "həɽˈwaːriː",
+    "lemma_perso_arabic": "ہڑواری",
+    "lemma_takri": null,
+    "variety_id": "jk_udhampur_ramnagar",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+<<<<<<< HEAD
+=======
+    "status": "verified",
+>>>>>>> origin/main
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A temporary seasonal migratory pastoral shelter or transit encampment used by Gaddi shepherds during their biannual transhumance journeys.",
+        "definition_hi": "ऋतु-प्रवास (ट्रांसह्यूमन्स) के दौरान गद्दी चरवाहों द्वारा उपयोग किया जाने वाला अस्थायी मौसमी आश्रय या पड़ाव।",
+        "definition_ur": "موسمی نقل مکانی کے دوران گدی چرواہوں کا عارضی قیام گاہ یا جھونپڑی۔",
+        "semantic_field": "pastoral_life",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumar_2019",
+        "page_or_section": "Section: Transhumance Routes",
+        "source_spelling": "Hadwari",
+        "context": "Seasonal migration shelters constructed during hill transhumance."
+      }
+    ],
+    "comparative_notes": "Reflects the seasonal shepherd cycle (Hadwari) in J&K hills.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+<<<<<<< HEAD
+    },
+    "evidence_status": "jk_cultural_term"
+=======
+    }
+>>>>>>> origin/main
+  },
+  {
+    "id": "entry-jk-00007",
+    "lemma_devanagari": "पट्टू",
+    "lemma_ipa": "ˈpətːuː",
+    "lemma_perso_arabic": "پٹو",
+    "lemma_takri": null,
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+<<<<<<< HEAD
+=======
+    "status": "verified",
+>>>>>>> origin/main
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "A thick, heavy, homespun woolen blanket or coarse cloth woven locally on traditional handlooms.",
+        "definition_hi": "पारंपरिक हथकरघे पर बुना गया मोटा और भारी देसी ऊनी कंबल या कपड़ा।",
+        "definition_ur": "مقامی ہتھ کرگھے پر بُنا ہوا موٹا اور وزنی دیسی اونی کمبل یا کپڑا۔",
+        "semantic_field": "material_culture_textiles",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Wool Production",
+        "source_spelling": "Pattu",
+        "context": "Handspun woolen blanket woven from sheep wool in Jammu region."
+      },
+      {
+        "source_id": "nirmohi_duggar",
+        "page_or_section": "p. 118",
+        "source_spelling": "पट्टू",
+        "context": "Traditional woolen fabrics of the hill tribes."
+      }
+    ],
+    "comparative_notes": "Widely known across Western Pahari and Kashmiri ('pattu').",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+<<<<<<< HEAD
+    },
+    "evidence_status": "jk_cultural_term"
+=======
+    }
+>>>>>>> origin/main
+  },
+  {
+    "id": "entry-comp-00001",
+    "lemma_devanagari": "कुण",
+    "lemma_ipa": "kuɳ",
+    "lemma_perso_arabic": "کُن",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "pronoun",
+    "gender": "common",
+<<<<<<< HEAD
+=======
+    "status": "comparative_only",
+>>>>>>> origin/main
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Interrogative pronoun: who.",
+        "definition_hi": "प्रश्नवाचक सर्वनाम: कौन।",
+        "definition_ur": "استفہامیہ ضمیر: کون۔",
+        "semantic_field": "interrogatives",
+        "examples": [
+          {
+            "text_gaddi": "कुण आया?",
+            "translation_en": "Who came?",
+            "translation_hi": "कौन आया?",
+            "translation_ur": "کون آیا؟",
+            "source_citation": "kumari_2026, p. 119"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 119",
+        "source_spelling": "kuɳ",
+        "context": "Argument wh-word 'who' documented in Palampur variety."
+      }
+    ],
+    "comparative_notes": "Kangra baseline. Compare with Dogri 'कुन' (kun) and Kashmiri 'कुस' (kus). Requires J&K field attestation.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+<<<<<<< HEAD
+    },
+    "evidence_status": "comparative_only"
+=======
+    }
+>>>>>>> origin/main
+  },
+  {
+    "id": "entry-comp-00002",
+    "lemma_devanagari": "के",
+    "lemma_ipa": "kɛ",
+    "lemma_perso_arabic": "کے",
+    "lemma_takri": null,
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "pronoun",
+    "gender": "neutral",
+<<<<<<< HEAD
+=======
+    "status": "comparative_only",
+>>>>>>> origin/main
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Interrogative pronoun: what.",
+        "definition_hi": "प्रश्नवाचक सर्वनाम: क्या।",
+        "definition_ur": "استفہامیہ ضمیر: کیا / کون سی چیز۔",
+        "semantic_field": "interrogatives",
+        "examples": [
+          {
+            "text_gaddi": "के होआ?",
+            "translation_en": "What happened?",
+            "translation_hi": "क्या हुआ?",
+            "translation_ur": "کیا ہوا؟",
+            "source_citation": "kumari_2026, p. 120"
+          }
+        ]
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "p. 120",
+        "source_spelling": "kɛ",
+        "context": "Argument wh-word 'what' documented in Kangra Gaddi."
+      }
+    ],
+    "comparative_notes": "Kangra baseline. Widely cognate with Western Pahari and Dogri 'के' (ke). Requires J&K field attestation.",
+    "metadata": {
+      "compiler": "Gaddi Language Project",
+      "created_at": "2026-10-30",
+      "confidence_score": 1.0
+<<<<<<< HEAD
+    },
+    "evidence_status": "comparative_only"
+  }
+]
+=======
+    }
+  }
+]
+
+>>>>>>> origin/main

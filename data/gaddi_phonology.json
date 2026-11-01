@@ -1,0 +1,658 @@
+{
+  "metadata": {
+    "title": "Phonetics and Phonology of Kangra Gaddi",
+    "source_id": "kumari_2026",
+    "source_citation": "Kumari et al. (2026), Chapter 2 (pp. 11-37) & Appendix I (pp. 117-118)",
+    "variety_id": "hp_kangra_palampur",
+    "variety_name": "Kangra Gaddi (Palampur)",
+    "license": "CC BY-NC 4.0",
+    "is_jk_verified": false,
+    "evidence_status": "comparative_only"
+  },
+  "vowel_system": {
+    "total_oral_monophthongs": 8,
+    "oral_monophthongs": [
+      {
+        "ipa": "i",
+        "height": "close",
+        "frontness": "front",
+        "rounding": "unrounded",
+        "features": {
+          "high": true,
+          "mid": false,
+          "low": false,
+          "front": true,
+          "back": false,
+          "round": false
+        }
+      },
+      {
+        "ipa": "e",
+        "height": "close-mid",
+        "frontness": "front",
+        "rounding": "unrounded",
+        "features": {
+          "high": true,
+          "mid": true,
+          "low": false,
+          "front": true,
+          "back": false,
+          "round": false
+        }
+      },
+      {
+        "ipa": "ɛ",
+        "height": "open-mid",
+        "frontness": "front",
+        "rounding": "unrounded",
+        "features": {
+          "high": false,
+          "mid": true,
+          "low": true,
+          "front": true,
+          "back": false,
+          "round": false
+        }
+      },
+      {
+        "ipa": "ə",
+        "height": "mid",
+        "frontness": "central",
+        "rounding": "unrounded",
+        "features": {
+          "high": false,
+          "mid": true,
+          "low": false,
+          "front": false,
+          "back": false,
+          "round": false
+        }
+      },
+      {
+        "ipa": "ɑ",
+        "height": "open",
+        "frontness": "central_back",
+        "rounding": "unrounded",
+        "features": {
+          "high": false,
+          "mid": false,
+          "low": true,
+          "front": false,
+          "back": true,
+          "round": false
+        }
+      },
+      {
+        "ipa": "u",
+        "height": "close",
+        "frontness": "back",
+        "rounding": "rounded",
+        "features": {
+          "high": true,
+          "mid": false,
+          "low": false,
+          "front": false,
+          "back": true,
+          "round": true
+        }
+      },
+      {
+        "ipa": "o",
+        "height": "close-mid",
+        "frontness": "back",
+        "rounding": "rounded",
+        "features": {
+          "high": true,
+          "mid": true,
+          "low": false,
+          "front": false,
+          "back": true,
+          "round": true
+        }
+      },
+      {
+        "ipa": "ɔ",
+        "height": "open-mid",
+        "frontness": "back",
+        "rounding": "rounded",
+        "features": {
+          "high": false,
+          "mid": true,
+          "low": true,
+          "front": false,
+          "back": true,
+          "round": true
+        }
+      }
+    ],
+    "nasal_vowels_chapter2": [
+      {
+        "ipa": "ũ",
+        "nature": "inherent_lexical",
+        "examples": [
+          {
+            "word": "kjũ",
+            "gloss": "fava beans"
+          },
+          {
+            "word": "ijũ",
+            "gloss": "snow"
+          },
+          {
+            "word": "dʰũː",
+            "gloss": "smoke"
+          }
+        ]
+      },
+      {
+        "ipa": "ɑ̃",
+        "nature": "inherent_lexical",
+        "examples": [
+          {
+            "word": "bɑ̃",
+            "gloss": "pond"
+          },
+          {
+            "word": "ɡɾɑ̃ː",
+            "gloss": "village"
+          }
+        ]
+      },
+      {
+        "ipa": "ɛ̃",
+        "nature": "inherent_lexical",
+        "examples": [
+          {
+            "word": "pɛ͂tɑli",
+            "gloss": "forty-five"
+          },
+          {
+            "word": "cɛ͂ː",
+            "gloss": "root"
+          }
+        ]
+      }
+    ],
+    "diphthongs": {
+      "oral": [
+        {
+          "ipa": "oi",
+          "type": "raising",
+          "example": "bʰənoi",
+          "gloss": "brother-in-law"
+        },
+        {
+          "ipa": "ei",
+          "type": "raising",
+          "example": "peinnɑ",
+          "gloss": "sharp"
+        },
+        {
+          "ipa": "ɑi",
+          "type": "raising",
+          "example": "bʰɑi",
+          "gloss": "brother"
+        },
+        {
+          "ipa": "əu",
+          "type": "raising",
+          "example": "tʃəuɾə",
+          "gloss": "four"
+        },
+        {
+          "ipa": "eo",
+          "type": "raising",
+          "example": "keolɑ",
+          "gloss": "coal"
+        }
+      ],
+      "nasal": [
+        {
+          "ipa": "əũ",
+          "type": "raising",
+          "example": "bəũkʰɾi",
+          "gloss": "broom"
+        },
+        {
+          "ipa": "ɛ̃i",
+          "type": "raising",
+          "example": "d̪ɛ̃i",
+          "gloss": "curd"
+        },
+        {
+          "ipa": "iũ",
+          "type": "raising",
+          "example": "piũɭɑ",
+          "gloss": "yellow"
+        },
+        {
+          "ipa": "aũ",
+          "type": "raising",
+          "example": "aũ",
+          "gloss": "I"
+        }
+      ]
+    },
+    "length_distinction": {
+      "status": "phonetically_long_not_phonemically_contrastive",
+      "pairs_table_2_3": [
+        {
+          "vowel": "i",
+          "short": "sinnɑ (wet)",
+          "long": "siːɳɑ (to sew)"
+        },
+        {
+          "vowel": "e",
+          "short": "sere (their)",
+          "long": "heːɭə (slate on roof)"
+        },
+        {
+          "vowel": "ɛ",
+          "short": "bɛɡə (morning)",
+          "long": "bɛːɳə (sister)"
+        },
+        {
+          "vowel": "u",
+          "short": "pʰulə (flower)",
+          "long": "luːɳə (salt)"
+        },
+        {
+          "vowel": "o",
+          "short": "boli (language)",
+          "long": "koːlə (big bowl)"
+        },
+        {
+          "vowel": "ɔ",
+          "short": "ʈɔɳɑ (deaf)",
+          "long": "t̪ɔːlə (hammer)"
+        },
+        {
+          "vowel": "ɑ",
+          "short": "kɑɭɑ (black)",
+          "long": "bɑːli (earring)"
+        },
+        {
+          "vowel": "ũ",
+          "short": "kjũ (fava beans)",
+          "long": "dʰũː (smoke)"
+        },
+        {
+          "vowel": "ɑ̃",
+          "short": "bɑ̃ (pond)",
+          "long": "ɡɾɑ̃ː (village)"
+        },
+        {
+          "vowel": "ɛ̃",
+          "short": "pɛ͂t̪ɑli (forty-five)",
+          "long": "cɛ͂ː (root)"
+        }
+      ]
+    }
+  },
+  "consonant_system": {
+    "total_consonants": 31,
+    "consonants": [
+      {
+        "ipa": "p",
+        "manner": "plosive",
+        "place": "bilabial",
+        "voiced": false,
+        "aspirated": false
+      },
+      {
+        "ipa": "pʰ",
+        "manner": "plosive",
+        "place": "bilabial",
+        "voiced": false,
+        "aspirated": true
+      },
+      {
+        "ipa": "b",
+        "manner": "plosive",
+        "place": "bilabial",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "bʰ",
+        "manner": "plosive",
+        "place": "bilabial",
+        "voiced": true,
+        "aspirated": true
+      },
+      {
+        "ipa": "t̪",
+        "manner": "plosive",
+        "place": "dental",
+        "voiced": false,
+        "aspirated": false
+      },
+      {
+        "ipa": "t̪ʰ",
+        "manner": "plosive",
+        "place": "dental",
+        "voiced": false,
+        "aspirated": true
+      },
+      {
+        "ipa": "d̪",
+        "manner": "plosive",
+        "place": "dental",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "d̪ʰ",
+        "manner": "plosive",
+        "place": "dental",
+        "voiced": true,
+        "aspirated": true
+      },
+      {
+        "ipa": "ʈ",
+        "manner": "plosive",
+        "place": "retroflex",
+        "voiced": false,
+        "aspirated": false
+      },
+      {
+        "ipa": "ʈʰ",
+        "manner": "plosive",
+        "place": "retroflex",
+        "voiced": false,
+        "aspirated": true
+      },
+      {
+        "ipa": "ɖ",
+        "manner": "plosive",
+        "place": "retroflex",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "ɖʰ",
+        "manner": "plosive",
+        "place": "retroflex",
+        "voiced": true,
+        "aspirated": true
+      },
+      {
+        "ipa": "k",
+        "manner": "plosive",
+        "place": "velar",
+        "voiced": false,
+        "aspirated": false
+      },
+      {
+        "ipa": "kʰ",
+        "manner": "plosive",
+        "place": "velar",
+        "voiced": false,
+        "aspirated": true
+      },
+      {
+        "ipa": "ɡ",
+        "manner": "plosive",
+        "place": "velar",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "ɡʰ",
+        "manner": "plosive",
+        "place": "velar",
+        "voiced": true,
+        "aspirated": true
+      },
+      {
+        "ipa": "tʃ",
+        "manner": "affricate",
+        "place": "palato-alveolar",
+        "voiced": false,
+        "aspirated": false
+      },
+      {
+        "ipa": "tʃʰ",
+        "manner": "affricate",
+        "place": "palato-alveolar",
+        "voiced": false,
+        "aspirated": true
+      },
+      {
+        "ipa": "dʒ",
+        "manner": "affricate",
+        "place": "palato-alveolar",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "dʒʰ",
+        "manner": "affricate",
+        "place": "palato-alveolar",
+        "voiced": true,
+        "aspirated": true
+      },
+      {
+        "ipa": "s",
+        "manner": "fricative",
+        "place": "alveolar",
+        "voiced": false,
+        "aspirated": false
+      },
+      {
+        "ipa": "h",
+        "manner": "fricative",
+        "place": "glottal",
+        "voiced": false,
+        "aspirated": false
+      },
+      {
+        "ipa": "m",
+        "manner": "nasal",
+        "place": "bilabial",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "n",
+        "manner": "nasal",
+        "place": "alveolar",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "ɳ",
+        "manner": "nasal",
+        "place": "retroflex",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "ɾ",
+        "manner": "flap",
+        "place": "alveolar",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "ɽ",
+        "manner": "flap",
+        "place": "retroflex",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "l",
+        "manner": "lateral_approximant",
+        "place": "alveolar",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "ɭ",
+        "manner": "lateral_approximant",
+        "place": "retroflex",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "ʋ",
+        "manner": "approximant",
+        "place": "labiodental",
+        "voiced": true,
+        "aspirated": false
+      },
+      {
+        "ipa": "j",
+        "manner": "approximant",
+        "place": "palatal",
+        "voiced": true,
+        "aspirated": false
+      }
+    ],
+    "allophones": [
+      {
+        "ipa": "ŋ",
+        "phoneme": "n",
+        "context": "before velar plosives",
+        "examples": [
+          "lɔ͂ŋɡ (nose ring)",
+          "pʰə͂ŋɡ (feather)",
+          "kɑ̃ŋɡi (comb)",
+          "si͂ŋkʰə (meat)"
+        ]
+      }
+    ],
+    "retroflex_series": {
+      "total": 7,
+      "inventory": [
+        "ʈ",
+        "ɖ",
+        "ʈʰ",
+        "ɖʰ",
+        "ɳ",
+        "ɽ",
+        "ɭ"
+      ],
+      "features": "apicality, posteriority, sublingual cavity, retraction (Hamann 2003)",
+      "initial_restriction": "/ɽ/, /ɭ/, /ɳ/ never occur word-initially"
+    }
+  },
+  "phonotactics_and_syllable": {
+    "canonical_syllable": "(C)(C)(V)(C)",
+    "sonority_hierarchy": "Plosives < Fricatives < Nasals < Laterals < Flaps < Vowels",
+    "syllable_principles": [
+      "Onset Maximisation Principle (Kahn 1980): Intervocalic single consonants assigned to following onset",
+      "Geminates split across coda and onset: sut.tu.rɑ, tʃiʈ.ʈʰi, bər.kkʰɑ",
+      "Homorganic oral plosive clusters (unaspirated + aspirated) syllabify as geminates"
+    ],
+    "word_initial_clusters": [
+      "/br/",
+      "/dr/",
+      "/ɡr/",
+      "/kr/",
+      "/ɡl/",
+      "/pj/",
+      "/sʋ/"
+    ],
+    "word_final_codas": "Rare due to excrescent schwa /ə/ release; only /ɾ/, /m/, /s/ occur word-finally without schwa"
+  },
+  "phonological_processes": [
+    {
+      "name": "Regressive Nasal Spread",
+      "rule": "V -> Ṽ / __ [+nasal]",
+      "direction": "right to left",
+      "examples": [
+        "lɔŋɡ -> lɔ̃ŋɡ",
+        "tʃɛnʈe -> tʃɛ̃nʈe",
+        "kɑŋɡi -> kɑ̃ŋɡi",
+        "mɑndʒ -> mɑ̃ndʒ"
+      ]
+    },
+    {
+      "name": "Prenasalisation",
+      "environment": "word-initially before voiced plosives",
+      "examples": [
+        "[ᵐbinnɑ] (mattress)",
+        "[ᵐbəsəndə] (summer)",
+        "[ᵐbɑːldə] (bull)",
+        "[ᵐbəɾkʰɑ] (rain)",
+        "[ⁿɖəkka] (push)",
+        "[ⁿda:rə] (door)",
+        "[ᵑgəttə] (big flower)",
+        "[ᵑgirka] (heavy)"
+      ]
+    },
+    {
+      "name": "Gemination",
+      "types": "derived (across morpheme boundary with ergative -ɛ on sonorants) vs underived",
+      "examples": [
+        "ɾɑm + ɛ -> ɾɑmmɛ",
+        "sjɑm + ɛ -> sjɑmmɛ",
+        "nikkɑ (child)",
+        "buʈʈɑ (tree)",
+        "dʒɑnnu (knee)"
+      ]
+    },
+    {
+      "name": "Loanword Schwa Epenthesis",
+      "purpose": "break illegal clusters in borrowings",
+      "examples": [
+        "/skuːl/ -> [səkul]",
+        "/pʌrs/ -> [pərəs]",
+        "/film/ -> [pʰiləm]",
+        "/bʌlb/ -> [bələb]"
+      ]
+    },
+    {
+      "name": "Glide Epenthesis",
+      "rule": "Ø -> [j] / V1_V2",
+      "purpose": "hiatus resolution across vowel collocation",
+      "examples": [
+        "[ijũ] (snow)",
+        "[tʃəlijɑ] (come)",
+        "[sejɑu] (apple)",
+        "post-lexical before mood marker: dʒərurijɑ, indi(j)ɑ"
+      ]
+    },
+    {
+      "name": "Lyman's Law / OCP Retroflex Dissimilation",
+      "rule": "Prohibits two adjacent aspirated retroflex consonants",
+      "examples": [
+        "[piʈʈʰi] (back)",
+        "[piʈʈʰɑ] (dough)",
+        "[miʈʈʰe] (sweet)"
+      ]
+    }
+  ],
+  "appendix_i_discrepancies": {
+    "vowels": "Appendix I Table A.2 lists 5 nasal vowels (ĩ, ũ, ẽ, ə̃, ɑ̃), whereas Chapter 2 Section 2.2.2 establishes exactly 3 lexical nasal vowels (/ũ/, /ɑ̃/, /ɛ̃/).",
+    "consonants": "Appendix I Table A.1 (and Table A.3) includes fricatives /f/ and /ʃ/, velar nasal /ŋ/ as an independent phoneme, and trill /r/ alongside flap /ɽ/, whereas Chapter 2 Table 2.4 restricts native fricatives to /s, h/, treats [ŋ] as an assimilatory allophone before velars, and lists flap /ɾ/.",
+    "four_audited_discrepancies": [
+      {
+        "category": "nasal_vowels",
+        "chapter_2_analysis": "3 lexical nasal vowels (/ũ/, /ɑ̃/, /ɛ̃/) in Section 2.2.2 (p. 13)",
+        "appendix_i_analysis": "5 nasal vowels (/ĩ/, /ũ/, /ẽ/, /ə̃/, /ɑ̃/) in Table A.2 (p. 118)",
+        "reconciliation": "Chapter 2 reflects phonemic contrast established through minimal/sub-minimal pairs; Appendix I represents surface phonetic inventory."
+      },
+      {
+        "category": "fricatives",
+        "chapter_2_analysis": "Fricatives restricted to /s, h/ in Table 2.4 (p. 14); /f/ and /ʃ/ treated as marginal loan phonemes",
+        "appendix_i_analysis": "Includes /f/ and /ʃ/ directly in the primary consonant inventory in Table A.1 (p. 117)",
+        "reconciliation": "Appendix I includes contact/borrowed segments from Hindi/English; Chapter 2 isolates indigenous phonemic core."
+      },
+      {
+        "category": "rhotics",
+        "chapter_2_analysis": "Alveolar liquid described as flap /ɾ/ or trill /r/ in Table 2.4 (p. 14)",
+        "appendix_i_analysis": "Table A.1 lists alveolar trill /r/ and retroflex flap /ɽ/",
+        "reconciliation": "Phonetic variation between tapped [ɾ] and trilled [r] realizations depending on speaker and syllable position."
+      },
+      {
+        "category": "approximants_and_glides",
+        "chapter_2_analysis": "Charts labio-dental approximant /ʋ/; velar nasal [ŋ] is contextual allophone before velars",
+        "appendix_i_analysis": "Charts labio-velar glide /w/ and lists velar nasal /ŋ/ as distinct phoneme",
+        "reconciliation": "Surface phonetic charting in Appendix I vs phonological economy in Chapter 2."
+      }
+    ]
+  }
+}

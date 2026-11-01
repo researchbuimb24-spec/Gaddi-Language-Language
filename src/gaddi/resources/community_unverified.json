@@ -1,0 +1,38 @@
+[
+  {
+    "id": "comm-draft-00001",
+    "lemma_devanagari": "पोहल",
+    "lemma_ipa": "ˈpoːhəl",
+    "lemma_perso_arabic": "پوہل",
+    "lemma_takri": null,
+    "variety_id": "jk_kathua_bani",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "community_submitted_unverified",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Assistant shepherd hired by flock owners to tend sheep during seasonal migration.",
+        "definition_hi": "सहायक चरवाहा, जिसे रेवड़ का मालिक मौसमी प्रवास में भेड़ों की देखभाल के लिए रखता है।",
+        "definition_ur": "معاون چرواہا جو ریوڑ کی دیکھ بھال کے لیے رکھا جاتا ہے۔",
+        "semantic_field": "occupations_pastoral"
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "jkaacl_archive",
+        "page_or_section": "Oral Reportage",
+        "source_spelling": "Pohal",
+        "context": "Community submission from Bani pastoral elders awaiting formal verification."
+      }
+    ],
+    "comparative_notes": "Cognate with Kashmiri 'Pohol' (پوہل - shepherd) and Western Pahari 'pohal'.",
+    "editorial_notes": "Pending native speaker field verification.",
+    "metadata": {
+      "compiler": "Gaddi Community Review Board",
+      "created_at": "2026-10-30",
+      "confidence_score": 0.5
+    }
+  }
+]
+
