@@ -2,7 +2,14 @@
   {
     "id": "kumari_2026",
     "title": "A Grammar of Gaddi",
-    "authors": ["Preeti Kumari", "Shreya Mehta", "Anjali Nair", "Anusuya Nayak", "Yangchen Roy", "Vyom Sharma"],
+    "authors": [
+      "Preeti Kumari",
+      "Shreya Mehta",
+      "Anjali Nair",
+      "Anusuya Nayak",
+      "Yangchen Roy",
+      "Vyom Sharma"
+    ],
     "year": 2026,
     "publisher": "UCL Press",
     "series": "Grammars of World and Minority Languages",
@@ -18,7 +25,9 @@
   {
     "id": "mehta_2016",
     "title": "Verbal Inflection in Gaddi: A Paradigm-Based Approach",
-    "authors": ["Shreya Mehta"],
+    "authors": [
+      "Shreya Mehta"
+    ],
     "year": 2016,
     "publisher": "Centre for Linguistics, Jawaharlal Nehru University, New Delhi",
     "series": "M.Phil. Dissertation",
@@ -31,7 +40,9 @@
   {
     "id": "mehta_2021",
     "title": "Tense, Aspect, and Mood in Gaddi and Neighboring Himalayan Languages",
-    "authors": ["Shreya Mehta"],
+    "authors": [
+      "Shreya Mehta"
+    ],
     "year": 2021,
     "publisher": "Centre for Linguistics, Jawaharlal Nehru University, New Delhi",
     "series": "Ph.D. Dissertation",
@@ -44,7 +55,9 @@
   {
     "id": "grierson_1916",
     "title": "Linguistic Survey of India, Vol. IX: Indo-Aryan Family, Central Group, Part IV: Specimens of the Pahari Languages and Gujuri",
-    "authors": ["Sir George Abraham Grierson"],
+    "authors": [
+      "Sir George Abraham Grierson"
+    ],
     "year": 1916,
     "publisher": "Office of the Superintendent of Government Printing, Calcutta",
     "license": "Public Domain",
@@ -56,7 +69,9 @@
   {
     "id": "bailey_1908",
     "title": "The Languages of the Northern Himalayas: Being Studies in the Grammar of Twenty-Six Himalayan Dialects",
-    "authors": ["Thomas Grahame Bailey"],
+    "authors": [
+      "Thomas Grahame Bailey"
+    ],
     "year": 1908,
     "publisher": "Royal Asiatic Society, London",
     "series": "Prize Publication Fund, Vol. XII",
@@ -69,7 +84,9 @@
   {
     "id": "census_2011",
     "title": "Census of India 2011: Paper 1 of 2018 - Language: Mother Tongue (Table C-16) and Special Tables on Scheduled Tribes",
-    "authors": ["Office of the Registrar General & Census Commissioner, India"],
+    "authors": [
+      "Office of the Registrar General & Census Commissioner, India"
+    ],
     "year": 2018,
     "publisher": "Ministry of Home Affairs, Government of India, New Delhi",
     "license": "Open Government Data (OGD) India",
@@ -81,7 +98,9 @@
   {
     "id": "kumar_2019",
     "title": "The Gaddi: A Jammu and Kashmir Himalayan Tribe",
-    "authors": ["Banti Kumar"],
+    "authors": [
+      "Banti Kumar"
+    ],
     "year": 2019,
     "publisher": "AkiNik Publications, New Delhi",
     "series": "Trends in Sociology, Psychology and Anthropology, Vol. 1",
@@ -94,7 +113,9 @@
   {
     "id": "chandar_2024",
     "title": "Socio-cultural Analysis of Gaddi Tribe - A Sociological Study of Saraj Area in Jammu Region",
-    "authors": ["Subhash Chandar"],
+    "authors": [
+      "Subhash Chandar"
+    ],
     "year": 2024,
     "publisher": "Antrocom Online Journal of Anthropology / IJFMR",
     "license": "Academic Citation / Fair Dealing",
@@ -106,7 +127,9 @@
   {
     "id": "chakraborty_2024",
     "title": "Blessed by Lord Shiva: The Gaddi Tribe of Jammu and Kashmir",
-    "authors": ["Arka Chakraborty"],
+    "authors": [
+      "Arka Chakraborty"
+    ],
     "year": 2024,
     "publisher": "Jammu & Kashmir Arts Foundation",
     "license": "Academic Citation / Fair Dealing",
@@ -118,7 +141,9 @@
   {
     "id": "nirmohi_duggar",
     "title": "Duggar Ka Itihas and Cultural Studies of Jammu Tribes",
-    "authors": ["Shiv Nirmohi"],
+    "authors": [
+      "Shiv Nirmohi"
+    ],
     "year": 2012,
     "publisher": "Kitab Mahal / Regional Academic Publishers, Jammu",
     "license": "Academic Citation / Fair Dealing",
@@ -130,7 +155,9 @@
   {
     "id": "jkaacl_archive",
     "title": "Archive of Folk Songs, Anchli Ballads, and Tribal Performing Arts",
-    "authors": ["Jammu and Kashmir Academy of Art, Culture and Languages"],
+    "authors": [
+      "Jammu and Kashmir Academy of Art, Culture and Languages"
+    ],
     "year": 2020,
     "publisher": "JKAACL, Jammu & Srinagar",
     "license": "State Cultural Documentation / Fair Dealing",
@@ -142,7 +169,9 @@
   {
     "id": "ciil_ldcil",
     "title": "Linguistic Data Consortium for Indian Languages: Bharmauri/Gaddi Corpus Resources",
-    "authors": ["Central Institute of Indian Languages"],
+    "authors": [
+      "Central Institute of Indian Languages"
+    ],
     "year": 2022,
     "publisher": "CIIL, Ministry of Education, Mysuru",
     "license": "Research Use",
@@ -150,6 +179,27 @@
     "credibility_tier": 3,
     "is_jk_primary": false,
     "notes": "Corpus data and structural notes on Western Pahari languages."
+  },
+  {
+    "id": "dar_sheikh_2022",
+    "title": "Gaddi Speech Community of Jammu and Kashmir: The Self-Claimed Descendants of Lord Shiva",
+    "authors": [
+      "Hilal Ahmad Dar",
+      "Aejaz Mohammed Sheikh"
+    ],
+    "year": 2022,
+    "journal": "Aligarh Journal of Linguistics",
+    "volume": "11 (2021-2022)",
+    "publisher": "Department of Linguistics, Aligarh Muslim University, Aligarh",
+    "issn": "2249-1511",
+    "variety_id": "jk_bhaderwah_doda",
+    "credibility_tier": 1,
+    "is_jk_primary": true,
+    "evidence_type": "fieldwork_sociolinguistic_vocabulary",
+    "access_status": "full_text_accessed_and_verified",
+    "notes": "Fieldwork-based descriptive linguistic and sociolinguistic survey in Bhaderwah (Doda district, J&K), documenting community background, vocabulary (seasons, months, days, cardinals, ordinals), and comprehensive kinship terminology across 13 tables.",
+    "pages": "245-258",
+    "url": "https://api.amu.ac.in/storage//file/10353/file_management/1659595804.pdf",
+    "license": "Academic Research / Open Access (AMU AJL / Author Attribution)"
   }
 ]
-

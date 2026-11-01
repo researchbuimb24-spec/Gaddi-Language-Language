@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Dict, List, Optional, Union
 
-from gaddi.models import Source, Variety
+from gaddi.models import ResearchLead, Source, Variety
 
 
 class VarietyRegistry:
@@ -102,7 +102,53 @@ class SourceRegistry:
         return len(self._sources)
 
 
+class ResearchLeadRegistry:
+    """Registry managing investigated primary linguistic research leads and archival sources."""
+
+    def __init__(self, leads: Optional[List[ResearchLead]] = None):
+        self._leads: Dict[str, ResearchLead] = {}
+        if leads:
+            for lead in leads:
+                self.register(lead)
+        else:
+            self._load_default_leads()
+
+    def _load_default_leads(self) -> None:
+        resource_path = Path(__file__).parent / "resources" / "research_leads.json"
+        if not resource_path.exists():
+            resource_path = Path(__file__).parents[2] / "data" / "research_leads.json"
+
+        if resource_path.exists():
+            with open(resource_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                for item in data:
+                    self.register(ResearchLead.from_dict(item))
+
+    def register(self, lead: ResearchLead) -> None:
+        self._leads[lead.lead_id] = lead
+
+    def get(self, lead_id: str) -> Optional[ResearchLead]:
+        return self._leads.get(lead_id)
+
+    def contains(self, lead_id: str) -> bool:
+        return lead_id in self._leads
+
+    def list_all(self) -> List[ResearchLead]:
+        return list(self._leads.values())
+
+    def get_by_status(self, status: str) -> List[ResearchLead]:
+        return [l for l in self._leads.values() if l.status == status]
+
+    def get_with_linguistic_data(self) -> List[ResearchLead]:
+        return [l for l in self._leads.values() if l.contains_linguistic_data]
+
+    def __len__(self) -> int:
+        return len(self._leads)
+
+
 # Global singleton instances for direct import
 default_varieties = VarietyRegistry()
 default_sources = SourceRegistry()
+default_leads = ResearchLeadRegistry()
+
 

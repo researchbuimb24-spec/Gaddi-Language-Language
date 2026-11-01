@@ -1,0 +1,1624 @@
+{
+  "metadata": {
+    "title": "Comprehensive Gaddi Numeral System",
+    "source_id": "kumari_2026",
+    "source_citation": "Kumari et al. (2026), Section 3.8 (pp. 61-68) & Appendix III (pp. 125-128)",
+    "variety_id": "hp_kangra_palampur",
+    "variety_name": "Kangra Gaddi (Palampur)",
+    "base_system": "decimal (base 10)",
+    "attribution": "Appendix III data collected by Kumari Mamta; Section 3.8 analysis by Preeti Kumari (2016, 2021)",
+    "license": "CC BY-NC 4.0",
+    "is_jk_verified": false,
+    "evidence_status": "comparative_only",
+    "third_party_attribution": {
+      "collector": "Kumari Mamta",
+      "role": "Doctoral research scholar, Centre for Linguistics, Jawaharlal Nehru University (JNU)",
+      "source_note": "Appendix III footnote 1 (p. 125) states: 'The data in this appendix was collected by Kumari Mamta during her doctoral research at the Centre for Linguistics, Jawaharlal Nehru University, and shared with the authors for inclusion in this grammar.'",
+      "applies_to": "Appendix III (Tables C.1, C.2, C.3, C.4; pp. 125-128)"
+    }
+  },
+  "cardinals": [
+    {
+      "value": 1,
+      "gloss": "One",
+      "gaddi_ipa": "əkʰ",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 2,
+      "gloss": "Two",
+      "gaddi_ipa": "do",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 3,
+      "gloss": "Three",
+      "gaddi_ipa": "trɛ",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 4,
+      "gloss": "Four",
+      "gaddi_ipa": "tʃɑr",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 5,
+      "gloss": "Five",
+      "gaddi_ipa": "pəndʒ",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 6,
+      "gloss": "Six",
+      "gaddi_ipa": "tʃʰe",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 7,
+      "gloss": "Seven",
+      "gaddi_ipa": "sət",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 8,
+      "gloss": "Eight",
+      "gaddi_ipa": "əʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 9,
+      "gloss": "Nine",
+      "gaddi_ipa": "nɔ",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 10,
+      "gloss": "Ten",
+      "gaddi_ipa": "dəs",
+      "category": "cardinal",
+      "morpheme_structure": "atom",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 11,
+      "gloss": "Eleven",
+      "gaddi_ipa": "jɑrɑ̃",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 12,
+      "gloss": "Twelve",
+      "gaddi_ipa": "bɑrɑ̃",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 13,
+      "gloss": "Thirteen",
+      "gaddi_ipa": "terɑ̃",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 14,
+      "gloss": "Fourteen",
+      "gaddi_ipa": "tʃodɑ̃",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 15,
+      "gloss": "Fifteen",
+      "gaddi_ipa": "pəndrɑ̃",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 16,
+      "gloss": "Sixteen",
+      "gaddi_ipa": "solɑ̃",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 17,
+      "gloss": "Seventeen",
+      "gaddi_ipa": "sətɑrɑ̃",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 18,
+      "gloss": "Eighteen",
+      "gaddi_ipa": "ʈʰɑrɑ̃",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 19,
+      "gloss": "Nineteen",
+      "gaddi_ipa": "unni",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 20,
+      "gloss": "Twenty",
+      "gaddi_ipa": "bi",
+      "category": "cardinal",
+      "morpheme_structure": "base_decade",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 21,
+      "gloss": "Twenty-one",
+      "gaddi_ipa": "ikki",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 22,
+      "gloss": "Twenty-two",
+      "gaddi_ipa": "bɑi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 23,
+      "gloss": "Twenty-three",
+      "gaddi_ipa": "trei",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 24,
+      "gloss": "Twenty-four",
+      "gaddi_ipa": "tʃobbi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 25,
+      "gloss": "Twenty-five",
+      "gaddi_ipa": "pəndʒi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 26,
+      "gloss": "Twenty-six",
+      "gaddi_ipa": "tʃʰəbbi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 27,
+      "gloss": "Twenty-seven",
+      "gaddi_ipa": "sətɑi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 28,
+      "gloss": "Twenty-eight",
+      "gaddi_ipa": "ʈʰɑi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 29,
+      "gloss": "Twenty-nine",
+      "gaddi_ipa": "nəti",
+      "category": "cardinal",
+      "morpheme_structure": "derived_unit9",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 30,
+      "gloss": "Thirty",
+      "gaddi_ipa": "tri",
+      "category": "cardinal",
+      "morpheme_structure": "base_decade",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 31,
+      "gloss": "Thirty-one",
+      "gaddi_ipa": "kətti",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 32,
+      "gloss": "Thirty-two",
+      "gaddi_ipa": "bətti",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 33,
+      "gloss": "Thirty-three",
+      "gaddi_ipa": "tetti",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 34,
+      "gloss": "Thirty-four",
+      "gaddi_ipa": "tʃotti",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 35,
+      "gloss": "Thirty-five",
+      "gaddi_ipa": "pẽti",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 36,
+      "gloss": "Thirty-six",
+      "gaddi_ipa": "tʃʰətti",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 37,
+      "gloss": "Thirty-seven",
+      "gaddi_ipa": "sətətti",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 125,
+      "pdf_page": 142
+    },
+    {
+      "value": 38,
+      "gloss": "Thirty-eight",
+      "gaddi_ipa": "ʈʰətti",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 39,
+      "gloss": "Thirty-nine",
+      "gaddi_ipa": "untɑli",
+      "category": "cardinal",
+      "morpheme_structure": "derived_unit9",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 40,
+      "gloss": "Forty",
+      "gaddi_ipa": "tʃɑli",
+      "category": "cardinal",
+      "morpheme_structure": "base_decade",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 41,
+      "gloss": "Forty-one",
+      "gaddi_ipa": "ektɑli",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 42,
+      "gloss": "Forty-two",
+      "gaddi_ipa": "betɑli",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 43,
+      "gloss": "Forty-three",
+      "gaddi_ipa": "tertɑli",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 44,
+      "gloss": "Forty-four",
+      "gaddi_ipa": "tʃurtɑli",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 45,
+      "gloss": "Forty-five",
+      "gaddi_ipa": "pɛ̃tɑli",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 46,
+      "gloss": "Forty-six",
+      "gaddi_ipa": "tʃʰətɑli",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 47,
+      "gloss": "Forty-seven",
+      "gaddi_ipa": "səntɑli",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 48,
+      "gloss": "Forty-eight",
+      "gaddi_ipa": "əʈʰtɑli",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 49,
+      "gloss": "Forty-nine",
+      "gaddi_ipa": "unundʒɑ",
+      "category": "cardinal",
+      "morpheme_structure": "derived_unit9",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 50,
+      "gloss": "Fifty",
+      "gaddi_ipa": "pejɑ̃",
+      "category": "cardinal",
+      "morpheme_structure": "base_decade",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 51,
+      "gloss": "Fifty-one",
+      "gaddi_ipa": "kundʒɑ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 52,
+      "gloss": "Fifty-two",
+      "gaddi_ipa": "bundʒɑ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 53,
+      "gloss": "Fifty-three",
+      "gaddi_ipa": "trundʒɑ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 54,
+      "gloss": "Fifty-four",
+      "gaddi_ipa": "tʃurundʒɑ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 55,
+      "gloss": "Fifty-five",
+      "gaddi_ipa": "pətʃundʒɑ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 56,
+      "gloss": "Fifty-six",
+      "gaddi_ipa": "tʃʰunɑ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 57,
+      "gloss": "Fifty-seven",
+      "gaddi_ipa": "sətunjɑ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 58,
+      "gloss": "Fifty-eight",
+      "gaddi_ipa": "ʈʰunjɑ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 59,
+      "gloss": "Fifty-nine",
+      "gaddi_ipa": "unɑʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "derived_unit9",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 60,
+      "gloss": "Sixty",
+      "gaddi_ipa": "səʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "base_decade",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 61,
+      "gloss": "Sixty-one",
+      "gaddi_ipa": "ekɑʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 62,
+      "gloss": "Sixty-two",
+      "gaddi_ipa": "bɑʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 63,
+      "gloss": "Sixty-three",
+      "gaddi_ipa": "treʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 64,
+      "gloss": "Sixty-four",
+      "gaddi_ipa": "tʃoʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 65,
+      "gloss": "Sixty-five",
+      "gaddi_ipa": "pɛ̃ʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 66,
+      "gloss": "Sixty-six",
+      "gaddi_ipa": "tʃʰijɑʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 67,
+      "gloss": "Sixty-seven",
+      "gaddi_ipa": "sətɑʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 68,
+      "gloss": "Sixty-eight",
+      "gaddi_ipa": "ʈʰɑʈʰ",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 69,
+      "gloss": "Sixty-nine",
+      "gaddi_ipa": "unəttər",
+      "category": "cardinal",
+      "morpheme_structure": "derived_unit9",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 70,
+      "gloss": "Seventy",
+      "gaddi_ipa": "səttər",
+      "category": "cardinal",
+      "morpheme_structure": "base_decade",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 71,
+      "gloss": "Seventy-one",
+      "gaddi_ipa": "kəttər",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 72,
+      "gloss": "Seventy-two",
+      "gaddi_ipa": "bəttər",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 73,
+      "gloss": "Seventy-three",
+      "gaddi_ipa": "trettər",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 74,
+      "gloss": "Seventy-four",
+      "gaddi_ipa": "tʃurəttər",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 75,
+      "gloss": "Seventy-five",
+      "gaddi_ipa": "pətʃəttər",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 76,
+      "gloss": "Seventy-six",
+      "gaddi_ipa": "tʃʰejəttər",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 77,
+      "gloss": "Seventy-seven",
+      "gaddi_ipa": "sətəttər",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 78,
+      "gloss": "Seventy-eight",
+      "gaddi_ipa": "ʈʰəttər",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 79,
+      "gloss": "Seventy-nine",
+      "gaddi_ipa": "unɑsi",
+      "category": "cardinal",
+      "morpheme_structure": "derived_unit9",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 80,
+      "gloss": "Eighty",
+      "gaddi_ipa": "əssi",
+      "category": "cardinal",
+      "morpheme_structure": "base_decade",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 81,
+      "gloss": "Eighty-one",
+      "gaddi_ipa": "ekɑsi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 82,
+      "gloss": "Eighty-two",
+      "gaddi_ipa": "bejɑsi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 83,
+      "gloss": "Eighty-three",
+      "gaddi_ipa": "terɑsi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 84,
+      "gloss": "Eighty-four",
+      "gaddi_ipa": "tʃurɑsi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 85,
+      "gloss": "Eighty-five",
+      "gaddi_ipa": "pətʃɑsi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 86,
+      "gloss": "Eighty-six",
+      "gaddi_ipa": "tʃʰejɑsi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 87,
+      "gloss": "Eighty-seven",
+      "gaddi_ipa": "sətɑsi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 126,
+      "pdf_page": 143
+    },
+    {
+      "value": 88,
+      "gloss": "Eighty-eight",
+      "gaddi_ipa": "ʈʰɑsi",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 89,
+      "gloss": "Eighty-nine",
+      "gaddi_ipa": "nɑnʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived_unit9",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 90,
+      "gloss": "Ninety",
+      "gaddi_ipa": "nəbbɛ",
+      "category": "cardinal",
+      "morpheme_structure": "base_decade",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 91,
+      "gloss": "Ninety-one",
+      "gaddi_ipa": "kɑnʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 92,
+      "gloss": "Ninety-two",
+      "gaddi_ipa": "ʋənʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 93,
+      "gloss": "Ninety-three",
+      "gaddi_ipa": "terɑnʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 94,
+      "gloss": "Ninety-four",
+      "gaddi_ipa": "tʃurɑnʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 95,
+      "gloss": "Ninety-five",
+      "gaddi_ipa": "pətʃɑnʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 96,
+      "gloss": "Ninety-six",
+      "gaddi_ipa": "tʃʰijɑnʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 97,
+      "gloss": "Ninety-seven",
+      "gaddi_ipa": "sətɑnʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 98,
+      "gloss": "Ninety-eight",
+      "gaddi_ipa": "ʈʰɑnʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 99,
+      "gloss": "Ninety-nine",
+      "gaddi_ipa": "nəɽinʋe",
+      "category": "cardinal",
+      "morpheme_structure": "derived_unit9",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 100,
+      "gloss": "Hundred",
+      "gaddi_ipa": "sɔ",
+      "category": "cardinal",
+      "morpheme_structure": "scale_base",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 1000,
+      "gloss": "Thousand",
+      "gaddi_ipa": "jɑr",
+      "category": "cardinal",
+      "morpheme_structure": "scale_base",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 100000,
+      "gloss": "Lakh (100,000)",
+      "gaddi_ipa": "ləkʰ",
+      "category": "cardinal",
+      "morpheme_structure": "scale_base",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 10000000,
+      "gloss": "Crore (10,000,000)",
+      "gaddi_ipa": "kror",
+      "category": "cardinal",
+      "morpheme_structure": "scale_base",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    },
+    {
+      "value": 1000000000,
+      "gloss": "Billion (1,000,000,000)",
+      "gaddi_ipa": "ərəb",
+      "category": "cardinal",
+      "morpheme_structure": "scale_base",
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144
+    }
+  ],
+  "ordinals": [
+    {
+      "rank": 1,
+      "gloss": "First",
+      "masculine": "pɛlɑ",
+      "feminine": "pɛli",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "pɛlɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 2,
+      "gloss": "Second",
+      "masculine": "duɑ",
+      "feminine": "doi",
+      "category": "ordinal",
+      "agreement_type": "suppletive",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "duɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 3,
+      "gloss": "Third",
+      "masculine": "trijɑ",
+      "feminine": "trɛ",
+      "category": "ordinal",
+      "agreement_type": "suppletive",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "trijɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 4,
+      "gloss": "Fourth",
+      "masculine": "tʃotʰɑ",
+      "feminine": "tʃotʰi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "tʃotʰɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 5,
+      "gloss": "Fifth",
+      "masculine": "pəimɑ",
+      "feminine": "pəimi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "pəimɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 6,
+      "gloss": "Sixth",
+      "masculine": "tʃʰemmɑ",
+      "feminine": "tʃʰemmi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "tʃʰemmɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 7,
+      "gloss": "Seventh",
+      "masculine": "sətuʋɑ",
+      "feminine": "sətuʋi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "sətuʋɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 8,
+      "gloss": "Eighth",
+      "masculine": "əʈʰʋɑ",
+      "feminine": "əʈʰʋi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "əʈʰʋɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 9,
+      "gloss": "Ninth",
+      "masculine": "nomɑ",
+      "feminine": "nomi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "nomɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 10,
+      "gloss": "Tenth",
+      "masculine": "dəsmɑ",
+      "feminine": "dəsmi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "dəsmɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 11,
+      "gloss": "Eleventh",
+      "masculine": "jɑrmɑ",
+      "feminine": "jɑrmi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "jɑrmɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 12,
+      "gloss": "Twelfth",
+      "masculine": "bɑrmɑ",
+      "feminine": "bɑrmi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "bɑrmɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 13,
+      "gloss": "Thirteenth",
+      "masculine": "termɑ",
+      "feminine": "termi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "termɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 14,
+      "gloss": "Fourteenth",
+      "masculine": "tʃodmɑ",
+      "feminine": "tʃodmi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "tʃodmɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 15,
+      "gloss": "Fifteenth",
+      "masculine": "pəndrəmɑ",
+      "feminine": "pəndrəmi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "pəndrəmɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 16,
+      "gloss": "Sixteenth",
+      "masculine": "solmɑ",
+      "feminine": "solmi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "solmɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 17,
+      "gloss": "Seventeenth",
+      "masculine": "sətɑrmɑ",
+      "feminine": "sətɑrmi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "sətɑrmɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 18,
+      "gloss": "Eighteenth",
+      "masculine": "ʈʰɑrmɑ",
+      "feminine": "ʈʰɑrmi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "ʈʰɑrmɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 19,
+      "gloss": "Nineteenth",
+      "masculine": "unnimɑ",
+      "feminine": "unnimi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "unnimɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 20,
+      "gloss": "Twentieth",
+      "masculine": "bimɑ",
+      "feminine": "bimi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "bimɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 21,
+      "gloss": "Twenty-first",
+      "masculine": "ikkimɑ",
+      "feminine": "ikkimi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "ikkimɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    },
+    {
+      "rank": 22,
+      "gloss": "Twenty-second",
+      "masculine": "bɑimɑ",
+      "feminine": "bɑimi",
+      "category": "ordinal",
+      "agreement_type": "vowel_alternation_a_vs_i",
+      "table_id": "Table C.2",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "printed_form": "bɑimɑ",
+      "derivation_note": "Table C.2 prints citation masculine forms. Feminine forms for ranks 1-5 documented in Section 3.8 Table 3.22 (p. 66); ranks 6-22 derived via regular -ɑ -> -i gender inflection."
+    }
+  ],
+  "fractionals": [
+    {
+      "fraction": "1/4",
+      "gloss": "Quarter",
+      "gaddi_ipa": "pɔ:ni",
+      "category": "fractional",
+      "derivation_type": "lexical_atom",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "printed_reading": "pɔ:ni",
+      "resolved_reading": "pɔ:ni"
+    },
+    {
+      "fraction": "1/2",
+      "gloss": "Half",
+      "gaddi_ipa": "ɑddə",
+      "category": "fractional",
+      "derivation_type": "lexical_atom",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "printed_reading": "ɑddə",
+      "resolved_reading": "ɑddə"
+    },
+    {
+      "fraction": "1/3",
+      "gloss": "Third (one-third)",
+      "gaddi_ipa": "ɑkiɑ̃ trijɑ",
+      "category": "fractional",
+      "derivation_type": "derived_compound",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "printed_reading": "ɑkiɑ̃ trijɑ",
+      "resolved_reading": "ɑkiɑ̃ trijɑ"
+    },
+    {
+      "fraction": "2/3",
+      "gloss": "Two-thirds",
+      "gaddi_ipa": "doijɑ̃ trijɑ",
+      "category": "fractional",
+      "derivation_type": "derived_compound",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "printed_reading": "doijɑ̃ trijɑ",
+      "resolved_reading": "doijɑ̃ trijɑ"
+    },
+    {
+      "fraction": "3/4",
+      "gloss": "Three-quarters",
+      "gaddi_ipa": "trijɑ coutʰɑ",
+      "category": "fractional",
+      "derivation_type": "derived_compound",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "printed_reading": "trijɑ coutʰɑ",
+      "resolved_reading": "trijɑ coutʰɑ"
+    },
+    {
+      "fraction": "1/10",
+      "gloss": "Tenth (one-tenth)",
+      "gaddi_ipa": "əkʰ bəʈɑ dəs",
+      "category": "fractional",
+      "derivation_type": "mathematical_division",
+      "notes": "Printed as 'əkʰ bəʈɑ solɑ' in Table C.3 due to typographical inversion with sixteenth (1/16); resolved reading is 'əkʰ bəʈɑ dəs' based on numeral atom dəs (10).",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "printed_reading": "əkʰ bəʈɑ solɑ",
+      "resolved_reading": "əkʰ bəʈɑ dəs"
+    },
+    {
+      "fraction": "1/16",
+      "gloss": "Sixteenth (one-sixteenth)",
+      "gaddi_ipa": "əkʰ bəʈɑ solɑ",
+      "category": "fractional",
+      "derivation_type": "mathematical_division",
+      "notes": "Printed as 'əkʰ bəʈɑ dəs' in Table C.3 due to typographical inversion with tenth (1/10); resolved reading is 'əkʰ bəʈɑ solɑ' based on numeral atom solɑ (16).",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "printed_reading": "əkʰ bəʈɑ dəs",
+      "resolved_reading": "əkʰ bəʈɑ solɑ"
+    }
+  ],
+  "distributives": [
+    {
+      "gloss": "One each",
+      "gaddi_ipa": "ək ək",
+      "reading_type": "participant_key",
+      "structure": "total_reduplication",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "category": "distributive",
+      "table_id": "Table C.4"
+    },
+    {
+      "gloss": "Three each",
+      "gaddi_ipa": "trɛ trɛ",
+      "reading_type": "participant_key",
+      "structure": "total_reduplication",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "category": "distributive",
+      "table_id": "Table C.4"
+    },
+    {
+      "gloss": "Five each",
+      "gaddi_ipa": "pəndʒ pəndʒ",
+      "reading_type": "participant_key",
+      "structure": "total_reduplication",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "category": "distributive",
+      "table_id": "Table C.4"
+    },
+    {
+      "gloss": "One by one",
+      "gaddi_ipa": "ək ək kəri kəre",
+      "reading_type": "temporal_key",
+      "structure": "reduplicated_cardinal_plus_reduplicated_verb_kare",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "category": "distributive",
+      "table_id": "Table C.4"
+    },
+    {
+      "gloss": "Two by two",
+      "gaddi_ipa": "do do kəri kəre",
+      "reading_type": "temporal_key",
+      "structure": "reduplicated_cardinal_plus_reduplicated_verb_kare",
+      "printed_page": 128,
+      "pdf_page": 145,
+      "category": "distributive",
+      "table_id": "Table C.4"
+    }
+  ],
+  "prefix_templates_1_to_9": [
+    {
+      "digit": 1,
+      "template": "/kk/"
+    },
+    {
+      "digit": 2,
+      "template": "/b/"
+    },
+    {
+      "digit": 3,
+      "template": "/tr/"
+    },
+    {
+      "digit": 4,
+      "template": "/tʃ/"
+    },
+    {
+      "digit": 5,
+      "template": "/pẽ/"
+    },
+    {
+      "digit": 6,
+      "template": "/tʃʰ/"
+    },
+    {
+      "digit": 7,
+      "template": "/sət/"
+    },
+    {
+      "digit": 8,
+      "template": "/ʈʰ/"
+    },
+    {
+      "digit": 9,
+      "template": "/n/"
+    }
+  ],
+  "decade_templates": [
+    {
+      "decade": 20,
+      "stem": "bi",
+      "gloss": "twenty"
+    },
+    {
+      "decade": 30,
+      "stem": "tri",
+      "gloss": "thirty"
+    },
+    {
+      "decade": 40,
+      "stem": "tʃɑli",
+      "gloss": "forty"
+    },
+    {
+      "decade": 50,
+      "stem": "pejɑ̃",
+      "gloss": "fifty"
+    },
+    {
+      "decade": 60,
+      "stem": "səʈʰ",
+      "gloss": "sixty"
+    },
+    {
+      "decade": 70,
+      "stem": "səttər",
+      "gloss": "seventy"
+    },
+    {
+      "decade": 80,
+      "stem": "əssi",
+      "gloss": "eighty"
+    },
+    {
+      "decade": 90,
+      "stem": "nəbbɛ",
+      "gloss": "ninety"
+    }
+  ],
+  "unit_9_preceding_stems": [
+    {
+      "number": 29,
+      "gaddi_ipa": "nəti",
+      "gloss": "twenty-nine",
+      "derived_from": "tri (30)"
+    },
+    {
+      "number": 39,
+      "gaddi_ipa": "untɑli",
+      "gloss": "thirty-nine",
+      "derived_from": "tʃɑli (40)"
+    },
+    {
+      "number": 49,
+      "gaddi_ipa": "unundʒɑ",
+      "gloss": "forty-nine",
+      "derived_from": "pejɑ̃ (50)"
+    },
+    {
+      "number": 59,
+      "gaddi_ipa": "unɑʈʰ",
+      "gloss": "fifty-nine",
+      "derived_from": "səʈʰ (60)"
+    },
+    {
+      "number": 69,
+      "gaddi_ipa": "unəttər",
+      "gloss": "sixty-nine",
+      "derived_from": "səttər (70)"
+    },
+    {
+      "number": 79,
+      "gaddi_ipa": "unɑsi",
+      "gloss": "seventy-nine",
+      "derived_from": "əssi (80)"
+    },
+    {
+      "number": 89,
+      "gaddi_ipa": "nɑnʋe",
+      "gloss": "eighty-nine",
+      "derived_from": "nəbbɛ (90)"
+    },
+    {
+      "number": 99,
+      "gaddi_ipa": "nəɽinʋe",
+      "gloss": "ninety-nine",
+      "derived_from": "irregular"
+    }
+  ],
+  "unlexicalized_table_cells": [
+    {
+      "table_id": "Table C.1",
+      "printed_page": 127,
+      "pdf_page": 144,
+      "english_gloss": "Million",
+      "printed_cell": "–",
+      "status": "unlexicalized_dash_cell",
+      "notes": "No indigenous lexical numeral form provided in Table C.1 for Million; printed as an en/em dash cell indicating absence of a distinct native numeral atom in this base-10 system."
+    }
+  ]
+}

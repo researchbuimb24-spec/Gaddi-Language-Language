@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Syntactic System and Clause Typology of Kangra Gaddi",
+    "source_id": "kumari_2026",
+    "source_citation": "Kumari et al. (2026), Chapter 5 (pp. 99-116)",
+    "variety_id": "hp_kangra_palampur",
+    "variety_name": "Kangra Gaddi (Palampur)",
+    "license": "CC BY-NC 4.0",
+    "evidence_status": "comparative_only"
+  },
+  "word_order": {
+    "canonical": "SOV (Subject - Object - Verb)",
+    "with_adjuncts": "Subject - Indirect Object - Direct Object - Verb",
+    "modifiers": "Preverbal and prenominal (modifiers precede nouns and verbs)",
+    "adpositions": "Postpositional (nouns precede adpositions)",
+    "scrambling": "Freely permitted for discourse functions; fronted object encodes contrastive focus"
+  },
+  "main_clause_types": [
+    {
+      "type": "declarative",
+      "structure": "SOV canonical; unmarked declarative statements"
+    },
+    {
+      "type": "polar_interrogative",
+      "structure": "Formed by inserting question particle 'kɛ' clause-initially or clause-finally (e.g. 'kɛ tusɛ ədʒ əkhbɑr pəɽ-i' / 'tusɛ ədʒ əkhbɑr pəɽ-i kɛ')"
+    },
+    {
+      "type": "wh_interrogative",
+      "structure": "Wh-in-situ (wh-word replaces questioned constituent without fronting)",
+      "wh_words": {
+        "kɛ": "what",
+        "kuɳ": "who",
+        "kəs": "which",
+        "kijẽ": "how",
+        "kəɖi": "where",
+        "kəjo": "why",
+        "kəɳe": "when"
+      }
+    },
+    {
+      "type": "imperative",
+      "structure": "Second-person subject typically dropped; verb inflects with -ɑ (m), -i (f), -ɛ (pl/hon)",
+      "examples": [
+        "əmb bəɖɖ-ɑ (Cut the mango)",
+        "əndrɑǰo əij-ɑ (Come in)",
+        "behi (Please sit down)"
+      ]
+    },
+    {
+      "type": "exclamative",
+      "structure": "Formed with emotive interjections: 'vah!', 'hɛ bʰəgvan!', 'ərɛ!', 'ərɑ!', 'o:!', 'ʃɑbɑʃ!'"
+    }
+  ],
+  "subordinate_clause_types": [
+    {
+      "type": "relative_clause",
+      "structure": "Correlative construction: relative pronoun 'dʒes' / 'dʒəs' in relative clause + correlative pronoun 'so' / 'təssɑ' in main clause",
+      "reduced_form": "Relative clause directly precedes modified noun without pronouns"
+    },
+    {
+      "type": "non_finite_clause",
+      "structure": "Marked with infinitival suffix -nɑ / -ɳɑ (e.g. 'rəso kər-n-ɑ pəsənd hɑ')"
+    },
+    {
+      "type": "coordinate_clause",
+      "structure": "Nominal or verbal coordination with conjunctions 'tɛ' / 'ətɛ' ('and'), 'pər' ('but')"
+    }
+  ],
+  "core_syntactic_relations": {
+    "wh_in_situ": "Wh-words remain in base structural position; fronting is scrambling for focus, not syntactic movement",
+    "wh_scope_marking": "Direct question reading out of finite complement clauses requires scope marker 'kɛ' in matrix clause (Riemsdijk 1982); single scope marker used for multiple embedded wh-words",
+    "wh_extraction_prohibition": "Syntactic wh-extraction out of finite complement clauses is strictly ungrammatical (*kɛ rɑm dʒɑɳ-d-ɑ hɑ dʒe sitɛ khə-u?)"
+  },
+  "negation_system": {
+    "negation_markers": [
+      {
+        "marker": "/nɑ/",
+        "distribution": "General preverbal negative marker"
+      },
+      {
+        "marker": "/ni/",
+        "distribution": "Preverbal negative marker, interchangeable with /nətʰi/"
+      },
+      {
+        "marker": "/nətʰi/",
+        "distribution": "Negative copular marker, interchangeable with /ni/"
+      },
+      {
+        "marker": "/mət/ or /mətʰ/",
+        "distribution": "Prohibitive marker used in negative imperatives"
+      }
+    ],
+    "tam_interactions": {
+      "perfective": "Negative marker either precedes main verb or intervenes between main verb and past auxiliary",
+      "imperfective": "Negative marker always precedes main verb; indicative copula 'hɑ' is barred when negated",
+      "progressive": "Negative marker precedes main verb or precedes progressive auxiliary 'kər-'",
+      "modals": "Negative marker can precede or follow main verb with modal 'səkɳɑ' ('can')",
+      "complex_predicates": "Negative marker can precede either main verb or light verb"
+    },
+    "negative_polarity_items": [
+      {
+        "npi": "koi bʰi",
+        "meaning": "anyone"
+      },
+      {
+        "npi": "kəddi bʰi",
+        "meaning": "never"
+      },
+      {
+        "npi": "əkkə bʰi",
+        "meaning": "even one"
+      },
+      {
+        "npi": "həlli təkər",
+        "meaning": "until now"
+      }
+    ]
+  },
+  "information_structure": {
+    "topic": "Sentence-initial position; marked by fronting",
+    "contrastive_topic": "Marked by postposed particle 'tɑ'",
+    "focus": "Immediate preverbal position in canonical order",
+    "focus_particles": [
+      {
+        "particle": "hi",
+        "function": "Restrictive focus ('only') / emphasis; attaches to any category"
+      },
+      {
+        "particle": "sirf",
+        "function": "Pre-nominal restrictive focus ('only')"
+      },
+      {
+        "particle": "bʰi",
+        "function": "Additive focus ('even' / 'also')"
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "title": "Morphological System of Kangra Gaddi",
+    "source_id": "kumari_2026",
+    "source_citation": "Kumari et al. (2026), Chapters 2, 3, 4 (pp. 35-98)",
+    "variety_id": "hp_kangra_palampur",
+    "variety_name": "Kangra Gaddi (Palampur)",
+    "license": "CC BY-NC 4.0",
+    "evidence_status": "comparative_only"
+  },
+  "nominal_morphology": {
+    "gender_system": {
+      "type": "two_way",
+      "values": [
+        "masculine",
+        "feminine"
+      ],
+      "phonological_tendencies": "Vowel /u/ typically masculine; vowel /i/ typically feminine; consonant-final variable",
+      "natural_gender_overrides": true,
+      "semantic_classes": {
+        "ornaments": "all feminine (matika, bɑ:li, kəɖoɭi)",
+        "days_of_week": "all masculine (tuɑr, suɑr, breb)"
+      }
+    },
+    "number_system": {
+      "values": [
+        "singular",
+        "plural"
+      ],
+      "count_nouns": "Inflect for plural: -ɑ stems change to -e (nikkɑ -> nikke, buɖʰɑ -> buɖʰe); consonant stems add -ɑ (pɑɽ -> pɑɽɑ, kətɑb -> kətɑbɑ̃); zero inflection (urnu sg/pl)",
+      "mass_nouns": "Do not manifest plural number (teɭi 'oil', čəuɭ 'rice', kʰənɖ 'sugar', kʰɑɳɑ 'food', tɔ:dʒurbɑ: 'experience')"
+    },
+    "case_markers_and_adpositions": [
+      {
+        "case": "nominative",
+        "marker": "Ø (zero marked)",
+        "type": "noun_dependent",
+        "function": "Subject of intransitives, and transitive subjects in imperfective/progressive"
+      },
+      {
+        "case": "accusative",
+        "marker": "-dʒo / -o",
+        "type": "noun_dependent",
+        "function": "Direct object marking; -o is only used on direct objects, never on indirect objects"
+      },
+      {
+        "case": "dative",
+        "marker": "-dʒo",
+        "type": "noun_dependent",
+        "function": "Indirect objects (goals/beneficiaries) and experiencer subjects (pəŋkədʒɑ-dʒo bʰukə ləɡ-ur-i hɑ)"
+      },
+      {
+        "case": "ergative",
+        "marker": "-ɛ (with sonorant gemination on stems) or suppletive oblique",
+        "type": "noun_dependent",
+        "function": "Subject of transitive verbs in perfect tense and perfective aspect (aspect-based split)"
+      },
+      {
+        "case": "oblique",
+        "marker": "stem suppletion: vowel stems unchanged; consonant stems undergo gemination + -ɑ (bisɑl -> bisɑllɑ, rɑm -> rəmmɑ)",
+        "type": "noun_dependent",
+        "function": "Required base for all postpositions and case markers"
+      },
+      {
+        "case": "subject_oblique",
+        "marker": "suppletive oblique stem without overt case suffix",
+        "type": "noun_dependent",
+        "function": "Marks subjects of irrealis mood (future/unrealized events); blocks subject agreement"
+      },
+      {
+        "case": "ablative",
+        "marker": "tʰaũ / hɔ / haũ",
+        "type": "noun_independent_adposition",
+        "function": "Movement away from source, temporal origin, standard of comparison"
+      },
+      {
+        "case": "instrumental",
+        "marker": "-te / -hoɡɡi / -sɔɡi",
+        "type": "noun_independent_adposition",
+        "function": "Instrument of action or comitative accompaniment"
+      },
+      {
+        "case": "locative",
+        "marker": "pur / məndʒ",
+        "type": "noun_independent_adposition",
+        "function": "Spatial/temporal location ('on' = pur, 'in/inside' = məndʒ)"
+      }
+    ]
+  },
+  "pronominal_morphology": {
+    "nominative": {
+      "1sg": "ɑũ / əũ",
+      "1pl": "əsɛ",
+      "2sg": "tu",
+      "2pl": "tussɛ",
+      "3sg_prox": "e",
+      "3sg_dist": "so",
+      "3pl_prox": "e",
+      "3pl_dist": "ɑho"
+    },
+    "accusative": {
+      "1sg": "mindʒo",
+      "1pl": "əsudʒo",
+      "2sg": "tidʒdʒo",
+      "2pl": "tusidʒo",
+      "3sg_prox": "tessijo",
+      "3sg_dist": "tijɑ̃",
+      "3pl_prox": "ijẽdʒo",
+      "3pl_dist": "tijẽdʒo"
+    },
+    "dative": {
+      "1sg": "mindʒo, mu",
+      "1pl": "əsudʒo",
+      "2sg": "tidʒdʒo",
+      "2pl": "tusijo",
+      "3sg_prox": "tessijo",
+      "3sg_dist": "tessijo",
+      "3pl_prox": "ij˜edʒo",
+      "3pl_dist": "tij˜edʒo"
+    },
+    "genitive": {
+      "1sg": "merɑ / meri / mere",
+      "1pl": "indɑ / indi / indɛ",
+      "2sg": "terɑ / teri / tere",
+      "2pl": "təjɑrɑ / təjɑre, tinj̃ɛ",
+      "3sg": "serɑ / seri / serɛ",
+      "3pl": "userɑ / useri, uʋɛrɑ"
+    },
+    "ergative": {
+      "1sg": "mei",
+      "1pl": "ahɛ",
+      "2sg": "tei / tẽi",
+      "2pl": "tussɛ",
+      "3sg": "tinni",
+      "3pl": "tiɳje"
+    },
+    "subject_oblique": {
+      "1sg": "mu",
+      "1pl": "su, əsu",
+      "2sg": "unrecorded",
+      "2pl": "tussu",
+      "3sg": "tessə",
+      "3pl": "unrecorded"
+    },
+    "honorific": {
+      "2nd_person": {
+        "nom": "tussɛ",
+        "acc": "tusijo",
+        "dat": "unrecorded",
+        "gen": "tundɛ",
+        "erg": "tussɛ"
+      },
+      "3rd_person": {
+        "nom": "uɳi",
+        "acc": "tijẽdʒo",
+        "dat": "ijẽdʒo",
+        "gen": "unrecorded",
+        "erg": "unrecorded"
+      }
+    },
+    "reflexive": "ɑpɳ-X (inflects for gender and number: ɑpɳɑ, ɑpɳi, ɑpɳe)",
+    "neutral_pronoun": "ta (words for 'it')"
+  },
+  "verbal_morphology": {
+    "verb_templates": {
+      "template_1": "Verb_Root + TAM_suffix + AGR_suffix",
+      "template_2": "Verb_Root-TAM_suffix.Gend + Auxiliary + AGR_suffix"
+    },
+    "inflectional_affixes": {
+      "infinitive": "-ɳɑ (after vowels) / -nɑ (after liquids /ɾ, ɭ/)",
+      "first_causative_transitiviser": "-ɑ (e.g. kʰil-ɑ-u)",
+      "second_causative_causativiser": "-ʋɑ (e.g. pil-ʋɑ-u, kʰil-ʋɑ-u)",
+      "past_tense_auxiliary": "tʰ-u (masc.sg), tʰ-i (fem.sg), tʰi-jɛ (plural/honorific)",
+      "future_tense_suffix": "-ɳ + agreement (-ɑ/-i/-ɛ)",
+      "perfect_tense_suffix": "-ur + agreement (-ɑ/-i/-ɛ)",
+      "imperfective_aspect_suffix": "-d (after closed stems) / -nd (after open stems) + agreement (-ɑ/-i/-ɛ)",
+      "perfective_aspect_suffix": "-u (masc.sg) / -i (fem.sg) / -ɛ (plural/honorific) - encodes 'Gend' feature (ma/fe)",
+      "indicative_mood_auxiliary": "h-ɑ (singular) / h-in (plural/honorific)",
+      "epistemic_mood_suffix": "-ɭɭ + agreement (-ɑ/-i/-ɛ)",
+      "imperative_mood_suffix": "-ɑ (masc.sg), -i (fem.sg), -ɛ (plural/honorific)"
+    },
+    "agreement_hierarchy": "Honorificity > Number > Gender (Steele 1978; Masica 1991)",
+    "case_blocking_rule": "Case marking on an NP blocks that NP from controlling agreement on the verb. If subject is ergative/dative, agreement falls to direct object. If direct object is also case marked (-dʒo or -o), verb takes default agreement (3sg.m)."
+  }
+}
