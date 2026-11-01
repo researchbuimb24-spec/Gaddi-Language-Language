@@ -1,0 +1,503 @@
+  1 | air bya:r bāger agg, biar biar
+  2 | ashes dhu:R rākh - dhodu
+  3 | cloud baddal bādeL baddal badalu
+  4 | cold tanD shela seet hi:th
+  5 | darkness neha:ra nhēra andāru nhe:ra
+  6 | earth dhart bhuĩ darti dhart
+  7 | eclipse grehenu grō̃Nu saragu gra:n/grĕn
+  8 | fire a:g āgu aag a:g
+  9 | fog dhu:ri dhuĩ dho:r dundu
+ 10 | forest daNu boNu ba:nnu banu
+ 11 | hill paha:Ri pahār pahaR heu
+ 12 | ice hiyũ barf selow/hew hi:t
+ 13 | lake - sarōwar - -
+ 14 | pond teLa - - -
+ 15 | moon chandrema chanderma sukure/chand chanani
+ 16 | mountain paha:R parbat re:d angãri/ankari
+ 17 | rain barkha barkhā jari barkha
+ 18 | river dreya: dreyo daryo adaria
+ 19 | road bat shaRek sitiku sarak/rasta
+ 20 | sand te:tar baLlu jan/beina letha: r
+ 21 | sea samudr sāgAr samundar samundar
+ 22 | sky ga:s smān asman ambar
+ 23 | snow o:s hyũ hiyu heũ
+ 24 | star ta:ra tāra tara sta:re
+ 25 | stone pater patheR góR na: r, gholē
+ 26 | storm anDeR thufān tuffani biar
+ 27 | sun surej sūraj surj -
+ 28 | water pa:Ni chis pa:ni pani
+ 29 | weather rit mōsembu meg a) halkibiyari, b) moţţibiyari
+ 30 | wind bya:r hawā biar biyari
+ 31 | wood lakkaRi lakkhaRi lakRi ciŗi
+ 32 | baby te:rek baccha bache nikka/bacha
+ 33 | boy Tashu baghēr chokru gobru
+ 34 | bride noila:Ri lāRi la:ri lāda
+ 35 | bride groom nowa / a:Ra lāRa la:ra ladi
+ 36 | brother - - - -
+ 37 | brother elder - bhaRa bhaiya baraba moţţabhiyalu
+ 38 | brother younger bha:I chōRa bhaiya halkaba halkabhiyalu
+ 39 | child bacca baccha bacha nikka/bacha
+ 40 | daughter kuDi bēTi chokri deo ============================== PDF 1114 (Printed 1090) ==============================
+ 41 | father ba:p pita babb,baba buŗa/chacha
+ 42 | friend mitr mitr mitre a:ni
+ 43 | girl kuDi chōhTi chokri kuri
+ 44 | husband la:Ra pati laRa lada
+ 45 | male ourk thinD mard mard
+ 46 | man purk mich meynu manu
+ 47 | marriage bya biyāhe - biy?a
+ 48 | maternal uncle sa:la māma maira bã: mama  (mÒla)
+ 49 | mother in law - - - -
+ 50 | mother ma amma amma amma/eziz
+ 51 | nephew naNNoi bhānja behedriya batija/bandri- yar/badri-ja
+ 52 | niece batheri bhānji bethri banji/bhareyi
+ 53 | old man buDDa syāNa saina mãn budda/sena
+ 54 | person purk mich meinu manu
+ 55 | tall lambe lemba lamma lamma
+ 56 | lean patella patla patare lissa
+ 57 | fat moTa moTa tulla tulla
+ 58 | dumb bo:La gunga taTTa gunga(tatta)
+ 59 | blind aNha kāna kana anda
+ 60 | sister (younger) - - bi:R bhenu
+ 61 | sister (elder) didi/bubbi - - baroji/barki/shalanu
+ 62 | sister-in-law sha:li SaLi sa:Ri -
+ 63 | son puteri bēTa puttar go:bru
+ 64 | widow ranD rānD biduay rendulu
+ 65 | wife la:Di garwāli la:Ri tirmbath/lari
+ 66 | woman jana:Ni jewāhis jenani janani/betari
+ 67 | ant muko:Ri ciMTi kiRi kakhi(cha:chi)
+ 68 | bird pakhshi panchi ciRu pakru
+ 69 | cat bil:Ri breli biraDu billi
+ 70 | claw - panja nesh béŗu/bacchu
+ 71 | cock kokoR murga kukur/pakru kukudu
+ 72 | cuckoo - - - -
+ 73 | cow ga gawō ga ga
+ 74 | crab ke:kaRa kēkRa - shekda
+ 75 | dog kutta kutta kutta kutar-u
+ 76 | egg anDa anDa ande:ru andā
+ 77 | feather phank(u) hatiNi panku phaŋg
+ 78 | fish macchi macci machli/macci machi
+ 79 | fly makhi pank ma:ch udderna
+ 80 | fox giddeR gidAR/phewL a syal hōnki
+ 81 | goat - bakri bakri bakri
+ 82 | hare - - - - ============================== PDF 1115 (Printed 1091) ==============================
+ 83 | horn - sing singe: hing
+ 84 | horse - shōRa ghoRe gora
+ 85 | lion - shēr ser ser
+ 86 | house - gOur ghar ghar
+ 87 | monkey - bānder bandar bandharu
+ 88 | nest - kōlh gulla alla
+ 89 | tail - rūnc jamme:re chumuttu
+ 90 | tiger - shēr rik mirg/brāg
+ 91 | tortoise - kanchua kaccua kachhu
+ 92 | wing - chimRi pank pãnku
+ 93 | work - kām kam kam
+ 94 | back - pīT wapas pith
+ 95 | blood - khūn khoni raktu
+ 96 | body - dēh sarir/jhan deh
+ 97 | bone - haDDi haDDi haddi
+ 98 | breast - cha:ti chati hick
+ 99 | chest - cha:ti chati chāti
+100 | ear - kānd kanu kān
+101 | eye - āk ti?re hākhri
+102 | face - mũ mu/chera muh
+103 | fever - bukhār bukar tāp
+104 | finger ongelu guThi ango:re anguli
+105 | foot pair panja paid char
+106 | hair chu:R bāL bal/kesh haralu
+107 | hand ha:t hāt hat hāth
+108 | flesh mãs pũThe mãs -
+109 | month - - - -
+110 | head sar sir sir múndu
+111 | heart dil ji:w dil dhil
+112 | leg jang Tāng jung jung
+113 | lip o:T ōt o:T labbudu
+114 | liver jigger kalēja hottu kalija
+115 | lung hrdyo phafDa pepheta fiipheru
+116 | mouth mu mũ mu mũ/toppudu
+117 | neck garden kēDi kundi kai-di
+118 | nose nak nāk nakku nakku
+119 | pain - - - -
+120 | spine - rīlh piT r᷉id
+121 | tongue jib jiM jib jibh
+122 | tooth - dā̃nt dhad dãnd
+123 | waist - kamar kamri dhak
+124 | fruit phal fal fhal fhal
+125 | liquor sara:b sarāb sarab dàru
+126 | milk dud dud dudu: dūdh
+127 | salt nimak lūn lo:ru loon ============================== PDF 1116 (Printed 1092) ==============================
+128 | smoke dũp duwã dhua dÕa
+129 | uncooked rice - cāul kache chawl kachachoul
+130 | kidney - - - -
+131 | ear ring ba:liyã - - -
+132 | banian banian baniyen anki baanian
+133 | cloth kapad kapeD kapra hodunu
+134 | door darwa:j - duar/du?r -
+135 | roof chati - chat -
+136 | rope rassi - dhoru jóra
+137 | cotton kapaDa kapha kaTTen kapha
+138 | front tuck - - kirich/kirij -
+139 | loom - carkha gaDDi hārnu/rachu
+140 | stick soThi sōti disa/sari hoti
+141 | bed - bister manja bechanu
+142 | door - derwāja duar/du?r dār(bidhu)
+143 | house ghar ghōr ghar ghar
+144 | roof - chat chat chāti
+145 | rope - rashi dhoru -
+146 | well water khu: kuwẽra pāNi kukaru pani/karu pani kú
+147 | flute flu:T bansri biyule
+148 | wall dwa:l dwār kant kand
+149 | window kiDki kiDki kiRki dāri
+150 | bamboo banju bhā̃s ba:s banju
+151 | banana kheLa kēLa kela kela
+152 | barks - taNNa chilna guguna
+153 | brinjal manj batã beganu bhendhu
+154 | chilly pipali mirche pipeRi pipi
+155 | coconut narkal neril narial fhal/fal
+156 | flower phu:l - phul fhul
+157 | garden bagicha begicha bagija bagija/bag
+158 | grass gã ghā ga gáh
+159 | jack fruit kaTeD kaThal kajur khathal
+160 | leaf patta patta patar patre
+161 | mango a:m ām a:m āmb
+162 | paddy dha:n dhān kanak dān
+163 | plough - ?ōl - banna
+164 | potato alu hal galole ālu
+165 | root jAd jeR jaR jar
+166 | sweet miTTa: miThāi miTTa chein
+167 | tree pe:D dāL buta/buT boT
+168 | vegetable tarka:ri sabji sabji sabji
+169 | labourer majūr - mujur
+170 | land - - - -
+171 | money lender - sahukār - choukar/ jimdar ============================== PDF 1117 (Printed 1093) ==============================
+172 | net - jāl - jala
+173 | potter khumar kamhār kumar kumàre
+174 | weaver bunukar julāha bununar jula
+175 | bitter koRa kaRuwa kaRka: kāTna
+176 | cheese - - - -
+177 | creeper - - - narel
+178 | fruit phal fal - fhal/fal
+179 | guava pyara amrūd - mrūd/amrood
+180 | lily - kamal - sartajidi
+181 | wheel chakka pahiya - teir
+182 | gum - gūnd - gondu
+183 | farm land - khēch - hād
+184 | mid wife - dāyi dayi dayi
+185 | black kha:la ka:la kala kalah
+186 | blind - khāna kana/anda anda
+187 | blue ni:la nila - nila/lila
+188 | coldness - shela tanDa hith
+189 | green hara hara hara hāra
+190 | hot - - - -
+191 | light - presa lightu/liTu lo
+192 | red - lāl la:l lal
+193 | brown bhu:ra bhuRa bo:ra bura
+194 | bright chamkila camkhila chamkila chamkidar
+195 | sour khaTTa khaTTa amlu katta
+196 | sweet mitta: miTha meTTu miTTa
+197 | white safed sapēd hatchu hachha
+198 | yellow pi:la pīla halduru piyula
+199 | hungry bu:g bhūka bru:k bhrukna
+200 | love bya:r pyār piya:ru dā
+201 | pain dard beddanu bredth pīR
+202 | TRUE sac saccha such sāch-a
+203 | wish - chahena ashirwa:d -
+204 | ink ka:li syāhi siyay ciyei
+205 | school pa:Dsa:la skūl sku:l skulue
+206 | bus vidya:rti bas - bassu
+207 | student adyapak pRahāku paRir skulieye
+208 | teacher - guru master masTer
+209 | bullet - gōli gole: goR
+210 | drum - dhōl do:l dholki
+211 | enemy - beri dusman dusman/beyari
+212 | debt - rīNu karja ri-ni
+213 | divorce kasem mard talak pharkadi
+214 | festival dweha:r dewahār mela dhuaru
+215 | heaven - surg sarakanj suwarg/surg
+216 | hell - narek empu:ri nark ============================== PDF 1118 (Printed 1094) ==============================
+217 | theft churi chōri cho:r chori
+218 | fair - - - -
+219 | worship - pūja o:ja:j puja
+220 | play - - - khelha
+221 | gold sona sona sona sunnu
+222 | iron loha loha lohar loha
+223 | brass pittal pital pital tramba
+224 | lime - cuNa nibu tattā
+225 | money phase pAsa paisa: dhela/peha
+226 | silver slver chāndi chande: chandi
+227 | garland maLa hār fhul-a-kera mala
+228 | first pahela pehela pehele: phela
+229 | second duwa duja dusra dua
+230 | third treyya tija tisra: triya
+231 | one e:k ēk ak ak
+232 | two do do do: due
+233 | three ti:n tin tra: tray
+234 | four cha:r cār ch:ar/jor chour
+235 | five pãn panj pa:nj panj
+236 | six che ce cho: chey
+237 | seven sa:t sat sakt sat
+238 | eight a:t ath at aT
+239 | nine nou nOu no no
+240 | ten das dash das dahu
+241 | sixteen cho:la soLa so:la sohra
+242 | twenty bi bi bi bi
+243 | forty ca:li chāLi chaRe cháre
+244 | blind - bāndNa andna/joRna bandna
+245 | blow(balloon ) - beheNa phukida bejana/bún
+246 | blow(kick) - - - -
+247 | break chorna toRNa danda, bhandna
+248 | burn jaLna jalNa po:kna fhukna
+249 | carry uThana cakhna, uThana, cakhna neon legana
+250 | catch pakedna picha karNa, pakeDna, pōkNa. pakkaRna pakkaRna
+251 | clean - sāf saf sāfchudra
+252 | do kar kar ka:nu karna
+253 | fall girna - girna urdna
+254 | hold pakeDna pakeDNa pakkarRna pakRna
+255 | lick cha:Tna chāTNa sammand chaTna
+256 | make banana baNāna banana banana
+257 | mix milna milāNa kollunu malana ============================== PDF 1119 (Printed 1095) ==============================
+258 | open kho:lna - ucchanu -
+259 | pick uTha:na uThāNa cikkanu chukna
+260 | hit saT - - marna/tukna
+261 | arrive pahuncna pahuncNa - punjuna
+262 | lean sa:f - bal/pitram gherutena
+263 | thick - ghNna / garāh - ghana
+264 | play khe:lna - kelenu kheldna
+265 | pull khi:cha khĩcNa cikkanu chikna
+266 | flow beheNa tērna - luRna
+267 | push dhak:Dna dhakēLNa dakkanu dakkhadéna
+268 | put rakhna rΛkhNa soTTunu rakna
+269 | work ka:m karna - - kam
+270 | kill ma:rna - marna marna
+271 | sing ga:Na gāNa gana gana
+272 | bring la:na lāNa la:na lina
+273 | climb upper caDna upper caRNa - chaRna/ku?ana
+274 | come a:na/I:na āNa - ĩna
+275 | drag kĩcan kĩcan cikuno àgupichu
+276 | get pa:na - meli-nu lena
+277 | go ja:na jāNa ganu gana
+278 | jump kuDna kudNa uTganu/ chat kuduna
+279 | move hilna hīlNa chalonu khelkna
+280 | stand up khaDna - karuat kariga
+281 | take le:na lēNa leru lena
+282 | walk calna calNa chalane: handna
+283 | rub malna malNa - malna
+284 | sell bẽ:can bēcNa - bichna
+285 | shut handna bΛndkaRna - bandkarna
+286 | sink Dukna DugNa - dukna
+287 | sprinkle chiRkna chiRukNa - ku? ara
+288 | squeeze (cloth/ lemon) nichoDna nichōDNA - mechōduna
+289 | spit thukNa thukNa - tukna
+290 | hunt sika:r sikār karNa - -
+291 | shoot golimarna gōLi mārNa - golimarna
+292 | split ciRna cīrNa - dalna
+293 | fight laDna laDNa - ghodlna
+294 | quarrel jageDna jhageDNa - mukki
+295 | enter andor ja:na ander jāNa ei-nu goosndna
+296 | escape bacnielna bac nikelNa nasu_nu
+297 | fly uRna uRNa udder-nu uddurna
+298 | get up ja:gna jāgNa uTTunu jagna/uTTna
+299 | give dena deNa denu dina
+300 | tear pha:Dna phāDNa - athru/tipla
+301 | stab ghõmpna ghõmpNa takna marna ============================== PDF 1120 (Printed 1096) ==============================
+302 | throw phẽkna phẽkNa - phekno/t
+303 | hit drum baja:na bajāNa - -
+304 | dance na:can nācNa nacna nacna
+305 | wash dho:na dhōNa - dona
+306 | wash (utensils) - - - -
+307 | wipe põcan pō̃can - phujana
+308 | disappear - - - -
+309 | cut katna kāTna - badna
+310 | dig kho:dNa khōdNa/ khanuNa - khalna
+311 | milk duhna duhNa - dud
+312 | bark bõkna bõkNa - guguna
+313 | drink pina pīNa - pīna
+314 | eat khana khāNa - kana
+315 | feed bajen deNa bōjen deNa - kũana
+316 | call palka:rna/bula:n a pukārNa - badana
+317 | write li:kna likNa - likna
+318 | run do:dna doDNa - toRna/nahna
+319 | send be:jna bējNa - bejuna
+320 | slip bu:lkarNa būl karNa - kisna
+321 | swing ju:lna jūlNa - jhuTTina
+322 | swim Te:rna TērNa - karna
+323 | vomit ulTi karna ulTi arNa - fhatay
+324 | cultivate jo:tna jōtNa kammana bhána
+325 | comb kanghi ma:rna anghi karNa - kangu
+326 | graze charana carNa ga: charna
+327 | harvest kaTa:na phasel kaTāyi ikkenu badna
+327 | lend uterna uterNa dena udar
+328 | plant ro:pna rōpNa botte butta pakna
+329 | paddy - - - -
+330 | reap ka:Tna kāTNa baTne pakkura
+331 | sow cirna bouNa takkhano: bi?ana
+332 | bite ka:Tna kāTNa badano kaTna
+333 | suck chu:sna chūsNa chusna pina
+334 | tie bandna bandNa paleTna bannuna
+335 | wear pahenna paheNNa la:nu lana
+336 | answer jewa:b dena jAwāb dēNa uttar uttardena/jawabden a
+337 | ask pu:can pūcNa pucho balna
+338 | say geana kaheNa bolunu kekna
+339 | shout cilla:na ciLLāNa phekna/tajakn a raulaphena
+340 | hide chu:pna chapāNa - lukna/lukīrna
+342 | keep rakhna rΛkhNa - rakna/théna/ mrodna
+343 | turn muDna muDNa badalno rookna ============================== PDF 1121 (Printed 1097) ==============================
+344 | stop rukna rukNa nigalna
+345 | swell suja pūlNa appuronu paRna
+346 | read paDna paDNa paTno chakna
+347 | sleep/lie suna soNa, paDe rehNa - -
+348 | love - rakNa piyar khijura
+349 | tired takna kijinu na
+350 | name nam nāmleNa - moTTa
+351 | big baDa baDa - chãlna
+352 | choose cunnuNa cuNNuNa chuluna marna
+353 | die mara marNa marigu -
+354 | life - - jinta kmana
+355 | earn kama:a kamāNa kammo-nu behna
+356 | sit be:Tna bēTNa besun baddalna
+357 | change badelna hadelNa badalna tanDerna
+358 | freeze jam karna jamNa - sinna
+359 | wet bhi:g bhīgNa sikdar januna
+360 | know ja:nuna jānuNa jadna hihra/sikkaRna
+361 | learn si:k sikNa sikarnu sojna
+362 | think sõc sōcNa sochnu līra/runa
+362 | cry ro: rōNa cinDe jorg
+363 | fear Der DarNa darno/dannu hurna
+364 | hear sunna sunNa sono-nu hasna
+365 | laugh hãsna hā̃sNa hasanu jaguna
+366 | taste cAkna cakNa chonu -
+367 | annoy kro:d karna krōd karNa - pokka?a
+368 | kiss chundna chundNa buku da
+369 | love pya:r pyārkarNa piyar nehna
+370 | bathe nahana nahāNa sandu chuna
+371 | smell sungna suMgNa - cheR
+372 | touch chuNa chuNa - ţkarna
+373 | wake up ja:g na jāgNa - mulna
+374 | meet milna milNa kituN fhirna
+375 | repay chukka:na cukhāNa - dasuna
+376 | show dkha:na dikhāNa kuruk kuruk gichidna
+377 | scratch kurucna kurucNa jab kara
+378 | good acca acca kara lamma
+379 | long lambe lamba lamma nowa
+380 | new naw naya nowa prana
+381 | old purNa purāNa purano kuch
+382 | some kuc kuc thoD halka
+383 | small cho:Ta/nikke chōTa halka thoD chehhil
+384 | smart hansmuk hansmuk chẽR padra
+385 | smooth sa:f sidha / sāf cipra sidda
+386 | straight sidha sidha sidda: - ============================== PDF 1122 (Printed 1098) ==============================
+387 | far - - du:r doara/dually
+388 | again duba:ra debāra pehla róje
+389 | always sada sada roj pehlé
+390 | before paheLa pahele dyari her roj
+391 | daily ro:j rōj ro:j dheRa
+392 | day di:n din dyari sajnu
+393 | evening sa:nj sānj sandarac -
+394 | late der - - āj
+395 | today a:j āj a;j dóddé
+396 | tomorrow aglekal aglakal dode / dote hī
+397 | yesterday picalekal piclakal perhe dualli
+398 | after ba:d bād pichore pichu
+399 | behind piche pīche majamma mojati
+400 | between bicme bīcme ni:r tũaye
+401 | for keliye keliye sakkiya tauru
+402 | from ka se se so/so
+403 | he, she se she ukkiya/sakkay idi
+404 | here itte yeti usara so
+405 | his/ her teserA tesra / tesri usera hau
+406 | I me phã au e
+407 | it/ this ye ye ikkiyiya kusera(sĕra)
+408 | like sama:n samān enane munju (meratãye)
+409 | my mera mera minda na/niya
+410 | not ni/mat naĩ na: su
+411 | that se se okkiya su
+412 | those se sew tain haye
+413 | there utte teti - tari
+414 | they se sew ukkiya su
+415 | their cinNora cinnora ukkiye tiara
+416 | these ye ?e unaro assi-jo
+417 | we use hamme ekkia/asaDu ke
+418 | what ka ka kuttu/okya kane
+419 | when kittane kadi kediya kaDi
+420 | where kette keyi koreya tu(sg)
+421 | you tu tu / āp tua tue: tue(pl)
+422 | to you tusi tereko tua:re - tay tusiju/tunda
+423 | your tusera tera thoDa sal
+424 | year bars bars hora/sa:d kane/aur
+425 | and aur aur aur púr
+426 | at par par gar ji/je
+427 | if tã je gar andar
+428 | in re me ai bura
+429 | bad bura bura bura lachna
+430 | dirty gande ganda tikku:na kugga
+431 | dry sukha sukhāNa sukkenu banked/jangli
+432 | wild jangli jangli halke dimmaki ============================== PDF 1123 (Printed 1099) ==============================
+433 | wise samejda:r samejdār salak sirndakkarna
+434 | east pureb pureb purub mugda
+435 | end anth ant kadam dūr/dured
+436 | far du:r dūr du:r sajikinanu
+437 | right side sajja - daina sajahāt
+438 | middle bi:c bicla majamma maja-ātte
+439 | north utter utter uttar uttari
+440 | left - - omle pase -
+441 | morning bhensa:r bhenser biyaga: baghig
+442 | breakfast - - - -
+443 | many khu:b bagOut matte máte
+444 | narrow tang tang tang sangda
+445 | raw kacca kacca kaccu katcha
+446 | rotten soda saDa hua saRau hadua
+447 | right Ti:k Thīk ti:k-u tīk
+448 | dull phika phika ti:ku dag
+449 | sharp te:j tēj tej peyna
+450 | short cho:Ta chāTa halka choTTa
+451 | soft nerem - naram khúna
+452 | thin patla patla patle patla
+453 | ugly bhadda bhadda dide kluchna
+454 | vice burayi burāyi - kudarsna
+455 | virtue guna gunu - sobdeyaDa
+456 | left side khunja khunja kannāra omle pase khabikanare
+457 | near nheDe nhēDe ni:r riddé
+458 | out bahare bahere baya bakar (ba? r)
+459 | south dakkhen dakkhen daksin dakkanu/dajanu
+460 | fast te:j tēj chui taule
+461 | full moon day purana punya puniu pũnniya
+462 | month mahina miNNa mahina maina
+463 | dinner - - - -
+464 | night ra:t rāt ra:t rāta
+465 | season mosom mosem sijan rit-karo
+466 | by ka se hat ini-mattey (this side)
+467 | down nice nice eRniyati bu? ya
+468 | how kaisa kasha katiya -
+469 | who - koun kanu kone
+470 | to us - hammānke anaro/asaDu e
+471 | to it/to this ye yeke ikkiyiya is
+472 | its/of this ye yesra - ettiyo
+473 | our - mara asada / asaRa mera
+474 | liquor - - - -
+475 | ground nut - - - -
+476 | beans - - - -
+477 | canal - - - - ============================== PDF 1124 (Printed 1100) ==============================
+478 | apple - - - -
+479 | courtyard - - - -
+480 | wave lehar leher - challi
+481 | grass shoe - - - -
+482 | socks - - - -
+483 | wool - - - -
+484 | shoe - - - -
+485 | nail - - - -
+486 | court yard - - - -
+487 | pillow - - - -
+488 | god - - - -
+489 | blanket - - - -
+490 | spider glau glau gro:d groDDu
+491 | belly - - - dhidh
+492 | ancestor piter piter potre paTa potre petaru
+493 | brother-in- law sa:la sāla sala salā (jija)
+494 | sister-in-law Sali sāli sali Sali(daroji)
+493 | beard dha:Ri dhāRi - gaDi
+494 | moustache mũc mũc - múcha
+495 | navel koDu koDu - neynu
+496 | mirror ain aiNa - sisa
+497 | to me manke mankhe - kinna(inna)
+498 | to them tinake tinnāke - tiya jo
+499 | garlic lassen - - -
+500 | mouse musa musa musa muha

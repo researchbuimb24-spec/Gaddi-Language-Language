@@ -1,0 +1,476 @@
+
+============================== PAGE 1 ==============================
+LINGUISTIC SURVEY OF INDIA 
+ 
+  
+  
+ 
+   
+  
+ 
+    
+ 
+  
+ 
+
+============================== PAGE 2 ==============================
+LINGUISTIC SURVEY OF INDIA 
+ 
+  
+  
+  
+  
+  
+ 
+    
+ 
+  
+ 
+ 
+  
+ 
+HIMACHAL PRADESH 
+============================== PAGE 3 ==============================
+i 
+ 
+CONTENTS 
+ 
+             
+  
+  
+  
+  Pages 
+Foreword  ii-iii 
+Preface  iv-vi 
+Acknowledgements  vii 
+Abbreviations and Phonetic Symbols  viii-xv 
+List of Maps  xvi 
+Chapter 1 - Introduction Ranjita Pattanaik 1-57 
+Chapter 2 - Indo- Aryan Language (Hindi Languages/Mother Tongues) 
+Bharmauri/Gaddi N.Gopalakrishnan 58-119 
+Churahi    N. Gopalakrishnan 120-175 
+Chambeali    S.Ganesh Baskaran  176-234 
+Kangri N. Gopalakrishnan 235-282 
+Keonthali                                           S. Ganesh Baskaran 283-377 
+Kulvi                                                                  Ranjita  Pattanaik 378-446 
+Mandeali     Sibasis Mukherjee 447-494 
+Pangwali                                                               Soumi Banerjee & V. Renuga Devi 495-568 
+Sanori  S. Ganesh Baskaran 569-615 
+Sirmauri       P.Edward Vedamanickam & Jhuma 
+Ghosh 
+616-670 
+Chapter 3 - Indo Aryan Language (Punjabi Languages/Mother Tongues) 
+Bhateali    P.Edward Vedamanickam 671-712 
+Bilaspuri/Kahluri  P.Edward Vedamanickam 713-745 
+Chapter 4 - Indo-Aryan Languages (Dogri, Nepali) 
+Dogri                                                          R. Nakkeerar & Sarita Panda 746-806 
+Nepali   S. Ganesh Baskaran 807-856 
+Chapter 5 - Tibeto-Burman Languages (Kinnauri, Lahauli and Bhotia) 
+Kinnauri       P. Perumal Samy 857-950 
+Lahauli       Dipshikha Bose & J.C. Sharma   951-1014 
+Bhotia   S.Ganesh Baskaran 1015-1076 
+Chapter 6 - Comparative Lexicon of 17 Languages/ Mother Tongues 1077-1134 
+============================== PAGE 4 ==============================
+ 
+ii 
+ 
+FOREWORD 
+ 
+The Language Division of the Office of the Registrar General, India (ORGI) established in 1961 assists 
+the Registrar General, India , primarily in the Census operations of the nation . Over the years, it has  
+expanded its activities and ventured into new areas  using the classified and unclassified Census data . 
+Several projects were started with a goal to document and describe the lesser -known mother-tongues 
+of India. Linguistic Survey of India (LSI) is one such project that is being carried out successfully by 
+the Office of the Registrar General, India, Language Division since Sixth Five Year Plan  of the 
+country. Though many researches were conducted based on Lord Grierson’s monumental work of the 
+Linguistic Survey of India, there are hardly any comprehensive surveys that followed it, especially on 
+the state-wise linguistic composition. Thus, the LSI project is one of its kind that throws new light on 
+the status of the languages and its dialects spoken within the States and Union Territories across India, 
+especially in the post-Independence era. 
+ 
+ Linguistic surveys of this nature are essential to determine the language development needs  
+and priorities in a multilingual country like India. They not only help to understand better the linguistic 
+scenario of a particular state or union territory but also pave way to determine a lingua franca for use 
+among the various speech communities within a language . They can open doors for mother -tongue 
+education, for dissemination of literature and other valuable knowledge. They also help in preserving 
+and promoting the lesser -known mother -tongues, and stimulate further research activities. These 
+surveys will certainly help the language planners and policy  makers in reformulating the language 
+policies of the nation. 
+ 
+ From this perspective, the language division of the ORGI is doing a commendable job through 
+this post-Griersonian Linguistic Survey of India Project by publishing survey reports in the form of  
+state-wise volume s. Each of these volumes  include a grammatical sketch, demographic and 
+sociolinguistic profiles that are compiled using a  uniform questionnaire and template. The output of 
+their another project titled the Mother Tongue Survey of India (MTSI) Project provides the basis of 
+analysis for this survey across States especially in establishing the linguistic identities of several  
+mother-tongues that are unclassified and thereby augmenting the linguistic scenario of the individual 
+states. The ORG I has already published the following volumes: LSI -Orissa, LSI -Dadra & Nagar 
+Haveli, LSI -Sikkim (Part I & II), LSI -Rajasthan (Part -I), LSI -West Bengal and LSI -Bihar &  
+LSI-Jharkhand. 
+ 
+ I am very delighted to present the LSI-Himachal, the 8th in this series. Himachal Pradesh, one 
+of the beautiful states of India, is bounded by Jammu and Kashmir Union Territory to the northwest, 
+Ladakh to the northeast, by Tibet to the east and by the States of Uttarakhand to the southeast, Haryana 
+to the south, and Punjab to t he west of it. This makes it linguistically diverse with people speaking a 
+number of languages from different language families. This volume is the collection of grammatical 
+sketches, demographic and sociolinguistic profiles of 17 mother-tongues spoken in Himachal Pradesh 
+(out of which 2 of them are scheduled languages)  that belong to Indo -Aryan and Tibeto -Burman 
+language families. Among the Indo-Aryan, 10 mother-tongues, namely, Bharmauri/Gaddi, Chambeali, 
+Curahi, Kangri, Keonthali, Kulvi, Mandeali, Pangwa li, Sanori and Sirmauri  that belong to the Hindi 
+group are described in a separate chapter. This is followed by descriptions of 2 mother -tongues, 
+============================== PAGE 5 ==============================
+ 
+iii 
+ 
+Bilaspuri/ K ahluri and Bhateali  of the Punjabi group. A separate chapter is devoted to  the two 
+scheduled languages, Dogri and Nepali. This volume also describes three Tibeto-Burman languages, 
+namely, Bhotia, Kinnauri and Lahauli. Besides this, the last chapter provides a comparative lexicon of 
+these mother-tongues and languages that helps one to understand the linguistic relationships they have 
+with each other. 
+ 
+ I congratulate the entire team led by Dr. Vivek Joshi, IAS, Registrar General & Census 
+Commissioner, India, Shri Manoj Kumar, Deputy Director General, Dr. Vishwanath, IAS, Director, 
+DCO West Bengal & Controlling Officer (Language Division) and Dr R.Nakkeerar, Research Officer 
+(L) & Head of Office of the Office of the Registrar General, India for their constant support and tireless 
+efforts in bringing out this volume successfully. The contributions made by the team deserve a special 
+mention here.  I appreciate Dr. Ranjita Pattanaik , Senior Research Officer (Language)  for the  
+informative introductory chapter that beautifully presents an overview of the languages of Himachal 
+Pradesh from historical and linguistic perspectives. This chapter  provides detailed demographic 
+profiles of the languages/mother -tongues spoken across the various districts of the State in  a very 
+systematic way drawing figures from the 2011 Census of India.  I also would like to place on record 
+the efforts put in by all the Research Officers (Language) of the ORGI, especially Dr. R. Nak keerar 
+for taking up the responsibility of getting this volume published. I take this opportunity to commend 
+the following scholars for their valuable contributions to the main chapters  in this volume :  
+Dr. Ranjita Pattanaik, Dr. S. Ganesh Baskaran, Dr. P. Perum alsamy, Dr. R. Nakkeerar, Dr. Sibasis 
+Mukherjee, Shri P. Edward Vedamanickam, Dr. N. Gopalakrishnan, Ms. Sarita Panda, Ms. Dipshikha 
+Bose, Ms. Soumi Banerjee and Ms. Jhuma Ghosh, Dr. V. Renuga Devi and Dr. J.C. Sharma. 
+This volume will certainly serve as a reference material on the languages of Himachal Prades h for 
+academicians and government organisations. It will be of great value for the purpose it is aimed at and 
+be a baseline to classify languages systematically . I trust that this will be an impetus to encourage 
+further study and research in sociolinguistics, ethnolinguistics, descriptive linguistics , documentary 
+linguistics, language pedagogy, and typological studies that would add to the descriptive typology of 
+the Indo -Aryan and Tibeto -Burman languages , and to the genealogical , demographic  and 
+sociolinguistic databases of the country.   I have no doubt that this will be a useful document for 
+language planners in identifying the specific language development needs for social mobility, mother-
+tongue education and language empowerment in Himachal Pradesh in particular and India in general. 
+Mysuru                                             Professor Umarani Pappuswam 
+August 29, 2022          Professor-cum-Deputy Director 
+               Central Institute of Indian Languages 
+                  Mysuru. 
+
+============================== PAGE 6 ==============================
+iv 
+ 
+PREFACE 
+ 
+           With the aim and purpose of presenting an updated linguistic scenario and of taking 
+account of the sociolinguistic changes in our society and territorial boundary as well as in our 
+language resources, the “Linguistic Survey of India” project of the Office of the Registrar 
+General, India, Language Division is under operation state by state since the end of the last 
+century. “Linguistic Survey of India -Himachal Pradesh” is a work in descriptive linguistics 
+comprising of descriptions of seven Languages surveyed in short spells during a long-time span 
+period of 1995-2008. Considering the present scenario of the state of Himachal Pradesh, the 5 
+Languages along with 12 Mother Tongues are being presented in this Himachal Pradesh 
+Volume based on their soc iolinguistic importance, their speaker’s strength, as well as the 
+location of the districts where the Survey has been conducted. The present project is, in all 
+respect, a supplementation and complementation of the monumental survey entitled, 
+‘Linguistic Survey of India’ by Sir George Abraham Grierson in the pre-Independence India as 
+well as in the first few years of the twentieth century when in the Indian Sub -continent, the 
+present states of Himachal Pradesh was comprised of the princely states covering pa rts of the 
+Western Himalayan territories, Shimla Hill states and parts of Punjab along with four Punjab  
+southern hill states. On 18 December, 1970, the State of Himachal Pradesh Act was passed by 
+Parliament, and the new state of present-day Himachal Pradesh came into being on 25 January, 
+1971. 
+ In the past, this Division had produced successfully the volumes on Survey Reports of 
+the states of Odisha (former Orissa), Dadra & Nagar Haveli, Sikkim (Part 1 & 2), Rajasthan 
+(Part 1), West Bengal and Bihar. 
+ The result of the present survey under “Linguistic Survey of India-Himachal Pradesh” 
+has been presented under following Chapters. 
+1. In 1st chapter Introduction the followings are discussed; 
+a. Himachal Pradesh as a State, its History, Demography and Administrative Units (Maps 
+related to Administrative Divisions as per latest 2011 Census have been included). 
+b. Folk and religious Festivals, Population Density (District-wise Tables included), Male-
+Female ratio (District-wise table included) and Rural Urban Division (Maps related to 
+Rural-Urban Distribution of Languages and Mother Tongues have been provided). 
+c. Educational History of Himachal Pradesh and the present educational systems. 
+d. Status of Bilingualism and Trilingualism of Surveyed languages are also discussed. 
+e. Linguistic Profile of Himachal Pradesh (Distribution of Scheduled Languages and Non-
+Scheduled Languages as per 2001 and 2011 Censuses and also District -wise division 
+of both Scheduled Languages and Non-Scheduled Languages as per both the Censuses). 
+f. A brief Introduction of all the 5 Languages namely, Dogri, Kinnauri, Lahauli, Nepali 
+and Bhotia, along with 12 Mother Tongues namely, Bharmauri/Gaddi, 
+Bilaspuri/Kahluri, Bhateali, Chambeali, Churahi, Kulvi, Kangri, Keonthali, Mandeali, 
+Pangwali, Sanori and Sirmauri are surveyed under this Volume.   
+g. The sociolinguistic account of the state of Himachal Pradesh is also discussed and 
+explained in this section. 
+============================== PAGE 7 ==============================
+v 
+ 
+h. The information on bibliographical references has been presented at the end of the 
+Introduction for the LSI-HP Volume. 
+ 
+2. Following the Introduction in Chapter -1, six consecutive Chapters are presented. 
+Chapter 2 to 5 of the Volume present the grammatical descriptions (i.e. Phonological, 
+Morphological, Morpho -syntactic and Syntactic descriptions) of the 17  
+Languages/Mother Tongues. The presentation of the Language chapters has followed 
+the alphabetic order (Languages -Bhotia, Dogri, Kinnauri, Lahauli and Nepali). The 
+mother tongues that come under the Chapter -2 on Hindi are Bharmauri/Gaddi, 
+Chambeali, Churah i, Kulvi, Kangri, Keonthali, Mandeali, Pangwali, Sanori and 
+Sirmauri. The mother tongues that are surveyed under the Chapter -3 on Punjabi are 
+Bhateali and Bilashpuri/Kahluri.  Indo -Aryan languages like Nepali and Dogri are 
+presented in chapter -4. The Tibet o-Burman languages Kinnauri, Lahauli and Bhotia 
+have been discussed with grammatical descriptions in chapter -5. At the end of the 
+grammatical descriptions, a Comparative lexicon containing 500 selected word list of 
+common lexical items of all the surveyed Languages/Mother tongues described in 
+chapter-6. 
+ 
+        The Language/Mother Tongue descriptions in Introduction Chapter and in 
+respective reports give a glimpse of the dynamics of the linguistic situation of the state 
+of Himachal Pradesh, information about the origin of the Languages/Mother tongue and 
+also its status and Language family affiliation. 
+ 
+          Regarding the distribution of Languages/Mother tongues, two sets of data have 
+been presented, one for ‘Language’ and other for ‘Mother tongue’. ‘La nguage’ and 
+‘Mother tongue are co -terminus in Census as the Mother tongue data indicates the 
+exclusive data and the Language data includes the variants/dialects/Mother tongues 
+grouped under it. The Bilingualism and Trilingualism table based on 2011 Census 
+returns, presented for the relevant Languages/Mother tongues, throws light on the 
+attitude towards language use of the linguistic speech communities inhabiting Himachal 
+Pradesh. 
+ 
+           For the field surveys, one common questionnaire containing the exhaustive word 
+list, sentence list and short story specifically developed by Language Division, Office 
+of the Registrar General, India for the post -Independence Linguistic Survey of pan 
+India, was canvassed in Himachal Pradesh. The field -survey in respect to  all the 13 
+Languages/Mother tongues had been completed by 2008. Following the same 4 
+Languages/Mother tongues viz; Lahauli, Dogri, Pangwali and Sirmauri were being 
+studied and reports prepared on the basis of data collected under the scheme “Mother 
+Tongue Survey of India” due to Covid -19 pandemic.     
+             It is also to mention warm thanks are due to the contributors of the Volume 
+who painstakingly collected the data during field investigation with restricted facilities 
+and braving the inclement weather of the region. 
+ 
+============================== PAGE 8 ==============================
+vi 
+ 
+The supervision of the Volume was entrusted to Dr. Ranjita Pattanaik , Senior 
+Research Officer (Language), who carried out the finalization of the present Volume 
+and has taken up all the pains in scrutinizing the data and the report for its improvement. 
+Dr. B.P.Hemananda is duly acknowledged for monitoring the status of the volume.  The 
+sincere thanks to Dr. VVLN Sarma, Deputy Registrar General (Map) and Shri Kandhai 
+Singh, Ex-Research Officer (Map) for preparation and creative development of maps 
+required for the Volume. 
+ 
+Acknowledgement is also due to the authors of lingui stic reports of different 
+language/mother tongue. I also thank the Officers and Officials of Language Division, 
+Kolkata and Language Division at the Headquarter, ORGI for their constant efforts and 
+co-operation. 
+ 
+         The Volume could not achieve its present shape and form without the monitoring 
+and encouragement of Shri Manoj Kumar, Deputy Director General for his constant 
+follow up and overall supervision in finalization and publication for the Volume at 
+Headquarter ORGI. I would like to express my sincere appreciations to Dr Vishwanath, 
+IAS, DCO -West Bengal and Controlling Officer, Language Division, for his 
+inspiration, help and co-operation.  
+           
+Collection of data on the Languages/mother tongues surveyed in Himachal 
+Pradesh under Linguistic survey of India, Himachal Pradesh would not have been 
+possible without kind cooperation and help of the Directorate of Census Operations, 
+Himachal Pradesh and the various District Magistrates as well as other officials of the 
+State of Himachal Pradesh. Hen ce their sincere help and co -operation are duly 
+acknowledged.      
+   
+           The informants extended their co -operation in providing copious data. The 
+informants, without whose dedication and deliberation, the Volume could not be 
+compiled, are acknowledged with sincere gratitude.  
+ 
+            I hope this Volume will serve the needs of different sectors of populace in 
+respect to various purposes in socio-linguistic and socio-educational planning.             
+ 
+NEW DELHI  DR. VIVEK JOSHI 
+11TH OCTOBER, 2022 REGISTRAR GENERAL & 
+ CENSUS COMMMISSIONER, INDIA 
+ 
+  
+============================== PAGE 9 ==============================
+vii 
+ 
+ACKNOWLEDGEMENT 
+Office of the Registrar General, India 
+LANGUAGE DIVISION 
+B.P. Hemananda    Assistant Registrar General  
+(Language) 
+Ranjita Pattanaik    Senior Research Officer (Language) 
+R.Nakkeerar     Research Officer (Language) 
+Sibasis Mukherjee    Research Officer (Language) 
+P. Edward Vedamanickam   Research Officer (Language) 
+N. Gopalakrishnan    Research Officer (Language) 
+Sucharita Chakraborty   Research Officer (Language) 
+Sarita Panda     Statistical Investigator Gr. 1 
+Pritha Banerjee    Investigator (Language) 
+Aparajita Sen     Investigator (Language) 
+Dipshikha Bose    Investigator (Language) 
+Soumi Banerjee     Investigator (Language) 
+Jhuma Ghosh     Investigator (Language) 
+Deepak Kumar    Investigator (Language) 
+Nandini Bhattacharya    Investigator (Language) 
+K. Mahender     Investigator (Language) 
+ 
+MAP DIVISION, ORGI 
+V.V.L.N. Sarma    Deputy Registrar General 
+Kandhai Singh    Consultant (Map) 
+& 
+WEB CELL of ORGI 
+  
+============================== PAGE 10 ==============================
+viii 
+ 
+ABBREVIATIONS 
+ 
+Sg-/SG./sg/Sing.  Singular 
+ 
+pl./Pl.    Plural 
+ 
+e.g.    For Example 
+ 
+Masc./m./M   Masculine 
+ 
+Fem./f. /F/fem.   Feminine 
+ 
+trans.    Transitive 
+ 
+V    Verb 
+ 
+NP    Noun Phrase 
+ 
+LSI    Linguistic Survey of India 
+ 
+Vol.    Volume 
+ 
+MT/mt    Mother Tongue 
+P    Person 
+PP/p    Pages 
+T    Total 
+R    Rural 
+U    Urban 
+i.e.    That is 
+ed.    Edited 
+ABL./abl.   Ablative Case 
+ACC./acc.   Accusative Case 
+ADJ./adj.   Adjective 
+ADV.    Adverb 
+ART.    Article 
+ASSOC.   Associative 
+AUX./aux./Aux.  Auxiliary 
+ben    Benefactive 
+============================== PAGE 11 ==============================
+ix 
+ 
+CAUS    Causative 
+Cl    Clause 
+C/Con/con/c   Consonant 
+Cont.    Continuous 
+caus./cau   Causative 
+CL    Classifier 
+COMP    Complementizer 
+COMP MKR   Comparative Marker 
+CONJ    Conjunction 
+DAT     Dative Case 
+DECL    Declarative 
+DET               Determiner 
+Emp.    Emphatic 
+e.g.               Example 
+etc.    Etcetera 
+Fin./ft./f.   Finite  
+Fut./FUT.   Future 
+gen./gen/Gen./geni.  Genitive Case 
+HAB                                         Habitual Aspect 
+Hon.    Honorific 
+Imp. /IMP.   Imperative 
+Imperf.    Imperfect 
+INF                                           Infinite 
+INS                                          Instrumental Case 
+incl.    Inclusive 
+INT    Intensifier 
+LOC    Locative Case 
+man.adv   Manner Adverbial 
+Mar.    Marker 
+============================== PAGE 12 ==============================
+x 
+ 
+N    Noun 
+NEG./neg.   Negative 
+Neu    Neuter 
+NOM./nom.   Nominative 
+NOMNLZR   Nominalizer 
+NUM    Number 
+Nf    Non-Finite 
+OPT    Optative 
+pass.    Passive 
+Pt.    Part  
+pcpl./PTCP.   Participle 
+PREP/pre.   Preposition 
+pred.    Predicate 
+Pt./PST./Past ten  Past Tense 
+PRS.cont./PROG./pr.cont. Present Continuous Tense 
+PERF    Perfective 
+PL    Plural 
+PP./POSTP.   Post Position 
+PRES./PRS./pr./pre.ten. Present Tense 
+PROG    Progressive (continuous) 
+PROHIB   Prohibitive mood   
+prt    Particle 
+QMKR   Question Marker 
+QUO    Quotative 
+Relat    Relative 
+reflex    Reflexive 
+REV    Reversal 
+SOV    Subject+Object+Verb 
+SBJV    Subjunctive 
+suf    Suffix 
+============================== PAGE 13 ==============================
+xi 
+ 
+SUBJ./sub./s.   Subject 
+OBJ./obj./o./ob.  Object 
+vb./v    Verb 
+V.CL.    Vowel Cluster 
+V/v    Vowel 
+viz.    Namely 
+Vol/vol   Volume 
+1Sg    first person singular pronominal prefix 
+2Sg    second person singular pronominal prefix 
+3Sg    third person singular pronominal prefix 
+1Pl    first person plural pronominal prefix 
+2Pl    second person plural pronominal prefix 
+3Pl    third person plural pronominal prefix 
+  
+============================== PAGE 14 ==============================
+xii 
+ 
+PHONETIC SYMBOLS 
+Asp.     Aspirated 
+Alv.     Alveolar 
+approx.    Approximate 
+Al     Alveolar 
+Bi/BL     Bilabial 
+GL     Glottal 
+PL.                Palatal 
+RT/Ret     Retroflex 
+Vel.     Velar 
+VL                Voiceless 
+VD                Voiced 
+/i/   High Front Unrounded Vowel 
+     Close Front Vowel 
+/e/    Mid Front Unrounded Vowel 
+     Close Mid Front Vowel 
+/ɨ/   High Central Unrounded Vowel 
+/ə/   Mid Central Vowel 
+/a/     Low Central Unrounded Vowel (long vowel) 
+     Low back vowel 
+/u/     High Back Rounded Vowel 
+     Close Back Vowel            
+/o/      Mid-back rounded Vowel 
+     Close Mid Back Vowel 
+/p/     Voiceless Bilabial Stop 
+/t/     High Back Central Unrounded Vowel 

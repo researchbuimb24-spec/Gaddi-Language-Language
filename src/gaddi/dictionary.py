@@ -28,18 +28,18 @@ def fold_text(text: str) -> str:
     """Normalize and fold diacritics and phonetics for tolerant fuzzy matching.
 
     Folds IPA symbols, macrons, retroflex dots, and special diacritics into plain ASCII:
-      - ╔æ, ╩î, ╔Ö, ├ñ, ─ü, ├í, a╦É -> a
-      - ─½, ╔¬, ├¡, i╦É -> i
-      - ┼½, ╩è, ├║, u╦É -> u
-      - ─ô, ╔¢, ├⌐, e╦É -> e
-      - ┼ì, ╔ö, ├│, o╦É -> o
-      - ╩ê, ß╣¡ -> t; ╔û, ß╕ì, ╔╜, ß╣¢ -> d / r
-      - ╔│, ß╣ç, ├▒, ╔▓, ┼ï -> n
-      - ╩â, ┼¢, ß╣ú -> s
-      - t╩â -> ch; d╩Æ -> j
-      - ╔¡, ß╕╖ -> l
-      - ╩▒, ╩░ -> h
-      - removes length marks ╦É, stress ╦ê, tone marks, and combining diacritics
+      - ɑ, ʌ, ə, ä, ā, á, aː -> a
+      - ī, ɪ, í, iː -> i
+      - ū, ʊ, ú, uː -> u
+      - ē, ɛ, é, eː -> e
+      - ō, ɔ, ó, oː -> o
+      - ʈ, ṭ -> t; ɖ, ḍ, ɽ, ṛ -> d / r
+      - ɳ, ṇ, ñ, ɲ, ŋ -> n
+      - ʃ, ś, ṣ -> s
+      - tʃ -> ch; dʒ -> j
+      - ɭ, ḷ -> l
+      - ʱ, ʰ -> h
+      - removes length marks ː, stress ˈ, tone marks, and combining diacritics
     """
     if not text:
         return ""
@@ -47,26 +47,26 @@ def fold_text(text: str) -> str:
     s = "".join(c for c in s if not unicodedata.combining(c))
 
     subs = {
-        "t╩â": "ch",
-        "d╩Æ": "j",
-        "╔æ": "a", "╩î": "a", "╔Ö": "a", "├ñ": "a", "─ü": "a", "├í": "a",
-        "╔¬": "i", "─½": "i", "├¡": "i",
-        "╩è": "u", "┼½": "u", "├║": "u",
-        "╔¢": "e", "─ô": "e", "├⌐": "e",
-        "╔ö": "o", "┼ì": "o", "├│": "o",
-        "╩ê": "t", "ß╣¡": "t",
-        "╔û": "d", "ß╕ì": "d", "╔╜": "r", "ß╣¢": "r",
-        "╔│": "n", "ß╣ç": "n", "├▒": "n", "╔▓": "n", "┼ï": "n",
-        "╩â": "s", "┼¢": "s", "ß╣ú": "s",
-        "╔¡": "l", "ß╕╖": "l",
-        "╩▒": "h", "╩░": "h",
-        "╦É": "", "╦æ": "", "'": "", "╦ê": "", "╦î": "", "╠â": "", "~": "",
+        "tʃ": "ch",
+        "dʒ": "j",
+        "ɑ": "a", "ʌ": "a", "ə": "a", "ä": "a", "ā": "a", "á": "a",
+        "ɪ": "i", "ī": "i", "í": "i",
+        "ʊ": "u", "ū": "u", "ú": "u",
+        "ɛ": "e", "ē": "e", "é": "e",
+        "ɔ": "o", "ō": "o", "ó": "o",
+        "ʈ": "t", "ṭ": "t",
+        "ɖ": "d", "ḍ": "d", "ɽ": "r", "ṛ": "r",
+        "ɳ": "n", "ṇ": "n", "ñ": "n", "ɲ": "n", "ŋ": "n",
+        "ʃ": "s", "ś": "s", "ṣ": "s",
+        "ɭ": "l", "ḷ": "l",
+        "ʱ": "h", "ʰ": "h",
+        "ː": "", "ˑ": "", "'": "", "ˈ": "", "ˌ": "", "̃": "", "~": "",
     }
     for k, v in subs.items():
         s = s.replace(k, v)
 
     # Devanagari folding: normalize nukta
-    s = s.replace("αñ╝", "")
+    s = s.replace("़", "")
     return s
 
 
@@ -381,7 +381,7 @@ class GaddiDictionary:
             is_exact_def = False
             for s in e.senses:
                 d_en = (s.definition_en or "").lower().strip(" .,;()")
-                d_hi = (s.definition_hi or "").strip(" αÑñ;,()")
+                d_hi = (s.definition_hi or "").strip(" ।;,()")
                 if clean_q_lower in (d_en, d_hi) or clean_q_lower in d_en.split():
                     is_exact_def = True
                     break
@@ -470,7 +470,7 @@ class GaddiDictionary:
                 if not sense.definition_hi:
                     continue
                 defn = normalize_text(sense.definition_hi)
-                tokens = [t.strip("αÑñ,;()\"' /") for t in defn.split()]
+                tokens = [t.strip("।,;()\"' /") for t in defn.split()]
                 if exact:
                     if clean_q == defn or clean_q in tokens:
                         matched = True
@@ -556,7 +556,7 @@ class GaddiDictionary:
             pa_val = entry.metadata.get("translations", {}).get("pa", "")
             if pa_val:
                 pa_clean = normalize_text(pa_val).lower()
-                tokens = [t.strip("αÑñ,;()\"' /") for t in pa_clean.split()]
+                tokens = [t.strip("।,;()\"' /") for t in pa_clean.split()]
                 matched = False
                 if exact:
                     if clean_q == pa_clean or clean_q in tokens:
@@ -594,7 +594,7 @@ class GaddiDictionary:
             doi_val = entry.metadata.get("translations", {}).get("doi", "")
             if doi_val:
                 doi_clean = normalize_text(doi_val).lower()
-                tokens = [t.strip("αÑñ,;()\"' /") for t in doi_clean.split()]
+                tokens = [t.strip("।,;()\"' /") for t in doi_clean.split()]
                 matched = False
                 if exact:
                     if clean_q == doi_clean or clean_q in tokens:
@@ -653,7 +653,7 @@ class GaddiDictionary:
                 lemma = normalize_text(entry.lemma_devanagari)
                 if clean_q == lemma or clean_q in lemma:
                     matched = True
-                elif clean_q.replace("αñ╝", "") == lemma.replace("αñ╝", ""):
+                elif clean_q.replace("़", "") == lemma.replace("़", ""):
                     matched = True
 
             # Check Perso-Arabic
@@ -774,7 +774,7 @@ class GaddiDictionary:
             # 1. Exact Devanagari headword match
             if clean_q == lemma_d:
                 score = 1000
-            elif clean_q == lemma_d.replace("αñ╝", ""):
+            elif clean_q == lemma_d.replace("़", ""):
                 score = 950
             # 2. Exact IPA / Roman transliteration match
             elif lemma_ipa and q_lower == lemma_ipa.lower():
@@ -798,7 +798,7 @@ class GaddiDictionary:
             elif norm_h and fold_text(norm_h).startswith(q_folded):
                 score = 650
             # 5. Exact word match in definitions / glosses
-            elif any(clean_q == (s.definition_hi or "").strip("αÑñ,;()\"' ") for s in senses):
+            elif any(clean_q == (s.definition_hi or "").strip("।,;()\"' ") for s in senses):
                 score = 600
             elif any(q_lower == (s.definition_en or "").lower().strip(",.()[]{}:;\"' ") for s in senses):
                 score = 590

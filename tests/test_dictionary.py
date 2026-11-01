@@ -8,7 +8,7 @@ from gaddi.dictionary import GaddiDictionary
 
 @pytest.fixture
 def dictionary():
-    d = GaddiDictionary()
+    d = GaddiDictionary(auto_load_defaults=False)
     seed_path = Path(__file__).parents[1] / "data" / "seed_corpus.json"
     d.load_from_json(seed_path)
     return d

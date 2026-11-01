@@ -56,3 +56,7 @@ htmlcov/
 scratch/
 tmp/
 
+# Source intake raw documents
+data/source_intake/**
+!data/source_intake/README.md
+!data/source_intake/.gitkeep

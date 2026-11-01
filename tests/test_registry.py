@@ -32,7 +32,7 @@ def test_source_registry_defaults():
     assert kumari.publisher == "UCL Press"
     assert kumari.credibility_tier == 1
     assert kumari.is_jk_primary is False
-    assert "CC BY 4.0" in kumari.license
+    assert "CC BY-NC 4.0" in kumari.license
 
     # Check Grierson 1916 registration
     grierson = default_sources.get("grierson_1916")

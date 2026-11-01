@@ -180,5 +180,37 @@
       "Kashmiri",
       "Urdu"
     ]
+  },
+  {
+    "id": "historical_gaddi_unspecified_locality",
+    "name": "Historical Gaddi (Unspecified Locality)",
+    "region_type": "historical",
+    "state_ut": "Pan-Regional",
+    "district": "Unspecified",
+    "sub_areas": [
+      "Western Himalayas"
+    ],
+    "is_jk_variety": false,
+    "description": "Historical Gaddi records and early survey forms lacking specific village or tehsil attribution.",
+    "contact_languages": [
+      "Western Pahari",
+      "Prakrit"
+    ]
+  },
+  {
+    "id": "comparative_unlocated",
+    "name": "Comparative Gaddi (Unlocated / Mixed)",
+    "region_type": "comparative",
+    "state_ut": "Pan-Regional",
+    "district": "Unlocated",
+    "sub_areas": [
+      "Western Pahari belt"
+    ],
+    "is_jk_variety": false,
+    "description": "Comparative lexical items, etymological roots, or pan-regional cognates without specific locality attestation.",
+    "contact_languages": [
+      "Western Pahari",
+      "Indo-Aryan"
+    ]
   }
 ]

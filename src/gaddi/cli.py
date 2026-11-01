@@ -840,7 +840,7 @@ def cmd_stats() -> int:
     print(f"Standardized Categories:         {len(cats)}")
     print("\nNote on Category Multi-Labeling:")
     print(f"  Sum of category listings ({sum_cats}) exceeds total unified entries ({len(entries)}) because")
-    print("  terms are multi-labeled across relevant semantic domains (e.g., 'bheß╕ì' in animals & agriculture).")
+    print("  terms are multi-labeled across relevant semantic domains (e.g., 'bheḍ' in animals & agriculture).")
     print("\nTranslation Language Support (Descriptive Literature Glosses):")
     print(f"  English (en)   : {en_cnt} / {len(entries)} entries ({en_cnt / len(entries) * 100:.1f}%)")
     print(f"  Hindi (hi)     : {hi_cnt} / {len(entries)} entries ({hi_cnt / len(entries) * 100:.1f}%)")
