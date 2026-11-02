@@ -1,0 +1,156 @@
+[
+  {
+    "id": "gaddi-cult-001",
+    "topic": "pastoral_migration",
+    "title": "Pastoral Transhumance and Alpine Meadow Ecology",
+    "term_devanagari": "घोमंतू चरवाही परंपरा",
+    "term_ipa": "ɡʱoːmənˈt̪uː t͡ʃərˈwaːhiː",
+    "description": "The seasonal vertical migration (transhumance) of Gaddi pastoralists between winter foothill scrub forests and high alpine meadows (dhars) reaching 4,500 meters. The pastoral calendar dictates wool shearing twice a year, strategic flock breeding, and grazing rotations across the Dhauladhar, Pir Panjal, and Zanskar ranges.",
+    "varieties": [
+      "hp_chamba_bharmaur",
+      "hp_kangra_palampur",
+      "jk_doda_bhadarwah",
+      "jk_kathua_bani"
+    ],
+    "source_id": "kumari_2026",
+    "source_citation": "Kumari et al. (2026), Section 1.1, pp. 18-20; Kumar (2019); Shashi (1977)",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "pasture_zones": [
+        "Lowland Winter Scrub",
+        "Mid-altitude Forest",
+        "High Alpine Meadows"
+      ]
+    }
+  },
+  {
+    "id": "gaddi-cult-002",
+    "topic": "clothing_and_attire",
+    "title": "Traditional Chola and Dora Attire",
+    "term_devanagari": "चोला ते डोरा",
+    "term_ipa": "ˈt͡ʃoːlaː t̪eː ˈɖoːraː",
+    "description": "Men's traditional costume consisting of a heavy, un-dyed hand-spun woollen coat (chola) reaching to the knees, fastened at the waist by a tightly bound black woollen rope (dora) that can measure 30 to 40 meters. The pouch created above the belt serves as a capacious backpack for food, tea pots, and newborn lambs.",
+    "varieties": [
+      "hp_chamba_bharmaur",
+      "hp_kangra_palampur",
+      "jk_general"
+    ],
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 32-36; Kumari et al. (2026), p. 19; Kumar (2019)",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "garment": "Chola",
+      "cord_length_meters": "30-40"
+    }
+  },
+  {
+    "id": "gaddi-cult-003",
+    "topic": "clothing_and_attire",
+    "title": "Luanchari Dress and Chanderhar Jewellery",
+    "term_devanagari": "लुआंचड़ी ते चंदरहार",
+    "term_ipa": "luãːt͡ʃˈɽiː t̪eː t͡ʃənd̪rəˈɦaːr",
+    "description": "Women's traditional attire comprising a colourful flared dress with frills (luanchari), accented by heavy solid silver jewellery including the crescent moon chest ornament (chanderhar), gold or silver nose ring (nath), and ear pendants (jhumka).",
+    "varieties": [
+      "hp_chamba_bharmaur",
+      "hp_kangra_palampur",
+      "jk_kathua_bani"
+    ],
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 36-40; Chandar (2024)",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "attire": "Luanchari",
+      "ornament": "Chanderhar"
+    }
+  },
+  {
+    "id": "gaddi-cult-004",
+    "topic": "music_and_dance",
+    "title": "Traditional Instruments: Narsingha, Dhol, and Thali",
+    "term_devanagari": "पारंपरिक वाद्य यंत्र",
+    "term_ipa": "nərˈsɪŋɡʱaː, ɖʱoːl, ˈt̪ʰaːliː",
+    "description": "The acoustic instruments integral to Gaddi life: the narsingha (curved brass trumpet blown across mountain valleys), dhol and nagara (percussion drums accompanying communal Nati folk dances), and thali-chhanne (bronze plate struck with a wooden stick during sacred Ainchali singing).",
+    "varieties": [
+      "hp_chamba_bharmaur",
+      "hp_kangra_palampur",
+      "jk_general"
+    ],
+    "source_id": "plsi_vol12_2014",
+    "source_citation": "PLSI Vol. 12 (2014), pp. 120-124; JKAACL Archive",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "instruments": [
+        "Narsingha",
+        "Dhol",
+        "Nagara",
+        "Thali",
+        "Kahnchhi"
+      ]
+    }
+  },
+  {
+    "id": "gaddi-cult-005",
+    "topic": "crafts_and_wool",
+    "title": "Wool Craft: Gardu Blankets and Horizontal Looms (Rachh)",
+    "term_devanagari": "गार्दू बुनाई ते राछ",
+    "term_ipa": "ˈɡaːrduː buˈnaːiː t̪eː raːt͡ʃʰ",
+    "description": "The domestic cottage craft of wool manufacturing. Fleece sheared from indigenous sheep is washed in mountain streams, carded, spun into strong yarn using hand drop-spindles (takli) and spinning wheels (charkha), and woven into dense checked blankets (gardu) and shawls (pattoo) on traditional pit looms (rachh).",
+    "varieties": [
+      "hp_chamba_bharmaur",
+      "hp_kangra_palampur",
+      "jk_doda_bhadarwah"
+    ],
+    "source_id": "chakraborty_2024",
+    "source_citation": "Chakraborty (2024), Section: Crafts and Livelihood; Shashi (1977)",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "loom_type": "horizontal_pit_loom",
+      "textile": "Gardu / Pattoo"
+    }
+  },
+  {
+    "id": "gaddi-cult-006",
+    "topic": "food_and_cuisine",
+    "title": "Gaddi Culinary Heritage: Madra and Babru",
+    "term_devanagari": "पारंपरिक खान-पान: मदरा ते बबरू",
+    "term_ipa": "ˈməd̪raː t̪eː bəbˈruː",
+    "description": "Distinctive festive culinary items prepared during weddings, community feasts (dham), and festivals. Madra consists of chickpeas or kidney beans slow-cooked in rich spiced yogurt and pure ghee with dry fruits; Babru are deep-fried puffed bread cakes prepared from leavened wheat flour.",
+    "varieties": [
+      "hp_chamba_bharmaur",
+      "hp_kangra_palampur",
+      "jk_general"
+    ],
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 42-44; Chakraborty (2024)",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "dishes": [
+        "Madra",
+        "Babru",
+        "Dham",
+        "Mittha"
+      ]
+    }
+  },
+  {
+    "id": "gaddi-cult-007",
+    "topic": "social_organization",
+    "title": "Clan Exogamy, Gotra Lineage, and Bhaichara",
+    "term_devanagari": "गोत्र व्यवस्था ते भाईचारा",
+    "term_ipa": "ˈɡoːt̪rə vjəvəsˈt̪ʰaː t̪eː bʱaːiːˈt͡ʃaːraː",
+    "description": "Gaddi society is structured by patrilineal descent and exogamous clan units (gotras) tracing ancestry to ancient sages. Kinship behavior strictly prohibits marriage within the paternal and maternal gotras or between cross-cousins. Village disputes and grazing territory alignments were historically regulated by community elder councils (Panch / Kardar).",
+    "varieties": [
+      "hp_chamba_bharmaur",
+      "hp_kangra_palampur",
+      "jk_doda_bhadarwah",
+      "jk_kathua_bani"
+    ],
+    "source_id": "dar_sheikh_2022",
+    "source_citation": "Dar & Sheikh (2022), pp. 251-255; Chandar (2024); Shashi (1977)",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "system": "patrilineal_exogamy",
+      "dispute_resolution": "Kardar / Elder Council"
+    }
+  }
+]

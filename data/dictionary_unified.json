@@ -4187,10 +4187,29 @@
       {
         "sense_index": 1,
         "definition_en": "ashes",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
+        "definition_hi": "राख",
+        "definition_ur": "راکھ",
+        "semantic_field": "nature",
+        "examples": [],
+        "source_item": "Kumari et al. (2026), Table B.1, p. 119, item 4"
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "dust",
+        "definition_hi": "धूल",
+        "definition_ur": "دھول",
+        "semantic_field": "nature",
+        "examples": [],
+        "source_item": "Kumari et al. (2026), Table B.1, p. 120, item 36"
+      },
+      {
+        "sense_index": 3,
+        "definition_en": "fog; haze",
+        "definition_hi": "कोहरा / धुंध",
+        "definition_ur": "کہرا",
+        "semantic_field": "nature",
+        "examples": [],
+        "source_item": "Kumari et al. (2026), Table B.1, p. 120, item 57"
       }
     ],
     "attestations": [
@@ -4198,7 +4217,15 @@
         "source_id": "kumari_2026",
         "page_or_section": "Kumari et al. (2026), Table B.1, p. 119",
         "verified": false,
-        "transcription_raw": "dʰuːɽ"
+        "transcription_raw": "dʰuːɽ",
+        "context": "Item 4 ('ashes')"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Kumari et al. (2026), Table B.1, p. 120",
+        "verified": false,
+        "transcription_raw": "dʰuːɽ",
+        "context": "Item 36 ('dust'), Item 57 ('fog; haze')"
       }
     ],
     "lemma_ipa": "dʰuːɽ",
@@ -4210,7 +4237,7 @@
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
-    "editorial_notes": "Table B.1, item 4",
+    "editorial_notes": "Table B.1: Item 4 ('ashes', p. 119), Item 36 ('dust', p. 120), Item 57 ('fog; haze', p. 120)",
     "metadata": {
       "categories": [
         "general"
@@ -4236,7 +4263,30 @@
       ],
       "source_transcription": "dʰuːɽ",
       "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
+      "source_attested_spelling": true,
+      "sense_provenance": {
+        "1": {
+          "source_id": "kumari_2026",
+          "citation": "Kumari et al. (2026), Table B.1, p. 119",
+          "item": 4,
+          "meaning": "ashes",
+          "transcription": "dʰuːɽ"
+        },
+        "2": {
+          "source_id": "kumari_2026",
+          "citation": "Kumari et al. (2026), Table B.1, p. 120",
+          "item": 36,
+          "meaning": "dust",
+          "transcription": "dʰuːɽ"
+        },
+        "3": {
+          "source_id": "kumari_2026",
+          "citation": "Kumari et al. (2026), Table B.1, p. 120",
+          "item": 57,
+          "meaning": "fog; haze",
+          "transcription": "dʰuːɽ"
+        }
+      }
     }
   },
   {
@@ -5038,10 +5088,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "bite",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_en": "to bite",
+        "definition_hi": "काटना / चबाना",
+        "definition_ur": "کاٹنا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to eat",
+        "definition_hi": "खाना",
+        "definition_ur": "کھانا",
+        "semantic_field": "verbs",
         "examples": []
       }
     ],
@@ -5049,6 +5107,12 @@
       {
         "source_id": "kumari_2026",
         "page_or_section": "Kumari et al. (2026), Table B.1, p. 119",
+        "verified": false,
+        "transcription_raw": "kʰɑ"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Kumari et al. (2026), Table B.1, p. 120",
         "verified": false,
         "transcription_raw": "kʰɑ"
       }
@@ -5332,10 +5396,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "blow (as in wind)",
-        "definition_hi": "हवा",
-        "definition_ur": null,
-        "semantic_field": "water",
+        "definition_en": "to blow (as in wind)",
+        "definition_hi": "हवा चलना",
+        "definition_ur": "چلنا (ہوا)",
+        "semantic_field": "nature",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to walk; move",
+        "definition_hi": "चलना",
+        "definition_ur": "چلنا",
+        "semantic_field": "motion",
         "examples": []
       }
     ],
@@ -5345,6 +5417,18 @@
         "page_or_section": "Kumari et al. (2026), Table B.1, p. 119",
         "verified": false,
         "transcription_raw": "tʃəl"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "kumari2026gaddi[p. 119, table B.1, item 16.1]",
+        "verified": false,
+        "transcription_raw": "cəl"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "kumari2026gaddi[p. 123, table B.1, item 185]",
+        "verified": false,
+        "transcription_raw": "cal"
       }
     ],
     "lemma_ipa": "tʃəl",
@@ -7462,65 +7546,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00099",
-    "lemma_devanagari": "धौड़",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "dust",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "mountains",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "Kumari et al. (2026), Table B.1, p. 120",
-        "verified": false,
-        "transcription_raw": "dʰuːɽ"
-      }
-    ],
-    "lemma_ipa": "dʰuːɽ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "dʰuːɽ",
-    "normalized_headword": "du",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Table B.1, item 36",
-    "metadata": {
-      "categories": [
-        "mountains"
-      ],
-      "variants": [
-        "dʰuːɽ"
-      ],
-      "phonemic_variants": [
-        "dʰuːɽ"
-      ],
-      "synonyms": [
-        "धूड़"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-006",
-        "kumari-ex-035",
-        "kumari-ex-038",
-        "kumari-ex-131",
-        "kumari-ex-183"
-      ],
-      "source_transcription": "dʰuːɽ",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
     "id": "gaddi-uni-00100",
     "lemma_devanagari": "धरत",
     "variety_id": "hp_kangra_palampur",
@@ -7577,119 +7602,6 @@
         "doi": "धरती"
       },
       "source_transcription": "dʰərt",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
-    "id": "gaddi-uni-00101",
-    "lemma_devanagari": "खा",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "eat",
-        "definition_hi": "खाना",
-        "definition_ur": null,
-        "semantic_field": "food",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "Kumari et al. (2026), Table B.1, p. 120",
-        "verified": false,
-        "transcription_raw": "kʰɑ"
-      }
-    ],
-    "lemma_ipa": "kʰɑ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "kʰɑ",
-    "normalized_headword": "k",
-    "part_of_speech": "verb",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Table B.1, item 39",
-    "metadata": {
-      "categories": [
-        "food"
-      ],
-      "variants": [
-        "kʰɑ"
-      ],
-      "phonemic_variants": [
-        "kʰɑ"
-      ],
-      "synonyms": [
-        "कन"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-020",
-        "kumari-ex-022",
-        "kumari-ex-024",
-        "kumari-ex-025",
-        "kumari-ex-038",
-        "kumari-ex-043",
-        "kumari-ex-045",
-        "kumari-ex-046",
-        "kumari-ex-063",
-        "kumari-ex-070",
-        "kumari-ex-072",
-        "kumari-ex-077",
-        "kumari-ex-080",
-        "kumari-ex-092",
-        "kumari-ex-093",
-        "kumari-ex-104",
-        "kumari-ex-115",
-        "kumari-ex-118",
-        "kumari-ex-119",
-        "kumari-ex-129",
-        "kumari-ex-133",
-        "kumari-ex-134",
-        "kumari-ex-136",
-        "kumari-ex-148",
-        "kumari-ex-157",
-        "kumari-ex-161",
-        "kumari-ex-166",
-        "kumari-ex-167",
-        "kumari-ex-171",
-        "kumari-ex-172",
-        "kumari-ex-174",
-        "kumari-ex-177",
-        "kumari-ex-183",
-        "kumari-ex-184",
-        "kumari-ex-185",
-        "kumari-ex-189",
-        "kumari-ex-193",
-        "kumari-ex-194",
-        "kumari-ex-199",
-        "kumari-ex-201",
-        "kumari-ex-202",
-        "kumari-ex-215",
-        "kumari-ex-219",
-        "kumari-ex-220",
-        "kumari-ex-221",
-        "kumari-ex-231",
-        "kumari-ex-238",
-        "kumari-ex-241",
-        "kumari-ex-244",
-        "kumari-ex-245",
-        "kumari-ex-246",
-        "kumari-ex-247",
-        "kumari-ex-248",
-        "kumari-ex-250",
-        "kumari-ex-251",
-        "kumari-ex-260",
-        "kumari-ex-261",
-        "kumari-ex-264",
-        "kumari-ex-265"
-      ],
-      "source_transcription": "kʰɑ",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
     }
@@ -8258,8 +8170,16 @@
       {
         "sense_index": 1,
         "definition_en": "feather",
-        "definition_hi": "",
-        "definition_ur": null,
+        "definition_hi": "पंख / पर",
+        "definition_ur": "پر",
+        "semantic_field": "animals",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "wing",
+        "definition_hi": "डैना / पंख",
+        "definition_ur": "بازو / پر",
         "semantic_field": "animals",
         "examples": []
       }
@@ -8268,6 +8188,12 @@
       {
         "source_id": "kumari_2026",
         "page_or_section": "Kumari et al. (2026), Table B.1, p. 120",
+        "verified": false,
+        "transcription_raw": "pʰəŋɡ"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Kumari et al. (2026), Table B.1, p. 123",
         "verified": false,
         "transcription_raw": "pʰəŋɡ"
       }
@@ -8637,10 +8563,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "float",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_en": "to float",
+        "definition_hi": "तैरना / उतराना",
+        "definition_ur": "تیرنا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to swim",
+        "definition_hi": "तैरना",
+        "definition_ur": "تیرنا",
+        "semantic_field": "verbs",
         "examples": []
       }
     ],
@@ -8654,6 +8588,18 @@
       {
         "source_id": "kumari_2026",
         "page_or_section": "kumari2026gaddi[p. 120, table B.1, item 53]",
+        "verified": false,
+        "transcription_raw": "tər"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Kumari et al. (2026), Table B.1, p. 123",
+        "verified": false,
+        "transcription_raw": "tər"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "kumari2026gaddi[p. 123, table B.1, item 166]",
         "verified": false,
         "transcription_raw": "tər"
       }
@@ -8963,66 +8909,6 @@
         "kumari-ex-266"
       ],
       "source_transcription": "uɖər",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
-    "id": "gaddi-uni-00119",
-    "lemma_devanagari": "धौड़",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "fog",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "water",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "Kumari et al. (2026), Table B.1, p. 120",
-        "verified": false,
-        "transcription_raw": "dʰuːɽ"
-      }
-    ],
-    "lemma_ipa": "dʰuːɽ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "dʰuːɽ",
-    "normalized_headword": "du",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Table B.1, item 57",
-    "metadata": {
-      "categories": [
-        "water"
-      ],
-      "variants": [
-        "dʰuːɽ"
-      ],
-      "phonemic_variants": [
-        "dʰuːɽ"
-      ],
-      "synonyms": [
-        "धूड़",
-        "दुनदु"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-006",
-        "kumari-ex-035",
-        "kumari-ex-038",
-        "kumari-ex-131",
-        "kumari-ex-183"
-      ],
-      "source_transcription": "dʰuːɽ",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
     }
@@ -9842,10 +9728,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "he/she",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_en": "he / she (3rd person personal pronoun)",
+        "definition_hi": "वह",
+        "definition_ur": "وہ",
+        "semantic_field": "pronouns",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "that (distal demonstrative pronoun)",
+        "definition_hi": "वह / उस",
+        "definition_ur": "وہ",
+        "semantic_field": "pronouns",
         "examples": []
       }
     ],
@@ -9859,6 +9753,18 @@
       {
         "source_id": "kumari_2026",
         "page_or_section": "kumari2026gaddi[p. 120, table B.1, item 70]",
+        "verified": false,
+        "transcription_raw": "so"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Kumari et al. (2026), Table B.1, p. 123",
+        "verified": false,
+        "transcription_raw": "so"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "kumari2026gaddi[p. 123, table B.1, item 168]",
         "verified": false,
         "transcription_raw": "so"
       }
@@ -10901,9 +10807,17 @@
       {
         "sense_index": 1,
         "definition_en": "ice",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "water",
+        "definition_hi": "बर्फ़ / हिम",
+        "definition_ur": "برف",
+        "semantic_field": "nature",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "snow",
+        "definition_hi": "हिमपात / बर्फ़",
+        "definition_ur": "برف باری",
+        "semantic_field": "nature",
         "examples": []
       }
     ],
@@ -10917,6 +10831,18 @@
       {
         "source_id": "kumari_2026",
         "page_or_section": "kumari2026gaddi[p. 121, table B.1, item 83]",
+        "verified": false,
+        "transcription_raw": "h̥iũ"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Kumari et al. (2026), Table B.1, p. 122",
+        "verified": false,
+        "transcription_raw": "h̥iũ"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "kumari2026gaddi[p. 122, table B.1, item 153]",
         "verified": false,
         "transcription_raw": "h̥iũ"
       }
@@ -16884,72 +16810,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00224",
-    "lemma_devanagari": "हिउँ",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "snow",
-        "definition_hi": "बर्फ़ / हिम",
-        "definition_ur": "برف",
-        "semantic_field": "water",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "Kumari et al. (2026), Table B.1, p. 122",
-        "verified": false,
-        "transcription_raw": "h̥iũ"
-      },
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "kumari2026gaddi[p. 122, table B.1, item 153]",
-        "verified": false,
-        "transcription_raw": "h̥iũ"
-      }
-    ],
-    "lemma_ipa": "h̥iũ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "h̥iũ",
-    "normalized_headword": "hiu",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Table B.1, item 153",
-    "metadata": {
-      "categories": [
-        "water"
-      ],
-      "variants": [
-        "h̥iũ"
-      ],
-      "phonemic_variants": [
-        "h̥iũ"
-      ],
-      "synonyms": [
-        "हेũ"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-006",
-        "kumari-ex-031"
-      ],
-      "translations": {
-        "pa": "ਬਰਫ਼",
-        "doi": "बरफ"
-      },
-      "source_transcription": "h̥iũ",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
     "id": "gaddi-uni-00225",
     "lemma_devanagari": "थोड़े",
     "variety_id": "hp_kangra_palampur",
@@ -17956,71 +17816,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00241",
-    "lemma_devanagari": "तर",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "swim",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "actions",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "Kumari et al. (2026), Table B.1, p. 123",
-        "verified": false,
-        "transcription_raw": "tər"
-      },
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "kumari2026gaddi[p. 123, table B.1, item 166]",
-        "verified": false,
-        "transcription_raw": "tər"
-      }
-    ],
-    "lemma_ipa": "tər",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "tər",
-    "normalized_headword": "tr",
-    "part_of_speech": "verb",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Table B.1, item 166",
-    "metadata": {
-      "categories": [
-        "actions"
-      ],
-      "variants": [
-        "tər"
-      ],
-      "phonemic_variants": [
-        "tər"
-      ],
-      "synonyms": [
-        "करन"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-070",
-        "kumari-ex-125",
-        "kumari-ex-133",
-        "kumari-ex-139",
-        "kumari-ex-196"
-      ],
-      "source_transcription": "tər",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
     "id": "gaddi-uni-00242",
     "lemma_devanagari": "लिङɡणा",
     "variety_id": "hp_kangra_palampur",
@@ -18072,86 +17867,6 @@
         "kumari-ex-023"
       ],
       "source_transcription": "liŋɡɳɑ",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
-    "id": "gaddi-uni-00243",
-    "lemma_devanagari": "सो",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "that",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "Kumari et al. (2026), Table B.1, p. 123",
-        "verified": false,
-        "transcription_raw": "so"
-      },
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "kumari2026gaddi[p. 123, table B.1, item 168]",
-        "verified": false,
-        "transcription_raw": "so"
-      }
-    ],
-    "lemma_ipa": "so",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "so",
-    "normalized_headword": "so",
-    "part_of_speech": "pronoun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Table B.1, item 168",
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "so"
-      ],
-      "phonemic_variants": [
-        "so"
-      ],
-      "synonyms": [
-        "सु"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-070",
-        "kumari-ex-074",
-        "kumari-ex-094",
-        "kumari-ex-112",
-        "kumari-ex-117",
-        "kumari-ex-137",
-        "kumari-ex-141",
-        "kumari-ex-151",
-        "kumari-ex-165",
-        "kumari-ex-166",
-        "kumari-ex-171",
-        "kumari-ex-172",
-        "kumari-ex-178",
-        "kumari-ex-192",
-        "kumari-ex-195",
-        "kumari-ex-209",
-        "kumari-ex-220",
-        "kumari-ex-230",
-        "kumari-ex-236",
-        "kumari-ex-262"
-      ],
-      "source_transcription": "so",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
     }
@@ -20263,78 +19978,6 @@
         "doi": "हवा"
       },
       "source_transcription": "bjɑr",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
-    "id": "gaddi-uni-00275",
-    "lemma_devanagari": "फङɡ",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "wing",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "animals",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "Kumari et al. (2026), Table B.1, p. 123",
-        "verified": false,
-        "transcription_raw": "pʰəŋɡ"
-      }
-    ],
-    "lemma_ipa": "pʰəŋɡ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "pʰəŋɡ",
-    "normalized_headword": "p",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Table B.1, item 199",
-    "metadata": {
-      "categories": [
-        "animals"
-      ],
-      "variants": [
-        "pʰəŋɡ"
-      ],
-      "phonemic_variants": [
-        "pʰəŋɡ"
-      ],
-      "synonyms": [
-        "पãनकु",
-        "फङग"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-001",
-        "kumari-ex-008",
-        "kumari-ex-022",
-        "kumari-ex-027",
-        "kumari-ex-045",
-        "kumari-ex-046",
-        "kumari-ex-062",
-        "kumari-ex-079",
-        "kumari-ex-082",
-        "kumari-ex-113",
-        "kumari-ex-151",
-        "kumari-ex-183",
-        "kumari-ex-189",
-        "kumari-ex-208",
-        "kumari-ex-216",
-        "kumari-ex-220",
-        "kumari-ex-238"
-      ],
-      "source_transcription": "pʰəŋɡ",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
     }
@@ -22968,10 +22611,10 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "Father",
+        "definition_en": "father; fathers (direct singular and plural identical in Grierson paradigm)",
         "definition_hi": "पिता / बाप",
         "definition_ur": "باپ",
-        "semantic_field": "family",
+        "semantic_field": "kinship",
         "examples": []
       }
     ],
@@ -22979,6 +22622,12 @@
       {
         "source_id": "grierson_1916",
         "page_or_section": "grierson-lsi1928[p. 122-123, form GADI-61_father-1, concept 61_father]",
+        "verified": false,
+        "transcription_raw": "bab"
+      },
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "grierson-lsi1928[p. 132-133, form GADI-66_fathers-1, concept 66_fathers]",
         "verified": false,
         "transcription_raw": "bab"
       }
@@ -23150,10 +22799,10 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "To a Father",
-        "definition_hi": "पिता / बाप",
-        "definition_ur": "باپ",
-        "semantic_field": "family",
+        "definition_en": "to a father; to fathers (dative singular and plural identical in Grierson paradigm)",
+        "definition_hi": "पिता को / बापों को",
+        "definition_ur": "باپ کو",
+        "semantic_field": "grammar",
         "examples": []
       }
     ],
@@ -23161,6 +22810,12 @@
       {
         "source_id": "grierson_1916",
         "page_or_section": "grierson-lsi1928[p. 126-127, form GADI-63_toafather-1, concept 63_toafather]",
+        "verified": false,
+        "transcription_raw": "babā jō"
+      },
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "grierson-lsi1928[p. 136-137, form GADI-68_tofathers-1, concept 68_tofathers]",
         "verified": false,
         "transcription_raw": "babā jō"
       }
@@ -23207,10 +22862,10 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "From a Father",
-        "definition_hi": "पिता / बाप",
-        "definition_ur": "باپ",
-        "semantic_field": "family",
+        "definition_en": "from a father; from fathers (ablative singular and plural identical in Grierson paradigm)",
+        "definition_hi": "पिता से",
+        "definition_ur": "باپ से",
+        "semantic_field": "grammar",
         "examples": []
       }
     ],
@@ -23218,6 +22873,12 @@
       {
         "source_id": "grierson_1916",
         "page_or_section": "grierson-lsi1928[p. 128-129, form GADI-64_fromafather-1, concept 64_fromafather]",
+        "verified": false,
+        "transcription_raw": "babā tʰaũ"
+      },
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "grierson-lsi1928[p. 138-139, form GADI-69_fromfathers-1, concept 69_fromfathers]",
         "verified": false,
         "transcription_raw": "babā tʰaũ"
       }
@@ -23311,59 +22972,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00321",
-    "lemma_devanagari": "बब",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "Fathers",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "grierson_1916",
-        "page_or_section": "grierson-lsi1928[p. 132-133, form GADI-66_fathers-1, concept 66_fathers]",
-        "verified": false,
-        "transcription_raw": "bab"
-      }
-    ],
-    "lemma_ipa": "bʌb",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "bab",
-    "normalized_headword": "bab",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "bab"
-      ],
-      "phonemic_variants": [
-        "bʌb"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [],
-      "source_transcription": "bab",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00322",
     "lemma_devanagari": "बबारा",
     "variety_id": "hp_chamba_bharmaur",
@@ -23412,112 +23020,6 @@
       ],
       "example_ids": [],
       "source_transcription": "babārā",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00323",
-    "lemma_devanagari": "बबा जो",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "To Fathers",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "grierson_1916",
-        "page_or_section": "grierson-lsi1928[p. 136-137, form GADI-68_tofathers-1, concept 68_tofathers]",
-        "verified": false,
-        "transcription_raw": "babā jō"
-      }
-    ],
-    "lemma_ipa": "bʌbʌː+dʒoː",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "babā jō",
-    "normalized_headword": "babajo",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "babā jō"
-      ],
-      "phonemic_variants": [
-        "bʌbʌː+dʒoː"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [],
-      "source_transcription": "babā jō",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00324",
-    "lemma_devanagari": "बबा थũ",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "From Fathers",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "grierson_1916",
-        "page_or_section": "grierson-lsi1928[p. 138-139, form GADI-69_fromfathers-1, concept 69_fromfathers]",
-        "verified": false,
-        "transcription_raw": "babā tʰaũ"
-      }
-    ],
-    "lemma_ipa": "bʌbʌː+t̪ʰʌũ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "babā tʰaũ",
-    "normalized_headword": "babatau",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "babā tʰaũ"
-      ],
-      "phonemic_variants": [
-        "bʌbʌː+t̪ʰʌũ"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [],
-      "source_transcription": "babā tʰaũ",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -24578,9 +24080,9 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "Mare",
-        "definition_hi": "",
-        "definition_ur": null,
+        "definition_en": "mare; mares (female horse; direct singular and plural identical in Grierson paradigm)",
+        "definition_hi": "घोड़ी",
+        "definition_ur": "گھوڑی",
         "semantic_field": "animals",
         "examples": []
       }
@@ -24589,6 +24091,12 @@
       {
         "source_id": "grierson_1916",
         "page_or_section": "grierson-lsi1928[p. 162-163, form GADI-81_mare-1, concept 81_mare]",
+        "verified": false,
+        "transcription_raw": "gʰōṛī"
+      },
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "grierson-lsi1928[p. 166-167, form GADI-83_mares-1, concept 83_mares]",
         "verified": false,
         "transcription_raw": "gʰōṛī"
       }
@@ -24622,7 +24130,8 @@
       "source_transcription": "gʰōṛī",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
-    }
+    },
+    "homonym_index": 1
   },
   {
     "id": "gaddi-uni-00342",
@@ -24680,66 +24189,13 @@
     }
   },
   {
-    "id": "gaddi-uni-00343",
-    "lemma_devanagari": "घोड़ी",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "Mares",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "grierson_1916",
-        "page_or_section": "grierson-lsi1928[p. 166-167, form GADI-83_mares-1, concept 83_mares]",
-        "verified": false,
-        "transcription_raw": "gʰōṛī"
-      }
-    ],
-    "lemma_ipa": "gʰoːɽiː",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "gʰōṛī",
-    "normalized_headword": "gori",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "gʰōṛī"
-      ],
-      "phonemic_variants": [
-        "gʰoːɽiː"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [],
-      "source_transcription": "gʰōṛī",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00344",
     "lemma_devanagari": "सान̥ʰ",
     "variety_id": "hp_chamba_bharmaur",
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "Bull",
+        "definition_en": "bull; bulls (direct singular and plural identical in Grierson paradigm)",
         "definition_hi": "बैल",
         "definition_ur": "بیل",
         "semantic_field": "animals",
@@ -24750,6 +24206,12 @@
       {
         "source_id": "grierson_1916",
         "page_or_section": "grierson-lsi1928[p. 168-169, form GADI-84_bull-1, concept 84_bull]",
+        "verified": false,
+        "transcription_raw": "sān̥ʰ"
+      },
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "grierson-lsi1928[p. 172-173, form GADI-86_bulls-1, concept 86_bulls]",
         "verified": false,
         "transcription_raw": "sān̥ʰ"
       }
@@ -24863,59 +24325,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00346",
-    "lemma_devanagari": "सान̥ʰ",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "Bulls",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "grierson_1916",
-        "page_or_section": "grierson-lsi1928[p. 172-173, form GADI-86_bulls-1, concept 86_bulls]",
-        "verified": false,
-        "transcription_raw": "sān̥ʰ"
-      }
-    ],
-    "lemma_ipa": "sʌːn̪̊ʰ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "sān̥ʰ",
-    "normalized_headword": "san",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "sān̥ʰ"
-      ],
-      "phonemic_variants": [
-        "sʌːn̪̊ʰ"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [],
-      "source_transcription": "sān̥ʰ",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00347",
     "lemma_devanagari": "गाई",
     "variety_id": "hp_chamba_bharmaur",
@@ -24975,7 +24384,7 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "Dog (male)",
+        "definition_en": "dog (male; direct singular and plural identical in Grierson paradigm)",
         "definition_hi": "कुत्ता",
         "definition_ur": "کتا",
         "semantic_field": "animals",
@@ -24986,6 +24395,12 @@
       {
         "source_id": "grierson_1916",
         "page_or_section": "grierson-lsi1928[p. 176-177, form GADI-88_dogmale-1, concept 88_dogmale]",
+        "verified": false,
+        "transcription_raw": "kutr"
+      },
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "grierson-lsi1928[p. 180-181, form GADI-90_dogs-1, concept 90_dogs]",
         "verified": false,
         "transcription_raw": "kutr"
       }
@@ -25035,10 +24450,10 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "female dog",
+        "definition_en": "female dog; bitch (direct singular and plural identical in Grierson paradigm)",
         "definition_hi": "कुतिया (मादा कुत्ता)",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_ur": "کتیا",
+        "semantic_field": "animals",
         "examples": []
       }
     ],
@@ -25048,111 +24463,7 @@
         "page_or_section": "grierson-lsi1928[p. 178-179, form GADI-89_bitch-1, concept 89_bitch]",
         "verified": false,
         "transcription_raw": "kutrī"
-      }
-    ],
-    "lemma_ipa": "kut̪riː",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "kutrī",
-    "normalized_headword": "kutri",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "kutrī"
-      ],
-      "phonemic_variants": [
-        "kut̪riː"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [],
-      "source_transcription": "kutrī",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00350",
-    "lemma_devanagari": "कुत्तर",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "Dogs",
-        "definition_hi": "कुत्ते",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "grierson_1916",
-        "page_or_section": "grierson-lsi1928[p. 180-181, form GADI-90_dogs-1, concept 90_dogs]",
-        "verified": false,
-        "transcription_raw": "kutr"
-      }
-    ],
-    "lemma_ipa": "kut̪r",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "kutr",
-    "normalized_headword": "kutr",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "kutr"
-      ],
-      "phonemic_variants": [
-        "kut̪r"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [
-        "kumari-ex-158",
-        "kumari-ex-164",
-        "kumari-ex-206"
-      ],
-      "source_transcription": "kutr",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00351",
-    "lemma_devanagari": "कुतरी",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "female dogs",
-        "definition_hi": "कुतियाँ (मादा कुत्ते)",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
+      },
       {
         "source_id": "grierson_1916",
         "page_or_section": "grierson-lsi1928[p. 182-183, form GADI-91_bitches-1, concept 91_bitches]",
@@ -25368,9 +24679,9 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "Male deer",
-        "definition_hi": "",
-        "definition_ur": null,
+        "definition_en": "deer; male deer (direct singular and plural identical in Grierson paradigm)",
+        "definition_hi": "हिरन / मृग",
+        "definition_ur": "ہرن",
         "semantic_field": "animals",
         "examples": []
       }
@@ -25381,6 +24692,12 @@
         "page_or_section": "grierson-lsi1928[p. 190-191, form GADI-95_maledeer-1, concept 95_maledeer]",
         "verified": false,
         "transcription_raw": "haraṇ"
+      },
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "grierson-lsi1928[p. 194-195, form GADI-97_deer-1, concept 97_deer]",
+        "verified": false,
+        "transcription_raw": "harṇ"
       }
     ],
     "lemma_ipa": "hʌrʌɳ",
@@ -25468,59 +24785,6 @@
         "kumari-ex-063"
       ],
       "source_transcription": "harṇī",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00357",
-    "lemma_devanagari": "हरण",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "Deer",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "animals",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "grierson_1916",
-        "page_or_section": "grierson-lsi1928[p. 194-195, form GADI-97_deer-1, concept 97_deer]",
-        "verified": false,
-        "transcription_raw": "harṇ"
-      }
-    ],
-    "lemma_ipa": "hʌrɳ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "harṇ",
-    "normalized_headword": "harn",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "animals"
-      ],
-      "variants": [
-        "harṇ"
-      ],
-      "phonemic_variants": [
-        "hʌrɳ"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [],
-      "source_transcription": "harṇ",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -25657,10 +24921,10 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "Good woman",
-        "definition_hi": "औरत / महिला",
-        "definition_ur": "عورت",
-        "semantic_field": "family",
+        "definition_en": "good woman; good women (direct singular and plural identical in Grierson paradigm)",
+        "definition_hi": "अच्छी औरत / भली महिला",
+        "definition_ur": "اچھی عورت",
+        "semantic_field": "people",
         "examples": []
       }
     ],
@@ -25668,6 +24932,12 @@
       {
         "source_id": "grierson_1916",
         "page_or_section": "grierson-lsi1928[p. 200-201, form GADI-100_goodwoman-1, concept 100_goodwoman]",
+        "verified": false,
+        "transcription_raw": "kʰarī trīmat"
+      },
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "grierson-lsi1928[p. 202-203, form GADI-101_goodwomen-1, concept 101_goodwomen]",
         "verified": false,
         "transcription_raw": "kʰarī trīmat"
       }
@@ -25708,68 +24978,6 @@
       "translations": {
         "pa": "ਔਰਤ / ਤੀਵੀਂ",
         "doi": "जनानी"
-      },
-      "source_transcription": "kʰarī trīmat",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00361",
-    "lemma_devanagari": "खरी तरीमत",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "Good women",
-        "definition_hi": "अच्छा",
-        "definition_ur": "اچھا / عمدہ",
-        "semantic_field": "colors",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "grierson_1916",
-        "page_or_section": "grierson-lsi1928[p. 202-203, form GADI-101_goodwomen-1, concept 101_goodwomen]",
-        "verified": false,
-        "transcription_raw": "kʰarī trīmat"
-      }
-    ],
-    "lemma_ipa": "kʰʌriː+t̪riːmʌt̪",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "kʰarī trīmat",
-    "normalized_headword": "karitrimat",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "colors"
-      ],
-      "variants": [
-        "kʰarī trīmat"
-      ],
-      "phonemic_variants": [
-        "kʰʌriː+t̪riːmʌt̪"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [
-        "kumari-ex-102",
-        "kumari-ex-215",
-        "kumari-ex-235",
-        "kumari-ex-251"
-      ],
-      "translations": {
-        "pa": "ਚੰਗਾ",
-        "doi": "शैल / चंगा"
       },
       "source_transcription": "kʰarī trīmat",
       "transliteration_source": "derived_transliteration",
@@ -30605,10 +29813,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "He",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_en": "he; they (3rd person personal pronoun, singular and plural identical in Grierson paradigm)",
+        "definition_hi": "वह / वे",
+        "definition_ur": "وہ",
+        "semantic_field": "pronouns",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "that (distal demonstrative pronoun)",
+        "definition_hi": "वह / उस",
+        "definition_ur": "وہ",
+        "semantic_field": "pronouns",
         "examples": []
       }
     ],
@@ -30618,6 +29834,18 @@
         "page_or_section": "grierson-lsi1928[p. 44-45, form GADI-22_he-1, concept 22_he]",
         "verified": false,
         "transcription_raw": "ōh"
+      },
+      {
+        "source_id": "grierson_1916",
+        "page_or_section": "grierson-lsi1928[p. 48-49, form GADI-24_they-1, concept 24_they]",
+        "verified": false,
+        "transcription_raw": "ōh"
+      },
+      {
+        "source_id": "census_2023_lsi",
+        "page_or_section": "pp. 58-119",
+        "verified": true,
+        "transcription_raw": "oh"
       }
     ],
     "lemma_ipa": "oːh",
@@ -30625,7 +29853,7 @@
     "lemma_takri": null,
     "original_transcription": "ōh",
     "normalized_headword": "oh",
-    "part_of_speech": "noun",
+    "part_of_speech": "pronoun",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -30734,7 +29962,7 @@
     "lemma_takri": null,
     "original_transcription": "sō",
     "normalized_headword": "so",
-    "part_of_speech": "noun",
+    "part_of_speech": "pronoun",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -30830,68 +30058,6 @@
       ],
       "example_ids": [],
       "source_transcription": "usērā",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00448",
-    "lemma_devanagari": "ओह",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "They",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "grierson_1916",
-        "page_or_section": "grierson-lsi1928[p. 48-49, form GADI-24_they-1, concept 24_they]",
-        "verified": false,
-        "transcription_raw": "ōh"
-      }
-    ],
-    "lemma_ipa": "oːh",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "ōh",
-    "normalized_headword": "oh",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "ōh"
-      ],
-      "phonemic_variants": [
-        "oːh"
-      ],
-      "synonyms": [
-        "सु",
-        "ओ",
-        "सौ"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:LSI-GADI:Ga%CC%84di%CC%84%20%28LSI%201928%29"
-      ],
-      "example_ids": [
-        "kumari-ex-137",
-        "kumari-ex-178",
-        "kumari-ex-231",
-        "kumari-ex-234"
-      ],
-      "source_transcription": "ōh",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -33390,10 +32556,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "air",
+        "definition_en": "air; wind",
         "definition_hi": "हवा / वायु",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_ur": "ہوا",
+        "semantic_field": "weather",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "storm; gale",
+        "definition_hi": "आंधी / तूफान",
+        "definition_ur": "طوفان",
+        "semantic_field": "weather",
         "examples": []
       }
     ],
@@ -33408,6 +32582,12 @@
         "source_id": "census_2023_lsi",
         "page_or_section": "p. 1089",
         "verified": true,
+        "transcription_raw": "biar"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1089, item 26, Bharmauri/Gaddi]",
+        "verified": false,
         "transcription_raw": "biar"
       }
     ],
@@ -35037,59 +34217,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00516",
-    "lemma_devanagari": "बिर",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "storm",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "water",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1089, item 26, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "biar"
-      }
-    ],
-    "lemma_ipa": "biar",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "biar",
-    "normalized_headword": "biar",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "water"
-      ],
-      "variants": [
-        "biar"
-      ],
-      "phonemic_variants": [
-        "biar"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "biar",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00517",
     "lemma_devanagari": "हलकिबियरि",
     "variety_id": "hp_chamba_bharmaur",
@@ -35313,6 +34440,12 @@
         "page_or_section": "p. 1089",
         "verified": true,
         "transcription_raw": "ciŗi"
+      },
+      {
+        "source_id": "census_2023_lsi",
+        "page_or_section": "pp. 58-119",
+        "verified": true,
+        "transcription_raw": "ciri"
       }
     ],
     "lemma_ipa": "ciŗi",
@@ -35415,63 +34548,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00522",
-    "lemma_devanagari": "बछ",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "baby",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "family",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1089, item 32, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "bacʰa"
-      }
-    ],
-    "lemma_ipa": "bacʰa",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "bacʰa",
-    "normalized_headword": "baca",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "family"
-      ],
-      "variants": [
-        "bacʰa"
-      ],
-      "phonemic_variants": [
-        "bacʰa"
-      ],
-      "synonyms": [
-        "निकक"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [
-        "kumari-ex-063"
-      ],
-      "source_transcription": "bacʰa",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00523",
     "lemma_devanagari": "गोबरु",
     "variety_id": "hp_chamba_bharmaur",
@@ -35481,7 +34557,15 @@
         "definition_en": "boy",
         "definition_hi": "लड़का",
         "definition_ur": "لڑکا",
-        "semantic_field": "family",
+        "semantic_field": "people",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "son",
+        "definition_hi": "बेटा / पुत्र",
+        "definition_ur": "بیٹا",
+        "semantic_field": "kinship",
         "examples": []
       }
     ],
@@ -35497,6 +34581,12 @@
         "page_or_section": "p. 1089",
         "verified": true,
         "transcription_raw": "gobru"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1090, item 63, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "gōbru"
       }
     ],
     "lemma_ipa": "gobru",
@@ -35801,10 +34891,10 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "child",
-        "definition_hi": "बच्चा",
+        "definition_en": "child; baby",
+        "definition_hi": "बच्चा / शिशु",
         "definition_ur": "بچہ",
-        "semantic_field": "family",
+        "semantic_field": "people",
         "examples": []
       }
     ],
@@ -35812,6 +34902,12 @@
       {
         "source_id": "census_2011",
         "page_or_section": "census2023himachal[p. 1089, item 39, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "bacʰa"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1089, item 32, Bharmauri/Gaddi]",
         "verified": false,
         "transcription_raw": "bacʰa"
       }
@@ -36335,8 +35431,16 @@
         "sense_index": 1,
         "definition_en": "man",
         "definition_hi": "आदमी / पुरुष",
-        "definition_ur": "مرد / آدمی",
-        "semantic_field": "family",
+        "definition_ur": "مرد",
+        "semantic_field": "people",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "person; human being",
+        "definition_hi": "व्यक्ति / मानुस",
+        "definition_ur": "انسان",
+        "semantic_field": "people",
         "examples": []
       }
     ],
@@ -36351,6 +35455,12 @@
         "source_id": "census_2023_lsi",
         "page_or_section": "p. 1090",
         "verified": true,
+        "transcription_raw": "manu"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1090, item 54, Bharmauri/Gaddi]",
+        "verified": false,
         "transcription_raw": "manu"
       }
     ],
@@ -36511,7 +35621,8 @@
       "source_transcription": "mama (mÒla)",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
-    }
+    },
+    "homonym_index": 1
   },
   {
     "id": "gaddi-uni-00539",
@@ -37088,71 +36199,24 @@
     }
   },
   {
-    "id": "gaddi-uni-00548",
-    "lemma_devanagari": "मनु",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "person",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1090, item 54, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "manu"
-      }
-    ],
-    "lemma_ipa": "manu",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "manu",
-    "normalized_headword": "manu",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "manu"
-      ],
-      "phonemic_variants": [
-        "manu"
-      ],
-      "synonyms": [
-        "मणु"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "manu",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00549",
     "lemma_devanagari": "लमम",
     "variety_id": "hp_chamba_bharmaur",
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "tall",
+        "definition_en": "tall; long",
         "definition_hi": "लंबा / ऊँचा",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_ur": "لمبا",
+        "semantic_field": "adjectives",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "good; fine",
+        "definition_hi": "अच्छा / भला",
+        "definition_ur": "اچھا",
+        "semantic_field": "adjectives",
         "examples": []
       }
     ],
@@ -37168,6 +36232,12 @@
         "page_or_section": "p. 1090",
         "verified": true,
         "transcription_raw": "lamma"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1097, item 378, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "lamma"
       }
     ],
     "lemma_ipa": "lamma",
@@ -37175,7 +36245,7 @@
     "lemma_takri": null,
     "original_transcription": "lamma",
     "normalized_headword": "lamma",
-    "part_of_speech": "noun",
+    "part_of_speech": "adjective",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -37728,67 +36798,6 @@
         "doi": "ਭੈਣ / भैण"
       },
       "source_transcription": "shalanu",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00558",
-    "lemma_devanagari": "गोबरु",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "son",
-        "definition_hi": "बेटा / पुत्र",
-        "definition_ur": "بیٹا",
-        "semantic_field": "family",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1090, item 63, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "gōbru"
-      }
-    ],
-    "lemma_ipa": "gōbru",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "gōbru",
-    "normalized_headword": "gobru",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "family"
-      ],
-      "variants": [
-        "gōbru"
-      ],
-      "phonemic_variants": [
-        "gōbru"
-      ],
-      "synonyms": [
-        "हलड़ु",
-        "पुतर",
-        "पोरते"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "translations": {
-        "pa": "ਪੁੱਤ",
-        "doi": "पुत्त"
-      },
-      "source_transcription": "gōbru",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -39813,10 +38822,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "chest",
+        "definition_en": "chest; breast",
         "definition_hi": "छाती / सीना",
-        "definition_ur": null,
-        "semantic_field": "body",
+        "definition_ur": "سینہ",
+        "semantic_field": "anatomy",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "roof; terrace",
+        "definition_hi": "छत",
+        "definition_ur": "چھت",
+        "semantic_field": "house",
         "examples": []
       }
     ],
@@ -39838,6 +38855,12 @@
         "page_or_section": "p. 1091",
         "verified": true,
         "transcription_raw": "chāti"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1092, item 144, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "cʰāti"
       }
     ],
     "lemma_ipa": "cʰāti",
@@ -40063,7 +39086,8 @@
       "source_transcription": "muh",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
-    }
+    },
+    "homonym_index": 1
   },
   {
     "id": "gaddi-uni-00595",
@@ -41086,7 +40110,15 @@
         "sense_index": 1,
         "definition_en": "fruit",
         "definition_hi": "फल",
-        "definition_ur": "پھਲ",
+        "definition_ur": "پھل",
+        "semantic_field": "plants",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "coconut",
+        "definition_hi": "नारियल",
+        "definition_ur": "ناریل",
         "semantic_field": "plants",
         "examples": []
       }
@@ -41108,6 +40140,12 @@
         "source_id": "census_2023_lsi",
         "page_or_section": "p. 1091",
         "verified": true,
+        "transcription_raw": "fhal"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1092, item 155, Bharmauri/Gaddi]",
+        "verified": false,
         "transcription_raw": "fhal"
       }
     ],
@@ -42030,59 +41068,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00626",
-    "lemma_devanagari": "छाति",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "roof",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "household",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1092, item 144, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "cʰāti"
-      }
-    ],
-    "lemma_ipa": "cʰāti",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "cʰāti",
-    "normalized_headword": "cati",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "household"
-      ],
-      "variants": [
-        "cʰāti"
-      ],
-      "phonemic_variants": [
-        "cʰāti"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "cʰāti",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00627",
     "lemma_devanagari": "कू",
     "variety_id": "hp_chamba_bharmaur",
@@ -42654,131 +41639,6 @@
       ],
       "example_ids": [],
       "source_transcription": "pipi",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00636",
-    "lemma_devanagari": "फ्हल",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "coconut",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1092, item 155, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "fhal"
-      }
-    ],
-    "lemma_ipa": "fhal",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "fhal",
-    "normalized_headword": "fhal",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "fhal"
-      ],
-      "phonemic_variants": [
-        "fhal"
-      ],
-      "synonyms": [
-        "fल"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "fhal",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false,
-      "is_uncertain": true,
-      "uncertainty_notes": "Source LSI 2023 p. 1092 prints 'fhal' for coconut. Preserved with uncertainty note."
-    }
-  },
-  {
-    "id": "gaddi-uni-00637",
-    "lemma_devanagari": "फल",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "coconut",
-        "definition_hi": "नारियल",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1092, item 155, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "fal"
-      },
-      {
-        "source_id": "census_2023_lsi",
-        "page_or_section": "p. 1092",
-        "verified": true,
-        "transcription_raw": "fal"
-      }
-    ],
-    "lemma_ipa": "fal",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "fal",
-    "normalized_headword": "fal",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general",
-        "plants"
-      ],
-      "variants": [
-        "fal"
-      ],
-      "phonemic_variants": [
-        "fal"
-      ],
-      "synonyms": [
-        "fहल"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [
-        "kumari-ex-045",
-        "kumari-ex-063",
-        "kumari-ex-153",
-        "kumari-ex-196",
-        "kumari-ex-238"
-      ],
-      "source_transcription": "fal",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -44160,7 +43020,15 @@
         "sense_index": 1,
         "definition_en": "fruit",
         "definition_hi": "फल",
-        "definition_ur": "پھਲ",
+        "definition_ur": "پھل",
+        "semantic_field": "plants",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "coconut",
+        "definition_hi": "नारियल / श्रीफल",
+        "definition_ur": "ناریل",
         "semantic_field": "plants",
         "examples": []
       }
@@ -44170,6 +43038,18 @@
         "source_id": "census_2011",
         "page_or_section": "census2023himachal[p. 1093, item 178, Bharmauri/Gaddi]",
         "verified": false,
+        "transcription_raw": "fal"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1092, item 155, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "fal"
+      },
+      {
+        "source_id": "census_2023_lsi",
+        "page_or_section": "p. 1092",
+        "verified": true,
         "transcription_raw": "fal"
       }
     ],
@@ -45080,7 +43960,7 @@
     "lemma_takri": null,
     "original_transcription": "lal",
     "normalized_headword": "lal",
-    "part_of_speech": "noun",
+    "part_of_speech": "adjective",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -45150,7 +44030,7 @@
     "lemma_takri": null,
     "original_transcription": "bura",
     "normalized_headword": "bura",
-    "part_of_speech": "noun",
+    "part_of_speech": "adjective",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -48356,10 +47236,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "do",
+        "definition_en": "to do",
         "definition_hi": "करना",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_ur": "کرنا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to swim",
+        "definition_hi": "तैरना",
+        "definition_ur": "تیرنا",
+        "semantic_field": "verbs",
         "examples": []
       }
     ],
@@ -48375,6 +47263,12 @@
         "page_or_section": "p. 1094",
         "verified": true,
         "transcription_raw": "karna"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1096, item 322, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "karna"
       }
     ],
     "lemma_ipa": "karna",
@@ -48382,7 +47276,7 @@
     "lemma_takri": null,
     "original_transcription": "karna",
     "normalized_headword": "karna",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -48615,7 +47509,7 @@
     "lemma_takri": null,
     "original_transcription": "banana",
     "normalized_headword": "banana",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -48651,10 +47545,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "mix",
+        "definition_en": "to mix",
         "definition_hi": "मिलाना",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_ur": "ملانا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to rub",
+        "definition_hi": "रगड़ना / मलना",
+        "definition_ur": "ملنا",
+        "semantic_field": "verbs",
         "examples": []
       }
     ],
@@ -48670,6 +47572,18 @@
         "page_or_section": "p. 1094",
         "verified": true,
         "transcription_raw": "malana"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1095, item 283, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "malna"
+      },
+      {
+        "source_id": "census_2023_lsi",
+        "page_or_section": "p. 1095",
+        "verified": true,
+        "transcription_raw": "malna"
       }
     ],
     "lemma_ipa": "malana",
@@ -48677,7 +47591,7 @@
     "lemma_takri": null,
     "original_transcription": "malana",
     "normalized_headword": "malana",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -48764,10 +47678,34 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "hit",
+        "definition_en": "to hit; strike",
+        "definition_hi": "मारना",
+        "definition_ur": "مارना",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to kill",
         "definition_hi": "मार डालना / वध करना",
-        "definition_ur": null,
-        "semantic_field": "actions",
+        "definition_ur": "قتل کرنا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 3,
+        "definition_en": "to stab; pierce",
+        "definition_hi": "भोंकना / चुभोना",
+        "definition_ur": "چبھونا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 4,
+        "definition_en": "to choose; select",
+        "definition_hi": "चुनना",
+        "definition_ur": "چننا",
+        "semantic_field": "verbs",
         "examples": []
       }
     ],
@@ -48783,6 +47721,24 @@
         "page_or_section": "p. 1095",
         "verified": true,
         "transcription_raw": "marna"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1095, item 270, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "marna"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1095, item 301, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "marna"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1097, item 352, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "marna"
       }
     ],
     "lemma_ipa": "marna",
@@ -48790,7 +47746,7 @@
     "lemma_takri": null,
     "original_transcription": "marna",
     "normalized_headword": "marna",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -48829,10 +47785,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "hit",
+        "definition_en": "to hit; strike",
+        "definition_hi": "मारना / ठोकना",
+        "definition_ur": "मारना",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to spit",
         "definition_hi": "थूकना",
-        "definition_ur": null,
-        "semantic_field": "actions",
+        "definition_ur": "تھوکنا",
+        "semantic_field": "verbs",
         "examples": []
       }
     ],
@@ -48848,6 +47812,12 @@
         "page_or_section": "p. 1095",
         "verified": true,
         "transcription_raw": "tukna"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1095, item 289, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "tukna"
       }
     ],
     "lemma_ipa": "tukna",
@@ -48855,7 +47825,7 @@
     "lemma_takri": null,
     "original_transcription": "tukna",
     "normalized_headword": "tukna",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -49297,10 +48267,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "put",
+        "definition_en": "to put; place",
         "definition_hi": "रखना / डालना",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_ur": "رکھنا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to keep; retain",
+        "definition_hi": "रखना / संभालना",
+        "definition_ur": "سنبھالنا",
+        "semantic_field": "verbs",
         "examples": []
       }
     ],
@@ -49316,6 +48294,12 @@
         "page_or_section": "p. 1095",
         "verified": true,
         "transcription_raw": "rakna"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1096, item 342, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "rakna"
       }
     ],
     "lemma_ipa": "rakna",
@@ -49323,7 +48307,7 @@
     "lemma_takri": null,
     "original_transcription": "rakna",
     "normalized_headword": "rakna",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -49350,73 +48334,24 @@
     }
   },
   {
-    "id": "gaddi-uni-00746",
-    "lemma_devanagari": "मरन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "kill",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "actions",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1095, item 270, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "marna"
-      }
-    ],
-    "lemma_ipa": "marna",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "marna",
-    "normalized_headword": "marna",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "actions"
-      ],
-      "variants": [
-        "marna"
-      ],
-      "phonemic_variants": [
-        "marna"
-      ],
-      "synonyms": [
-        "मुक"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [
-        "kumari-ex-042"
-      ],
-      "source_transcription": "marna",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00747",
     "lemma_devanagari": "गन",
     "variety_id": "hp_chamba_bharmaur",
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "sing",
+        "definition_en": "to sing",
+        "definition_hi": "गाना",
+        "definition_ur": "گانا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to go",
         "definition_hi": "जाना",
-        "definition_ur": null,
-        "semantic_field": "actions",
+        "definition_ur": "جانا",
+        "semantic_field": "verbs",
         "examples": []
       }
     ],
@@ -49432,6 +48367,12 @@
         "page_or_section": "pp. 58-119",
         "verified": true,
         "transcription_raw": "gana"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1095, item 277, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "gana"
       }
     ],
     "lemma_ipa": "gana",
@@ -49439,7 +48380,7 @@
     "lemma_takri": null,
     "original_transcription": "gana",
     "normalized_headword": "gana",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -49796,10 +48737,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "get",
+        "definition_en": "to get; receive",
         "definition_hi": "पाना / मिलना",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_ur": "پانا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to take",
+        "definition_hi": "लेना",
+        "definition_ur": "لینا",
+        "semantic_field": "verbs",
         "examples": []
       }
     ],
@@ -49815,6 +48764,12 @@
         "page_or_section": "p. 1095",
         "verified": true,
         "transcription_raw": "lena"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1095, item 281, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "lena"
       }
     ],
     "lemma_ipa": "lena",
@@ -49822,7 +48777,7 @@
     "lemma_takri": null,
     "original_transcription": "lena",
     "normalized_headword": "lena",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -49844,59 +48799,6 @@
       ],
       "example_ids": [],
       "source_transcription": "lena",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00754",
-    "lemma_devanagari": "गन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "go",
-        "definition_hi": "जाना",
-        "definition_ur": null,
-        "semantic_field": "travel",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1095, item 277, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "gana"
-      }
-    ],
-    "lemma_ipa": "gana",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "gana",
-    "normalized_headword": "gana",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "travel"
-      ],
-      "variants": [
-        "gana"
-      ],
-      "phonemic_variants": [
-        "gana"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "gana",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -50075,62 +48977,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00758",
-    "lemma_devanagari": "लेन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "take",
-        "definition_hi": "लेना",
-        "definition_ur": null,
-        "semantic_field": "actions",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1095, item 281, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "lena"
-      }
-    ],
-    "lemma_ipa": "lena",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "lena",
-    "normalized_headword": "lena",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "actions"
-      ],
-      "variants": [
-        "lena"
-      ],
-      "phonemic_variants": [
-        "lena"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [
-        "kumari-ex-043",
-        "kumari-ex-127"
-      ],
-      "source_transcription": "lena",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00759",
     "lemma_devanagari": "हनदन",
     "variety_id": "hp_chamba_bharmaur",
@@ -50189,68 +49035,6 @@
       ],
       "example_ids": [],
       "source_transcription": "handna",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00760",
-    "lemma_devanagari": "मलन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "rub",
-        "definition_hi": "रगड़ना",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1095, item 283, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "malna"
-      },
-      {
-        "source_id": "census_2023_lsi",
-        "page_or_section": "p. 1095",
-        "verified": true,
-        "transcription_raw": "malna"
-      }
-    ],
-    "lemma_ipa": "malna",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "malna",
-    "normalized_headword": "malna",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "malna"
-      ],
-      "phonemic_variants": [
-        "malna"
-      ],
-      "synonyms": [
-        "ɡʰआह",
-        "घह"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "malna",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -50541,63 +49325,6 @@
         "kumari-ex-038"
       ],
       "source_transcription": "mecʰōduna",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00766",
-    "lemma_devanagari": "तुकन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "spit",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1095, item 289, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "tukna"
-      }
-    ],
-    "lemma_ipa": "tukna",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "tukna",
-    "normalized_headword": "tukna",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "tukna"
-      ],
-      "phonemic_variants": [
-        "tukna"
-      ],
-      "synonyms": [
-        "थुक",
-        "थुकक",
-        "थुकका"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "tukna",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -51266,59 +49993,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00778",
-    "lemma_devanagari": "मरन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "stab",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1095, item 301, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "marna"
-      }
-    ],
-    "lemma_ipa": "marna",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "marna",
-    "normalized_headword": "marna",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "marna"
-      ],
-      "phonemic_variants": [
-        "marna"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "marna",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00779",
     "lemma_devanagari": "फेकनो",
     "variety_id": "hp_chamba_bharmaur",
@@ -51675,10 +50349,26 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "cut",
+        "definition_en": "to cut",
         "definition_hi": "काटना",
-        "definition_ur": null,
-        "semantic_field": "actions",
+        "definition_ur": "کاٹنا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to call; shout",
+        "definition_hi": "बुलाना / सादना",
+        "definition_ur": "بلانا",
+        "semantic_field": "verbs",
+        "examples": []
+      },
+      {
+        "sense_index": 3,
+        "definition_en": "to harvest; reap",
+        "definition_hi": "फसल काटना",
+        "definition_ur": "فصل کاٹنا",
+        "semantic_field": "agriculture",
         "examples": []
       }
     ],
@@ -51694,6 +50384,18 @@
         "page_or_section": "p. 1096",
         "verified": true,
         "transcription_raw": "badna"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1096, item 316, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "badana"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1096, item 327, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "badna"
       }
     ],
     "lemma_ipa": "badna",
@@ -51701,7 +50403,7 @@
     "lemma_takri": null,
     "original_transcription": "badna",
     "normalized_headword": "badna",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -51959,68 +50661,6 @@
       ],
       "example_ids": [],
       "source_transcription": "kũana",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00789",
-    "lemma_devanagari": "बदन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "call",
-        "definition_hi": "सब / सभी",
-        "definition_ur": null,
-        "semantic_field": "actions",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1096, item 316, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "badana"
-      },
-      {
-        "source_id": "census_2023_lsi",
-        "page_or_section": "p. 1096",
-        "verified": true,
-        "transcription_raw": "badana"
-      }
-    ],
-    "lemma_ipa": "badana",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "badana",
-    "normalized_headword": "badana",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "actions",
-        "numbers"
-      ],
-      "variants": [
-        "badana"
-      ],
-      "phonemic_variants": [
-        "badana"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [
-        "kumari-ex-237"
-      ],
-      "source_transcription": "badana",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -52384,61 +51024,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00796",
-    "lemma_devanagari": "करन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "swim",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "actions",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1096, item 322, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "karna"
-      }
-    ],
-    "lemma_ipa": "karna",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "karna",
-    "normalized_headword": "karna",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "actions"
-      ],
-      "variants": [
-        "karna"
-      ],
-      "phonemic_variants": [
-        "karna"
-      ],
-      "synonyms": [
-        "तर"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "karna",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00797",
     "lemma_devanagari": "फ्हतय",
     "variety_id": "hp_chamba_bharmaur",
@@ -52665,59 +51250,6 @@
       ],
       "example_ids": [],
       "source_transcription": "cʰarna",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00801",
-    "lemma_devanagari": "बदन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "harvest",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "agriculture",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1096, item 327, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "badna"
-      }
-    ],
-    "lemma_ipa": "badna",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "badna",
-    "normalized_headword": "badna",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "agriculture"
-      ],
-      "variants": [
-        "badna"
-      ],
-      "phonemic_variants": [
-        "badna"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "badna",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -53621,62 +52153,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00817",
-    "lemma_devanagari": "रकन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "keep",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1096, item 342, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "rakna"
-      }
-    ],
-    "lemma_ipa": "rakna",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "rakna",
-    "normalized_headword": "rakna",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "rakna"
-      ],
-      "phonemic_variants": [
-        "rakna"
-      ],
-      "synonyms": [
-        "मरोदन",
-        "थéन"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "rakna",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00818",
     "lemma_devanagari": "थेणा",
     "variety_id": "hp_chamba_bharmaur",
@@ -54117,7 +52593,7 @@
     "lemma_takri": null,
     "original_transcription": "na",
     "normalized_headword": "na",
-    "part_of_speech": "noun",
+    "part_of_speech": "adjective",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -54257,59 +52733,6 @@
         "doi": "वड्डा"
       },
       "source_transcription": "cʰãlna",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00828",
-    "lemma_devanagari": "मरन",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "choose",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1097, item 352, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "marna"
-      }
-    ],
-    "lemma_ipa": "marna",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "marna",
-    "normalized_headword": "marna",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "marna"
-      ],
-      "phonemic_variants": [
-        "marna"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [],
-      "source_transcription": "marna",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -55901,71 +54324,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00855",
-    "lemma_devanagari": "लमम",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "good",
-        "definition_hi": "अच्छा",
-        "definition_ur": "اچھا / عمدہ",
-        "semantic_field": "colors",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1097, item 378, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "lamma"
-      }
-    ],
-    "lemma_ipa": "lamma",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "lamma",
-    "normalized_headword": "lamma",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "colors"
-      ],
-      "variants": [
-        "lamma"
-      ],
-      "phonemic_variants": [
-        "lamma"
-      ],
-      "synonyms": [
-        "छैɭ",
-        "छैḷ"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [
-        "kumari-ex-102",
-        "kumari-ex-215",
-        "kumari-ex-235",
-        "kumari-ex-251"
-      ],
-      "translations": {
-        "pa": "ਚੰਗਾ",
-        "doi": "शैल / चंगा"
-      },
-      "source_transcription": "lamma",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00856",
     "lemma_devanagari": "नोव",
     "variety_id": "hp_chamba_bharmaur",
@@ -57359,7 +55717,7 @@
     "lemma_takri": null,
     "original_transcription": "so",
     "normalized_headword": "so",
-    "part_of_speech": "noun",
+    "part_of_speech": "postposition",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -57496,7 +55854,7 @@
     "lemma_takri": null,
     "original_transcription": "so",
     "normalized_headword": "so",
-    "part_of_speech": "noun",
+    "part_of_speech": "adverb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -57617,9 +55975,17 @@
       {
         "sense_index": 1,
         "definition_en": "I",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_hi": "मैं",
+        "definition_ur": "میں",
+        "semantic_field": "pronouns",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "to us",
+        "definition_hi": "हमें",
+        "definition_ur": "ہمیں",
+        "semantic_field": "pronouns",
         "examples": []
       }
     ],
@@ -57629,6 +55995,12 @@
         "page_or_section": "census2023himachal[p. 1098, item 406, Bharmauri/Gaddi]",
         "verified": false,
         "transcription_raw": "e"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1099, item 470, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "e"
       }
     ],
     "lemma_ipa": "e",
@@ -57636,7 +56008,7 @@
     "lemma_takri": null,
     "original_transcription": "e",
     "normalized_headword": "e",
-    "part_of_speech": "noun",
+    "part_of_speech": "pronoun",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -57840,7 +56212,7 @@
     "lemma_takri": null,
     "original_transcription": "na",
     "normalized_headword": "na",
-    "part_of_speech": "noun",
+    "part_of_speech": "pronoun",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -57958,7 +56330,7 @@
     "lemma_takri": null,
     "original_transcription": "su",
     "normalized_headword": "su",
-    "part_of_speech": "noun",
+    "part_of_speech": "adverb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -57999,10 +56371,18 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "that",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_en": "that (distal demonstrative pronoun)",
+        "definition_hi": "वह",
+        "definition_ur": "وہ",
+        "semantic_field": "pronouns",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "they (3rd person plural pronoun)",
+        "definition_hi": "वे",
+        "definition_ur": "وہ",
+        "semantic_field": "pronouns",
         "examples": []
       }
     ],
@@ -58012,6 +56392,12 @@
         "page_or_section": "census2023himachal[p. 1098, item 411, Bharmauri/Gaddi]",
         "verified": false,
         "transcription_raw": "su"
+      },
+      {
+        "source_id": "census_2011",
+        "page_or_section": "census2023himachal[p. 1098, item 414, Bharmauri/Gaddi]",
+        "verified": false,
+        "transcription_raw": "su"
       }
     ],
     "lemma_ipa": "su",
@@ -58019,7 +56405,7 @@
     "lemma_takri": null,
     "original_transcription": "su",
     "normalized_headword": "su",
-    "part_of_speech": "noun",
+    "part_of_speech": "pronoun",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -58173,69 +56559,6 @@
         "kumari-ex-204"
       ],
       "source_transcription": "tari",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-00891",
-    "lemma_devanagari": "सु",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "they",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1098, item 414, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "su"
-      }
-    ],
-    "lemma_ipa": "su",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "su",
-    "normalized_headword": "su",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "su"
-      ],
-      "phonemic_variants": [
-        "su"
-      ],
-      "synonyms": [
-        "ओ",
-        "ओह",
-        "सौ"
-      ],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [
-        "kumari-ex-074",
-        "kumari-ex-075",
-        "kumari-ex-137",
-        "kumari-ex-178",
-        "kumari-ex-202"
-      ],
-      "source_transcription": "su",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -58454,7 +56777,7 @@
     "lemma_takri": null,
     "original_transcription": "kane",
     "normalized_headword": "kane",
-    "part_of_speech": "noun",
+    "part_of_speech": "pronoun",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -59082,7 +57405,7 @@
     "lemma_takri": null,
     "original_transcription": "púr",
     "normalized_headword": "pur",
-    "part_of_speech": "noun",
+    "part_of_speech": "conjunction",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -59323,7 +57646,7 @@
     "lemma_takri": null,
     "original_transcription": "bura",
     "normalized_headword": "bura",
-    "part_of_speech": "noun",
+    "part_of_speech": "postposition",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -60199,10 +58522,10 @@
     "senses": [
       {
         "sense_index": 1,
-        "definition_en": "many",
-        "definition_hi": "बहुत",
-        "definition_ur": null,
-        "semantic_field": "numbers",
+        "definition_en": "many; much; numerous",
+        "definition_hi": "बहुत / अनेक",
+        "definition_ur": "بہت",
+        "semantic_field": "quantifiers",
         "examples": []
       }
     ],
@@ -60218,6 +58541,12 @@
         "page_or_section": "p. 1099",
         "verified": true,
         "transcription_raw": "máte"
+      },
+      {
+        "source_id": "census_2023_lsi",
+        "page_or_section": "pp. 58-119",
+        "verified": true,
+        "transcription_raw": "mate:"
       }
     ],
     "lemma_ipa": "máte",
@@ -60225,7 +58554,7 @@
     "lemma_takri": null,
     "original_transcription": "máte",
     "normalized_headword": "mate",
-    "part_of_speech": "noun",
+    "part_of_speech": "adjective",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -61711,84 +60040,6 @@
     }
   },
   {
-    "id": "gaddi-uni-00948",
-    "lemma_devanagari": "ए",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "to us",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2011",
-        "page_or_section": "census2023himachal[p. 1099, item 470, Bharmauri/Gaddi]",
-        "verified": false,
-        "transcription_raw": "e"
-      }
-    ],
-    "lemma_ipa": "e",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "e",
-    "normalized_headword": "e",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "general"
-      ],
-      "variants": [
-        "e"
-      ],
-      "phonemic_variants": [
-        "e"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "dialect:ga:census-himachal-7:Bharmauri%2FGaddi uncertain"
-      ],
-      "example_ids": [
-        "kumari-ex-001",
-        "kumari-ex-002",
-        "kumari-ex-003",
-        "kumari-ex-009",
-        "kumari-ex-013",
-        "kumari-ex-014",
-        "kumari-ex-018",
-        "kumari-ex-021",
-        "kumari-ex-023",
-        "kumari-ex-025",
-        "kumari-ex-026",
-        "kumari-ex-030",
-        "kumari-ex-032",
-        "kumari-ex-033",
-        "kumari-ex-034",
-        "kumari-ex-035",
-        "kumari-ex-038",
-        "kumari-ex-045",
-        "kumari-ex-046",
-        "kumari-ex-074",
-        "kumari-ex-135",
-        "kumari-ex-154",
-        "kumari-ex-173",
-        "kumari-ex-245"
-      ],
-      "source_transcription": "e",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-00949",
     "lemma_devanagari": "इस",
     "variety_id": "hp_chamba_bharmaur",
@@ -62803,7 +61054,8 @@
       "source_transcription": "muha",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
-    }
+    },
+    "homonym_index": 2
   },
   {
     "id": "gaddi-uni-00965",
@@ -64031,7 +62283,8 @@
       "source_transcription": "ghoṛī",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
-    }
+    },
+    "homonym_index": 2
   },
   {
     "id": "gaddi-uni-00987",
@@ -64527,9 +62780,25 @@
       {
         "sense_index": 1,
         "definition_en": "ashes",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "general",
+        "definition_hi": "राख",
+        "definition_ur": "راکھ",
+        "semantic_field": "nature",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "dust",
+        "definition_hi": "धूल",
+        "definition_ur": "دھول",
+        "semantic_field": "nature",
+        "examples": []
+      },
+      {
+        "sense_index": 3,
+        "definition_en": "fog; haze",
+        "definition_hi": "कोहरा / धुंध",
+        "definition_ur": "کہرا",
+        "semantic_field": "nature",
         "examples": []
       }
     ],
@@ -64537,6 +62806,18 @@
       {
         "source_id": "kumari_2026",
         "page_or_section": "kumari2026gaddi[p. 119, table B.1, item 4]",
+        "verified": false,
+        "transcription_raw": "dʰūṛ"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "kumari2026gaddi[p. 120, table B.1, item 36]",
+        "verified": false,
+        "transcription_raw": "dʰūṛ"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "kumari2026gaddi[p. 120, table B.1, item 57]",
         "verified": false,
         "transcription_raw": "dʰūṛ"
       }
@@ -64892,7 +63173,7 @@
     "lemma_takri": null,
     "original_transcription": "kʰa",
     "normalized_headword": "ka",
-    "part_of_speech": "noun",
+    "part_of_speech": "verb",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -64980,57 +63261,6 @@
         "doi": "काला"
       },
       "source_transcription": "kaḷa",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
-    "id": "gaddi-uni-01004",
-    "lemma_devanagari": "चल",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "blow (as in wind)",
-        "definition_hi": "हवा",
-        "definition_ur": null,
-        "semantic_field": "water",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "kumari2026gaddi[p. 119, table B.1, item 16.1]",
-        "verified": false,
-        "transcription_raw": "cəl"
-      }
-    ],
-    "lemma_ipa": "cəl",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "cəl",
-    "normalized_headword": "cl",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "water"
-      ],
-      "variants": [
-        "cəl"
-      ],
-      "phonemic_variants": [
-        "cəl"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [],
-      "source_transcription": "cəl",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
     }
@@ -65920,61 +64150,6 @@
     }
   },
   {
-    "id": "gaddi-uni-01020",
-    "lemma_devanagari": "धूड़",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "dust",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "mountains",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "kumari2026gaddi[p. 120, table B.1, item 36]",
-        "verified": false,
-        "transcription_raw": "dʰūṛ"
-      }
-    ],
-    "lemma_ipa": "dʰūṛ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "dʰūṛ",
-    "normalized_headword": "dur",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "mountains"
-      ],
-      "variants": [
-        "dʰūṛ"
-      ],
-      "phonemic_variants": [
-        "dʰūṛ"
-      ],
-      "synonyms": [
-        "धौड़"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-152"
-      ],
-      "source_transcription": "dʰūṛ",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
     "id": "gaddi-uni-01021",
     "lemma_devanagari": "हखर",
     "variety_id": "hp_kangra_palampur",
@@ -66160,8 +64335,16 @@
       {
         "sense_index": 1,
         "definition_en": "feather",
-        "definition_hi": "",
-        "definition_ur": null,
+        "definition_hi": "पंख / पर",
+        "definition_ur": "پر",
+        "semantic_field": "animals",
+        "examples": []
+      },
+      {
+        "sense_index": 2,
+        "definition_en": "wing",
+        "definition_hi": "डैना / पंख",
+        "definition_ur": "بازو / پر",
         "semantic_field": "animals",
         "examples": []
       }
@@ -66170,6 +64353,12 @@
       {
         "source_id": "kumari_2026",
         "page_or_section": "kumari2026gaddi[p. 120, table B.1, item 47]",
+        "verified": false,
+        "transcription_raw": "pʰəŋg"
+      },
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "kumari2026gaddi[p. 123, table B.1, item 199]",
         "verified": false,
         "transcription_raw": "pʰəŋg"
       }
@@ -66537,62 +64726,6 @@
       "tags": [],
       "example_ids": [],
       "source_transcription": "uḍər",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
-    "id": "gaddi-uni-01031",
-    "lemma_devanagari": "धूड़",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "fog",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "water",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "kumari2026gaddi[p. 120, table B.1, item 57]",
-        "verified": false,
-        "transcription_raw": "dʰūṛ"
-      }
-    ],
-    "lemma_ipa": "dʰūṛ",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "dʰūṛ",
-    "normalized_headword": "dur",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "water"
-      ],
-      "variants": [
-        "dʰūṛ"
-      ],
-      "phonemic_variants": [
-        "dʰūṛ"
-      ],
-      "synonyms": [
-        "दुनदु",
-        "धौड़"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-152"
-      ],
-      "source_transcription": "dʰūṛ",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
     }
@@ -67538,7 +65671,8 @@
       "source_transcription": "hiŋg",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
-    }
+    },
+    "homonym_index": 1
   },
   {
     "id": "gaddi-uni-01048",
@@ -69537,7 +67671,8 @@
       "source_transcription": "bərkʰa",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
-    }
+    },
+    "homonym_index": 1
   },
   {
     "id": "gaddi-uni-01081",
@@ -70331,7 +68466,8 @@
       "source_transcription": "hiŋg",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
-    }
+    },
+    "homonym_index": 2
   },
   {
     "id": "gaddi-uni-01095",
@@ -71509,74 +69645,6 @@
     }
   },
   {
-    "id": "gaddi-uni-01116",
-    "lemma_devanagari": "चल",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "walk",
-        "definition_hi": "चलना",
-        "definition_ur": null,
-        "semantic_field": "travel",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "kumari2026gaddi[p. 123, table B.1, item 185]",
-        "verified": false,
-        "transcription_raw": "cal"
-      }
-    ],
-    "lemma_ipa": "cal",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "cal",
-    "normalized_headword": "cal",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "travel",
-        "actions"
-      ],
-      "variants": [
-        "cal"
-      ],
-      "phonemic_variants": [
-        "cal"
-      ],
-      "synonyms": [
-        "चाल",
-        "हनदन"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [
-        "kumari-ex-045",
-        "kumari-ex-055",
-        "kumari-ex-056",
-        "kumari-ex-057",
-        "kumari-ex-127",
-        "kumari-ex-130",
-        "kumari-ex-131",
-        "kumari-ex-132",
-        "kumari-ex-170",
-        "kumari-ex-173",
-        "kumari-ex-212",
-        "kumari-ex-237"
-      ],
-      "source_transcription": "cal",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
     "id": "gaddi-uni-01117",
     "lemma_devanagari": "कौशनद",
     "variety_id": "hp_kangra_palampur",
@@ -72040,60 +70108,6 @@
     }
   },
   {
-    "id": "gaddi-uni-01125",
-    "lemma_devanagari": "फङग",
-    "variety_id": "hp_kangra_palampur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "wing",
-        "definition_hi": "",
-        "definition_ur": null,
-        "semantic_field": "animals",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "kumari_2026",
-        "page_or_section": "kumari2026gaddi[p. 123, table B.1, item 199]",
-        "verified": false,
-        "transcription_raw": "pʰəŋg"
-      }
-    ],
-    "lemma_ipa": "pʰəŋg",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "pʰəŋg",
-    "normalized_headword": "pg",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": null,
-    "metadata": {
-      "categories": [
-        "animals"
-      ],
-      "variants": [
-        "pʰəŋg"
-      ],
-      "phonemic_variants": [
-        "pʰəŋg"
-      ],
-      "synonyms": [
-        "पãनकु",
-        "फङɡ"
-      ],
-      "etymology": "",
-      "tags": [],
-      "example_ids": [],
-      "source_transcription": "pʰəŋg",
-      "transliteration_source": "source_devanagari",
-      "source_attested_spelling": true
-    }
-  },
-  {
     "id": "gaddi-uni-01126",
     "lemma_devanagari": "पुज",
     "variety_id": "hp_kangra_palampur",
@@ -72440,7 +70454,8 @@
       "source_transcription": "bərkʰa",
       "transliteration_source": "source_devanagari",
       "source_attested_spelling": true
-    }
+    },
+    "homonym_index": 2
   },
   {
     "id": "gaddi-uni-01132",
@@ -72994,7 +71009,7 @@
   },
   {
     "id": "gaddi-uni-01142",
-    "lemma_devanagari": "ख",
+    "lemma_devanagari": "अख",
     "variety_id": "hp_kangra_palampur",
     "senses": [
       {
@@ -73019,7 +71034,7 @@
     "lemma_takri": null,
     "original_transcription": "əkʰ",
     "normalized_headword": "k",
-    "part_of_speech": "noun",
+    "part_of_speech": "numeral",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -89038,61 +87053,6 @@
     }
   },
   {
-    "id": "gaddi-uni-01432",
-    "lemma_devanagari": "मते",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "many",
-        "definition_hi": "अनेक / बहुत",
-        "definition_ur": null,
-        "semantic_field": "family",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2023_lsi",
-        "page_or_section": "pp. 58-119",
-        "verified": true,
-        "transcription_raw": "mate:"
-      }
-    ],
-    "lemma_ipa": "mate:",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "mate:",
-    "normalized_headword": "मते",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Extracted from 2023 Linguistic Survey of India (LSI): Himachal Pradesh (ORGI, New Delhi). Bharmauri/Gaddi dialect of Chamba.",
-    "metadata": {
-      "categories": [
-        "family"
-      ],
-      "variants": [
-        "mate:"
-      ],
-      "phonemic_variants": [
-        "mate:"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "lsi_2023",
-        "bharmauri"
-      ],
-      "example_ids": [],
-      "is_multiword": false,
-      "source_transcription": "mate:",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
     "id": "gaddi-uni-01433",
     "lemma_devanagari": "मत",
     "variety_id": "hp_chamba_bharmaur",
@@ -89229,7 +87189,7 @@
     "lemma_takri": null,
     "original_transcription": "pura",
     "normalized_headword": "पुर",
-    "part_of_speech": "noun",
+    "part_of_speech": "adjective",
     "gender": null,
     "evidence_status": "comparative_only",
     "comparative_notes": null,
@@ -89473,61 +87433,6 @@
       "example_ids": [],
       "is_multiword": true,
       "source_transcription": "doar",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-01440",
-    "lemma_devanagari": "चिरि",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "wood",
-        "definition_hi": "लकड़ी / काष्ठ",
-        "definition_ur": null,
-        "semantic_field": "plants",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2023_lsi",
-        "page_or_section": "pp. 58-119",
-        "verified": true,
-        "transcription_raw": "ciri"
-      }
-    ],
-    "lemma_ipa": "ciri",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "ciri",
-    "normalized_headword": "चिरि",
-    "part_of_speech": "noun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Extracted from 2023 Linguistic Survey of India (LSI): Himachal Pradesh (ORGI, New Delhi). Bharmauri/Gaddi dialect of Chamba.",
-    "metadata": {
-      "categories": [
-        "plants"
-      ],
-      "variants": [
-        "ciri"
-      ],
-      "phonemic_variants": [
-        "ciri"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "lsi_2023",
-        "bharmauri"
-      ],
-      "example_ids": [],
-      "is_multiword": false,
-      "source_transcription": "ciri",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }
@@ -100659,7 +98564,8 @@
       "source_transcription": "mama",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
-    }
+    },
+    "homonym_index": 2
   },
   {
     "id": "gaddi-uni-01643",
@@ -110628,61 +108534,6 @@
       "example_ids": [],
       "is_multiword": true,
       "source_transcription": "tu bale bale bolna",
-      "transliteration_source": "derived_transliteration",
-      "source_attested_spelling": false
-    }
-  },
-  {
-    "id": "gaddi-uni-01824",
-    "lemma_devanagari": "ओह",
-    "variety_id": "hp_chamba_bharmaur",
-    "senses": [
-      {
-        "sense_index": 1,
-        "definition_en": "that",
-        "definition_hi": "वह",
-        "definition_ur": null,
-        "semantic_field": "expressions",
-        "examples": []
-      }
-    ],
-    "attestations": [
-      {
-        "source_id": "census_2023_lsi",
-        "page_or_section": "pp. 58-119",
-        "verified": true,
-        "transcription_raw": "oh"
-      }
-    ],
-    "lemma_ipa": "oh",
-    "lemma_perso_arabic": null,
-    "lemma_takri": null,
-    "original_transcription": "oh",
-    "normalized_headword": "ओह",
-    "part_of_speech": "pronoun",
-    "gender": null,
-    "evidence_status": "comparative_only",
-    "comparative_notes": null,
-    "editorial_notes": "Extracted from 2023 Linguistic Survey of India (LSI): Himachal Pradesh (ORGI, New Delhi). Bharmauri/Gaddi dialect of Chamba.",
-    "metadata": {
-      "categories": [
-        "expressions"
-      ],
-      "variants": [
-        "oh"
-      ],
-      "phonemic_variants": [
-        "oh"
-      ],
-      "synonyms": [],
-      "etymology": "",
-      "tags": [
-        "lsi_2023",
-        "bharmauri"
-      ],
-      "example_ids": [],
-      "is_multiword": false,
-      "source_transcription": "oh",
       "transliteration_source": "derived_transliteration",
       "source_attested_spelling": false
     }

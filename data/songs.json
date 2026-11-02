@@ -1,0 +1,134 @@
+[
+  {
+    "id": "gaddi-song-001",
+    "title_en": "Shiv Ainchali: The Cosmic Creation Hymn",
+    "title_gaddi": "शिव अंचली: सृष्टि रचना दा गीत",
+    "genre": "ainchali_ballad",
+    "variety_id": "jk_general",
+    "community_locality": "Bhadarwah and Kathua, Jammu & Kashmir; also Chamba, HP",
+    "performer_or_collector": "J&K Academy of Art, Culture and Languages / Chakraborty (2024)",
+    "source_id": "jkaacl_archive",
+    "source_citation": "JKAACL Folklore Archive, File GAD-ANCH-01; Chakraborty (2024), Section: Ainchali Hymns",
+    "summary_en": "The foundational devotional ballad sung exclusively during the all-night Shiv Nawala ceremony by traditional Batwal or Ainchali singers. Accompanied rhythmically by beating a bronze plate (thali) with a stick and bell-metal cymbals, the ballad recounts the origin of the cosmos, the penance of Parvati, the marriage of Shiva and Girija, and the descent of the holy river Ganga.",
+    "text_excerpt_gaddi": "शिव जी दे नवाले जो अंचली गाईए, कैलाशा दे राजा जो सीस निवाईए। थाली खड़के, डमरू बाजे, शिव शंकर दा जयकारा गाजे।",
+    "text_excerpt_en": "Sing the Ainchali for the Nawala of Shiva; bow your head before the King of Kailash. The bronze plate resounds, the damru beats, the victory cry of Shiva Shankar echoes.",
+    "recording_or_transcript_url": "https://jkaacl.jk.gov.in/archive/folklore",
+    "copyright_status": "Traditional Cultural Heritage / Archival Metadata",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "ritual_context": "Shiv Nawala",
+      "instrumentation": [
+        "Thali",
+        "Kahnchhi",
+        "Damru"
+      ]
+    }
+  },
+  {
+    "id": "gaddi-song-002",
+    "title_en": "Kunjua and Chanchalo: The Tragic Love Ballad",
+    "title_gaddi": "कुंजुआ-चंचलो प्रेम गाथा",
+    "genre": "love_ballad",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Chamba and Kangra, Himachal Pradesh",
+    "performer_or_collector": "PLSI Vol. 12 / Shashi (1977)",
+    "source_id": "plsi_vol12_2014",
+    "source_citation": "PLSI Vol. 12 (2014), pp. 118-120; Shashi (1977), pp. 132-135",
+    "summary_en": "The most famous folk ballad of Gaddi oral tradition, celebrating the tragic romance between Kunjua, a brave Gaddi youth, and Chanchalo. Kunjua must leave for distant mountains or soldier service; Chanchalo pleads with him not to go and exchanges a ring with him at the mountain stream. The song reflects the constant pain of separation experienced by pastoral families when shepherds depart for high pastures.",
+    "text_excerpt_gaddi": "कुंजुआ तू जांदा परदेसा, चंचलो रोई-रोई मुकदी ओ। अंगूठी निशानी मेरी लै जा, कुंजुआ, याद करी-करी दिन कट्टी ले।",
+    "text_excerpt_en": "O Kunjua, you depart for distant lands while Chanchalo weeps away her sorrow. Take my ring as a keepsake, O Kunjua, and remember me as the days go by.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Public Folk Tradition",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "theme": "pastoral_separation",
+      "popularity": "pan-Gaddi"
+    }
+  },
+  {
+    "id": "gaddi-song-003",
+    "title_en": "The Chola and Dora: Song of the Shepherd's Attire",
+    "title_gaddi": "चोला ते डोरा गीत: पुहाल दी शान",
+    "genre": "pastoral_song",
+    "variety_id": "hp_kangra_palampur",
+    "community_locality": "Palampur, Kangra, Himachal Pradesh",
+    "performer_or_collector": "Dr. S. S. Shashi / Kumari et al. (2026)",
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 140-142; Kumari et al. (2026), p. 19",
+    "summary_en": "A proud pastoral song sung around evening shepherd camps celebrating the woollen chola and the long black dora rope. The lyrics praise the warmth of Gaddi wool against winter blizzards, the utility of the chola pouch for carrying newborn lambs, and the dignity of the pastoral way of life.",
+    "text_excerpt_gaddi": "गद्दी दा चोला उनीया दा, डोरा लम्या चालिस हत दा। बरफां पौंदी ठंडी हवा, गद्दी पुहाल ना डरदा।",
+    "text_excerpt_en": "The Gaddi's chola is made of pure wool, his dora is forty cubits long. Snow falls and cold winds blow, yet the Gaddi shepherd knows no fear.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Public Folk Tradition",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "material_culture": [
+        "Chola",
+        "Dora"
+      ]
+    }
+  },
+  {
+    "id": "gaddi-song-004",
+    "title_en": "Gaddi Sohag: Bridal Departure Song",
+    "title_gaddi": "गद्दी सुहाग: धिया दी विदाई",
+    "genre": "wedding_song",
+    "variety_id": "jk_kathua_bani",
+    "community_locality": "Bani, Kathua District, Jammu and Kashmir",
+    "performer_or_collector": "Wahid Ahmad Dar / Chandar (2024)",
+    "source_id": "dar_sheikh_2022",
+    "source_citation": "Dar & Sheikh (2022), pp. 250-252; Chandar (2024), Section: Marriage Customs",
+    "summary_en": "Traditional ceremonial wedding song sung by women elders during the bride's departure from her parental village in the mountains of Kathua. The song invokes blessings of Mata Parvati for prosperity, invokes the sacred mountains, and gives gentle counsel on household harmony.",
+    "text_excerpt_gaddi": "बापू दे घर थुआं लाड़ी चली, साउहरे दे घर सुख पावे। शिव शंकर जी रक्षा करन, रस्ते दे पहाड़ सुखद होवन।",
+    "text_excerpt_en": "The bride departs from her father's home; may she find joy in her husband's home. May Shiva Shankar protect her, and may the mountain path be gentle.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Folk Heritage",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "ceremony": "Lagana / Vidai",
+      "region": "Kathua"
+    }
+  },
+  {
+    "id": "gaddi-song-005",
+    "title_en": "Ballad of Musaddi and Bhaddu",
+    "title_gaddi": "मुसद्दी-भद्दू दी लोक गाथा",
+    "genre": "pastoral_narrative",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Bharmaur, Chamba, Himachal Pradesh",
+    "performer_or_collector": "Shiv Nirmohi",
+    "source_id": "nirmohi_duggar",
+    "source_citation": "Nirmohi, Duggar Ka Itihas, p. 95",
+    "summary_en": "A dramatic ballad recounting the courage of two Gaddi shepherd companions, Musaddi and Bhaddu, who stood their ground against a marauding Himalayan snow leopard and safely guided their wintering sheep down to safety.",
+    "text_excerpt_gaddi": "मुसद्दी ते भद्दू दोई पुहाल, भेड़ां दी राखी करदे रात। धार पुर आया बबर शेर, दोहें वीरां दिती मात।",
+    "text_excerpt_en": "Musaddi and Bhaddu, two brave shepherds, kept vigil over their sheep by night. A wild predator came upon the ridge, but the two brothers overcame it.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Documented Folklore",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "theme": "shepherd_courage",
+      "fauna_interaction": "snow_leopard"
+    }
+  },
+  {
+    "id": "gaddi-song-006",
+    "title_en": "Guga Jaharveer Devotional Hymn",
+    "title_gaddi": "गूगा जाहरवीर आरती ते भजन",
+    "genre": "religious_song",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Chamba and Kangra foothills",
+    "performer_or_collector": "PLSI Team",
+    "source_id": "plsi_vol12_2014",
+    "source_citation": "PLSI Vol. 12 (2014), p. 125",
+    "summary_en": "Devotional ballad sung by Gaddi Mandali bards in the month of Bhadon visiting rural households. The verses invoke Guga Jaharveer to protect the family, their livestock, and grazing cattle from serpents and malignant illnesses.",
+    "text_excerpt_gaddi": "जय गूगा जाहरपीर, सर्पां दे तू राजा। पुहालां दी भेड़-बकरी दी रक्षा कर, घर-आंगन सुख साजा।",
+    "text_excerpt_en": "Victory to Guga Jaharpeer, ruler of the serpents. Protect the sheep and goats of the shepherds, and grant peace to our home and courtyard.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Devotional Folk",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "month": "Bhadon",
+      "deity": "Guga"
+    }
+  }
+]

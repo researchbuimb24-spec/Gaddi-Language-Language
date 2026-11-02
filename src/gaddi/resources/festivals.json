@@ -1,0 +1,149 @@
+[
+  {
+    "id": "gaddi-fest-001",
+    "name_devanagari": "शिव नवाला",
+    "name_en": "Shiv Nawala",
+    "timing_lunar_solar": "Celebrated throughout the year (often post-harvest or upon vow fulfillment)",
+    "variety_or_region": "Universal Gaddi Festival (Chamba, Kangra, Doda, Kathua, Udhampur)",
+    "purpose_and_significance": "The premier religious and social ceremony of the Gaddi people. An all-night thanksgiving ritual dedicated to Lord Shiva to express gratitude for prosperity, recovery from sickness, successful sheep transhumance, or family milestones.",
+    "associated_rituals": [
+      "Suspension of the floral garland (Mala Mundan)",
+      "Singing of Ainchali ballads throughout the night",
+      "Sacred mandala preparation",
+      "Sacrifice/consecration of a ram (Khadu)",
+      "Community feast"
+    ],
+    "associated_deities": [
+      "Lord Shiva",
+      "Kelang Wazir",
+      "Goddess Parvati"
+    ],
+    "source_id": "chakraborty_2024",
+    "source_citation": "Chakraborty (2024), Section: Religious Life; Shashi (1977), pp. 65-72; Kumar (2019)",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "ceremony_type": "all_night_thanksgiving",
+      "singing_style": "Ainchali"
+    }
+  },
+  {
+    "id": "gaddi-fest-002",
+    "name_devanagari": "मणिमहेश यात्रा",
+    "name_en": "Manimahesh Yatra",
+    "timing_lunar_solar": "Bhadrapada month (August-September), concluding on Radhashtami",
+    "variety_or_region": "Bharmaur, Chamba, Himachal Pradesh (draws pilgrims from across J&K and HP)",
+    "purpose_and_significance": "Annual high-altitude sacred pilgrimage to Lake Manimahesh (4,080 meters) at the base of Mount Manimahesh Kailash (5,653 meters). Gaddi pilgrims take a holy dip in the icy glacial waters (Dal) facing the sacred peak, seeking divine liberation and blessings for their flocks.",
+    "associated_rituals": [
+      "Trek from Bharmaur via Hadsar and Dhancho",
+      "Holy dip in the Dal Lake",
+      "Offering of incense and tridents",
+      "Viewing the holy rock formation (Chharari)"
+    ],
+    "associated_deities": [
+      "Lord Shiva / Manimahesh Kailash"
+    ],
+    "source_id": "chakraborty_2024",
+    "source_citation": "Chakraborty (2024), Section: Manimahesh Pilgrimage; Shashi (1977); PLSI Vol. 12 (2014)",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "altitude_meters": 4080,
+      "culminating_day": "Radhashtami"
+    }
+  },
+  {
+    "id": "gaddi-fest-003",
+    "name_devanagari": "बिसू / बैसाखी",
+    "name_en": "Bisu / Baisakhi",
+    "timing_lunar_solar": "First day of Vaisakha month (April 13/14 solar transition)",
+    "variety_or_region": "Chamba, Kangra, and Jammu Gaddi settlements",
+    "purpose_and_significance": "Spring festival marking the solar new year and the commencement of seasonal pastoral transhumance. Shepherds prepare equipment, inspect flocks, and offer prayers for safe journeys up into high pastures.",
+    "associated_rituals": [
+      "Preparation of festive sweet cakes (Babru)",
+      "Exchange of greetings among clans",
+      "Folk dances in traditional attire"
+    ],
+    "associated_deities": [
+      "Surya Devta",
+      "Lord Shiva"
+    ],
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 72-74; Dar & Sheikh (2022), p. 248",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "season": "spring",
+      "transhumance_stage": "departure_to_high_pastures"
+    }
+  },
+  {
+    "id": "gaddi-fest-004",
+    "name_devanagari": "सैर",
+    "name_en": "Sair",
+    "timing_lunar_solar": "First day of Asuj month (mid-September)",
+    "variety_or_region": "Chamba, Kangra, Mandi, and Jammu foothills",
+    "purpose_and_significance": "Autumn harvest festival marking the end of the rainy season and the joyful return of Gaddi shepherds from the high alpine meadows down to the village valleys.",
+    "associated_rituals": [
+      "Distribution of fresh green maize cobs and walnuts",
+      "Barber offering looking-glass to elders for blessings",
+      "Community feasts"
+    ],
+    "associated_deities": [
+      "Gram Devta",
+      "Lord Shiva"
+    ],
+    "source_id": "plsi_vol12_2014",
+    "source_citation": "PLSI Vol. 12 (2014), p. 122; Shashi (1977)",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "season": "autumn",
+      "transhumance_stage": "return_from_alpine_meadows"
+    }
+  },
+  {
+    "id": "gaddi-fest-005",
+    "name_devanagari": "मिंजर मेला",
+    "name_en": "Minjar Fair",
+    "timing_lunar_solar": "Second Sunday of Shravana month (July-August)",
+    "variety_or_region": "Chamba historic Chaugan (Chamba Gaddi valley)",
+    "purpose_and_significance": "Historic monsoon festival celebrating agricultural abundance. Participants pin golden silk tassels representing maize blossoms (minjar) to their cholas and float offerings in the sacred Ravi river.",
+    "associated_rituals": [
+      "Tying silk minjar tassels to garments",
+      "Shobha Yatra procession to the Ravi river",
+      "Singing of Kunjua-Chanchalo ballads"
+    ],
+    "associated_deities": [
+      "Varuna (Water Deity)",
+      "Raghunath / Shiva"
+    ],
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 75-77; PLSI Vol. 12 (2014)",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "historic_venue": "Chamba Chaugan",
+      "flower": "Maize Silk Tassel"
+    }
+  },
+  {
+    "id": "gaddi-fest-006",
+    "name_devanagari": "लोहड़ी / तिलरात",
+    "name_en": "Lohri / Tilarat",
+    "timing_lunar_solar": "Last day of Pausha month / 1st of Magha (mid-January)",
+    "variety_or_region": "Pan-Gaddi (Himachal Pradesh and Jammu & Kashmir)",
+    "purpose_and_significance": "Midwinter festival celebrating the winter solstice and the lengthening of days. Families gather around night bonfires in sub-zero weather, dancing and singing traditional Gaddi songs.",
+    "associated_rituals": [
+      "Lighting communal evening bonfires",
+      "Preparing khichdi with black gram and ghee",
+      "Offering sesame seeds and puffed rice to the flame"
+    ],
+    "associated_deities": [
+      "Agni",
+      "Surya Devta"
+    ],
+    "source_id": "dar_sheikh_2022",
+    "source_citation": "Dar & Sheikh (2022), p. 248; Shashi (1977)",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "season": "winter",
+      "ritual_fire": "Bonfire"
+    }
+  }
+]

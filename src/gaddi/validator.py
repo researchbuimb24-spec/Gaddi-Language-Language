@@ -4,7 +4,18 @@ from __future__ import annotations
 
 from typing import Dict, List, Optional, Set
 
-from gaddi.models import EvidenceStatus, LexicalEntry, ValidationError, ValidationReport, ValidationWarning
+from gaddi.models import (
+    CulturalRecord,
+    Deity,
+    EvidenceStatus,
+    Festival,
+    LexicalEntry,
+    MediaResource,
+    OralTradition,
+    ValidationError,
+    ValidationReport,
+    ValidationWarning,
+)
 from gaddi.registry import SourceRegistry, VarietyRegistry, default_sources, default_varieties
 
 VALID_EVIDENCE_STATUSES = {s.value for s in EvidenceStatus} | {"verified_jk"}
@@ -297,8 +308,10 @@ class GaddiValidator:
             report.errors.extend(errors)
             report.warnings.extend(warnings)
 
-            # Global duplicate check: same lemma in Devanagari + same variety + same POS
+            # Global duplicate check: same lemma in Devanagari + same variety + same POS (+ optional homonym_index)
             dup_key = f"{entry.lemma_devanagari.strip()}::{entry.variety_id}::{entry.part_of_speech}"
+            if entry.homonym_index is not None:
+                dup_key += f"::homonym_{entry.homonym_index}"
             if dup_key in seen_keys:
                 report.errors.append(
                     ValidationError(
@@ -313,3 +326,135 @@ class GaddiValidator:
 
         return report
 
+    # -------------------------------------------------------------------------
+    # Oral Heritage, Cultural Knowledge, and Media Validation
+    # -------------------------------------------------------------------------
+    def validate_oral_tradition(self, item: OralTradition) -> List[ValidationError]:
+        """Validate an oral tradition (story, song, proverb, oral history)."""
+        errors: List[ValidationError] = []
+        if not item.id or not item.id.strip():
+            errors.append(ValidationError("", "id", "Oral tradition ID is mandatory."))
+        if not item.title_en or not item.title_en.strip():
+            errors.append(ValidationError(item.id, "title_en", "English title is mandatory."))
+        if not item.genre or not item.genre.strip():
+            errors.append(ValidationError(item.id, "genre", "Genre is mandatory."))
+        if item.source_id and not self.sources.contains(item.source_id):
+            errors.append(ValidationError(item.id, "source_id", f"Unknown source '{item.source_id}'. Must be in sources registry."))
+        if item.variety_id and not self.varieties.contains(item.variety_id):
+            errors.append(ValidationError(item.id, "variety_id", f"Unknown variety '{item.variety_id}'."))
+        return errors
+
+    def validate_deity(self, deity: Deity) -> List[ValidationError]:
+        """Validate a documented Gaddi deity record."""
+        errors: List[ValidationError] = []
+        if not deity.id or not deity.id.strip():
+            errors.append(ValidationError("", "id", "Deity ID is mandatory."))
+        if not deity.name_devanagari or not deity.name_devanagari.strip():
+            errors.append(ValidationError(deity.id, "name_devanagari", "Deity Devanagari name is mandatory."))
+        if deity.source_id and not self.sources.contains(deity.source_id):
+            errors.append(ValidationError(deity.id, "source_id", f"Unknown source '{deity.source_id}'."))
+        return errors
+
+    def validate_festival(self, fest: Festival) -> List[ValidationError]:
+        """Validate a documented Gaddi festival or ceremony."""
+        errors: List[ValidationError] = []
+        if not fest.id or not fest.id.strip():
+            errors.append(ValidationError("", "id", "Festival ID is mandatory."))
+        if not fest.name_devanagari or not fest.name_devanagari.strip():
+            errors.append(ValidationError(fest.id, "name_devanagari", "Festival Devanagari name is mandatory."))
+        if not fest.name_en or not fest.name_en.strip():
+            errors.append(ValidationError(fest.id, "name_en", "Festival English name is mandatory."))
+        if fest.source_id and not self.sources.contains(fest.source_id):
+            errors.append(ValidationError(fest.id, "source_id", f"Unknown source '{fest.source_id}'."))
+        return errors
+
+    def validate_cultural_record(self, record: CulturalRecord) -> List[ValidationError]:
+        """Validate a documented cultural, pastoral, or social practice record."""
+        errors: List[ValidationError] = []
+        if not record.id or not record.id.strip():
+            errors.append(ValidationError("", "id", "Cultural record ID is mandatory."))
+        if not record.title or not record.title.strip():
+            errors.append(ValidationError(record.id, "title", "Title is mandatory."))
+        if not record.topic or not record.topic.strip():
+            errors.append(ValidationError(record.id, "topic", "Topic is mandatory."))
+        if record.source_id and not self.sources.contains(record.source_id):
+            errors.append(ValidationError(record.id, "source_id", f"Unknown source '{record.source_id}'."))
+        return errors
+
+    def validate_media_resource(self, media: MediaResource) -> List[ValidationError]:
+        """Validate an archival audio, manuscript, or photographic media resource."""
+        errors: List[ValidationError] = []
+        if not media.id or not media.id.strip():
+            errors.append(ValidationError("", "id", "Media resource ID is mandatory."))
+        if not media.title or not media.title.strip():
+            errors.append(ValidationError(media.id, "title", "Title is mandatory."))
+        if not media.media_type or not media.media_type.strip():
+            errors.append(ValidationError(media.id, "media_type", "Media type is mandatory."))
+        if media.source_id and not self.sources.contains(media.source_id):
+            errors.append(ValidationError(media.id, "source_id", f"Unknown source '{media.source_id}'."))
+        return errors
+
+    def validate_oral_heritage_collection(self, items: List[OralTradition]) -> ValidationReport:
+        """Validate a collection of oral traditions."""
+        report = ValidationReport(total_checked=len(items))
+        seen_ids: Set[str] = set()
+        for item in items:
+            errors = self.validate_oral_tradition(item)
+            report.errors.extend(errors)
+            if item.id in seen_ids:
+                report.errors.append(ValidationError(item.id, "id", f"Duplicate oral tradition ID '{item.id}'."))
+            else:
+                seen_ids.add(item.id)
+        return report
+
+    def validate_deities_collection(self, items: List[Deity]) -> ValidationReport:
+        """Validate a collection of deity records."""
+        report = ValidationReport(total_checked=len(items))
+        seen_ids: Set[str] = set()
+        for item in items:
+            errors = self.validate_deity(item)
+            report.errors.extend(errors)
+            if item.id in seen_ids:
+                report.errors.append(ValidationError(item.id, "id", f"Duplicate deity ID '{item.id}'."))
+            else:
+                seen_ids.add(item.id)
+        return report
+
+    def validate_festivals_collection(self, items: List[Festival]) -> ValidationReport:
+        """Validate a collection of festival records."""
+        report = ValidationReport(total_checked=len(items))
+        seen_ids: Set[str] = set()
+        for item in items:
+            errors = self.validate_festival(item)
+            report.errors.extend(errors)
+            if item.id in seen_ids:
+                report.errors.append(ValidationError(item.id, "id", f"Duplicate festival ID '{item.id}'."))
+            else:
+                seen_ids.add(item.id)
+        return report
+
+    def validate_cultural_records_collection(self, items: List[CulturalRecord]) -> ValidationReport:
+        """Validate a collection of cultural practice records."""
+        report = ValidationReport(total_checked=len(items))
+        seen_ids: Set[str] = set()
+        for item in items:
+            errors = self.validate_cultural_record(item)
+            report.errors.extend(errors)
+            if item.id in seen_ids:
+                report.errors.append(ValidationError(item.id, "id", f"Duplicate cultural record ID '{item.id}'."))
+            else:
+                seen_ids.add(item.id)
+        return report
+
+    def validate_media_resources_collection(self, items: List[MediaResource]) -> ValidationReport:
+        """Validate a collection of media resources."""
+        report = ValidationReport(total_checked=len(items))
+        seen_ids: Set[str] = set()
+        for item in items:
+            errors = self.validate_media_resource(item)
+            report.errors.extend(errors)
+            if item.id in seen_ids:
+                report.errors.append(ValidationError(item.id, "id", f"Duplicate media resource ID '{item.id}'."))
+            else:
+                seen_ids.add(item.id)
+        return report

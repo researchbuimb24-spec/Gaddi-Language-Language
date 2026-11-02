@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14%20%7C%203.15-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/Software%20License-MIT-green.svg)](LICENSE)
 [![Data Terms: Audited Provenance](https://img.shields.io/badge/Data%20Terms-Audited%20Provenance-orange.svg)](DATA-LICENSE.md)
-[![Tests](https://img.shields.io/badge/tests-114%20passed-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/tests-133%20passed-brightgreen.svg)]()
 
 A computational linguistics and language-documentation Python library for the **Gaddi language (*Bharmauri / Gaddiyali*) as spoken in Jammu & Kashmir (J&K), India**, with rigorously quarantined comparative baselines from Himachal Pradesh.
 
@@ -26,11 +26,22 @@ The primary objective of this project is to build an accurate, searchable, and a
 
 ## 2. Dataset Scale & Inventory
 
+The repository maintains **27 fully synchronized datasets** between `data/` and `src/gaddi/resources/`:
+
 | Dataset | Scope / Description | Entries / Scale | Provenance & Source |
 | :--- | :--- | :---: | :--- |
-| `data/dictionary_unified.json` | Unified multi-script search database | **1,971 records** | Multi-source (J&K field + comparative HP) |
+| `data/dictionary_unified.json` | Unified multi-script search database | **1,925 records** | Multi-source (J&K field + comparative HP; 2,470 citations) |
+| `data/vocabulary.json` | Research-expanded vocabulary across 16 domains | **101 records** | Dar & Sheikh (2022), Kumari et al. (2026) |
 | `data/lexicon_jk.json` | Primary J&K descriptive linguistic lexicon | **105 records** | Hilal Ahmad Dar & Aejaz Mohammed Sheikh (2022) |
 | `data/cultural_terms_jk.json` | Traditional material & ecological culture | **25 records** | Kumar (2019), Chandar (2024), Chakraborty (2024) |
+| `data/stories.json` | Documented folk tales, legends, and pastoral narratives | **6 records** | Grierson (1916), Kumari et al. (2026), Shashi (1977) |
+| `data/songs.json` | Documented folk songs and Ainchali ballads | **6 records** | JKAACL Archive, PLSI (2014), Dar & Sheikh (2022) |
+| `data/proverbs.json` | Pastoral proverbs and oral sayings | **6 records** | PLSI (2014), Verma (2014), Shashi (1977) |
+| `data/deities.json` | Community pantheon and protector deities | **8 records** | Shashi (1977), Nirmohi, Chakraborty (2024) |
+| `data/festivals.json` | Seasonal festivals and sacred cycles (Nawala, Yatra) | **6 records** | Shashi (1977), Chakraborty (2024), Kumar (2019) |
+| `data/culture.json` | Pastoral transhumance, attire, looms, and cuisine | **7 records** | Kumari et al. (2026), Shashi (1977), Chandar (2024) |
+| `data/oral_history.json` | Historical transhumance accounts & oral testimonies | **3 records** | Dar & Sheikh (2022), Field Informant Testimonies |
+| `data/media_resources.json` | Archival recordings and open-access corpus metadata | **3 records** | JKAACL Archives, Grierson LSI, UCL Press OA |
 | `data/gaddi_examples.json` | Numbered, interlinear glossed grammar examples | **269 examples** | Kumari et al. (2026), Chapters 1–5 |
 | `data/gaddi_word_list.json` | Comparative basic word list (Appendix II) | **254 entries** | Kumari et al. (2026), Table B.1 |
 | `data/gaddi_numerals.json` | Numeral system (cardinals, ordinals, fractions) | **138 forms** | Kumari et al. (2026), Appendix III |
@@ -50,8 +61,17 @@ Gaddi-Language-Library/
 ├── LICENSE                     # MIT Software License
 ├── DATA-LICENSE.md             # Data governance, provenance, and cultural heritage terms
 ├── README.md                   # Project documentation and quickstart
-├── data/
-│   ├── dictionary_unified.json # 1,971-record unified dictionary
+├── data/                       # Authoritative primary JSON datasets (27 datasets)
+│   ├── dictionary_unified.json # 1,925-record unified dictionary with audited item-level provenance
+│   ├── vocabulary.json         # 101-record research-expanded vocabulary across 16 domains
+│   ├── stories.json            # 6 documented folk tales & pastoral narratives
+│   ├── songs.json              # 6 documented folk songs & Ainchali ballads
+│   ├── proverbs.json           # 6 pastoral proverbs & sayings
+│   ├── deities.json            # 8 documented deities & protector traditions
+│   ├── festivals.json          # 6 traditional seasonal festivals
+│   ├── culture.json            # 7 cultural practices, attire, and crafts records
+│   ├── oral_history.json       # 3 oral history and transhumance memory testimonies
+│   ├── media_resources.json    # 3 archival audio and corpus metadata records
 │   ├── lexicon_jk.json         # 105 authenticated J&K field records
 │   ├── cultural_terms_jk.json  # 25 documented cultural/ethnographic terms
 │   ├── gaddi_examples.json     # 269 numbered linguistic examples
@@ -63,25 +83,30 @@ Gaddi-Language-Library/
 │   ├── sources.json            # 21 registered bibliographic sources
 │   ├── varieties.json          # 11 registered geographical varieties
 │   ├── seed_corpus.json        # Curated seed corpus
-│   └── source_intake/          # Primary research PDFs (LSI Himachal, Dar & Sheikh 2022)
+│   └── source_intake/          # Primary research PDFs (Dar & Sheikh 2022, Grierson LSI, etc.)
 ├── docs/
 │   ├── PROJECT_AUDIT.md        # Comprehensive technical & linguistic audit
+│   ├── EXPANSION_RESEARCH_REPORT.md # Provenance remediation and major expansion report
+│   ├── DEDUPLICATION_REVIEW.md # Collision-group and attestation preservation audit
 │   ├── sources_and_bibliography.md     # Bibliographical survey and reliability assessment
 │   ├── jk_gaddi_linguistic_profile.md  # Detailed profile of J&K Gaddi & research gaps
 │   ├── jk_gaddi_primary_linguistic_sources.md # Source analysis & citations
 │   ├── architecture_and_provenance_spec.md # Technical schema and validation engine specs
 │   └── dataset_strategy_and_roadmap.md # Phased acquisition and field validation plan
-├── scratch/                    # 135 data extraction, audit, and analysis scripts
+├── scratch/                    # Data extraction, audit, and verification scripts
 ├── src/
 │   └── gaddi/
 │       ├── __init__.py         # Package exports & public API
-│       ├── models.py           # Dataclasses (LexicalEntry, Sense, Source, Variety, etc.)
+│       ├── models.py           # Dataclasses (LexicalEntry, OralTradition, Deity, Festival, etc.)
 │       ├── registry.py         # Controlled SourceRegistry and VarietyRegistry
 │       ├── validator.py        # Strict provenance and anti-conflation validation engine
 │       ├── dictionary.py       # Multi-script search & priority translation engine
+│       ├── oral_heritage.py    # Stories, songs, proverbs, and oral history registry
+│       ├── culture.py          # Deities, festivals, cultural heritage, and media registry
 │       ├── grammar.py          # Documented grammatical paradigms & case markers
-│       ├── cli.py              # Command-line interface
-│       └── resources/          # Packaged internal synchronized JSON datasets
+│       ├── sync.py             # Authoritative data/ vs packaged resources/ synchronization
+│       ├── cli.py              # Command-line interface with 28 subcommands
+│       └── resources/          # 27 packaged internal synchronized JSON datasets
 └── tests/
     ├── test_api.py             # Public API integration tests
     ├── test_audit.py           # Evidence quarantine & census distinction tests
@@ -91,6 +116,8 @@ Gaddi-Language-Library/
     ├── test_jk_expansion.py    # J&K field lexicon & kinship tests
     ├── test_kumari_2026_extraction.py # Monograph datasets & synchronization tests
     ├── test_models.py          # Data model serialization and immutability tests
+    ├── test_oral_heritage_and_culture.py # Oral heritage, deities, and culture tests
+    ├── test_quality_and_regression.py # Synchronization, homonym, and Group 19 item tests
     ├── test_registry.py        # Source & variety registry integrity tests
     ├── test_research_leads.py  # Research leads & intake safeguard tests
     ├── test_unified_expansion.py # Search ranking & diacritic tolerance tests
@@ -129,50 +156,78 @@ pip install -e .
 ### Basic Usage
 
 ```python
-from gaddi import GaddiDictionary
+import gaddi
 
-# Initialize dictionary (loads verified bundled datasets automatically)
-dictionary = GaddiDictionary()
+# 1. Access documented stories and Ainchali ballads
+stories = gaddi.get_stories(genre="folktale")
+print(stories[0].title_en, stories[0].source_citation)
 
-# 1. Search by English gloss
+songs = gaddi.get_songs(genre="ainchali_ballad")
+print(songs[0].title_en, songs[0].text_excerpt_gaddi)
+
+# 2. Access deities, festivals, and cultural traditions
+deities = gaddi.get_deities()
+for deity in deities:
+    print(f"[{deity.category}] {deity.name_devanagari} ({deity.name_ipa}): {deity.ritual_roles}")
+
+festivals = gaddi.get_festivals()
+for fest in festivals:
+    print(f"{fest.name_devanagari}: {fest.timing_lunar_solar}")
+
+# 3. Research-expanded vocabulary across 16 domains
+kinship_terms = gaddi.get_vocabulary_entries(domain="family_and_kinship")
+print(f"Loaded {len(kinship_terms)} kinship terms from Dar & Sheikh (2022).")
+bapu = kinship_terms[0]
+print(f"{bapu.lemma_devanagari} [{bapu.lemma_ipa}]: {bapu.senses[0].definition_en}")
+
+# 4. Multi-script search across the unified dictionary
+dictionary = gaddi.GaddiDictionary()
 results = dictionary.search("handloom")
 for entry in results:
     print(f"{entry.lemma_devanagari} ({entry.variety_id}): {entry.senses[0].definition_en}")
-# Output: खडे (jk_doda_bhadarwah): Traditional wooden handloom...
 
-# 2. Search by Devanagari headword
-results = dictionary.search("पाणी")
-print(results[0].lemma_devanagari, results[0].variety_id)
-
-# 3. Search by Roman transliteration or IPA
-results = dictionary.search("bhed")
-print(results[0].lemma_devanagari)  # भेड़
-
-# 4. Strict J&K Translation (quarantining comparative HP words)
-jk_water = dictionary.translate("water", from_lang="en", jk_only=True)
-print(len(jk_water))  # 0 (water 'पाणी' is attested in HP, not yet published for J&K)
+# 5. Cross-Variety Comparison (segregating J&K from HP comparative baselines)
+comparison = gaddi.compare_varieties("पाणी")
+print(comparison["has_jk_evidence"])      # False
+print(comparison["has_hp_comparative"])  # True (hp_chamba_bharmaur)
+print(comparison["comparative_summary"])  # Explains geographic quarantine
 ```
 
 ---
 
 ## 6. Command-Line Interface (CLI)
 
+The library provides 28 specialized CLI subcommands:
+
 ```bash
-# Display project overview and dataset status
+# Display project overview, dataset status, and metrics
 gaddi info
+gaddi stats
 
-# List registered bibliographic sources
-gaddi sources
+# Stories, ballads, and proverbs
+gaddi stories --genre folktale
+gaddi songs --genre ainchali_ballad
+gaddi proverbs
 
-# List registered geographic varieties
-gaddi varieties
+# Sacred pantheon, festivals, and culture
+gaddi deities --category supreme_deity
+gaddi festivals --season August
+gaddi culture --topic pastoral_migration
 
-# View documented grammatical paradigms and case markers
-gaddi grammar
+# Research-expanded vocabulary
+gaddi vocabulary --domain family_and_kinship
+gaddi vocabulary --search father
 
 # Universal multi-script dictionary search
 gaddi search blanket
 gaddi search पाणी
+
+# Cross-variety comparison (segregating J&K from HP baselines)
+gaddi compare पाणी
+gaddi compare खडे
+
+# Check resource synchronization between authoritative data/ and packaged src/
+gaddi sync --check
 
 # Validate a JSON dataset file for provenance and schema integrity
 gaddi validate data/lexicon_jk.json
@@ -186,11 +241,12 @@ gaddi validate data/lexicon_jk.json
 pytest -v
 ```
 
-All **114 automated tests** pass across 12 test suites, verifying:
+All **133 automated tests** pass across 14 test suites (0 failures, 0 errors, 100% green), verifying:
 - Serialization, schema immutability, and registry lookups.
+- Group 19 item-level provenance preservation (`dʰuːɽ` with item 36 'dust' and item 57 'fog; haze').
 - Strict anti-conflation guardrails (preventing labeling an entry as J&K if it only cites HP works).
 - Diacritic-tolerant, multi-script search across Devanagari, Perso-Arabic, Latin/IPA, and English/Hindi glosses.
-- Synchronization between `data/` and `src/gaddi/resources/`.
+- 100% identical synchronization between all 27 authoritative `data/` files and packaged `src/gaddi/resources/`.
 - Provenance tracking, copyright safeguards, and academic licensing distinctions.
 
 ---
@@ -203,4 +259,4 @@ All **114 automated tests** pass across 12 test suites, verifying:
   - Kumari et al. (*A Grammar of Gaddi*, UCL Press, 2026): Open Access under **CC BY-NC 4.0**.
   - Grierson (LSI, 1916) & Bailey (1908): **Public Domain**.
   - Census of India (2011, 2023): Open Government Data (OGD) India.
-  - J&K Academic Publications (Hilal Ahmad Dar & Aejaz Mohammed Sheikh 2022, Banti Kumar 2019, Subhash Chandar 2024, Arka Chakraborty 2024, Prof. Shiv Nirmohi): Fair dealing academic indexing and citation.
+  - J&K Academic Publications (Hilal Ahmad Dar & Aejaz Mohammed Sheikh 2022, Banti Kumar 2019, Subhash Chandar 2024, Arka Chakraborty 2024, Prof. Shiv Nirmohi): Fair dealing academic indexing, summary, and excerpt citation.

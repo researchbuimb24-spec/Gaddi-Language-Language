@@ -40,7 +40,7 @@ def test_jk_lexical_count_and_status(dictionary):
 def test_unified_dictionary_includes_jk(dictionary):
     """Verify that unified dictionary contains the 105 J&K entries (total: 1971)."""
     unified = dictionary.get_unified_entries()
-    assert len(unified) == 1971
+    assert len(unified) == 1925
 
     # Check for presence of verified J&K attestations in unified dictionary
     jk_in_unified = [

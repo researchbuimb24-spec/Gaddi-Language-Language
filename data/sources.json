@@ -248,14 +248,14 @@
   },
   {
     "id": "kaul_2006",
-    "title": "Pah─üß╣¢i and Other Tribal Dialects of Jammu (2 Volumes)",
+    "title": "Pahāṛī and Other Tribal Dialects of Jammu (2 Volumes)",
     "authors": [
       "Dr. Pritam Krishen Kaul"
     ],
     "year": 2006,
     "publisher": "Eastern Book Linkers, Delhi",
     "isbn": "978-81-7854-100-6 (Set) / 978-81-7854-101-3 (Vol 1) / 978-81-7854-102-0 (Vol 2)",
-    "license": "Copyright ┬⌐ Dr. P. K. Kaul / Eastern Book Linkers (Non-Open Access)",
+    "license": "Copyright © Dr. P. K. Kaul / Eastern Book Linkers (Non-Open Access)",
     "variety_id": "jk_general",
     "credibility_tier": 3,
     "is_jk_primary": true,
@@ -272,7 +272,7 @@
     "year": 2014,
     "publisher": "Orient Blackswan, New Delhi",
     "isbn": "978-81-250-5517-4",
-    "license": "Copyright ┬⌐ Bhasha Research and Publication Centre / Orient Blackswan",
+    "license": "Copyright © Bhasha Research and Publication Centre / Orient Blackswan",
     "variety_id": "jk_general",
     "credibility_tier": 2,
     "is_jk_primary": false,
@@ -370,7 +370,7 @@
     "license": "Open Government Data (OGD) License India",
     "notes": "Official post-independence Linguistic Survey of India (LSI) report for Himachal Pradesh, published in 2023 by the Office of the Registrar General, India (ORGI). Based on Language Division field surveys conducted between 1995 and 2008 in B.P.O. Bharmaur Tehsil, District Chamba (primary language informant: Shri O.P. Verma). Contains Chapter 2 (Bharmauri/Gaddi descriptive grammar, phonology, morphology, syntax, and narrative text, pp. 58-119) and Chapter 6 (Comparative Lexicon across mother tongues including Bharmauri/Gaddi, pp. 1089-1100). Although introductory notes acknowledge Gaddi settlements in Jammu & Kashmir, all linguistic elicitation in this survey is strictly Himachal Pradesh Bharmauri baseline (hp_chamba_bharmaur).",
     "publication_year": 2023,
-    "field_survey_period": "1995ΓÇô2008"
+    "field_survey_period": "1995–2008"
   },
   {
     "id": "dar_ahmad_2024",

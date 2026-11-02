@@ -14,7 +14,7 @@ except ImportError:
     pkg_resources = None  # type: ignore
 
 from gaddi.models import EvidenceStatus, LexicalEntry
-from gaddi.registry import VarietyRegistry, default_varieties
+from gaddi.registry import SourceRegistry, VarietyRegistry, default_sources, default_varieties
 
 
 def normalize_text(text: str) -> str:
@@ -183,14 +183,18 @@ class GaddiDictionary:
         self,
         entries: Optional[List[LexicalEntry]] = None,
         variety_registry: Optional[VarietyRegistry] = None,
+        source_registry: Optional[SourceRegistry] = None,
         auto_load_defaults: bool = True,
         include_unified: bool = False,
     ):
         self.varieties = variety_registry or default_varieties
+        self.sources = source_registry or default_sources
         self._entries: List[LexicalEntry] = []
         self._id_index: Dict[str, LexicalEntry] = {}
         self._unified_entries: List[LexicalEntry] = []
         self._unified_id_index: Dict[str, LexicalEntry] = {}
+        self._vocabulary_entries: List[LexicalEntry] = []
+        self._vocabulary_id_index: Dict[str, LexicalEntry] = {}
 
         if entries:
             for entry in entries:
@@ -243,6 +247,18 @@ class GaddiDictionary:
                 self._unified_id_index[e.id] = e
                 if include_unified:
                     self.add_entry(e)
+
+        # 5. Load research-expanded vocabulary dataset
+        vocab_path = res_dir / "vocabulary.json"
+        if not vocab_path.exists():
+            vocab_path = data_dir / "vocabulary.json"
+        if vocab_path.exists():
+            with open(vocab_path, "r", encoding="utf-8") as f:
+                vocab_raw = json.load(f)
+            for item in vocab_raw:
+                e = LexicalEntry.from_dict(item)
+                self._vocabulary_entries.append(e)
+                self._vocabulary_id_index[e.id] = e
 
     def add_entry(self, entry: LexicalEntry) -> None:
         """Add a lexical entry to the dictionary and update internal indices."""
@@ -514,7 +530,7 @@ class GaddiDictionary:
                 if not sense.definition_ur:
                     continue
                 defn = normalize_text(sense.definition_ur)
-                tokens = [t.strip("╪î╪¢█ö()\"' /") for t in defn.split()]
+                tokens = [t.strip("،؛۔()\"' /") for t in defn.split()]
                 if exact:
                     if clean_q == defn or clean_q in tokens:
                         matched = True
@@ -1253,6 +1269,157 @@ class GaddiDictionary:
         return matched
 
     # -------------------------------------------------------------------------
+    # Comparative Variety Analysis
+    # -------------------------------------------------------------------------
+    def compare_varieties(
+        self,
+        headword: str,
+        script: Optional[str] = None,
+    ) -> Dict[str, Any]:
+        """Compare a headword across registered varieties, segregating J&K from HP evidence.
+
+        Finds matching lexical entries across scripts and glosses, groups them by variety,
+        and distinguishes authentic Jammu & Kashmir field evidence from Himachal Pradesh
+        comparative baselines without asserting unsubstantiated linguistic equivalence.
+
+        Args:
+            headword: The headword to compare (Devanagari, Perso-Arabic, Latin/IPA, or English/Hindi gloss).
+            script: Optional script constraint ('devanagari', 'perso_arabic', 'ipa').
+
+        Returns:
+            Structured dictionary with query, total matches, segregated varieties, and comparative notes.
+        """
+        clean_q = normalize_text(headword).strip()
+        if not clean_q:
+            return {
+                "query": headword,
+                "total_matches": 0,
+                "has_jk_evidence": False,
+                "has_hp_comparative": False,
+                "jk_varieties": {},
+                "hp_varieties": {},
+                "other_varieties": {},
+                "comparative_summary": "Empty headword query provided.",
+                "entries": [],
+            }
+
+        # First, search headword directly
+        matches = self.lookup(clean_q, jk_only=False, script=script)
+
+        # If not found directly as headword, also search bilingual definitions (English / Hindi)
+        if not matches:
+            en_matches = self.lookup_english(clean_q)
+            hi_matches = self.lookup_hindi(clean_q)
+            seen_ids = set()
+            combined = []
+            for m in en_matches + hi_matches:
+                if m.id not in seen_ids:
+                    seen_ids.add(m.id)
+                    combined.append(m)
+            matches = combined
+
+        if not matches:
+            return {
+                "query": headword,
+                "total_matches": 0,
+                "has_jk_evidence": False,
+                "has_hp_comparative": False,
+                "jk_varieties": {},
+                "hp_varieties": {},
+                "other_varieties": {},
+                "comparative_summary": f"No documented lexical entries found for '{headword}'.",
+                "entries": [],
+            }
+
+        jk_groups: Dict[str, List[Dict[str, Any]]] = {}
+        hp_groups: Dict[str, List[Dict[str, Any]]] = {}
+        other_groups: Dict[str, List[Dict[str, Any]]] = {}
+
+        for entry in matches:
+            var_id = entry.variety_id
+            v_meta = self.varieties.get(var_id)
+            var_name = v_meta.name if v_meta else var_id
+            is_jk = self._is_jk_variety(var_id)
+
+            formatted_attestations = []
+            for a in entry.attestations:
+                s_obj = self.sources.get(a.source_id)
+                formatted_attestations.append({
+                    "source_id": a.source_id,
+                    "source_title": s_obj.title if s_obj else a.source_id,
+                    "page_or_section": a.page_or_section,
+                    "source_spelling": a.source_spelling,
+                    "context": a.context,
+                })
+
+            entry_dict = {
+                "id": entry.id,
+                "lemma_devanagari": entry.lemma_devanagari,
+                "lemma_ipa": entry.lemma_ipa,
+                "lemma_perso_arabic": entry.lemma_perso_arabic,
+                "part_of_speech": entry.part_of_speech,
+                "evidence_status": entry.evidence_status,
+                "variety_id": var_id,
+                "variety_name": var_name,
+                "is_jk_variety": is_jk,
+                "homonym_index": entry.homonym_index,
+                "senses": [
+                    {
+                        "sense_index": s.sense_index,
+                        "definition_en": s.definition_en,
+                        "definition_hi": s.definition_hi,
+                        "definition_ur": s.definition_ur,
+                    }
+                    for s in entry.senses
+                ],
+                "attestations": formatted_attestations,
+                "comparative_notes": entry.comparative_notes,
+            }
+
+            if is_jk:
+                jk_groups.setdefault(var_id, []).append(entry_dict)
+            elif var_id.startswith("hp_"):
+                hp_groups.setdefault(var_id, []).append(entry_dict)
+            else:
+                other_groups.setdefault(var_id, []).append(entry_dict)
+
+        has_jk = len(jk_groups) > 0
+        has_hp = len(hp_groups) > 0
+
+        summary_parts = []
+        if has_jk and has_hp:
+            summary_parts.append(
+                f"Multi-regional attestation: Documented in {len(jk_groups)} J&K variety/varieties and {len(hp_groups)} HP comparative variety/varieties."
+            )
+            summary_parts.append(
+                "Linguistic note: HP comparative forms (e.g. Kangra, Chamba Bharmaur) provide valuable dialectal baseline comparisons but must remain quarantined and not treated as verified J&K forms without local field evidence."
+            )
+        elif has_jk and not has_hp:
+            summary_parts.append(
+                f"J&K specific: Attested in {len(jk_groups)} Jammu & Kashmir variety/varieties ({', '.join(jk_groups.keys())}) with no HP comparative record in the library."
+            )
+        elif not has_jk and has_hp:
+            summary_parts.append(
+                f"HP comparative baseline only: Attested in {len(hp_groups)} Himachal Pradesh variety/varieties ({', '.join(hp_groups.keys())}). No verified J&K field attestation currently documented."
+            )
+        else:
+            summary_parts.append(
+                f"Documented in {len(other_groups)} general or historical variety/varieties."
+            )
+
+        return {
+            "query": headword,
+            "total_matches": len(matches),
+            "has_jk_evidence": has_jk,
+            "has_hp_comparative": has_hp,
+            "jk_varieties": jk_groups,
+            "hp_varieties": hp_groups,
+            "other_varieties": other_groups,
+            "comparative_summary": " ".join(summary_parts),
+            "entries": matches,
+        }
+
+    # -------------------------------------------------------------------------
     # Internal Helpers
     # -------------------------------------------------------------------------
     def _is_jk_variety(self, variety_id: str) -> bool:
@@ -1272,3 +1439,44 @@ class GaddiDictionary:
                 e.lemma_devanagari,
             )
         return sorted(entries, key=sort_key)
+
+    # -------------------------------------------------------------------------
+    # Research-Expanded Vocabulary Methods
+    # -------------------------------------------------------------------------
+    def get_vocabulary_entries(self, domain: Optional[str] = None) -> List[LexicalEntry]:
+        """Return all research-expanded vocabulary entries, optionally filtered by domain."""
+        if domain:
+            return [e for e in self._vocabulary_entries if e.metadata.get("domain", "").lower() == domain.lower()]
+        return list(self._vocabulary_entries)
+
+    def get_vocabulary_by_id(self, entry_id: str) -> Optional[LexicalEntry]:
+        """Lookup an entry in the research-expanded vocabulary by ID."""
+        return self._vocabulary_id_index.get(entry_id)
+
+    def search_vocabulary(
+        self,
+        query: str,
+        domain: Optional[str] = None,
+    ) -> List[LexicalEntry]:
+        """Search across the research-expanded vocabulary dataset."""
+        q = query.lower().strip()
+        results: List[LexicalEntry] = []
+        for e in self._vocabulary_entries:
+            if domain:
+                entry_domain = e.metadata.get("domain", "")
+                if entry_domain.lower() != domain.lower():
+                    continue
+            if not q:
+                results.append(e)
+                continue
+            haystack = " ".join([
+                e.lemma_devanagari,
+                e.lemma_ipa or "",
+                e.original_transcription or "",
+                " ".join(s.definition_en for s in e.senses),
+                " ".join(s.definition_hi or "" for s in e.senses),
+                " ".join(s.definition_ur or "" for s in e.senses),
+            ]).lower()
+            if q in haystack:
+                results.append(e)
+        return results

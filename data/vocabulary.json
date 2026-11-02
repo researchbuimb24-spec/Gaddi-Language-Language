@@ -1,0 +1,4143 @@
+[
+  {
+    "id": "gaddi-voc-001",
+    "lemma_devanagari": "बापू",
+    "lemma_ipa": "baːpuː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "baːpuː",
+    "normalized_headword": "baːpuː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "father",
+        "definition_hi": "पिता / बाप",
+        "definition_ur": "والد / باپ",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "baːpuː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-002",
+    "lemma_devanagari": "अम्मा",
+    "lemma_ipa": "ammaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "ammaː",
+    "normalized_headword": "ammaː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "mother",
+        "definition_hi": "माँ / माता",
+        "definition_ur": "ماں / والدہ",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "ammaː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-003",
+    "lemma_devanagari": "बाजी",
+    "lemma_ipa": "baːjiː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "baːjiː",
+    "normalized_headword": "baːjiː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "brother (elder or younger); male cousin",
+        "definition_hi": "भाई (बड़ा या छोटा); चचेरा/ममेरा भाई",
+        "definition_ur": "بھائی (بڑا یا چھوٹا)",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 6, p. 252",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 6, p. 252",
+        "verified": true,
+        "transcription_raw": "baːjiː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-004",
+    "lemma_devanagari": "दद्दा",
+    "lemma_ipa": "daddaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "daddaː",
+    "normalized_headword": "daddaː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "sister (elder or younger); female cousin",
+        "definition_hi": "बहन (बड़ी या छोटी); चचेरी/ममेरी बहन",
+        "definition_ur": "بہن (بڑی یا چھوٹی)",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 6, p. 252",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 6, p. 252",
+        "verified": true,
+        "transcription_raw": "daddaː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-005",
+    "lemma_devanagari": "चाचा",
+    "lemma_ipa": "t͡ʃaːt͡ʃaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "tʃaːtʃaː",
+    "normalized_headword": "tʃaːtʃaː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "father's brother; paternal uncle",
+        "definition_hi": "चाचा",
+        "definition_ur": "چچا",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "tʃaːtʃaː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-006",
+    "lemma_devanagari": "चाची",
+    "lemma_ipa": "t͡ʃaːt͡ʃi",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "tʃaːtʃi",
+    "normalized_headword": "tʃaːtʃi",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "father's brother's wife; paternal aunt",
+        "definition_hi": "चाची",
+        "definition_ur": "چچی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "tʃaːtʃi",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-007",
+    "lemma_devanagari": "बुब्बे",
+    "lemma_ipa": "bubbeː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bubbeː",
+    "normalized_headword": "bubbeː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "father's sister; paternal aunt",
+        "definition_hi": "बुआ / फूफी",
+        "definition_ur": "پھوپھی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "bubbeː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-008",
+    "lemma_devanagari": "बुब्बा",
+    "lemma_ipa": "bubbaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bubbaː",
+    "normalized_headword": "bubbaː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "father's sister's husband; paternal uncle-in-law",
+        "definition_hi": "फूफा",
+        "definition_ur": "پھوپھا",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "bubbaː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-009",
+    "lemma_devanagari": "माम",
+    "lemma_ipa": "maːm",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "maːm",
+    "normalized_headword": "maːm",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "mother's brother; maternal uncle",
+        "definition_hi": "मामा",
+        "definition_ur": "ماموں",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "maːm",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-010",
+    "lemma_devanagari": "मामी",
+    "lemma_ipa": "maːmiː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "maːmiː",
+    "normalized_headword": "maːmiː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "mother's brother's wife; maternal aunt",
+        "definition_hi": "मामी",
+        "definition_ur": "مامی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "maːmiː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-011",
+    "lemma_devanagari": "मासी",
+    "lemma_ipa": "maːsiː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "maːsiː",
+    "normalized_headword": "maːsiː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "mother's sister; maternal aunt",
+        "definition_hi": "मौसी",
+        "definition_ur": "خالہ",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "maːsiː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-012",
+    "lemma_devanagari": "मोसाजी",
+    "lemma_ipa": "mosajiː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "mosajiː",
+    "normalized_headword": "mosajiː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "mother's sister's husband; maternal uncle-in-law",
+        "definition_hi": "मौसा",
+        "definition_ur": "خالو",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 8, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 8, p. 253",
+        "verified": true,
+        "transcription_raw": "mosajiː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-013",
+    "lemma_devanagari": "दादा",
+    "lemma_ipa": "daːdaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "daːdaː",
+    "normalized_headword": "daːdaː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "grandfather (paternal or maternal)",
+        "definition_hi": "दादा / नाना",
+        "definition_ur": "دادا / نانا",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 9, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 9, p. 253",
+        "verified": true,
+        "transcription_raw": "daːdaː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-014",
+    "lemma_devanagari": "दादी",
+    "lemma_ipa": "daːdiː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "daːdiː",
+    "normalized_headword": "daːdiː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "grandmother (paternal or maternal)",
+        "definition_hi": "दादी / नानी",
+        "definition_ur": "دادی / نانی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 9, p. 253",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 9, p. 253",
+        "verified": true,
+        "transcription_raw": "daːdiː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-015",
+    "lemma_devanagari": "गगरू",
+    "lemma_ipa": "ɡaɡruː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "ɡaɡruː",
+    "normalized_headword": "ɡaɡruː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "son",
+        "definition_hi": "बेटा / पुत्र",
+        "definition_ur": "بیٹا",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 10, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 10, p. 254",
+        "verified": true,
+        "transcription_raw": "ɡaɡruː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-016",
+    "lemma_devanagari": "कोडे",
+    "lemma_ipa": "koɖeː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "koɖeː",
+    "normalized_headword": "koɖeː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "daughter",
+        "definition_hi": "बेटी / पुत्री",
+        "definition_ur": "بیٹی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 10, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 10, p. 254",
+        "verified": true,
+        "transcription_raw": "koɖeː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-017",
+    "lemma_devanagari": "भांज",
+    "lemma_ipa": "bʰaːnd͡ʒ",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bʰaːndʒ",
+    "normalized_headword": "bʰaːndʒ",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "nephew (brother's son or sister's son)",
+        "definition_hi": "भतीजा / भांजा",
+        "definition_ur": "بھتیجا / بھانجا",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 10, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 10, p. 254",
+        "verified": true,
+        "transcription_raw": "bʰaːndʒ",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-018",
+    "lemma_devanagari": "भांजी",
+    "lemma_ipa": "bʰaːnd͡ʒi",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bʰaːndʒi",
+    "normalized_headword": "bʰaːndʒi",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "niece (brother's daughter or sister's daughter)",
+        "definition_hi": "भतीजी / भांजी",
+        "definition_ur": "بھتیجی / بھانجی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 10, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 10, p. 254",
+        "verified": true,
+        "transcription_raw": "bʰaːndʒi",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-019",
+    "lemma_devanagari": "पोतरू",
+    "lemma_ipa": "potruː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "potruː",
+    "normalized_headword": "potruː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "grandson (son's son or daughter's son)",
+        "definition_hi": "पोता / नाती",
+        "definition_ur": "پوتا / نواسہ",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 11, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 11, p. 254",
+        "verified": true,
+        "transcription_raw": "potruː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-020",
+    "lemma_devanagari": "पोतरी",
+    "lemma_ipa": "potri",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "potri",
+    "normalized_headword": "potri",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "granddaughter (son's daughter or daughter's daughter)",
+        "definition_hi": "पोती / नातिन",
+        "definition_ur": "پوتی / نواسی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 11, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 11, p. 254",
+        "verified": true,
+        "transcription_raw": "potri",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-021",
+    "lemma_devanagari": "लाड़ा",
+    "lemma_ipa": "laːɖaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "laːɖaː",
+    "normalized_headword": "laːɖaː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "husband; son-in-law",
+        "definition_hi": "पति / दूल्हा; दामाद",
+        "definition_ur": "شوہر / دولہا; داماد",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 254",
+        "verified": true,
+        "transcription_raw": "laːɖaː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-022",
+    "lemma_devanagari": "त्रिंती",
+    "lemma_ipa": "trintɨ",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "trintɨ",
+    "normalized_headword": "trintɨ",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "wife; married woman",
+        "definition_hi": "पत्नी / जोरू",
+        "definition_ur": "بیوی / زوجہ",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 255",
+        "verified": true,
+        "transcription_raw": "trintɨ",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-023",
+    "lemma_devanagari": "शौहरा",
+    "lemma_ipa": "ʃovra",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "ʃovra",
+    "normalized_headword": "ʃovra",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "father-in-law",
+        "definition_hi": "ससुर",
+        "definition_ur": "سسر",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 254-255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 254-255",
+        "verified": true,
+        "transcription_raw": "ʃovra",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-024",
+    "lemma_devanagari": "शशू",
+    "lemma_ipa": "ʃaʃuː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "ʃaʃuː",
+    "normalized_headword": "ʃaʃuː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "mother-in-law",
+        "definition_hi": "सास",
+        "definition_ur": "ساس",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 254-255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 254-255",
+        "verified": true,
+        "transcription_raw": "ʃaʃuː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-025",
+    "lemma_devanagari": "जेठ",
+    "lemma_ipa": "d͡ʒeːʈʰ",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "dʒeːʈʰ",
+    "normalized_headword": "dʒeːʈʰ",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "husband's elder brother",
+        "definition_hi": "जेठ",
+        "definition_ur": "جیٹھ",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 254",
+        "verified": true,
+        "transcription_raw": "dʒeːʈʰ",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-026",
+    "lemma_devanagari": "देवर",
+    "lemma_ipa": "deːwar",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "deːwar",
+    "normalized_headword": "deːwar",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "husband's younger brother",
+        "definition_hi": "देवर",
+        "definition_ur": "دیور",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 254",
+        "verified": true,
+        "transcription_raw": "deːwar",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-027",
+    "lemma_devanagari": "जेठाण",
+    "lemma_ipa": "d͡ʒəʈʰaːn",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "dʒəʈʰaːn",
+    "normalized_headword": "dʒəʈʰaːn",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "husband's elder brother's wife",
+        "definition_hi": "जेठानी",
+        "definition_ur": "جیٹھانی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 254",
+        "verified": true,
+        "transcription_raw": "dʒəʈʰaːn",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-028",
+    "lemma_devanagari": "देवराण",
+    "lemma_ipa": "dewraːn",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "dewraːn",
+    "normalized_headword": "dewraːn",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "husband's younger brother's wife",
+        "definition_hi": "देवरानी",
+        "definition_ur": "دیورانی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 254",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 254",
+        "verified": true,
+        "transcription_raw": "dewraːn",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-029",
+    "lemma_devanagari": "नंद",
+    "lemma_ipa": "nand",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "nand",
+    "normalized_headword": "nand",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "husband's sister",
+        "definition_hi": "ननद",
+        "definition_ur": "نند",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 255",
+        "verified": true,
+        "transcription_raw": "nand",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-030",
+    "lemma_devanagari": "साला",
+    "lemma_ipa": "saːlaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "saːlaː",
+    "normalized_headword": "saːlaː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "wife's brother",
+        "definition_hi": "साला",
+        "definition_ur": "سالا",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 255",
+        "verified": true,
+        "transcription_raw": "saːlaː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-031",
+    "lemma_devanagari": "साली",
+    "lemma_ipa": "saːliː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "sa:li:",
+    "normalized_headword": "sa:li:",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "wife's sister",
+        "definition_hi": "साली",
+        "definition_ur": "سالی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 255",
+        "verified": true,
+        "transcription_raw": "sa:li:",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-032",
+    "lemma_devanagari": "सड़बाई",
+    "lemma_ipa": "saɖɨbaːj",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "saɖɨbaːj",
+    "normalized_headword": "saɖɨbaːj",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "wife's sister's husband; co-brother-in-law",
+        "definition_hi": "साढ़ू",
+        "definition_ur": "ہم زلف",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 255",
+        "verified": true,
+        "transcription_raw": "saɖɨbaːj",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-033",
+    "lemma_devanagari": "नुश",
+    "lemma_ipa": "nuʃ",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "nuʃ",
+    "normalized_headword": "nuʃ",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "daughter-in-law",
+        "definition_hi": "बहू / पुत्रवधू",
+        "definition_ur": "بہو",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 12, p. 255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 12, p. 255",
+        "verified": true,
+        "transcription_raw": "nuʃ",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-034",
+    "lemma_devanagari": "खोखलेरू गगरू",
+    "lemma_ipa": "kʰokʰaleruː ɡaɡru",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "kʰokʰaleruː ɡaɡru",
+    "normalized_headword": "kʰokʰaleruː ɡaɡru",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "adopted son",
+        "definition_hi": "दत्तक पुत्र / गोद लिया बेटा",
+        "definition_ur": "لے پالک بیٹا",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 13, p. 255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 13, p. 255",
+        "verified": true,
+        "transcription_raw": "kʰokʰaleruː ɡaɡru",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-035",
+    "lemma_devanagari": "खोखलेरू कोडे",
+    "lemma_ipa": "kʰokʰaleruː koɖeː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "kʰokʰaleruː koɖeː",
+    "normalized_headword": "kʰokʰaleruː koɖeː",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "adopted daughter",
+        "definition_hi": "दत्तक पुत्री / गोद ली बेटी",
+        "definition_ur": "لے پالک بیٹی",
+        "semantic_field": "family_and_kinship",
+        "source_item": "dar_sheikh_2022, Table 13, p. 255",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 13, p. 255",
+        "verified": true,
+        "transcription_raw": "kʰokʰaleruː koɖeː",
+        "context": "family_and_kinship terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: family_and_kinship",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "family_and_kinship",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-036",
+    "lemma_devanagari": "बसंत",
+    "lemma_ipa": "bast",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bast",
+    "normalized_headword": "bast",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "spring season",
+        "definition_hi": "बसंत ऋतु",
+        "definition_ur": "موسم بہار",
+        "semantic_field": "weather_and_seasons",
+        "source_item": "dar_sheikh_2022, Table 1, p. 248",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 1, p. 248",
+        "verified": true,
+        "transcription_raw": "bast",
+        "context": "weather_and_seasons terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: weather_and_seasons",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "weather_and_seasons",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-037",
+    "lemma_devanagari": "बरसाला",
+    "lemma_ipa": "barsaːla",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "barsaːla",
+    "normalized_headword": "barsaːla",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "summer season; monsoon season",
+        "definition_hi": "ग्रीष्म ऋतु / वर्षा ऋतु",
+        "definition_ur": "موسم گرما / برسات",
+        "semantic_field": "weather_and_seasons",
+        "source_item": "dar_sheikh_2022, Table 1, p. 248",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 1, p. 248",
+        "verified": true,
+        "transcription_raw": "barsaːla",
+        "context": "weather_and_seasons terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: weather_and_seasons",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "weather_and_seasons",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-038",
+    "lemma_devanagari": "शैयर",
+    "lemma_ipa": "ʃaeːr",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "ʃaeːr",
+    "normalized_headword": "ʃaeːr",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "autumn season",
+        "definition_hi": "शरद ऋतु / पतझड़",
+        "definition_ur": "موسم خزاں",
+        "semantic_field": "weather_and_seasons",
+        "source_item": "dar_sheikh_2022, Table 1, p. 248",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 1, p. 248",
+        "verified": true,
+        "transcription_raw": "ʃaeːr",
+        "context": "weather_and_seasons terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: weather_and_seasons",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "weather_and_seasons",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-039",
+    "lemma_devanagari": "ह्योंद",
+    "lemma_ipa": "hʲõːd",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "hʲõːd",
+    "normalized_headword": "hʲõːd",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "winter season",
+        "definition_hi": "शीत ऋतु / सर्दियाँ",
+        "definition_ur": "موسم سرما",
+        "semantic_field": "weather_and_seasons",
+        "source_item": "dar_sheikh_2022, Table 1, p. 248",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 1, p. 248",
+        "verified": true,
+        "transcription_raw": "hʲõːd",
+        "context": "weather_and_seasons terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: weather_and_seasons",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "weather_and_seasons",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-040",
+    "lemma_devanagari": "सोमवार",
+    "lemma_ipa": "somwaːr",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "somwaːr",
+    "normalized_headword": "somwaːr",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Monday",
+        "definition_hi": "सोमवार",
+        "definition_ur": "پیر / سوموار",
+        "semantic_field": "time_and_days",
+        "source_item": "dar_sheikh_2022, Table 3, p. 249",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 3, p. 249",
+        "verified": true,
+        "transcription_raw": "somwaːr",
+        "context": "time_and_days terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: time_and_days",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "time_and_days",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-041",
+    "lemma_devanagari": "मंगलवार",
+    "lemma_ipa": "maŋalwar",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "maŋalwar",
+    "normalized_headword": "maŋalwar",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Tuesday",
+        "definition_hi": "मंगलवार",
+        "definition_ur": "منگل",
+        "semantic_field": "time_and_days",
+        "source_item": "dar_sheikh_2022, Table 3, p. 249",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 3, p. 249",
+        "verified": true,
+        "transcription_raw": "maŋalwar",
+        "context": "time_and_days terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: time_and_days",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "time_and_days",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-042",
+    "lemma_devanagari": "बुधवार",
+    "lemma_ipa": "budʰwar",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "budʰwar",
+    "normalized_headword": "budʰwar",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Wednesday",
+        "definition_hi": "बुधवार",
+        "definition_ur": "بدھ",
+        "semantic_field": "time_and_days",
+        "source_item": "dar_sheikh_2022, Table 3, p. 249",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 3, p. 249",
+        "verified": true,
+        "transcription_raw": "budʰwar",
+        "context": "time_and_days terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: time_and_days",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "time_and_days",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-043",
+    "lemma_devanagari": "ब्रेसतवार",
+    "lemma_ipa": "brestwar",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "brestwar",
+    "normalized_headword": "brestwar",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Thursday",
+        "definition_hi": "गुरुवार / बृहस्पतिवार",
+        "definition_ur": "جمعرات",
+        "semantic_field": "time_and_days",
+        "source_item": "dar_sheikh_2022, Table 3, p. 249",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 3, p. 249",
+        "verified": true,
+        "transcription_raw": "brestwar",
+        "context": "time_and_days terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: time_and_days",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "time_and_days",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-044",
+    "lemma_devanagari": "शुकरवार",
+    "lemma_ipa": "ʃukurwar",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "ʃukurwar",
+    "normalized_headword": "ʃukurwar",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Friday",
+        "definition_hi": "शुक्रवार",
+        "definition_ur": "جمعہ",
+        "semantic_field": "time_and_days",
+        "source_item": "dar_sheikh_2022, Table 3, p. 249",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 3, p. 249",
+        "verified": true,
+        "transcription_raw": "ʃukurwar",
+        "context": "time_and_days terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: time_and_days",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "time_and_days",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-045",
+    "lemma_devanagari": "शनिवार",
+    "lemma_ipa": "ʃaniwar",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "ʃaniwar",
+    "normalized_headword": "ʃaniwar",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Saturday",
+        "definition_hi": "शनिवार",
+        "definition_ur": "ہفتہ / سنیچر",
+        "semantic_field": "time_and_days",
+        "source_item": "dar_sheikh_2022, Table 3, p. 249",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 3, p. 249",
+        "verified": true,
+        "transcription_raw": "ʃaniwar",
+        "context": "time_and_days terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: time_and_days",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "time_and_days",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-046",
+    "lemma_devanagari": "एतवार",
+    "lemma_ipa": "eːtwar",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "eːtwar",
+    "normalized_headword": "eːtwar",
+    "variety_id": "jk_doda_bhadarwah",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "verified_jk_lexical",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Sunday",
+        "definition_hi": "रविवार / इतवार",
+        "definition_ur": "اتوار",
+        "semantic_field": "time_and_days",
+        "source_item": "dar_sheikh_2022, Table 3, p. 249",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "dar_sheikh_2022",
+        "page_or_section": "Table 3, p. 249",
+        "verified": true,
+        "transcription_raw": "eːtwar",
+        "context": "time_and_days terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: time_and_days",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "time_and_days",
+      "research_expansion": true,
+      "source_paper": "dar_sheikh_2022"
+    }
+  },
+  {
+    "id": "gaddi-voc-047",
+    "lemma_devanagari": "भेड्डू",
+    "lemma_ipa": "bʰeɖɖu",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bʰeɖɖu",
+    "normalized_headword": "bʰeɖɖu",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "ram; male sheep",
+        "definition_hi": "मेढ़ा / नर भेड़",
+        "definition_ur": "مینڈھا",
+        "semantic_field": "pastoral_life",
+        "source_item": "kumari_2026, Table 3.1, p. 58",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table 3.1, p. 58",
+        "verified": false,
+        "transcription_raw": "bʰeɖɖu",
+        "context": "pastoral_life terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: pastoral_life",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "pastoral_life",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-048",
+    "lemma_devanagari": "उरणी",
+    "lemma_ipa": "urni",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "urni",
+    "normalized_headword": "urni",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "young female sheep; ewe-lamb",
+        "definition_hi": "भेड़ का छोटा बच्चा (मादा)",
+        "definition_ur": "بھیڑ کا بچہ (مادہ)",
+        "semantic_field": "pastoral_life",
+        "source_item": "kumari_2026, Table 3.1, p. 58",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table 3.1, p. 58",
+        "verified": false,
+        "transcription_raw": "urni",
+        "context": "pastoral_life terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: pastoral_life",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "pastoral_life",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-049",
+    "lemma_devanagari": "उरणू",
+    "lemma_ipa": "urnu",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "urnu",
+    "normalized_headword": "urnu",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "young male sheep; ram-lamb",
+        "definition_hi": "भेड़ का छोटा बच्चा (नर)",
+        "definition_ur": "بھیڑ کا بچہ (نر)",
+        "semantic_field": "pastoral_life",
+        "source_item": "kumari_2026, Table 3.1, p. 58",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table 3.1, p. 58",
+        "verified": false,
+        "transcription_raw": "urnu",
+        "context": "pastoral_life terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: pastoral_life",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "pastoral_life",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-050",
+    "lemma_devanagari": "छेकू",
+    "lemma_ipa": "t͡ʃʰeːku",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "cheku",
+    "normalized_headword": "cheku",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "kid; young goat",
+        "definition_hi": "बकरी का मेमना",
+        "definition_ur": "بکری کا بچہ",
+        "semantic_field": "pastoral_life",
+        "source_item": "shashi_1977, p. 64",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 64",
+        "verified": false,
+        "transcription_raw": "cheku",
+        "context": "pastoral_life terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: pastoral_life",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "pastoral_life",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-051",
+    "lemma_devanagari": "कट्ठी",
+    "lemma_ipa": "kəʈʈi",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "kəʈʈi",
+    "normalized_headword": "kəʈʈi",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "young female buffalo calf",
+        "definition_hi": "भैंस का बछड़ा (मादा / कटिया)",
+        "definition_ur": "بھینس کا بچھڑا (مادہ)",
+        "semantic_field": "animals_and_wildlife",
+        "source_item": "kumari_2026, Table 3.1, p. 58",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table 3.1, p. 58",
+        "verified": false,
+        "transcription_raw": "kəʈʈi",
+        "context": "animals_and_wildlife terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: animals_and_wildlife",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "animals_and_wildlife",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-052",
+    "lemma_devanagari": "कट्ठू",
+    "lemma_ipa": "kəʈʈu",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "kəʈʈu",
+    "normalized_headword": "kəʈʈu",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "young male buffalo calf",
+        "definition_hi": "भैंस का बछड़ा (नर / कटवा)",
+        "definition_ur": "بھینس کا بچھڑا (نر)",
+        "semantic_field": "animals_and_wildlife",
+        "source_item": "kumari_2026, Table 3.1, p. 58",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table 3.1, p. 58",
+        "verified": false,
+        "transcription_raw": "kəʈʈu",
+        "context": "animals_and_wildlife terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: animals_and_wildlife",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "animals_and_wildlife",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-053",
+    "lemma_devanagari": "बोदरी",
+    "lemma_ipa": "bodri",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bodri",
+    "normalized_headword": "bodri",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "peahen",
+        "definition_hi": "मोरनी",
+        "definition_ur": "مورنی",
+        "semantic_field": "animals_and_wildlife",
+        "source_item": "kumari_2026, Section 3.2, p. 58",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 58",
+        "verified": false,
+        "transcription_raw": "bodri",
+        "context": "animals_and_wildlife terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: animals_and_wildlife",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "animals_and_wildlife",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-054",
+    "lemma_devanagari": "पुहाल",
+    "lemma_ipa": "puhaːl",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "puhal",
+    "normalized_headword": "puhal",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Gaddi shepherd; flock tender",
+        "definition_hi": "चरवाहा / गद्दी गड़रिया",
+        "definition_ur": "چرواہا",
+        "semantic_field": "pastoral_life",
+        "source_item": "kumari_2026, Section 1.1, p. 20",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 1.1, p. 20",
+        "verified": false,
+        "transcription_raw": "puhal",
+        "context": "pastoral_life terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: pastoral_life",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "pastoral_life",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-055",
+    "lemma_devanagari": "घोमंतू",
+    "lemma_ipa": "ɡʰomtuː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "ghomtu",
+    "normalized_headword": "ghomtu",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "migratory pastoralist; nomad (born with moving feet)",
+        "definition_hi": "घुमंतू चरवाहा",
+        "definition_ur": "خانہ بدوش",
+        "semantic_field": "pastoral_life",
+        "source_item": "kumari_2026, Section 1.1, p. 19",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 1.1, p. 19",
+        "verified": false,
+        "transcription_raw": "ghomtu",
+        "context": "pastoral_life terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: pastoral_life",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "pastoral_life",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-056",
+    "lemma_devanagari": "धार",
+    "lemma_ipa": "dʰaːr",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "dhar",
+    "normalized_headword": "dhar",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "high alpine pasture; grazing ridge",
+        "definition_hi": "ऊँची पहाड़ी चारागाह / रिज",
+        "definition_ur": "بلند چراگاہ",
+        "semantic_field": "pastoral_life",
+        "source_item": "kumari_2026, Section 1.1, p. 19",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 1.1, p. 19",
+        "verified": false,
+        "transcription_raw": "dhar",
+        "context": "pastoral_life terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: pastoral_life",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "pastoral_life",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-057",
+    "lemma_devanagari": "जोत",
+    "lemma_ipa": "d͡ʒot",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "jot",
+    "normalized_headword": "jot",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "high mountain pass",
+        "definition_hi": "पहाड़ी दर्रा",
+        "definition_ur": "پہاڑی درہ",
+        "semantic_field": "mountains_and_rivers",
+        "source_item": "shashi_1977, p. 55",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 55",
+        "verified": false,
+        "transcription_raw": "jot",
+        "context": "mountains_and_rivers terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: mountains_and_rivers",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "mountains_and_rivers",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-058",
+    "lemma_devanagari": "कतरन",
+    "lemma_ipa": "kətrən",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "katran",
+    "normalized_headword": "katran",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "shearing of sheep wool",
+        "definition_hi": "भेड़ की ऊन कतराई",
+        "definition_ur": "ऊन کترائی",
+        "semantic_field": "pastoral_life",
+        "source_item": "shashi_1977, p. 74",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 74",
+        "verified": false,
+        "transcription_raw": "katran",
+        "context": "pastoral_life terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: pastoral_life",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "pastoral_life",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-059",
+    "lemma_devanagari": "खाडू",
+    "lemma_ipa": "kʰaːɖuː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "khadu",
+    "normalized_headword": "khadu",
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "consecrated ram offered during Shiv Nawala",
+        "definition_hi": "नवाले में अर्पित होने वाला पवित्र मेढ़ा",
+        "definition_ur": "شیو نوالے کا نذر کردہ مینڈھا",
+        "semantic_field": "religious_and_ritual",
+        "source_item": "chakraborty_2024, Section: Religious Life",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Religious Life",
+        "verified": true,
+        "transcription_raw": "khadu",
+        "context": "religious_and_ritual terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: religious_and_ritual",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "religious_and_ritual",
+      "research_expansion": true,
+      "source_paper": "chakraborty_2024"
+    }
+  },
+  {
+    "id": "gaddi-voc-060",
+    "lemma_devanagari": "मंजा",
+    "lemma_ipa": "mənd͡ʒɑ:",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "məndʒɑ:",
+    "normalized_headword": "məndʒɑ:",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "outdoor rope cot / charpoy",
+        "definition_hi": "बाहर बिछाने वाली चारपाई / खाट",
+        "definition_ur": "چارپائی",
+        "semantic_field": "household_and_tools",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "məndʒɑ:",
+        "context": "household_and_tools terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: household_and_tools",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "household_and_tools",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-061",
+    "lemma_devanagari": "बोका",
+    "lemma_ipa": "boka",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "boka",
+    "normalized_headword": "boka",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "hole in the wooden yoke for neck pin",
+        "definition_hi": "जुए का छेद",
+        "definition_ur": "جوئے کا سوراخ",
+        "semantic_field": "household_and_tools",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "boka",
+        "context": "household_and_tools terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: household_and_tools",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "household_and_tools",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-062",
+    "lemma_devanagari": "काणी",
+    "lemma_ipa": "kɑ:ɳi",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "kɑ:ɳi",
+    "normalized_headword": "kɑ:ɳi",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "traditional wooden hair comb",
+        "definition_hi": "लकड़ी की कंघी",
+        "definition_ur": "لکڑی کی کنگھی",
+        "semantic_field": "household_and_tools",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "kɑ:ɳi",
+        "context": "household_and_tools terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: household_and_tools",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "household_and_tools",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-063",
+    "lemma_devanagari": "फाल",
+    "lemma_ipa": "pʰal",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "pʰal",
+    "normalized_headword": "pʰal",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "ploughshare; blade of wooden plough",
+        "definition_hi": "हल का फाल / लोहे का फल",
+        "definition_ur": "ہل کا پھال",
+        "semantic_field": "agriculture_and_farming",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "pʰal",
+        "context": "agriculture_and_farming terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: agriculture_and_farming",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "agriculture_and_farming",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-064",
+    "lemma_devanagari": "द्राठी",
+    "lemma_ipa": "drɑ:tʰi",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "drɑ:tʰi",
+    "normalized_headword": "drɑ:tʰi",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "serrated grass-cutting sickle",
+        "definition_hi": "दाँतेदार दरांती",
+        "definition_ur": "درانتی",
+        "semantic_field": "household_and_tools",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "drɑ:tʰi",
+        "context": "household_and_tools terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: household_and_tools",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "household_and_tools",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-065",
+    "lemma_devanagari": "मिया",
+    "lemma_ipa": "mijɑ̃",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "mijɑ̃",
+    "normalized_headword": "mijɑ̃",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "wooden soil levelling plank / leveller",
+        "definition_hi": "खेत समतल करने वाला सुहागा / पाटा",
+        "definition_ur": "سہاگا",
+        "semantic_field": "agriculture_and_farming",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "mijɑ̃",
+        "context": "agriculture_and_farming terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: agriculture_and_farming",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "agriculture_and_farming",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-066",
+    "lemma_devanagari": "बोंकरू",
+    "lemma_ipa": "bo:nkru",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bo:nkru",
+    "normalized_headword": "bo:nkru",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "stiff broom used specifically for cowshed",
+        "definition_hi": "गौशाला की सफाई का झाड़ू",
+        "definition_ur": "گوشالہ کا جھاڑو",
+        "semantic_field": "household_and_tools",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "bo:nkru",
+        "context": "household_and_tools terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: household_and_tools",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "household_and_tools",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-067",
+    "lemma_devanagari": "चुब्बू",
+    "lemma_ipa": "cubbu",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "cubbu",
+    "normalized_headword": "cubbu",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "fine soft broom meant for inside the living rooms",
+        "definition_hi": "घर के कमरों की सफाई का झाड़ू",
+        "definition_ur": "اندرونی جھاڑو",
+        "semantic_field": "household_and_tools",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "cubbu",
+        "context": "household_and_tools terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: household_and_tools",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "household_and_tools",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-068",
+    "lemma_devanagari": "मांज",
+    "lemma_ipa": "mɑ̃d͡ʒ",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "mɑ̃dʒ",
+    "normalized_headword": "mɑ̃dʒ",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "heavy broom meant for sweeping the outer courtyard",
+        "definition_hi": "आंगन और बाहर की सफाई का झाड़ू",
+        "definition_ur": "صحن کا جھاڑو",
+        "semantic_field": "household_and_tools",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "mɑ̃dʒ",
+        "context": "household_and_tools terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: household_and_tools",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "household_and_tools",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-069",
+    "lemma_devanagari": "बगड़ी",
+    "lemma_ipa": "bəɡɖi",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bəɡɖi",
+    "normalized_headword": "bəɡɖi",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "small agricultural field plot",
+        "definition_hi": "छोटा खेत",
+        "definition_ur": "چھوٹا کھیت",
+        "semantic_field": "agriculture_and_farming",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "bəɡɖi",
+        "context": "agriculture_and_farming terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: agriculture_and_farming",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "agriculture_and_farming",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-070",
+    "lemma_devanagari": "खाण",
+    "lemma_ipa": "kʰan",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "kʰan",
+    "normalized_headword": "kʰan",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "large extensive farmland plot",
+        "definition_hi": "बड़ा खेत / जोत भूमि",
+        "definition_ur": "بڑا کھیت",
+        "semantic_field": "agriculture_and_farming",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "kʰan",
+        "context": "agriculture_and_farming terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: agriculture_and_farming",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "agriculture_and_farming",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-071",
+    "lemma_devanagari": "ओआलियां",
+    "lemma_ipa": "oɑɭiɑ̃",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "oɑɭiɑ̃",
+    "normalized_headword": "oɑɭiɑ̃",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "small terraced paddy or wheat plots",
+        "definition_hi": "सीढ़ीदार धान/गेहूं की छोटी क्यारियां",
+        "definition_ur": "سیڑھی دار چھوٹی کیاریاں",
+        "semantic_field": "agriculture_and_farming",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "oɑɭiɑ̃",
+        "context": "agriculture_and_farming terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: agriculture_and_farming",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "agriculture_and_farming",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-072",
+    "lemma_devanagari": "कुमलु",
+    "lemma_ipa": "kumɭu",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "kumɭu",
+    "normalized_headword": "kumɭu",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "delicate flower bud",
+        "definition_hi": "फूल की कली",
+        "definition_ur": "پھول کی کلی",
+        "semantic_field": "plants_and_trees",
+        "source_item": "kumari_2026, Section 3.2, p. 60",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 60",
+        "verified": false,
+        "transcription_raw": "kumɭu",
+        "context": "plants_and_trees terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: plants_and_trees",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "plants_and_trees",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-073",
+    "lemma_devanagari": "मिसरी",
+    "lemma_ipa": "misri",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "misri",
+    "normalized_headword": "misri",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "crystallized rock sugar",
+        "definition_hi": "मिश्री",
+        "definition_ur": "مصری",
+        "semantic_field": "food_and_cooking",
+        "source_item": "kumari_2026, Section 3.2, p. 58",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Section 3.2, p. 58",
+        "verified": false,
+        "transcription_raw": "misri",
+        "context": "food_and_cooking terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: food_and_cooking",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "food_and_cooking",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-074",
+    "lemma_devanagari": "चोला",
+    "lemma_ipa": "t͡ʃoːlaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "chola",
+    "normalized_headword": "chola",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "traditional knee-length woollen coat worn by Gaddi men",
+        "definition_hi": "गद्दी पुरुषों का ऊनी चोला",
+        "definition_ur": "گدی چولا",
+        "semantic_field": "clothing_and_jewellery",
+        "source_item": "shashi_1977, p. 32; Kumari (2026), p. 19",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 32; Kumari (2026), p. 19",
+        "verified": false,
+        "transcription_raw": "chola",
+        "context": "clothing_and_jewellery terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: clothing_and_jewellery",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "clothing_and_jewellery",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-075",
+    "lemma_devanagari": "डोरा",
+    "lemma_ipa": "ɖoːraː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "dora",
+    "normalized_headword": "dora",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "heavy black woollen waist cord measuring up to 40 meters",
+        "definition_hi": "कमर में बाँधने वाला काला ऊनी डोरा",
+        "definition_ur": "ڈورا",
+        "semantic_field": "clothing_and_jewellery",
+        "source_item": "shashi_1977, p. 33; Kumari (2026), p. 19",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 33; Kumari (2026), p. 19",
+        "verified": false,
+        "transcription_raw": "dora",
+        "context": "clothing_and_jewellery terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: clothing_and_jewellery",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "clothing_and_jewellery",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-076",
+    "lemma_devanagari": "लुआंचड़ी",
+    "lemma_ipa": "luãːt͡ʃɽi",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "luanchari",
+    "normalized_headword": "luanchari",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "traditional flared frilled dress worn by Gaddi women",
+        "definition_hi": "गद्दी महिलाओं की पारंपरिक पोशाक लुआंचड़ी",
+        "definition_ur": "لوانچڑی",
+        "semantic_field": "clothing_and_jewellery",
+        "source_item": "shashi_1977, p. 36",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 36",
+        "verified": false,
+        "transcription_raw": "luanchari",
+        "context": "clothing_and_jewellery terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: clothing_and_jewellery",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "clothing_and_jewellery",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-077",
+    "lemma_devanagari": "पत्तू",
+    "lemma_ipa": "pəttuː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "pattoo",
+    "normalized_headword": "pattoo",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "hand-woven woollen shawl or body wrap",
+        "definition_hi": "हाथ से बुना ऊनी पत्तू / शॉल",
+        "definition_ur": "پتو",
+        "semantic_field": "clothing_and_jewellery",
+        "source_item": "shashi_1977, p. 38",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 38",
+        "verified": false,
+        "transcription_raw": "pattoo",
+        "context": "clothing_and_jewellery terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: clothing_and_jewellery",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "clothing_and_jewellery",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-078",
+    "lemma_devanagari": "गार्दू",
+    "lemma_ipa": "ɡaːrduː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "gardu",
+    "normalized_headword": "gardu",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "heavy checked domestic woollen blanket",
+        "definition_hi": "ऊनी कंबल / गार्दू",
+        "definition_ur": "گاردی / کمبل",
+        "semantic_field": "clothing_and_jewellery",
+        "source_item": "shashi_1977, p. 39",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 39",
+        "verified": false,
+        "transcription_raw": "gardu",
+        "context": "clothing_and_jewellery terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: clothing_and_jewellery",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "clothing_and_jewellery",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-079",
+    "lemma_devanagari": "चंदरहार",
+    "lemma_ipa": "t͡ʃəndəraːr",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "chanderhar",
+    "normalized_headword": "chanderhar",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "crescent-shaped solid silver pectoral necklace",
+        "definition_hi": "चांदी का अर्धचंद्राकार चंदरहार",
+        "definition_ur": "چندر ہار",
+        "semantic_field": "clothing_and_jewellery",
+        "source_item": "chandar_2024, Section: Women's Ornaments",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chandar_2024",
+        "page_or_section": "Section: Women's Ornaments",
+        "verified": false,
+        "transcription_raw": "chanderhar",
+        "context": "clothing_and_jewellery terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: clothing_and_jewellery",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "clothing_and_jewellery",
+      "research_expansion": true,
+      "source_paper": "chandar_2024"
+    }
+  },
+  {
+    "id": "gaddi-voc-080",
+    "lemma_devanagari": "नथ",
+    "lemma_ipa": "nətʰ",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "nath",
+    "normalized_headword": "nath",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "traditional gold or silver nose ring",
+        "definition_hi": "पारंपरिक नथ / नथनी",
+        "definition_ur": "نتھ",
+        "semantic_field": "clothing_and_jewellery",
+        "source_item": "shashi_1977, p. 40",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 40",
+        "verified": false,
+        "transcription_raw": "nath",
+        "context": "clothing_and_jewellery terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: clothing_and_jewellery",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "clothing_and_jewellery",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-081",
+    "lemma_devanagari": "मदरा",
+    "lemma_ipa": "mədraː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "madra",
+    "normalized_headword": "madra",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "slow-cooked chickpea festive dish in yogurt and pure ghee",
+        "definition_hi": "दही और घी में पकाया गया प्रसिद्ध मदरा",
+        "definition_ur": "مدرا",
+        "semantic_field": "food_and_cooking",
+        "source_item": "chakraborty_2024, Section: Food Heritage",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Food Heritage",
+        "verified": false,
+        "transcription_raw": "madra",
+        "context": "food_and_cooking terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: food_and_cooking",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "food_and_cooking",
+      "research_expansion": true,
+      "source_paper": "chakraborty_2024"
+    }
+  },
+  {
+    "id": "gaddi-voc-082",
+    "lemma_devanagari": "बबरू",
+    "lemma_ipa": "bəbruː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "babru",
+    "normalized_headword": "babru",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "deep-fried leavened sweet wheat flour cake",
+        "definition_hi": "गुलगुले / बबरू",
+        "definition_ur": "ببرو",
+        "semantic_field": "food_and_cooking",
+        "source_item": "shashi_1977, p. 43",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 43",
+        "verified": false,
+        "transcription_raw": "babru",
+        "context": "food_and_cooking terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: food_and_cooking",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "food_and_cooking",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-083",
+    "lemma_devanagari": "धम",
+    "lemma_ipa": "dʰəm",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "dham",
+    "normalized_headword": "dham",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "traditional community ceremonial feast served on deodar leaves",
+        "definition_hi": "पारंपरिक गद्दी धाम / भोज",
+        "definition_ur": "دھام",
+        "semantic_field": "food_and_cooking",
+        "source_item": "chakraborty_2024, Section: Food Heritage",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Food Heritage",
+        "verified": false,
+        "transcription_raw": "dham",
+        "context": "food_and_cooking terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: food_and_cooking",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "food_and_cooking",
+      "research_expansion": true,
+      "source_paper": "chakraborty_2024"
+    }
+  },
+  {
+    "id": "gaddi-voc-084",
+    "lemma_devanagari": "रोट",
+    "lemma_ipa": "roʈ",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "rot",
+    "normalized_headword": "rot",
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "thick consecrated baked bread offered to deities",
+        "definition_hi": "पूजा का मोटा मीठा रोट",
+        "definition_ur": "روٹ",
+        "semantic_field": "food_and_cooking",
+        "source_item": "chakraborty_2024, Section: Religious Life",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Religious Life",
+        "verified": true,
+        "transcription_raw": "rot",
+        "context": "food_and_cooking terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: food_and_cooking",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "food_and_cooking",
+      "research_expansion": true,
+      "source_paper": "chakraborty_2024"
+    }
+  },
+  {
+    "id": "gaddi-voc-085",
+    "lemma_devanagari": "नरसिंगा",
+    "lemma_ipa": "nərsɪŋɡaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "narsingha",
+    "normalized_headword": "narsingha",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "S-curved brass trumpet blown on passes and ceremonies",
+        "definition_hi": "एस-आकार का पीतल का नरसिंगा बाजा",
+        "definition_ur": "نرسنگھا",
+        "semantic_field": "music_and_dance",
+        "source_item": "plsi_vol12_2014, p. 122",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "plsi_vol12_2014",
+        "page_or_section": "p. 122",
+        "verified": false,
+        "transcription_raw": "narsingha",
+        "context": "music_and_dance terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: music_and_dance",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "music_and_dance",
+      "research_expansion": true,
+      "source_paper": "plsi_vol12_2014"
+    }
+  },
+  {
+    "id": "gaddi-voc-086",
+    "lemma_devanagari": "ढोल",
+    "lemma_ipa": "ɖʱoːl",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "dhol",
+    "normalized_headword": "dhol",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "double-headed barrel drum played in pastoral celebrations",
+        "definition_hi": "पारंपरिक ढोल",
+        "definition_ur": "ڈھول",
+        "semantic_field": "music_and_dance",
+        "source_item": "plsi_vol12_2014, p. 122",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "plsi_vol12_2014",
+        "page_or_section": "p. 122",
+        "verified": false,
+        "transcription_raw": "dhol",
+        "context": "music_and_dance terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: music_and_dance",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "music_and_dance",
+      "research_expansion": true,
+      "source_paper": "plsi_vol12_2014"
+    }
+  },
+  {
+    "id": "gaddi-voc-087",
+    "lemma_devanagari": "थाली",
+    "lemma_ipa": "t̪ʰaːliː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "thali",
+    "normalized_headword": "thali",
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "bell-metal bronze plate struck rhythmically during Ainchali singing",
+        "definition_hi": "अंचली गायन में बजाई जाने वाली कांसे की थाली",
+        "definition_ur": "تھالی",
+        "semantic_field": "music_and_dance",
+        "source_item": "jkaacl_archive, Archive File GAD-ANCH-01",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "jkaacl_archive",
+        "page_or_section": "Archive File GAD-ANCH-01",
+        "verified": true,
+        "transcription_raw": "thali",
+        "context": "music_and_dance terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: music_and_dance",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "music_and_dance",
+      "research_expansion": true,
+      "source_paper": "jkaacl_archive"
+    }
+  },
+  {
+    "id": "gaddi-voc-088",
+    "lemma_devanagari": "राछ",
+    "lemma_ipa": "raːt͡ʃʰ",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "rachh",
+    "normalized_headword": "rachh",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "traditional horizontal handloom for weaving blankets",
+        "definition_hi": "पारंपरिक ऊन बुनाई का खड्डी / हथकरघा",
+        "definition_ur": "راچھ / ہتھ کرگھا",
+        "semantic_field": "crafts_and_wool",
+        "source_item": "shashi_1977, p. 78",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 78",
+        "verified": false,
+        "transcription_raw": "rachh",
+        "context": "crafts_and_wool terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: crafts_and_wool",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "crafts_and_wool",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-089",
+    "lemma_devanagari": "चरखा",
+    "lemma_ipa": "t͡ʃərkʰa",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "charkha",
+    "normalized_headword": "charkha",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "traditional wooden wool-spinning wheel",
+        "definition_hi": "ऊन कातने का चरखा",
+        "definition_ur": "چرخہ",
+        "semantic_field": "crafts_and_wool",
+        "source_item": "kumari_2026, Table B.1",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table B.1",
+        "verified": false,
+        "transcription_raw": "charkha",
+        "context": "crafts_and_wool terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: crafts_and_wool",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "crafts_and_wool",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-090",
+    "lemma_devanagari": "तकली",
+    "lemma_ipa": "təkli",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "takli",
+    "normalized_headword": "takli",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "portable hand drop-spindle for spinning fleece while walking",
+        "definition_hi": "हाथ से ऊन कातने की तकली",
+        "definition_ur": "تکلی",
+        "semantic_field": "crafts_and_wool",
+        "source_item": "shashi_1977, p. 78",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 78",
+        "verified": false,
+        "transcription_raw": "takli",
+        "context": "crafts_and_wool terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: crafts_and_wool",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "crafts_and_wool",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-091",
+    "lemma_devanagari": "पाव",
+    "lemma_ipa": "pɑːo",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "pɑ:ni",
+    "normalized_headword": "pɑ:ni",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "numeral",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "quarter; one-fourth (1/4)",
+        "definition_hi": "पाव / चौथाई",
+        "definition_ur": "پاؤ / چوتھائی",
+        "semantic_field": "numbers_and_measurements",
+        "source_item": "kumari_2026, Table C.3, p. 128",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table C.3, p. 128",
+        "verified": false,
+        "transcription_raw": "pɑ:ni",
+        "context": "numbers_and_measurements terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: numbers_and_measurements",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "numbers_and_measurements",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-092",
+    "lemma_devanagari": "अधा",
+    "lemma_ipa": "ədʰa",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "ɑddə",
+    "normalized_headword": "ɑddə",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "numeral",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "half (1/2)",
+        "definition_hi": "आधा",
+        "definition_ur": "آدھا",
+        "semantic_field": "numbers_and_measurements",
+        "source_item": "kumari_2026, Table C.3, p. 128",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table C.3, p. 128",
+        "verified": false,
+        "transcription_raw": "ɑddə",
+        "context": "numbers_and_measurements terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: numbers_and_measurements",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "numbers_and_measurements",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-093",
+    "lemma_devanagari": "पोणे",
+    "lemma_ipa": "pɔne",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "pɔne",
+    "normalized_headword": "pɔne",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "numeral",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "three-quarters (3/4); minus a quarter",
+        "definition_hi": "पौने",
+        "definition_ur": "پونے",
+        "semantic_field": "numbers_and_measurements",
+        "source_item": "kumari_2026, Table C.3, p. 128",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table C.3, p. 128",
+        "verified": false,
+        "transcription_raw": "pɔne",
+        "context": "numbers_and_measurements terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: numbers_and_measurements",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "numbers_and_measurements",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-094",
+    "lemma_devanagari": "सवा",
+    "lemma_ipa": "səwaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "səwa:",
+    "normalized_headword": "səwa:",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "numeral",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "one and a quarter (1 1/4); plus a quarter",
+        "definition_hi": "सवा",
+        "definition_ur": "سوا",
+        "semantic_field": "numbers_and_measurements",
+        "source_item": "kumari_2026, Table C.3, p. 128",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table C.3, p. 128",
+        "verified": false,
+        "transcription_raw": "səwa:",
+        "context": "numbers_and_measurements terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: numbers_and_measurements",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "numbers_and_measurements",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-095",
+    "lemma_devanagari": "साढे",
+    "lemma_ipa": "səɖʰe",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "səɖʰe",
+    "normalized_headword": "səɖʰe",
+    "variety_id": "hp_kangra_palampur",
+    "part_of_speech": "numeral",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "plus a half (used with numerals 3 and above, e.g. 3 1/2)",
+        "definition_hi": "साढ़े",
+        "definition_ur": "ساڑھے",
+        "semantic_field": "numbers_and_measurements",
+        "source_item": "kumari_2026, Table C.3, p. 128",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "kumari_2026",
+        "page_or_section": "Table C.3, p. 128",
+        "verified": false,
+        "transcription_raw": "səɖʰe",
+        "context": "numbers_and_measurements terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: numbers_and_measurements",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "numbers_and_measurements",
+      "research_expansion": true,
+      "source_paper": "kumari_2026"
+    }
+  },
+  {
+    "id": "gaddi-voc-096",
+    "lemma_devanagari": "जै शिव शंकर",
+    "lemma_ipa": "d͡ʒɛ ʃiv ʃəŋkər",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "jai shiv shankar",
+    "normalized_headword": "jai shiv shankar",
+    "variety_id": "jk_general",
+    "part_of_speech": "phrase",
+    "gender": null,
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Hail Shiva Shankar (traditional holy greeting)",
+        "definition_hi": "जय शिव शंकर (पारंपरिक अभिवादन)",
+        "definition_ur": "جے شیو شنکر",
+        "semantic_field": "greetings_and_expressions",
+        "source_item": "chakraborty_2024, Section: Everyday Life",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Everyday Life",
+        "verified": true,
+        "transcription_raw": "jai shiv shankar",
+        "context": "greetings_and_expressions terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: greetings_and_expressions",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "greetings_and_expressions",
+      "research_expansion": true,
+      "source_paper": "chakraborty_2024"
+    }
+  },
+  {
+    "id": "gaddi-voc-097",
+    "lemma_devanagari": "भला होए",
+    "lemma_ipa": "bʰəla hoe",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "bhala hoe",
+    "normalized_headword": "bhala hoe",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "phrase",
+    "gender": null,
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "May good come to you; traditional parting blessing",
+        "definition_hi": "भला हो / कल्याण हो (आशीर्वाद)",
+        "definition_ur": "بھلا ہو",
+        "semantic_field": "greetings_and_expressions",
+        "source_item": "shashi_1977, p. 88",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "shashi_1977",
+        "page_or_section": "p. 88",
+        "verified": false,
+        "transcription_raw": "bhala hoe",
+        "context": "greetings_and_expressions terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: greetings_and_expressions",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "greetings_and_expressions",
+      "research_expansion": true,
+      "source_paper": "shashi_1977"
+    }
+  },
+  {
+    "id": "gaddi-voc-098",
+    "lemma_devanagari": "कैलाश",
+    "lemma_ipa": "kɛlaːʃ",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "kailash",
+    "normalized_headword": "kailash",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "Mount Manimahesh Kailash (sacred mountain throne of Shiva)",
+        "definition_hi": "मणिमहेश कैलाश पर्वत",
+        "definition_ur": "کیلاش پربت",
+        "semantic_field": "religious_and_ritual",
+        "source_item": "chakraborty_2024, Section: Manimahesh",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Manimahesh",
+        "verified": false,
+        "transcription_raw": "kailash",
+        "context": "religious_and_ritual terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: religious_and_ritual",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "religious_and_ritual",
+      "research_expansion": true,
+      "source_paper": "chakraborty_2024"
+    }
+  },
+  {
+    "id": "gaddi-voc-099",
+    "lemma_devanagari": "डमरू",
+    "lemma_ipa": "ɖəmruː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "damru",
+    "normalized_headword": "damru",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "two-headed hourglass drum associated with Lord Shiva",
+        "definition_hi": "भगवान शिव का डमरू",
+        "definition_ur": "ڈمرو",
+        "semantic_field": "religious_and_ritual",
+        "source_item": "chakraborty_2024, Section: Sacred Music",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Sacred Music",
+        "verified": false,
+        "transcription_raw": "damru",
+        "context": "religious_and_ritual terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: religious_and_ritual",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "religious_and_ritual",
+      "research_expansion": true,
+      "source_paper": "chakraborty_2024"
+    }
+  },
+  {
+    "id": "gaddi-voc-100",
+    "lemma_devanagari": "त्रिशूल",
+    "lemma_ipa": "triʃuːl",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "trishul",
+    "normalized_headword": "trishul",
+    "variety_id": "hp_chamba_bharmaur",
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "evidence_status": "comparative_only",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "sacred iron trident offered at mountain pass shrines",
+        "definition_hi": "पहाड़ी दर्रों और मंदिरों में चढ़ाया जाने वाला त्रिशूल",
+        "definition_ur": "ترشول",
+        "semantic_field": "religious_and_ritual",
+        "source_item": "chakraborty_2024, Section: Pass Shrines",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "chakraborty_2024",
+        "page_or_section": "Section: Pass Shrines",
+        "verified": false,
+        "transcription_raw": "trishul",
+        "context": "religious_and_ritual terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: religious_and_ritual",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "religious_and_ritual",
+      "research_expansion": true,
+      "source_paper": "chakraborty_2024"
+    }
+  },
+  {
+    "id": "gaddi-voc-101",
+    "lemma_devanagari": "धजा",
+    "lemma_ipa": "dʰəd͡ʒaː",
+    "lemma_perso_arabic": null,
+    "lemma_takri": null,
+    "original_transcription": "dhaja",
+    "normalized_headword": "dhaja",
+    "variety_id": "jk_general",
+    "part_of_speech": "noun",
+    "gender": "feminine",
+    "evidence_status": "jk_cultural_term",
+    "senses": [
+      {
+        "sense_index": 1,
+        "definition_en": "ceremonial sacred cloth flag tied at pass shrines and temples",
+        "definition_hi": "मंदिरों और जोतों पर बांधी जाने वाली पवित्र ध्वजा / झंडी",
+        "definition_ur": "مذہبی جھنڈی",
+        "semantic_field": "religious_and_ritual",
+        "source_item": "nirmohi_duggar, p. 89",
+        "examples": []
+      }
+    ],
+    "attestations": [
+      {
+        "source_id": "nirmohi_duggar",
+        "page_or_section": "p. 89",
+        "verified": true,
+        "transcription_raw": "dhaja",
+        "context": "religious_and_ritual terminology"
+      }
+    ],
+    "comparative_notes": null,
+    "editorial_notes": "Research expansion entry: religious_and_ritual",
+    "homonym_index": null,
+    "metadata": {
+      "domain": "religious_and_ritual",
+      "research_expansion": true,
+      "source_paper": "nirmohi_duggar"
+    }
+  }
+]

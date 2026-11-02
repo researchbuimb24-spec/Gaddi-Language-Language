@@ -1,0 +1,66 @@
+[
+  {
+    "id": "gaddi-oral-001",
+    "title_en": "Transhumance Migration Memories Across the Pir Panjal",
+    "title_gaddi": "पीर पंजाल पार प्रवास दी स्मृति",
+    "genre": "oral_history",
+    "variety_id": "jk_doda_bhadarwah",
+    "community_locality": "Bhadarwah and Kishtwar, Jammu and Kashmir",
+    "performer_or_collector": "Wahid Ahmad Dar (2021)",
+    "source_id": "dar_sheikh_2022",
+    "source_citation": "Dar & Sheikh (2022), pp. 246-248; Dar (2022 Thesis), Chapter 1",
+    "summary_en": "Oral life history testimony collected from senior Gaddi pastoralists in Doda District. The informant describes the historical seasonal route of driving hundreds of sheep and goats across high passes like the Chattergalla and Padri Pass before modern roads were constructed. The narrative documents traditional barter relations with local Gujjars and Kashmiri farmers, trade in hand-spun woollen yarn, and methods of surviving sudden snowstorms.",
+    "text_excerpt_gaddi": "पहिले रस्ते नी थे। असीं सारे कुणबे कन्ने भेड़ां लई के पादरी जोत पार करदे थे। रात जो गुफे च डेरा लांदे ते आग बालदे।",
+    "text_excerpt_en": "Earlier there were no roads. We crossed the Padri pass with our families and sheep. At night we camped in rock caves and lit bonfires.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Academic Research Field Interview",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "informant_age": "72",
+      "interview_year": "2021",
+      "pass_route": "Padri Pass"
+    }
+  },
+  {
+    "id": "gaddi-oral-002",
+    "title_en": "The Changing Rhythms of Pastoralism in Kangra",
+    "title_gaddi": "कांगड़ा दे गद्दिएं दी बदलदी जीवन शैली",
+    "genre": "oral_history",
+    "variety_id": "hp_kangra_palampur",
+    "community_locality": "Saperu, Palampur, Kangra District, HP",
+    "performer_or_collector": "Preeti Kumari and Shreya Mehta (2015)",
+    "source_id": "kumari_2026",
+    "source_citation": "Kumari et al. (2026), Section 1.1, pp. 19-21",
+    "summary_en": "Oral historical accounts documented during linguistic fieldwork in Palampur. Village elders explain the historical transition over the past fifty years from nomadic flock-herding to settled agriculture, horticulture, and formal school education. While fewer youth undertake the arduous annual transhumance, core religious and domestic rituals (Shiv Nawala, weaving of dora and gardu, worship of Shiva) remain central to community identity.",
+    "text_excerpt_gaddi": "हुण बच्चे स्कूल जांदे, पढ़ाई करदे। पर नवाला अज्ज वी हर साल घर च पूरे चाव कन्ने मनांदे।",
+    "text_excerpt_en": "Now the children go to school and study. Yet the Nawala is still celebrated at home every year with great enthusiasm.",
+    "recording_or_transcript_url": "https://doi.org/10.14324/111.9781800089938",
+    "copyright_status": "CC BY-NC 4.0",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "informant_group": "village_elders",
+      "topic": "social_change"
+    }
+  },
+  {
+    "id": "gaddi-oral-003",
+    "title_en": "Women's Wool Craft and Domestic Spinning Traditions",
+    "title_gaddi": "गद्दनियां दा ऊन कताई ते बुनाई दा इतिहास",
+    "genre": "oral_history",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Bharmaur, Chamba, Himachal Pradesh",
+    "performer_or_collector": "Chakraborty (2024)",
+    "source_id": "chakraborty_2024",
+    "source_citation": "Chakraborty (2024), Section: Women and Material Culture",
+    "summary_en": "Oral recollections of elderly Gaddi women regarding the traditional domestic economy of wool processing. Senior women recount the stages of sorting fleece after shearing, carding raw wool with wooden tools, spinning fine yarn on the charkha (spinning wheel) and takli (hand drop spindle), and weaving heavy checked gardu blankets and durable pattus on domestic pit looms during winter months.",
+    "text_excerpt_gaddi": "सर्दियां च बर्फ पौंदी, तां असीं घर च चरखा कतदियां। सारे परिवार दे चोले ते गार्दू आपणे हथे कन्ने बुणदियां थियां।",
+    "text_excerpt_en": "When snow fell in winter, we spun on the charkha at home. We wove the cholas and blankets for the entire family with our own hands.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Documented Academic Research",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "economic_role": "women_pastoral_craft",
+      "craft": "wool_weaving"
+    }
+  }
+]

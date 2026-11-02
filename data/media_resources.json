@@ -1,0 +1,54 @@
+[
+  {
+    "id": "gaddi-media-001",
+    "title": "J&K Academy of Art, Culture and Languages Gaddi Anchali Audio Archive",
+    "media_type": "audio_recording",
+    "description": "Field tape recordings of traditional Gaddi Batwal singers chanting sacred Ainchali ballads during the Shiv Nawala ceremony, recorded in rural hamlets of Bhadarwah and Kathua.",
+    "creator_or_collector": "JKAACL Research Division",
+    "year": 1984,
+    "source_id": "jkaacl_archive",
+    "holding_institution": "J&K Academy of Art, Culture and Languages, Jammu",
+    "url_or_locator": "https://jkaacl.jk.gov.in/archive/folklore",
+    "license": "Archival Preservation / Fair Dealing for Academic Study",
+    "access_status": "documented_archive",
+    "metadata": {
+      "cassette_ref": "JKAACL-TAPE-GAD-01",
+      "duration_minutes": 180
+    }
+  },
+  {
+    "id": "gaddi-media-002",
+    "title": "Linguistic Survey of India: Chamba Gaddi Gramophone & Text Records",
+    "media_type": "archival_text",
+    "description": "Original printed interlinear texts, grammatical paradigms, and phonographic specimens of Bharmauri Gaddi recorded under the supervision of Sir George A. Grierson.",
+    "creator_or_collector": "Sir George Abraham Grierson",
+    "year": 1916,
+    "source_id": "grierson_1916",
+    "holding_institution": "British Library / Digital South Asia Library (DSAL)",
+    "url_or_locator": "https://dsal.uchicago.edu/books/lsi/",
+    "license": "Public Domain",
+    "access_status": "open_access",
+    "metadata": {
+      "lsi_volume": "IX",
+      "part": "IV",
+      "pages": "791-810"
+    }
+  },
+  {
+    "id": "gaddi-media-003",
+    "title": "UCL Press Open Access Corpus: A Grammar of Gaddi Digital Dataset",
+    "media_type": "audio_recording",
+    "description": "Transcribed phonetic examples, interlinear glossed sentences, and basic vocabulary audio companions recorded during linguistic fieldwork in Kangra (Palampur, Saperu, Kandbari).",
+    "creator_or_collector": "Preeti Kumari, Shreya Mehta, and Team",
+    "year": 2026,
+    "source_id": "kumari_2026",
+    "holding_institution": "UCL Press Open Access Repository",
+    "url_or_locator": "https://uclpress.co.uk/book/a-grammar-of-gaddi/",
+    "license": "CC BY-NC 4.0",
+    "access_status": "open_access",
+    "metadata": {
+      "format": "PDF OA / Digital Audio",
+      "doi": "10.14324/111.9781800089938"
+    }
+  }
+]

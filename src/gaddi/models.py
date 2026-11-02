@@ -170,6 +170,8 @@ class Attestation:
     page_or_section: str = ""
     source_spelling: str = ""
     context: str = ""
+    transcription_raw: Optional[str] = None
+    verified: Optional[bool] = None
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> Attestation:
@@ -178,15 +180,22 @@ class Attestation:
             page_or_section=data.get("page_or_section", ""),
             source_spelling=data.get("source_spelling", ""),
             context=data.get("context", ""),
+            transcription_raw=data.get("transcription_raw"),
+            verified=data.get("verified"),
         )
 
     def to_dict(self) -> Dict[str, Any]:
-        return {
+        d = {
             "source_id": self.source_id,
             "page_or_section": self.page_or_section,
             "source_spelling": self.source_spelling,
             "context": self.context,
         }
+        if self.transcription_raw is not None:
+            d["transcription_raw"] = self.transcription_raw
+        if self.verified is not None:
+            d["verified"] = self.verified
+        return d
 
 
 @dataclass
@@ -227,6 +236,7 @@ class Sense:
     definition_ur: Optional[str] = None
     semantic_field: Optional[str] = None
     examples: List[ExampleSentence] = field(default_factory=list)
+    source_item: Optional[str] = None
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> Sense:
@@ -241,10 +251,11 @@ class Sense:
             definition_ur=data.get("definition_ur"),
             semantic_field=data.get("semantic_field"),
             examples=examples,
+            source_item=data.get("source_item"),
         )
 
     def to_dict(self) -> Dict[str, Any]:
-        return {
+        res = {
             "sense_index": self.sense_index,
             "definition_en": self.definition_en,
             "definition_hi": self.definition_hi,
@@ -252,6 +263,9 @@ class Sense:
             "semantic_field": self.semantic_field,
             "examples": [ex.to_dict() for ex in self.examples],
         }
+        if self.source_item is not None:
+            res["source_item"] = self.source_item
+        return res
 
 
 @dataclass
@@ -273,6 +287,7 @@ class LexicalEntry:
     status: InitVar[Optional[str]] = None
     comparative_notes: Optional[str] = None
     editorial_notes: Optional[str] = None
+    homonym_index: Optional[int] = None
     metadata: Dict[str, Any] = field(default_factory=dict)
 
     def __post_init__(self, status):
@@ -338,11 +353,12 @@ class LexicalEntry:
             evidence_status=evidence_status,
             comparative_notes=data.get("comparative_notes"),
             editorial_notes=data.get("editorial_notes"),
+            homonym_index=data.get("homonym_index"),
             metadata=data.get("metadata", {}),
         )
 
     def to_dict(self) -> Dict[str, Any]:
-        return {
+        res = {
             "id": self.id,
             "lemma_devanagari": self.lemma_devanagari,
             "lemma_ipa": self.lemma_ipa,
@@ -360,6 +376,9 @@ class LexicalEntry:
             "editorial_notes": self.editorial_notes,
             "metadata": self.metadata,
         }
+        if self.homonym_index is not None:
+            res["homonym_index"] = self.homonym_index
+        return res
 
 
 @dataclass
@@ -615,7 +634,273 @@ class NumeralEntry:
         }
 
 
+@dataclass
+class OralTradition:
+    """Documented Gaddi oral tradition: folktale, legend, song, ballad, or proverb."""
+    id: str
+    title_en: str
+    title_gaddi: Optional[str] = None
+    genre: str = "folktale"  # folktale, pastoral_narrative, ainchali_ballad, love_ballad, wedding_song, proverb, seasonal_song, oral_history
+    variety_id: str = "hp_chamba_bharmaur"
+    community_locality: str = ""
+    performer_or_collector: str = ""
+    source_id: str = ""
+    source_citation: str = ""
+    summary_en: str = ""
+    text_excerpt_gaddi: Optional[str] = None
+    text_excerpt_en: Optional[str] = None
+    recording_or_transcript_url: Optional[str] = None
+    copyright_status: str = "Public Domain"
+    evidence_status: str = "verified_traditional"  # verified_traditional, documented_academic, collection_target
+    metadata: Dict[str, Any] = field(default_factory=dict)
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> OralTradition:
+        return cls(
+            id=data["id"],
+            title_en=data["title_en"],
+            title_gaddi=data.get("title_gaddi"),
+            genre=data.get("genre", "folktale"),
+            variety_id=data.get("variety_id", "hp_chamba_bharmaur"),
+            community_locality=data.get("community_locality", ""),
+            performer_or_collector=data.get("performer_or_collector", ""),
+            source_id=data.get("source_id", ""),
+            source_citation=data.get("source_citation", ""),
+            summary_en=data.get("summary_en", ""),
+            text_excerpt_gaddi=data.get("text_excerpt_gaddi"),
+            text_excerpt_en=data.get("text_excerpt_en"),
+            recording_or_transcript_url=data.get("recording_or_transcript_url"),
+            copyright_status=data.get("copyright_status", "Public Domain"),
+            evidence_status=data.get("evidence_status", "verified_traditional"),
+            metadata=data.get("metadata", {}),
+        )
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "id": self.id,
+            "title_en": self.title_en,
+            "title_gaddi": self.title_gaddi,
+            "genre": self.genre,
+            "variety_id": self.variety_id,
+            "community_locality": self.community_locality,
+            "performer_or_collector": self.performer_or_collector,
+            "source_id": self.source_id,
+            "source_citation": self.source_citation,
+            "summary_en": self.summary_en,
+            "text_excerpt_gaddi": self.text_excerpt_gaddi,
+            "text_excerpt_en": self.text_excerpt_en,
+            "recording_or_transcript_url": self.recording_or_transcript_url,
+            "copyright_status": self.copyright_status,
+            "evidence_status": self.evidence_status,
+            "metadata": self.metadata,
+        }
 
 
+@dataclass
+class Deity:
+    """Documented deity or sacred figure in Gaddi religious and ritual life."""
+    id: str
+    name_devanagari: str
+    name_ipa: Optional[str] = None
+    alternate_names: List[str] = field(default_factory=list)
+    category: str = "supreme_deity"  # supreme_deity, shepherd_protector, village_patron, devi_form, ancestral_spirit
+    associated_locations: List[str] = field(default_factory=list)
+    ritual_roles: str = ""
+    associated_festivals: List[str] = field(default_factory=list)
+    traditional_offerings: Optional[str] = None
+    source_id: str = ""
+    source_citation: str = ""
+    description: str = ""
+    is_community_specific: bool = True
+    regional_distinctions: Optional[str] = None
+    evidence_status: str = "verified_traditional"
+    metadata: Dict[str, Any] = field(default_factory=dict)
 
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> Deity:
+        return cls(
+            id=data["id"],
+            name_devanagari=data["name_devanagari"],
+            name_ipa=data.get("name_ipa"),
+            alternate_names=data.get("alternate_names", []),
+            category=data.get("category", "supreme_deity"),
+            associated_locations=data.get("associated_locations", []),
+            ritual_roles=data.get("ritual_roles", ""),
+            associated_festivals=data.get("associated_festivals", []),
+            traditional_offerings=data.get("traditional_offerings"),
+            source_id=data.get("source_id", ""),
+            source_citation=data.get("source_citation", ""),
+            description=data.get("description", ""),
+            is_community_specific=bool(data.get("is_community_specific", True)),
+            regional_distinctions=data.get("regional_distinctions"),
+            evidence_status=data.get("evidence_status", "verified_traditional"),
+            metadata=data.get("metadata", {}),
+        )
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "id": self.id,
+            "name_devanagari": self.name_devanagari,
+            "name_ipa": self.name_ipa,
+            "alternate_names": self.alternate_names,
+            "category": self.category,
+            "associated_locations": self.associated_locations,
+            "ritual_roles": self.ritual_roles,
+            "associated_festivals": self.associated_festivals,
+            "traditional_offerings": self.traditional_offerings,
+            "source_id": self.source_id,
+            "source_citation": self.source_citation,
+            "description": self.description,
+            "is_community_specific": self.is_community_specific,
+            "regional_distinctions": self.regional_distinctions,
+            "evidence_status": self.evidence_status,
+            "metadata": self.metadata,
+        }
+
+
+@dataclass
+class Festival:
+    """Documented traditional festival or seasonal ceremony of the Gaddi community."""
+    id: str
+    name_devanagari: str
+    name_en: str
+    timing_lunar_solar: str = ""
+    variety_or_region: str = ""
+    purpose_and_significance: str = ""
+    associated_rituals: List[str] = field(default_factory=list)
+    associated_deities: List[str] = field(default_factory=list)
+    source_id: str = ""
+    source_citation: str = ""
+    evidence_status: str = "verified_traditional"
+    metadata: Dict[str, Any] = field(default_factory=dict)
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> Festival:
+        return cls(
+            id=data["id"],
+            name_devanagari=data["name_devanagari"],
+            name_en=data["name_en"],
+            timing_lunar_solar=data.get("timing_lunar_solar", ""),
+            variety_or_region=data.get("variety_or_region", ""),
+            purpose_and_significance=data.get("purpose_and_significance", ""),
+            associated_rituals=data.get("associated_rituals", []),
+            associated_deities=data.get("associated_deities", []),
+            source_id=data.get("source_id", ""),
+            source_citation=data.get("source_citation", ""),
+            evidence_status=data.get("evidence_status", "verified_traditional"),
+            metadata=data.get("metadata", {}),
+        )
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "id": self.id,
+            "name_devanagari": self.name_devanagari,
+            "name_en": self.name_en,
+            "timing_lunar_solar": self.timing_lunar_solar,
+            "variety_or_region": self.variety_or_region,
+            "purpose_and_significance": self.purpose_and_significance,
+            "associated_rituals": self.associated_rituals,
+            "associated_deities": self.associated_deities,
+            "source_id": self.source_id,
+            "source_citation": self.source_citation,
+            "evidence_status": self.evidence_status,
+            "metadata": self.metadata,
+        }
+
+
+@dataclass
+class CulturalRecord:
+    """Documented cultural, pastoral, material, or social practice of the Gaddis."""
+    id: str
+    topic: str  # pastoral_migration, clothing_and_attire, music_and_dance, crafts_and_wool, social_organization, food_and_cuisine, village_institutions
+    title: str
+    term_devanagari: Optional[str] = None
+    term_ipa: Optional[str] = None
+    description: str = ""
+    varieties: List[str] = field(default_factory=list)
+    source_id: str = ""
+    source_citation: str = ""
+    evidence_status: str = "documented_academic"
+    metadata: Dict[str, Any] = field(default_factory=dict)
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> CulturalRecord:
+        return cls(
+            id=data["id"],
+            topic=data.get("topic", "general_culture"),
+            title=data["title"],
+            term_devanagari=data.get("term_devanagari"),
+            term_ipa=data.get("term_ipa"),
+            description=data.get("description", ""),
+            varieties=data.get("varieties", []),
+            source_id=data.get("source_id", ""),
+            source_citation=data.get("source_citation", ""),
+            evidence_status=data.get("evidence_status", "documented_academic"),
+            metadata=data.get("metadata", {}),
+        )
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "id": self.id,
+            "topic": self.topic,
+            "title": self.title,
+            "term_devanagari": self.term_devanagari,
+            "term_ipa": self.term_ipa,
+            "description": self.description,
+            "varieties": self.varieties,
+            "source_id": self.source_id,
+            "source_citation": self.source_citation,
+            "evidence_status": self.evidence_status,
+            "metadata": self.metadata,
+        }
+
+
+@dataclass
+class MediaResource:
+    """Documented audio recording, manuscript scan, archive entry, or photographic record."""
+    id: str
+    title: str
+    media_type: str = "audio_recording"  # audio_recording, archival_text, manuscript_scan, photograph, map
+    description: str = ""
+    creator_or_collector: str = ""
+    year: Optional[int] = None
+    source_id: str = ""
+    holding_institution: str = ""
+    url_or_locator: Optional[str] = None
+    license: str = "Fair Dealing / Research Consultation"
+    access_status: str = "documented_archive"
+    metadata: Dict[str, Any] = field(default_factory=dict)
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> MediaResource:
+        return cls(
+            id=data["id"],
+            title=data["title"],
+            media_type=data.get("media_type", "audio_recording"),
+            description=data.get("description", ""),
+            creator_or_collector=data.get("creator_or_collector", ""),
+            year=int(data["year"]) if data.get("year") is not None else None,
+            source_id=data.get("source_id", ""),
+            holding_institution=data.get("holding_institution", ""),
+            url_or_locator=data.get("url_or_locator"),
+            license=data.get("license", "Fair Dealing / Research Consultation"),
+            access_status=data.get("access_status", "documented_archive"),
+            metadata=data.get("metadata", {}),
+        )
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "id": self.id,
+            "title": self.title,
+            "media_type": self.media_type,
+            "description": self.description,
+            "creator_or_collector": self.creator_or_collector,
+            "year": self.year,
+            "source_id": self.source_id,
+            "holding_institution": self.holding_institution,
+            "url_or_locator": self.url_or_locator,
+            "license": self.license,
+            "access_status": self.access_status,
+            "metadata": self.metadata,
+        }
 

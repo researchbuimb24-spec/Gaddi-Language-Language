@@ -16,15 +16,15 @@ def test_unified_loading_and_counts():
     headwords = d.get_unique_headwords()
     categories = d.get_categories()
 
-    assert len(unified) == 1971
-    assert len(headwords) == 1781
+    assert len(unified) == 1925
+    assert len(headwords) == 1782
     assert len(categories) == 19
-    assert d.get_total_records() == 2472
+    assert d.get_total_records() == 2470
 
     info = gaddi.info()
-    assert info["unified_total_entries"] == 1971
-    assert info["unique_headwords"] == 1781
-    assert info["total_lexical_records"] == 2472
+    assert info["unified_total_entries"] == 1925
+    assert info["unique_headwords"] == 1782
+    assert info["total_lexical_records"] == 2470
     assert info["alternate_forms"] == 1990
     assert info["categories_count"] == 19
     assert "category_totals_note" in info
@@ -43,7 +43,7 @@ def test_category_overlap_consistency():
 
     # Multi-label semantic tagging means sum across categories is greater than unique entries (1866)
     assert sum_cat_entries > 1866
-    assert sum_cat_entries == 2202
+    assert sum_cat_entries == 2153
 
     # Multi-domain item verification (e.g. sheep 'bheḍ' in both animals and agriculture)
     animals = {e.lemma_devanagari for e in d.search_by_category("animals")}
@@ -281,9 +281,9 @@ def test_cli_new_functionality(capsys):
     assert ret_st == 0
     cap_st = capsys.readouterr()
     assert "Expanded Corpus Statistics" in cap_st.out
-    assert "Total Unified Entries:           1971" in cap_st.out
-    assert "Unique Headwords (Devanagari):   1781" in cap_st.out
-    assert "Total Lexical Records / Sources: 2472" in cap_st.out
+    assert "Total Unified Entries:           1925" in cap_st.out
+    assert "Unique Headwords (Devanagari):   1782" in cap_st.out
+    assert "Total Lexical Records / Sources: 2470" in cap_st.out
     assert "Note on Category Multi-Labeling:" in cap_st.out
 
 

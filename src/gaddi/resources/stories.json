@@ -1,0 +1,128 @@
+[
+  {
+    "id": "gaddi-story-001",
+    "title_en": "The Prodigal Son in Gaddi",
+    "title_gaddi": "गद्दी लोककथा: भटके दा पुत्र",
+    "genre": "folktale",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Bharmaur, Chamba, Himachal Pradesh",
+    "performer_or_collector": "Sir George A. Grierson (Linguistic Survey of India)",
+    "source_id": "grierson_1916",
+    "source_citation": "Grierson (1916), LSI Vol. IX, Pt. IV, pp. 805-810",
+    "summary_en": "A classic comparative narrative recorded in Gaddi during the Linguistic Survey of India. A father divides his property between two sons. The younger son journeys to a distant land, squanders his substance in riotous living, and is reduced to poverty herding swine. Repentant, he returns home to seek his father's forgiveness. The father rejoices, embraces him, dresses him in fine robes, and prepares a feast, proclaiming that his lost son is found.",
+    "text_excerpt_gaddi": "इक माणूए दे दुई मतू थे। तिन-मंझारे निक्के मतूए अपने बापे जो बोलेया जे, 'बापु जी, जे माल-मता मेरा होंदा, सो मिंजो देई दे।' ते तिन्हे तिन्हा जो आपणी जायदाद वंडी दित्ती।",
+    "text_excerpt_en": "A certain man had two sons. And the younger of them said to his father, 'Father, give me the portion of goods that falleth to me.' And he divided unto them his living.",
+    "recording_or_transcript_url": "https://dsal.uchicago.edu/books/lsi/",
+    "copyright_status": "Public Domain (LSI 1916)",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "collector": "LSI",
+      "language_family": "Western Pahari",
+      "recording_type": "phonetic_transcription"
+    }
+  },
+  {
+    "id": "gaddi-story-002",
+    "title_en": "The Shepherd's Journey across the Dhauladhar",
+    "title_gaddi": "धौलाधार पार गद्दी पुहाल दी यात्रा",
+    "genre": "pastoral_narrative",
+    "variety_id": "hp_kangra_palampur",
+    "community_locality": "Saperu and Kandbari, Palampur, Himachal Pradesh",
+    "performer_or_collector": "Preeti Kumari and Shreya Mehta",
+    "source_id": "kumari_2026",
+    "source_citation": "Kumari et al. (2026), Chapter 1 & Chapter 5 texts, pp. 18-20, 116-120",
+    "summary_en": "An elder Gaddi puhal (shepherd) recounts the annual seasonal migration with his flock of sheep and goats from the valley of Kangra over the glaciated ridges of the Dhauladhar range into Bharmaur and Lahaul. The narrative details the challenges of sudden mountain blizzards, predatory bears, the protection of shepherd guard dogs, the ritual invocation of Kelang Wazir at the mountain pass crest, and the traditional camaraderie of the shepherds' campfire.",
+    "text_excerpt_gaddi": "असे पुहाल हर साल धौलाधार दे पांधे बकरां-भेड़ां लेई के जांदे हे। जदु जोत पुर बरफ पौंदी, तदु केलंग देवते दी पूजा करदे।",
+    "text_excerpt_en": "We shepherds take our sheep and goats up over the Dhauladhar every year. When snow falls on the high pass, we perform worship to Kelang Devta.",
+    "recording_or_transcript_url": "https://doi.org/10.14324/111.9781800089938",
+    "copyright_status": "CC BY-NC 4.0 (Non-commercial research excerpt)",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "informant_type": "shepherd_elder",
+      "fieldwork_year": "2013-2015"
+    }
+  },
+  {
+    "id": "gaddi-story-003",
+    "title_en": "The Legend of Gaderan: Bharmaur as Shiva's Land",
+    "title_gaddi": "गदेरण: शिव भूमि भरमौर दी कथा",
+    "genre": "legend",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Bharmaur, Chamba, Himachal Pradesh",
+    "performer_or_collector": "Dr. Shyam Singh Shashi / Chakraborty",
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 45-48; Chakraborty (2024), Section: Origin Myths",
+    "summary_en": "The sacred mythological legend of the Gaddi people explaining the divine origin of Bharmaur (known traditionally as Gaderan). When Lord Shiva created the high Himalayas, he gifted the secluded valleys of the Budhil and Ravi rivers to the Gaddi ancestors, clothing the first Gaddi man in the woollen chola and tying the dora around his waist, blessing the Gaddis to be eternal guardians of his sheep and mountains.",
+    "text_excerpt_gaddi": "शिवजी आपणे कैलाशा पुर बैठे, ते भरमौर दी धरती गद्दिएं जो बख्शी। गद्दी शिव दे दास ते कैलाशा दे पहरेदार हे।",
+    "text_excerpt_en": "Lord Shiva sat upon his Kailash, and bestowed the land of Bharmaur upon the Gaddis. The Gaddis are the servants of Shiva and the guardians of Kailash.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Cultural Expression (Documented Folklore)",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "sacred_geography": "Manimahesh Kailash",
+      "deity_focus": "Lord Shiva"
+    }
+  },
+  {
+    "id": "gaddi-story-004",
+    "title_en": "The Gaddi Migration to Bhadarwah across the Mountain Passes",
+    "title_gaddi": "भद्रवाह दे गद्दिएं दा पलायन ते पादरी जोत",
+    "genre": "migration_tradition",
+    "variety_id": "jk_doda_bhadarwah",
+    "community_locality": "Bhadarwah, Doda District, Jammu and Kashmir",
+    "performer_or_collector": "Wahid Ahmad Dar and Aejaz Mohammed Sheikh",
+    "source_id": "dar_sheikh_2022",
+    "source_citation": "Dar & Sheikh (2022), pp. 245-247; Chakraborty (2024), Section: J&K Settlements",
+    "summary_en": "Historical narrative preserved in the oral traditions of the Jammu Gaddi community recounting their migration from Chamba through the high passes (including the Padri Pass and Chattergalla) into the Bhadarwah, Kishtwar, and Udhampur valleys during historical political instability in the plains. The community established pastoral rights, preserved their Shaivite customs and distinct Gaddi dialect, and maintained continuous kinship links with Himachal Gaddis.",
+    "text_excerpt_gaddi": "असां दे बुजुरग चम्बा तों पहाड़ लंग्घी के भद्रवाह आए। इत्थे भी शिव जी दा नवाला ते आपणी गद्दी बोली सांभ के रक्खी।",
+    "text_excerpt_en": "Our ancestors crossed the high mountains from Chamba and arrived in Bhadarwah. Here too they preserved the Shiv Nawala and our Gaddi speech.",
+    "recording_or_transcript_url": "https://aligarhlinguistics.com/vol11",
+    "copyright_status": "Academic Research Documentation (Fair Dealing)",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "geography": "Jammu & Kashmir / Chenab Valley",
+      "diaspora_focus": "J&K Gaddi"
+    }
+  },
+  {
+    "id": "gaddi-story-005",
+    "title_en": "Trilokinath and the High Alpine Trail",
+    "title_gaddi": "त्रिलोकीनाथ ते गद्दी पुहाल",
+    "genre": "pastoral_narrative",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Bharmaur-Lahaul Border Pass",
+    "performer_or_collector": "PLSI Team / Ganesh Devy",
+    "source_id": "plsi_vol12_2014",
+    "source_citation": "PLSI Vol. 12 (2014), pp. 112-114",
+    "summary_en": "Pastoral legend of Gaddi shepherds visiting the ancient shrine of Trilokinath in Lahaul while pasturing sheep on the summer alpine slopes. The story recounts how a shepherd offered fresh milk and sheep wool at the altar and was rewarded with safe passage through an early autumn blizzard.",
+    "text_excerpt_gaddi": "पुहाले त्रिलोकीनाथा जो दुध चढ़ाया, ते सारे बकर-भेड़ राजी-खुशी जोत लंग्घी गए।",
+    "text_excerpt_en": "The shepherd offered milk to Trilokinath, and all the sheep and goats crossed the mountain pass in safety and health.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Documented Academic Folklore",
+    "evidence_status": "documented_academic",
+    "metadata": {
+      "regional_exchange": "Gaddi-Lahauli pastoral contact"
+    }
+  },
+  {
+    "id": "gaddi-story-006",
+    "title_en": "The Shepherd and Kelang Wazir's Horn",
+    "title_gaddi": "पुहाल ते केलंग वजीर दी कथा",
+    "genre": "legend",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Kugti, Bharmaur, Himachal Pradesh",
+    "performer_or_collector": "Shiv Nirmohi",
+    "source_id": "nirmohi_duggar",
+    "source_citation": "Nirmohi, Duggar Ka Itihas & Saraz, p. 89",
+    "summary_en": "Traditional legend associated with the Kugti pass and Kelang Wazir. A pious shepherd who was trapped by a sudden avalanche played his narsingha horn in devotion to Kelang Devta. The deity manifested in the form of a majestic ram and led the entire flock safely down to the village of Kugti.",
+    "text_excerpt_gaddi": "केलंग वजीर भेड़ां दा रखवाला हे। जद पुहाल जोत पुर नरसिंगा फुंकदा, देवता सुनेया करदा।",
+    "text_excerpt_en": "Kelang Wazir is the protector of the sheep. When the shepherd sounds the horn upon the pass, the deity listens.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Cultural Heritage",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "pass_shrine": "Kugti Pass",
+      "instrument": "Narsingha"
+    }
+  }
+]

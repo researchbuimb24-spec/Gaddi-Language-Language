@@ -1,0 +1,127 @@
+[
+  {
+    "id": "gaddi-prov-001",
+    "title_en": "The Shepherd and the Sheep",
+    "title_gaddi": "गद्दी चरे भेड़ें, ते भेड़ें चरन गद्दी",
+    "genre": "proverb",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Bharmaur and Kangra",
+    "performer_or_collector": "Dr. S. S. Shashi",
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), p. 62; Kumari et al. (2026), p. 19",
+    "summary_en": "Literal: 'The Gaddi grazes the sheep, and the sheep graze the Gaddi.' Expresses the profound, inseparable symbiotic bond between the shepherd and his flock: the shepherd's entire life, sustenance, clothing, and mobility depend upon the animals he cares for.",
+    "text_excerpt_gaddi": "गद्दी चरे भेड़ें, ते भेड़ें चरन गद्दी।",
+    "text_excerpt_en": "The Gaddi feeds the sheep, and the sheep sustain the Gaddi.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Folk Saying",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "domain": "pastoral_life",
+      "theme": "symbiosis"
+    }
+  },
+  {
+    "id": "gaddi-prov-002",
+    "title_en": "The Rhythm of the Seasons",
+    "title_gaddi": "उजड़ भद्दी, ते वस्सा गद्दी",
+    "genre": "proverb",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Chamba, Kangra, and Jammu",
+    "performer_or_collector": "PLSI Team",
+    "source_id": "plsi_vol12_2014",
+    "source_citation": "PLSI Vol. 12 (2014), p. 115",
+    "summary_en": "Literal: 'When the forest empties in winter, the Gaddi settles down.' Describes the seasonal transhumance cycle: when cold weather and snow force people out of the high pastures, the Gaddi shepherd moves down to winter villages in the foothills.",
+    "text_excerpt_gaddi": "उजड़ भद्दी, ते वस्सा गद्दी।",
+    "text_excerpt_en": "When the wilderness empties, the Gaddi makes his camp.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Folk Saying",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "domain": "transhumance",
+      "season": "winter"
+    }
+  },
+  {
+    "id": "gaddi-prov-003",
+    "title_en": "Bharmaur as Shiva's Abode",
+    "title_gaddi": "भरमौर दा बसना, शिवा दा असना",
+    "genre": "proverb",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Bharmaur, Chamba",
+    "performer_or_collector": "Chakraborty",
+    "source_id": "chakraborty_2024",
+    "source_citation": "Chakraborty (2024), Section: Sacred Geography",
+    "summary_en": "Literal: 'To dwell in Bharmaur is to reside in the abode of Shiva.' Expresses the deep religious belief that Bharmaur is consecrated sacred ground directly under the gaze of Mount Manimahesh Kailash.",
+    "text_excerpt_gaddi": "भरमौर दा बसना, शिवा दा असना।",
+    "text_excerpt_en": "To live in Bharmaur is to reside in the presence of Shiva.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Folk Saying",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "domain": "religion",
+      "deity": "Shiva"
+    }
+  },
+  {
+    "id": "gaddi-prov-004",
+    "title_en": "Vigilance of the Shepherd",
+    "title_gaddi": "पुहाला दा ध्यान धार पुर, ते भेड़ां दा मुंह घास पुर",
+    "genre": "proverb",
+    "variety_id": "jk_doda_bhadarwah",
+    "community_locality": "Bhadarwah, Doda, J&K",
+    "performer_or_collector": "Shiv Nirmohi",
+    "source_id": "nirmohi_duggar",
+    "source_citation": "Nirmohi, Saraz: Lok Aur Parampara, p. 102",
+    "summary_en": "Literal: 'The shepherd's eyes are on the mountain ridge, while the sheep's mouth is in the grass.' A shepherd must remain ever watchful of weather changes and predators while the flock grazes peacefully.",
+    "text_excerpt_gaddi": "पुहाला दा ध्यान धार पुर, ते भेड़ां दा मुंह घास पुर।",
+    "text_excerpt_en": "The shepherd watches the ridge, while the sheep graze the grass.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Folk Saying",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "domain": "pastoral_vigilance"
+    }
+  },
+  {
+    "id": "gaddi-prov-005",
+    "title_en": "The Healing Waters of Manimahesh",
+    "title_gaddi": "मणिमहेश दा पाणी, रोगां दी हाणी",
+    "genre": "proverb",
+    "variety_id": "hp_chamba_bharmaur",
+    "community_locality": "Bharmaur and Kangra",
+    "performer_or_collector": "Chakraborty",
+    "source_id": "chakraborty_2024",
+    "source_citation": "Chakraborty (2024), Section: Manimahesh Yatra",
+    "summary_en": "Literal: 'The water of Lake Manimahesh destroys all disease.' Traditional pilgrim belief praising the sacred and curative virtues of the high glacial lake at the base of Mount Kailash.",
+    "text_excerpt_gaddi": "मणिमहेश दा पाणी, रोगां दी हाणी।",
+    "text_excerpt_en": "The water of Manimahesh is the destroyer of afflictions.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Folk Saying",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "domain": "pilgrimage",
+      "lake": "Manimahesh"
+    }
+  },
+  {
+    "id": "gaddi-prov-006",
+    "title_en": "The Chola's Warmth",
+    "title_gaddi": "चोला पूरा ऊन दा, सर्दी नू भुल दा",
+    "genre": "proverb",
+    "variety_id": "hp_kangra_palampur",
+    "community_locality": "Palampur and Bharmaur",
+    "performer_or_collector": "Kumar",
+    "source_id": "kumar_2019",
+    "source_citation": "Kumar (2019), Section: Material Culture",
+    "summary_en": "Literal: 'A coat of pure wool forgets all cold.' Celebrates the heavy hand-spun sheep wool chola that allows Gaddi shepherds to survive sub-zero mountain nights.",
+    "text_excerpt_gaddi": "चोला पूरा ऊन दा, सर्दी नू भुल दा।",
+    "text_excerpt_en": "A coat made of pure wool forgets the cold.",
+    "recording_or_transcript_url": null,
+    "copyright_status": "Traditional Folk Saying",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "domain": "clothing",
+      "material": "sheep_wool"
+    }
+  }
+]

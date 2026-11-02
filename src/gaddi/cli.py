@@ -141,6 +141,55 @@ def build_parser() -> argparse.ArgumentParser:
     ref_parser.add_argument("--search", "-s", help="Search citations by author, year, or title.")
     ref_parser.add_argument("--json", action="store_true", help="Output references in JSON format.")
 
+    # compare
+    compare_parser = subparsers.add_parser("compare", aliases=["compare-varieties"], help="Compare a headword across registered varieties, segregating J&K from HP evidence.")
+    compare_parser.add_argument("headword", help="Headword or term to compare across varieties.")
+
+    # stories
+    stories_parser = subparsers.add_parser("stories", help="List and search documented Gaddi folk tales and legends.")
+    stories_parser.add_argument("--genre", help="Filter stories by genre (folktale, pastoral_narrative, legend).")
+    stories_parser.add_argument("--search", help="Search text in stories.")
+    stories_parser.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # songs
+    songs_parser = subparsers.add_parser("songs", help="List and search documented Gaddi folk songs and Ainchali ballads.")
+    songs_parser.add_argument("--genre", help="Filter songs by genre (ainchali_ballad, love_ballad, wedding_song).")
+    songs_parser.add_argument("--search", help="Search text in songs.")
+    songs_parser.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # proverbs
+    proverbs_parser = subparsers.add_parser("proverbs", help="List and search documented Gaddi pastoral proverbs and sayings.")
+    proverbs_parser.add_argument("--search", help="Search text in proverbs.")
+    proverbs_parser.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # deities
+    deities_parser = subparsers.add_parser("deities", help="List and search documented Gaddi deities and sacred traditions.")
+    deities_parser.add_argument("--category", help="Filter deities by category (supreme_deity, shepherd_protector, etc.).")
+    deities_parser.add_argument("--search", help="Search deities.")
+    deities_parser.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # festivals
+    festivals_parser = subparsers.add_parser("festivals", help="List and search documented Gaddi traditional festivals and ceremonies.")
+    festivals_parser.add_argument("--season", help="Filter festivals by season.")
+    festivals_parser.add_argument("--search", help="Search festivals.")
+    festivals_parser.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # culture
+    culture_parser = subparsers.add_parser("culture", help="Display documented cultural practices, attire, and traditions.")
+    culture_parser.add_argument("--topic", help="Filter by topic (pastoral_migration, clothing_and_attire, etc.).")
+    culture_parser.add_argument("--search", help="Search culture records.")
+    culture_parser.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # vocabulary
+    vocab_parser = subparsers.add_parser("vocabulary", help="Browse and search research-expanded vocabulary across 16 domains.")
+    vocab_parser.add_argument("--domain", help="Filter by semantic domain (family_and_kinship, pastoral_life, etc.).")
+    vocab_parser.add_argument("--search", help="Search vocabulary entries.")
+    vocab_parser.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # sync
+    sync_parser = subparsers.add_parser("sync", help="Synchronize packaged resources from authoritative data/ directory.")
+    sync_parser.add_argument("--check", action="store_true", help="Only check synchronization status without modifying files.")
+
     # stats (Command 12 Expanded Statistics)
     subparsers.add_parser("stats", aliases=["statistics"], help="Display comprehensive expanded corpus statistics and category metrics.")
 
@@ -819,6 +868,77 @@ def cmd_references(search_query: Optional[str] = None, as_json: bool = False) ->
     return 0
 
 
+def cmd_compare(headword: str) -> int:
+    d = GaddiDictionary()
+    res = d.compare_varieties(headword)
+    print(f"=== Variety Comparison: '{headword}' ===")
+    print(f"Total Matches Found: {res['total_matches']}\n")
+
+    if res['has_jk_evidence']:
+        print("--- Jammu & Kashmir Varieties (Authentic Field / Local Attestations) ---")
+        for v_id, entries in res['jk_varieties'].items():
+            print(f"\nVariety: {v_id}")
+            for e in entries:
+                deva = e['lemma_devanagari']
+                ipa = f" [{e['lemma_ipa']}]" if e['lemma_ipa'] else ""
+                pos = f" ({e['part_of_speech']})" if e['part_of_speech'] else ""
+                print(f"  • {deva}{ipa}{pos} [Status: {e['evidence_status']}]")
+                for s in e['senses']:
+                    print(f"    - Sense {s['sense_index']}: {s['definition_en']}")
+                for a in e['attestations']:
+                    print(f"      Source: {a['source_id']} ({a['page_or_section']})")
+
+    if res['has_hp_comparative']:
+        print("\n--- Himachal Pradesh Varieties (Strict Comparative Baselines Only) ---")
+        for v_id, entries in res['hp_varieties'].items():
+            print(f"\nVariety: {v_id}")
+            for e in entries:
+                deva = e['lemma_devanagari']
+                ipa = f" [{e['lemma_ipa']}]" if e['lemma_ipa'] else ""
+                pos = f" ({e['part_of_speech']})" if e['part_of_speech'] else ""
+                print(f"  • {deva}{ipa}{pos} [Status: {e['evidence_status']}]")
+                for s in e['senses']:
+                    print(f"    - Sense {s['sense_index']}: {s['definition_en']}")
+                for a in e['attestations']:
+                    print(f"      Source: {a['source_id']} ({a['page_or_section']})")
+
+    if not res['has_jk_evidence'] and not res['has_hp_comparative'] and res['other_varieties']:
+        print("\n--- Other / Historical Attestations ---")
+        for v_id, entries in res['other_varieties'].items():
+            print(f"\nVariety: {v_id}")
+            for e in entries:
+                deva = e['lemma_devanagari']
+                print(f"  • {deva} ({e['part_of_speech']})")
+
+    print(f"\nSummary:\n{res['comparative_summary']}")
+    return 0
+
+
+def cmd_sync(check_only: bool = False) -> int:
+    from gaddi.sync import check_resource_sync, sync_resources
+
+    is_synced, issues = check_resource_sync()
+    if check_only:
+        if is_synced:
+            print("Resource Synchronization: 100% synchronized! All datasets match byte-for-byte.")
+            return 0
+        else:
+            print("Resource Synchronization Mismatches Detected:")
+            for issue in issues:
+                print(f"  - {issue}")
+            return 1
+
+    res = sync_resources()
+    if res["success"]:
+        print(f"Synchronization Complete: {len(res['identical'])} identical, {len(res['synced'])} updated.")
+        return 0
+    else:
+        print("Synchronization Failed with Errors:")
+        for err in res["errors"]:
+            print(f"  - {err}")
+        return 1
+
+
 def cmd_stats() -> int:
     d = GaddiDictionary()
     entries = d.get_unified_entries()
@@ -854,6 +974,138 @@ def cmd_stats() -> int:
     return 0
 
 
+
+def cmd_stories(genre: Optional[str] = None, search_query: Optional[str] = None, as_json: bool = False) -> int:
+    from gaddi.oral_heritage import default_oral_heritage
+    items = default_oral_heritage.get_stories(genre=genre)
+    if search_query:
+        sq = search_query.lower()
+        items = [s for s in items if sq in s.title_en.lower() or sq in (s.title_gaddi or "").lower() or sq in s.summary_en.lower()]
+    if as_json:
+        print(json.dumps([s.to_dict() for s in items], indent=2, ensure_ascii=False))
+        return 0
+    print(f"=== Documented Gaddi Folk Tales & Stories ({len(items)} records) ===")
+    for s in items:
+        deva = f" ({s.title_gaddi})" if s.title_gaddi else ""
+        print(f"  [{s.id}] {s.title_en}{deva} [Genre: {s.genre}]")
+        print(f"    Source: {s.source_citation}")
+        print(f"    Summary: {s.summary_en[:120]}...")
+        if s.text_excerpt_gaddi:
+            print(f"    Gaddi Excerpt: {s.text_excerpt_gaddi}")
+    return 0
+
+
+def cmd_songs(genre: Optional[str] = None, search_query: Optional[str] = None, as_json: bool = False) -> int:
+    from gaddi.oral_heritage import default_oral_heritage
+    items = default_oral_heritage.get_songs(genre=genre)
+    if search_query:
+        sq = search_query.lower()
+        items = [s for s in items if sq in s.title_en.lower() or sq in (s.title_gaddi or "").lower() or sq in s.summary_en.lower()]
+    if as_json:
+        print(json.dumps([s.to_dict() for s in items], indent=2, ensure_ascii=False))
+        return 0
+    print(f"=== Documented Gaddi Folk Songs & Ainchali Ballads ({len(items)} records) ===")
+    for s in items:
+        deva = f" ({s.title_gaddi})" if s.title_gaddi else ""
+        print(f"  [{s.id}] {s.title_en}{deva} [Genre: {s.genre}]")
+        print(f"    Source: {s.source_citation}")
+        if s.text_excerpt_gaddi:
+            print(f"    Gaddi Verse: {s.text_excerpt_gaddi}")
+    return 0
+
+
+def cmd_proverbs(search_query: Optional[str] = None, as_json: bool = False) -> int:
+    from gaddi.oral_heritage import default_oral_heritage
+    items = default_oral_heritage.get_proverbs()
+    if search_query:
+        sq = search_query.lower()
+        items = [p for p in items if sq in p.title_en.lower() or sq in (p.title_gaddi or "").lower() or sq in p.summary_en.lower()]
+    if as_json:
+        print(json.dumps([p.to_dict() for p in items], indent=2, ensure_ascii=False))
+        return 0
+    print(f"=== Documented Gaddi Pastoral Proverbs & Sayings ({len(items)} records) ===")
+    for p in items:
+        print(f"  • {p.title_gaddi} — {p.title_en}")
+        print(f"    Meaning: {p.summary_en}")
+        print(f"    Source: {p.source_citation}")
+    return 0
+
+
+def cmd_deities(category: Optional[str] = None, search_query: Optional[str] = None, as_json: bool = False) -> int:
+    from gaddi.culture import default_culture
+    items = default_culture.get_deities(category=category)
+    if search_query:
+        sq = search_query.lower()
+        items = [d for d in items if sq in d.name_devanagari.lower() or sq in (d.name_ipa or "").lower() or sq in d.description.lower()]
+    if as_json:
+        print(json.dumps([d.to_dict() for d in items], indent=2, ensure_ascii=False))
+        return 0
+    print(f"=== Documented Gaddi Deities & Sacred Traditions ({len(items)} records) ===")
+    for d in items:
+        ipa = f" [{d.name_ipa}]" if d.name_ipa else ""
+        print(f"  [{d.id}] {d.name_devanagari}{ipa} [Category: {d.category}]")
+        print(f"    Role: {d.ritual_roles}")
+        print(f"    Locations: {', '.join(d.associated_locations)}")
+        print(f"    Festivals: {', '.join(d.associated_festivals)}")
+        print(f"    Source: {d.source_citation}")
+    return 0
+
+
+def cmd_festivals(season: Optional[str] = None, search_query: Optional[str] = None, as_json: bool = False) -> int:
+    from gaddi.culture import default_culture
+    items = default_culture.get_festivals(season=season)
+    if search_query:
+        sq = search_query.lower()
+        items = [f for f in items if sq in f.name_devanagari.lower() or sq in f.name_en.lower() or sq in f.purpose_and_significance.lower()]
+    if as_json:
+        print(json.dumps([f.to_dict() for f in items], indent=2, ensure_ascii=False))
+        return 0
+    print(f"=== Documented Gaddi Festivals & Ceremonies ({len(items)} records) ===")
+    for f in items:
+        print(f"  [{f.id}] {f.name_devanagari} ({f.name_en})")
+        print(f"    Timing: {f.timing_lunar_solar}")
+        print(f"    Purpose: {f.purpose_and_significance[:120]}...")
+        print(f"    Source: {f.source_citation}")
+    return 0
+
+
+def cmd_culture(topic: Optional[str] = None, search_query: Optional[str] = None, as_json: bool = False) -> int:
+    from gaddi.culture import default_culture
+    items = default_culture.get_cultural_records(topic=topic)
+    if search_query:
+        sq = search_query.lower()
+        items = [c for c in items if sq in c.title.lower() or sq in (c.term_devanagari or "").lower() or sq in c.description.lower()]
+    if as_json:
+        print(json.dumps([c.to_dict() for c in items], indent=2, ensure_ascii=False))
+        return 0
+    print(f"=== Documented Gaddi Cultural & Pastoral Heritage ({len(items)} records) ===")
+    for c in items:
+        term = f" ({c.term_devanagari})" if c.term_devanagari else ""
+        print(f"  [{c.id}] {c.title}{term} [Topic: {c.topic}]")
+        print(f"    Description: {c.description[:120]}...")
+        print(f"    Source: {c.source_citation}")
+    return 0
+
+
+def cmd_vocabulary(domain: Optional[str] = None, search_query: Optional[str] = None, as_json: bool = False) -> int:
+    from gaddi.dictionary import GaddiDictionary
+    d = GaddiDictionary()
+    items = d.search_vocabulary(query=search_query or "", domain=domain)
+    if as_json:
+        print(json.dumps([e.to_dict() for e in items], indent=2, ensure_ascii=False))
+        return 0
+    print(f"=== Research-Expanded Gaddi Vocabulary ({len(items)} entries matched) ===")
+    for e in items[:25]:
+        ipa = f" [{e.lemma_ipa}]" if e.lemma_ipa else ""
+        pos = f" ({e.part_of_speech})" if e.part_of_speech else ""
+        s_en = e.senses[0].definition_en if e.senses else ""
+        dom = e.metadata.get("domain", "")
+        print(f"  • {e.lemma_devanagari}{ipa}{pos} : {s_en} [Domain: {dom}]")
+    if len(items) > 25:
+        print(f"\n... and {len(items) - 25} more entries. Use --json to inspect all entries.")
+    return 0
+
+
 def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
@@ -862,7 +1114,21 @@ def main() -> None:
         parser.print_help()
         sys.exit(0)
 
-    if args.command == "info":
+    if args.command == "stories":
+        sys.exit(cmd_stories(getattr(args, "genre", None), getattr(args, "search", None), getattr(args, "json", False)))
+    elif args.command == "songs":
+        sys.exit(cmd_songs(getattr(args, "genre", None), getattr(args, "search", None), getattr(args, "json", False)))
+    elif args.command == "proverbs":
+        sys.exit(cmd_proverbs(getattr(args, "search", None), getattr(args, "json", False)))
+    elif args.command == "deities":
+        sys.exit(cmd_deities(getattr(args, "category", None), getattr(args, "search", None), getattr(args, "json", False)))
+    elif args.command == "festivals":
+        sys.exit(cmd_festivals(getattr(args, "season", None), getattr(args, "search", None), getattr(args, "json", False)))
+    elif args.command == "culture":
+        sys.exit(cmd_culture(getattr(args, "topic", None), getattr(args, "search", None), getattr(args, "json", False)))
+    elif args.command == "vocabulary":
+        sys.exit(cmd_vocabulary(getattr(args, "domain", None), getattr(args, "search", None), getattr(args, "json", False)))
+    elif args.command == "info":
         sys.exit(cmd_info())
     elif args.command == "sources":
         sys.exit(cmd_sources(args.jk_only))
@@ -882,6 +1148,10 @@ def main() -> None:
         sys.exit(cmd_export(args.output, args.format, args.jk_only))
     elif args.command in ("word-list", "words", "comparative-words"):
         sys.exit(cmd_word_list(args.search, args.pos, args.limit, args.all, args.json, category_filter=getattr(args, "category", None)))
+    elif args.command in ("compare", "compare-varieties"):
+        sys.exit(cmd_compare(args.headword))
+    elif args.command == "sync":
+        sys.exit(cmd_sync(args.check))
     elif args.command in ("stats", "statistics"):
         sys.exit(cmd_stats())
     elif args.command == "numerals":

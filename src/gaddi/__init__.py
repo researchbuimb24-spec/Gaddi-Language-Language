@@ -13,11 +13,16 @@ from gaddi.dictionary import GaddiDictionary
 from gaddi.grammar import CaseMarker, GrammarRegistry, GrammarStatement, PronominalForm, ResearchStatus
 from gaddi.models import (
     Attestation,
+    CulturalRecord,
+    Deity,
     EvidenceStatus,
     ExampleSentence,
+    Festival,
     GrammaticalGender,
     LexicalEntry,
+    MediaResource,
     NumeralEntry,
+    OralTradition,
     PartOfSpeech,
     ResearchLead,
     Sense,
@@ -28,6 +33,8 @@ from gaddi.models import (
     Variety,
     WordListEntry,
 )
+from gaddi.culture import CultureRegistry, default_culture
+from gaddi.oral_heritage import OralHeritageRegistry, default_oral_heritage
 from gaddi.registry import (
     ResearchLeadRegistry,
     SourceRegistry,
@@ -36,6 +43,7 @@ from gaddi.registry import (
     default_sources,
     default_varieties,
 )
+from gaddi.sync import check_resource_sync, sync_resources
 from gaddi.validator import GaddiValidator
 
 __version__ = "0.1.0"
@@ -101,7 +109,7 @@ def info() -> Dict[str, Any]:
         "alternate_forms": 1990,
         "categories_count": len(categories),
         "categories": categories,
-        "category_totals_note": "Multi-label categorization: entries can belong to multiple domains (cumulative domain tags = 2202 across 1971 unified entries).",
+        "category_totals_note": f"Multi-label categorization: entries can belong to multiple domains (cumulative domain tags across {len(unified_entries)} unified entries).",
         "translation_coverage_note": "Coverage reflects availability of bilingual descriptive glosses from literature, not independent modern elicitation for all forms.",
         "supported_languages": ["en", "hi", "ur", "pa", "doi", "gaddi"],
     }
@@ -196,6 +204,29 @@ def get_cultural_terms() -> List[LexicalEntry]:
 def get_verified_jk_lexical() -> List[LexicalEntry]:
     """Return all confirmed J&K descriptive linguistic lexical entries."""
     return _default_dictionary.get_verified_jk_lexical_entries()
+
+
+def compare_varieties(
+    headword: str,
+    script: Optional[str] = None,
+    dictionary: Optional[GaddiDictionary] = None,
+) -> Dict[str, Any]:
+    """Compare a headword across registered varieties, segregating J&K from HP evidence.
+
+    Finds matching lexical entries across Devanagari, Perso-Arabic, Latin/IPA, and English definitions,
+    groups them by variety, and clearly separates authentic Jammu & Kashmir evidence from Himachal Pradesh
+    comparative baselines without asserting unsubstantiated linguistic equivalence.
+
+    Args:
+        headword: The word to look up (Devanagari, Perso-Arabic, Latin/IPA, or English concept).
+        script: Optional script constraint ('devanagari', 'perso_arabic', 'ipa').
+        dictionary: Optional isolated dictionary instance (defaults to shared package dictionary).
+
+    Returns:
+        Structured dictionary with query, matches, segregated varieties, and comparative notes.
+    """
+    d = dictionary if dictionary is not None else _default_dictionary
+    return d.compare_varieties(headword, script=script)
 
 
 def list_sources(jk_only: bool = False) -> List[Source]:
@@ -326,6 +357,9 @@ __all__ = [
     "list_varieties",
     "list_research_leads",
     "grammar",
+    "compare_varieties",
+    "check_resource_sync",
+    "sync_resources",
     "export_data",
     "GaddiDictionary",
     "GaddiValidator",
@@ -356,3 +390,67 @@ __all__ = [
     "GrammarStatement",
     "ResearchStatus",
 ]
+
+
+# -----------------------------------------------------------------------------
+# Cultural Knowledge & Oral Heritage Public API
+# -----------------------------------------------------------------------------
+
+def get_stories(genre: Optional[str] = None, variety_id: Optional[str] = None) -> List[OralTradition]:
+    """Return documented Gaddi folk tales, traditional stories, and legends."""
+    return default_oral_heritage.get_stories(genre=genre, variety_id=variety_id)
+
+
+def get_songs(genre: Optional[str] = None, variety_id: Optional[str] = None) -> List[OralTradition]:
+    """Return documented Gaddi songs, Ainchali ballads, and musical traditions."""
+    return default_oral_heritage.get_songs(genre=genre, variety_id=variety_id)
+
+
+def get_proverbs() -> List[OralTradition]:
+    """Return documented traditional Gaddi proverbs and pastoral sayings."""
+    return default_oral_heritage.get_proverbs()
+
+
+def get_oral_history() -> List[OralTradition]:
+    """Return documented Gaddi oral history testimonies and migration recollections."""
+    return default_oral_heritage.get_oral_history()
+
+
+def search_oral_traditions(query: str, genre: Optional[str] = None) -> List[OralTradition]:
+    """Search oral heritage traditions across titles, summaries, and transcripts."""
+    return default_oral_heritage.search(query=query, genre=genre)
+
+
+def get_deities(category: Optional[str] = None) -> List[Deity]:
+    """Return documented deities and sacred traditions of the Gaddi people."""
+    return default_culture.get_deities(category=category)
+
+
+def get_festivals(season: Optional[str] = None) -> List[Festival]:
+    """Return documented traditional Gaddi festivals and ceremonies."""
+    return default_culture.get_festivals(season=season)
+
+
+def get_cultural_records(topic: Optional[str] = None) -> List[CulturalRecord]:
+    """Return documented cultural, pastoral, material, and social records."""
+    return default_culture.get_cultural_records(topic=topic)
+
+
+def get_media_resources(media_type: Optional[str] = None) -> List[MediaResource]:
+    """Return documented audio recordings, archival texts, and photographs."""
+    return default_culture.get_media_resources(media_type=media_type)
+
+
+def search_culture(query: str) -> Dict[str, List[Any]]:
+    """Search across deities, festivals, cultural records, and media resources."""
+    return default_culture.search_culture(query=query)
+
+
+def get_vocabulary_entries(domain: Optional[str] = None) -> List[LexicalEntry]:
+    """Return research-expanded vocabulary entries across all 16 semantic domains."""
+    return _default_dictionary.get_vocabulary_entries(domain=domain)
+
+
+def search_vocabulary(query: str, domain: Optional[str] = None) -> List[LexicalEntry]:
+    """Search across the research-expanded vocabulary dataset."""
+    return _default_dictionary.search_vocabulary(query=query, domain=domain)

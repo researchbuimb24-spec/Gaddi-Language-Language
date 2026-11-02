@@ -1,0 +1,256 @@
+[
+  {
+    "id": "gaddi-deity-001",
+    "name_devanagari": "भगवान शिव / भोलेनाथ",
+    "name_ipa": "bʱəɡˈwaːn ˈʃɪv / bʱoˈleːnaːt̪ʰ",
+    "alternate_names": [
+      "शिव शंकर",
+      "कैलाशपति",
+      "महादेव",
+      "भोले बाबा"
+    ],
+    "category": "supreme_deity",
+    "associated_locations": [
+      "Manimahesh Kailash",
+      "Bharmaur",
+      "Chamba",
+      "Bhadarwah"
+    ],
+    "ritual_roles": "Supreme creator, divine ancestor, and eternal patron of the Gaddi people. Gaddis consider themselves 'Shivvanshi' (lineage of Shiva) and believe Lord Shiva resides on Mount Manimahesh Kailash wearing a woollen chola like a shepherd.",
+    "associated_festivals": [
+      "Shiv Nawala",
+      "Manimahesh Yatra",
+      "Maha Shivaratri"
+    ],
+    "traditional_offerings": "Consecrated ram (Khadu), sweet roat, rice pulao, un-boiled milk, wild mountain flowers (dhoop).",
+    "source_id": "chakraborty_2024",
+    "source_citation": "Chakraborty (2024), Section: Religious Life; Shashi (1977), pp. 45-52; Dar & Sheikh (2022), p. 247",
+    "description": "Lord Shiva is the central divine figure of Gaddi existence. In Gaddi oral tradition, Shiva is neither abstract nor distant; he is conceived of as an intimate shepherd elder who watches over his people and flocks across high mountain passes.",
+    "is_community_specific": true,
+    "regional_distinctions": "While Shiva is worshipped across India, Gaddi Shaivism is unique in its pastoral, egalitarian theology, the centrality of the Shiv Nawala ritual, and the veneration of Manimahesh peak as an un-climbed sacred mountain.",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "sacred_mountain": "Manimahesh Kailash (5,653m)",
+      "sacred_lake": "Manimahesh Dal Lake (4,080m)"
+    }
+  },
+  {
+    "id": "gaddi-deity-002",
+    "name_devanagari": "केलंग वजीर / केलंग देवता",
+    "name_ipa": "keːˈləŋɡ vəˈziːr / keːˈləŋɡ deːvˈt̪aː",
+    "alternate_names": [
+      "केलंग देव",
+      "वजीर केलंग",
+      "नाग केलंग"
+    ],
+    "category": "shepherd_protector",
+    "associated_locations": [
+      "Kugti Pass",
+      "Bharmaur",
+      "Kandbari",
+      "High alpine pastures"
+    ],
+    "ritual_roles": "The supreme minister/general (Wazir) of Lord Shiva and the foremost guardian deity of shepherds, flocks, and high mountain passes. Propitiated before leading sheep across dangerous alpine ridges like the Kugti and Chobia passes.",
+    "associated_festivals": [
+      "Shiv Nawala",
+      "Jot Pujan (Pass Crossing)",
+      "Bisu"
+    ],
+    "traditional_offerings": "Iron tridents (trishul), brass bells, coconuts, red flags (dhaja), incense, consecrated he-goat.",
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 52-55; Chakraborty (2024), Section: Shepherd Guardian Deities; Nirmohi, p. 89",
+    "description": "Kelang Wazir is an exclusively Gaddi pastoral deity. His principal historic shrine is at Kugti village near the foot of the Kugti pass leading into Lahaul. Gaddi shepherds believe that no flock can safely traverse the high snowfields without Kelang's blessing.",
+    "is_community_specific": true,
+    "regional_distinctions": "Specific to Gaddi transhumance routes in Chamba, Kangra, and border pastures with Lahaul and Jammu.",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "shrine": "Kugti Shrine",
+      "symbol": "Iron Trident and Bell"
+    }
+  },
+  {
+    "id": "gaddi-deity-003",
+    "name_devanagari": "गूगा जाहरवीर",
+    "name_ipa": "ɡuːˈɡaː d͡ʒaːhərˈviːr",
+    "alternate_names": [
+      "गूगा पीर",
+      "जाहरवीर",
+      "गूगा चौहान"
+    ],
+    "category": "shepherd_protector",
+    "associated_locations": [
+      "Kangra foothills",
+      "Chamba lowlands",
+      "Kathua",
+      "Udhampur"
+    ],
+    "ritual_roles": "Pastoral warrior-saint and protector deity invoked against snakebite, venomous scorpions, and cattle illnesses.",
+    "associated_festivals": [
+      "Guga Navami (Bhadon)",
+      "Annual Guga Mandali singing"
+    ],
+    "traditional_offerings": "Milk, sweet rot bread, vermillion, flags, grain offerings.",
+    "source_id": "plsi_vol12_2014",
+    "source_citation": "PLSI Vol. 12 (2014), p. 125; Chakraborty (2024), Section: Folk Deities",
+    "description": "Guga Jaharveer is revered throughout the Western Himalayan foothills. Traveling Gaddi bards sing heroic epics of Guga during the monsoon season to ensure that shepherds sleeping outdoors on rocky ridges remain unharmed by poisonous snakes.",
+    "is_community_specific": false,
+    "regional_distinctions": "Shared with wider Pahari, Punjabi, and Rajasthani pastoral communities, but Gaddi worship features distinct musical ballad styles.",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "protection": "venomous_snakes",
+      "singing_tradition": "Gaddi Mandali"
+    }
+  },
+  {
+    "id": "gaddi-deity-004",
+    "name_devanagari": "संध्या देवी",
+    "name_ipa": "sənˈd̪ʱjaː ˈdeːviː",
+    "alternate_names": [
+      "संध्या भगवती",
+      "छतराड़ी देवी"
+    ],
+    "category": "devi_form",
+    "associated_locations": [
+      "Chhatrari, Bharmaur, Chamba"
+    ],
+    "ritual_roles": "Ancient patron goddess guarding the southern approaches of Bharmaur. The 8th-century deodar wood temple founded by King Meru Varman is an architectural and spiritual landmark for Gaddis.",
+    "associated_festivals": [
+      "Chhatrari Jatra",
+      "Navratri",
+      "Manimahesh Yatra rest-stage"
+    ],
+    "traditional_offerings": "Brass lamps, silk scarves, sweet prasad, vermillion.",
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 56-58; PLSI Vol. 12 (2014)",
+    "description": "Sandhya Devi represents the divinity of twilight. Her temple features intricate post-Gupta wooden carvings and an ancient bronze idol sculpted by master craftsman Gugga in c. 750 CE.",
+    "is_community_specific": true,
+    "regional_distinctions": "Rooted specifically in the heritage of Bharmaur / Chhatrari.",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "temple_age": "c. 8th century CE",
+      "material": "carved_deodar_wood"
+    }
+  },
+  {
+    "id": "gaddi-deity-005",
+    "name_devanagari": "लक्षणा देवी",
+    "name_ipa": "ləkˈʂəɳaː ˈdeːviː",
+    "alternate_names": [
+      "महिषासुरमर्दिनी",
+      "भद्रावती देवी"
+    ],
+    "category": "devi_form",
+    "associated_locations": [
+      "Chaurasi Temple Complex, Bharmaur, Chamba"
+    ],
+    "ritual_roles": "Fierce protective goddess of the ancient Gaddi capital Bharmaur; worshipped for health, fertility, and community safety.",
+    "associated_festivals": [
+      "Bharmaur Jatra",
+      "Manimahesh Pilgrimage kickoff",
+      "Durga Ashtami"
+    ],
+    "traditional_offerings": "Incense, holy water, coconut, red cloth.",
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 58-60; Chakraborty (2024)",
+    "description": "Housed within the sacred Chaurasi complex, the temple of Lakshana Devi dates back to c. 680 CE and is considered one of the oldest surviving wooden temples in the Himalayas.",
+    "is_community_specific": true,
+    "regional_distinctions": "Bharmaur heritage landmark revered by all Gaddi clans.",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "temple_age": "c. 680 CE",
+      "complex": "Chaurasi 84 Shrines"
+    }
+  },
+  {
+    "id": "gaddi-deity-006",
+    "name_devanagari": "नरसिंह देवता",
+    "name_ipa": "nərˈsɪŋɡʱ deːvˈt̪aː",
+    "alternate_names": [
+      "नृसिंह",
+      "नरसिंग"
+    ],
+    "category": "village_patron",
+    "associated_locations": [
+      "Bharmaur Chaurasi",
+      "Household shrines in Kangra and Jammu"
+    ],
+    "ritual_roles": "Fierce avatar invoked for domestic protection against evil spirits, witchcraft, and sudden illness. Represented by unhewn stones or brass amulets worn by Gaddi men.",
+    "associated_festivals": [
+      "Shiv Nawala",
+      "Domestic vow fulfillment"
+    ],
+    "traditional_offerings": "Walnuts, red flowers, sweet roat bread.",
+    "source_id": "chakraborty_2024",
+    "source_citation": "Chakraborty (2024), Section: Folk Deities; Nirmohi, p. 112",
+    "description": "Narsingh is venerated intimately within Gaddi homes as a household protector who ensures that no malign energies afflict children or livestock.",
+    "is_community_specific": false,
+    "regional_distinctions": "Prominent throughout Western Himalayan folk religion.",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "manifestation": "protective_amulets"
+    }
+  },
+  {
+    "id": "gaddi-deity-007",
+    "name_devanagari": "अवतार / जोगी",
+    "name_ipa": "əvˈt̪aːr / ˈd͡ʒoːɡiː",
+    "alternate_names": [
+      "पितर",
+      "मोहरा",
+      "अपुत्रक आत्मा"
+    ],
+    "category": "ancestral_spirit",
+    "associated_locations": [
+      "Clan shrines across all Gaddi villages"
+    ],
+    "ritual_roles": "Spirits of ancestors who died without male offspring. Propitiated with stone tablets (mohra) carved with stylized human figures placed near natural water springs or field boundaries.",
+    "associated_festivals": [
+      "Shraddha",
+      "Pitru Paksha",
+      "Family Nawala"
+    ],
+    "traditional_offerings": "Rice, cooked pulses, milk, oblations of spring water.",
+    "source_id": "shashi_1977",
+    "source_citation": "Shashi (1977), pp. 60-61; Chandar (2024), Section: Ancestral Rites",
+    "description": "Ancestral veneration forms an indispensable pillar of Gaddi life, ensuring familial continuity and spiritual balance across generations.",
+    "is_community_specific": true,
+    "regional_distinctions": "Distinct Gaddi form of ancestor propitiation using water-side mohra stones.",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "stone_tablet": "mohra",
+      "location": "natural_water_spring"
+    }
+  },
+  {
+    "id": "gaddi-deity-008",
+    "name_devanagari": "नाग देवता / वासुकी नाग",
+    "name_ipa": "naːɡ deːvˈt̪aː / vaːˈsuːkiː naːɡ",
+    "alternate_names": [
+      "नाग राज",
+      "शेषनाग",
+      "जल देवता"
+    ],
+    "category": "village_patron",
+    "associated_locations": [
+      "Bhadarwah (J&K)",
+      "Kugti",
+      "Chamba springs"
+    ],
+    "ritual_roles": "Guardian of natural springs (baoli/naun), mountain streams, and underground water sources. Honored to guarantee abundant water and rain for pastures.",
+    "associated_festivals": [
+      "Nag Panchami",
+      "Mela Patt (Bhadarwah)"
+    ],
+    "traditional_offerings": "Fresh cow milk, saffron, spring flowers, flour dough snakes.",
+    "source_id": "dar_sheikh_2022",
+    "source_citation": "Dar & Sheikh (2022), p. 247; Nirmohi, Duggar Ka Itihas, pp. 88-92",
+    "description": "In the Jammu hills and Bharmaur, Nag deities are intimately linked with spring water purity. Gaddi shepherds maintain strict cleanliness around water shrines in their pastures.",
+    "is_community_specific": false,
+    "regional_distinctions": "Central to Bhadarwah and Western Pahari spiritual geography.",
+    "evidence_status": "verified_traditional",
+    "metadata": {
+      "domain": "water_springs",
+      "spring_type": "baoli"
+    }
+  }
+]
