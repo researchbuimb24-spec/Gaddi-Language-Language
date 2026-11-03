@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14%20%7C%203.15-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/Software%20License-MIT-green.svg)](LICENSE)
 [![Data Terms: Audited Provenance](https://img.shields.io/badge/Data%20Terms-Audited%20Provenance-orange.svg)](DATA-LICENSE.md)
-[![Tests](https://img.shields.io/badge/tests-133%20passed-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/tests-151%20passed-brightgreen.svg)]()
 
 A computational linguistics and language-documentation Python library for the **Gaddi language (*Bharmauri / Gaddiyali*) as spoken in Jammu & Kashmir (J&K), India**, with rigorously quarantined comparative baselines from Himachal Pradesh.
 
@@ -26,10 +26,11 @@ The primary objective of this project is to build an accurate, searchable, and a
 
 ## 2. Dataset Scale & Inventory
 
-The repository maintains **27 fully synchronized datasets** between `data/` and `src/gaddi/resources/`:
+The repository maintains **28 fully synchronized datasets** between `data/` and `src/gaddi/resources/`:
 
 | Dataset | Scope / Description | Entries / Scale | Provenance & Source |
 | :--- | :--- | :---: | :--- |
+| `data/verb_paradigms.json` | Verb morphology, TAM paradigms, causatives, negation | **160 records** | Mehta (2019, CC BY 4.0), Kumari et al. (2026, CC BY-NC 4.0) |
 | `data/dictionary_unified.json` | Unified multi-script search database | **1,925 records** | Multi-source (J&K field + comparative HP; 2,470 citations) |
 | `data/vocabulary.json` | Research-expanded vocabulary across 16 domains | **101 records** | Dar & Sheikh (2022), Kumari et al. (2026) |
 | `data/lexicon_jk.json` | Primary J&K descriptive linguistic lexicon | **105 records** | Hilal Ahmad Dar & Aejaz Mohammed Sheikh (2022) |
@@ -40,15 +41,21 @@ The repository maintains **27 fully synchronized datasets** between `data/` and 
 | `data/deities.json` | Community pantheon and protector deities | **8 records** | Shashi (1977), Nirmohi, Chakraborty (2024) |
 | `data/festivals.json` | Seasonal festivals and sacred cycles (Nawala, Yatra) | **6 records** | Shashi (1977), Chakraborty (2024), Kumar (2019) |
 | `data/culture.json` | Pastoral transhumance, attire, looms, and cuisine | **7 records** | Kumari et al. (2026), Shashi (1977), Chandar (2024) |
-| `data/oral_history.json` | Historical transhumance accounts & oral testimonies | **3 records** | Dar & Sheikh (2022), Field Informant Testimonies |
+| `data/oral_history.json` | Historical transhumance accounts & oral testimonies | **3 records** | Dar & Sheikh (2022), Field Informant Testimonies (Catalogue metadata) |
 | `data/media_resources.json` | Archival recordings and open-access corpus metadata | **3 records** | JKAACL Archives, Grierson LSI, UCL Press OA |
+
+> [!IMPORTANT]
+> **Oral Heritage Empirical Status & Presentation Safeguards:**
+> - **Historical Texts vs. Published Descriptions:** `data/stories.json` contains 1 historical documented text (`gaddi-story-001`, Grierson 1916) and 5 published descriptions of traditions (`gaddi-story-002` to `006`). For published descriptions, the vernacular sentences are illustrative editorial representations, **not** primary field recordings or collected texts. Similarly, `data/songs.json` contains 2 traditional documented verses (`gaddi-song-001`, `002`) and 4 published descriptions with editorial illustrative verses (`gaddi-song-003` to `006`).
+> - **Proverbs and Oral History:** `data/proverbs.json` preserves 6 traditional maxims cited from secondary literature (physical page verification pending). `data/oral_history.json` contains 3 catalogue metadata records summarizing field interviews, **not** verbatim audio transcripts.
+> - **Physical Inspection Integrity:** Citing a secondary publication (such as Shashi 1977 or JKAACL audio files) establishes that a bibliographic reference was found; unless the physical volume, archival cassette, or primary PDF is staged and inspected locally in `data/source_intake/`, status is recorded as **"source not inspected — verification pending"**.
 | `data/gaddi_examples.json` | Numbered, interlinear glossed grammar examples | **269 examples** | Kumari et al. (2026), Chapters 1–5 |
 | `data/gaddi_word_list.json` | Comparative basic word list (Appendix II) | **254 entries** | Kumari et al. (2026), Table B.1 |
 | `data/gaddi_numerals.json` | Numeral system (cardinals, ordinals, fractions) | **138 forms** | Kumari et al. (2026), Appendix III |
 | `data/gaddi_grammar.json` | Documented paradigms, affixes, and markers | 7 sections | Kumari et al. (2026), Mehta (2016, 2021) |
 | `data/gaddi_phonology.json` | Phonemic inventories & tonal descriptions | 6 sections | Kumari et al. (2026), Bailey (1908) |
 | `data/research_leads.json` | Cataloged academic research leads & trackers | **20 leads** | J&K archives, census monographs, field surveys |
-| `data/sources.json` | Controlled bibliographic source registry | **21 sources** | 12 J&K primary, 9 comparative/historical |
+| `data/sources.json` | Controlled bibliographic source registry | **22 sources** | 12 J&K primary, 9 comparative/historical |
 | `data/varieties.json` | Controlled geographic variety catalog | **11 varieties** | 5 J&K varieties, 6 comparative varieties |
 
 ---
@@ -62,6 +69,7 @@ Gaddi-Language-Library/
 ├── DATA-LICENSE.md             # Data governance, provenance, and cultural heritage terms
 ├── README.md                   # Project documentation and quickstart
 ├── data/                       # Authoritative primary JSON datasets (27 datasets)
+│   ├── verb_paradigms.json     # 160-record verb morphology, TAM paradigms, causatives, negation
 │   ├── dictionary_unified.json # 1,925-record unified dictionary with audited item-level provenance
 │   ├── vocabulary.json         # 101-record research-expanded vocabulary across 16 domains
 │   ├── stories.json            # 6 documented folk tales & pastoral narratives
@@ -89,6 +97,7 @@ Gaddi-Language-Library/
 │   ├── EXPANSION_RESEARCH_REPORT.md # Provenance remediation and major expansion report
 │   ├── DEDUPLICATION_REVIEW.md # Collision-group and attestation preservation audit
 │   ├── sources_and_bibliography.md     # Bibliographical survey and reliability assessment
+│   ├── VERB_MORPHOLOGY.md              # Grammatical TAM categories, canonical paradigm, and causatives
 │   ├── jk_gaddi_linguistic_profile.md  # Detailed profile of J&K Gaddi & research gaps
 │   ├── jk_gaddi_primary_linguistic_sources.md # Source analysis & citations
 │   ├── architecture_and_provenance_spec.md # Technical schema and validation engine specs
@@ -104,9 +113,10 @@ Gaddi-Language-Library/
 │       ├── oral_heritage.py    # Stories, songs, proverbs, and oral history registry
 │       ├── culture.py          # Deities, festivals, cultural heritage, and media registry
 │       ├── grammar.py          # Documented grammatical paradigms & case markers
+│       ├── morphology.py       # Verb morphology & grammatical paradigms registry
 │       ├── sync.py             # Authoritative data/ vs packaged resources/ synchronization
 │       ├── cli.py              # Command-line interface with 28 subcommands
-│       └── resources/          # 27 packaged internal synchronized JSON datasets
+│       └── resources/          # 28 packaged internal synchronized JSON datasets
 └── tests/
     ├── test_api.py             # Public API integration tests
     ├── test_audit.py           # Evidence quarantine & census distinction tests
@@ -186,7 +196,21 @@ results = dictionary.search("handloom")
 for entry in results:
     print(f"{entry.lemma_devanagari} ({entry.variety_id}): {entry.senses[0].definition_en}")
 
-# 5. Cross-Variety Comparison (segregating J&K from HP comparative baselines)
+# 5. Verb Morphology & Grammatical Paradigms (Expansion 2)
+# Access complete canonical paradigm of həsɳɑ (96 cells across 12 TAM categories)
+paradigms = gaddi.get_verb_paradigms()
+print(f"Complete paradigms: {[p.verb_lemma for p in paradigms]}")
+
+# Retrieve forms for a lemma (strictly preserving missing forms without fabrication)
+kar_paradigm = gaddi.get_verb_paradigm("kərɳɑ")
+print(f"Is complete: {kar_paradigm.is_complete}")  # False: isolated attested example
+print(f"Attested forms: {[f.inflected_form for f in kar_paradigm.forms]}")
+
+# Search across inflected forms, morphemes, and glosses
+prohibitives = gaddi.search_verb_forms("prohibitive")
+print(f"Prohibitive: {prohibitives[0].inflected_form} ({prohibitives[0].english_translation})")
+
+# 6. Cross-Variety Comparison (segregating J&K from HP comparative baselines)
 comparison = gaddi.compare_varieties("पाणी")
 print(comparison["has_jk_evidence"])      # False
 print(comparison["has_hp_comparative"])  # True (hp_chamba_bharmaur)
@@ -218,6 +242,14 @@ gaddi culture --topic pastoral_migration
 gaddi vocabulary --domain family_and_kinship
 gaddi vocabulary --search father
 
+# Verb morphology, TAM paradigms, causatives, and negation
+gaddi morphology verbs
+gaddi morphology show həsɳɑ
+gaddi morphology show bədʒɳɑ
+gaddi morphology tense past
+gaddi morphology mood imperative
+gaddi morphology search "mətʰ"
+
 # Universal multi-script dictionary search
 gaddi search blanket
 gaddi search पाणी
@@ -241,12 +273,13 @@ gaddi validate data/lexicon_jk.json
 pytest -v
 ```
 
-All **133 automated tests** pass across 14 test suites (0 failures, 0 errors, 100% green), verifying:
+All **151 automated tests** pass across 15 test suites (0 failures, 0 errors, 100% green), verifying:
 - Serialization, schema immutability, and registry lookups.
 - Group 19 item-level provenance preservation (`dʰuːɽ` with item 36 'dust' and item 57 'fog; haze').
 - Strict anti-conflation guardrails (preventing labeling an entry as J&K if it only cites HP works).
 - Diacritic-tolerant, multi-script search across Devanagari, Perso-Arabic, Latin/IPA, and English/Hindi glosses.
-- 100% identical synchronization between all 27 authoritative `data/` files and packaged `src/gaddi/resources/`.
+- 100% identical synchronization between all 28 authoritative `data/` files and packaged `src/gaddi/resources/`.
+- Verb morphology registry, canonical TAM paradigms, causative alternations, clausal negation, and strict anti-fabrication enforcement (zero synthetic paradigms).
 - Provenance tracking, copyright safeguards, and academic licensing distinctions.
 
 ---
@@ -256,7 +289,8 @@ All **133 automated tests** pass across 14 test suites (0 failures, 0 errors, 10
 - **Software Code:** Licensed under the [MIT License](LICENSE).
 - **Data, Provenance, and Cultural Knowledge:** Governed by [DATA-LICENSE.md](DATA-LICENSE.md) in accordance with the CARE and FAIR Principles for Indigenous Data Governance.
 - **Third-Party Academic Citations:**
-  - Kumari et al. (*A Grammar of Gaddi*, UCL Press, 2026): Open Access under **CC BY-NC 4.0**.
+  - Mehta, Shreya (*The Morphological Realization of Tense, Aspect and Mood in Gaddi*, Smart Moves Journal IJELLH, 2019): Open Access under **CC BY 4.0**.
+  - Kumari et al. (*A Grammar of Gaddi*, UCL Press, 2026): Open Access under **CC BY-NC 4.0** (third-party material excluded from general CC licence as specified in monograph).
   - Grierson (LSI, 1916) & Bailey (1908): **Public Domain**.
   - Census of India (2011, 2023): Open Government Data (OGD) India.
   - J&K Academic Publications (Hilal Ahmad Dar & Aejaz Mohammed Sheikh 2022, Banti Kumar 2019, Subhash Chandar 2024, Arka Chakraborty 2024, Prof. Shiv Nirmohi): Fair dealing academic indexing, summary, and excerpt citation.

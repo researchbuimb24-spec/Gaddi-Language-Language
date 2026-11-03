@@ -1,4 +1,4 @@
-﻿"""Validation engine for linguistic integrity, provenance, and anti-conflation rules."""
+"""Validation engine for linguistic integrity, provenance, and anti-conflation rules."""
 
 from __future__ import annotations
 
@@ -12,6 +12,7 @@ from gaddi.models import (
     LexicalEntry,
     MediaResource,
     OralTradition,
+    VerbFormRecord,
     ValidationError,
     ValidationReport,
     ValidationWarning,
@@ -457,4 +458,76 @@ class GaddiValidator:
                 report.errors.append(ValidationError(item.id, "id", f"Duplicate media resource ID '{item.id}'."))
             else:
                 seen_ids.add(item.id)
+        return report
+
+    # -------------------------------------------------------------------------
+    # Verb Morphology Validation
+    # -------------------------------------------------------------------------
+    VALID_TENSES = {"past", "future", "perfect", "present"}
+    VALID_ASPECTS = {"imperfective", "perfective", "progressive", "inchoative"}
+    VALID_MOODS = {"indicative", "epistemic", "imperative"}
+    VALID_NUMBERS = {"singular", "plural"}
+    VALID_GENDERS = {"masculine", "feminine"}
+    VALID_PARADIGM_TYPES = {"complete_paradigm_cell", "isolated_attested_example"}
+    DOCUMENTED_COMPLETE_PARADIGM_VERBS = {"həsɳɑ"}
+
+    def validate_verb_form(self, form: VerbFormRecord) -> List[ValidationError]:
+        """Validate an individual inflected verbal form record."""
+        errors: List[ValidationError] = []
+        if not form.id or not form.id.strip():
+            errors.append(ValidationError("", "id", "Verb form ID is mandatory."))
+        if not form.verb_lemma or not form.verb_lemma.strip():
+            errors.append(ValidationError(form.id, "verb_lemma", "Verb lemma is mandatory."))
+        if not form.inflected_form or not form.inflected_form.strip():
+            errors.append(ValidationError(form.id, "inflected_form", "Inflected form is mandatory."))
+        if not form.source_id or not form.source_id.strip():
+            errors.append(ValidationError(form.id, "source_id", "Source ID is mandatory."))
+        elif not self.sources.contains(form.source_id):
+            errors.append(ValidationError(form.id, "source_id", f"Unknown source '{form.source_id}'. Must be in sources registry."))
+        if not form.source_reference or not form.source_reference.strip():
+            errors.append(ValidationError(form.id, "source_reference", "Exact source reference (page/table/example) is mandatory."))
+        if not form.evidence_status or not form.evidence_status.strip():
+            errors.append(ValidationError(form.id, "evidence_status", "Evidence status is mandatory."))
+        if form.dialect_variety and not self.varieties.contains(form.dialect_variety):
+            errors.append(ValidationError(form.id, "dialect_variety", f"Unknown dialect variety '{form.dialect_variety}'."))
+        if form.paradigm_type not in self.VALID_PARADIGM_TYPES:
+            errors.append(ValidationError(form.id, "paradigm_type", f"Invalid paradigm type '{form.paradigm_type}'."))
+        if form.paradigm_type == "complete_paradigm_cell" and form.verb_lemma not in self.DOCUMENTED_COMPLETE_PARADIGM_VERBS:
+            errors.append(ValidationError(form.id, "paradigm_type", f"Fabricated complete paradigm detected: '{form.verb_lemma}' is not a documented complete paradigm verb."))
+        if form.tense and form.tense.lower() not in self.VALID_TENSES:
+            errors.append(ValidationError(form.id, "tense", f"Invalid grammatical tense '{form.tense}'."))
+        if form.aspect and form.aspect.lower() not in self.VALID_ASPECTS:
+            errors.append(ValidationError(form.id, "aspect", f"Invalid grammatical aspect '{form.aspect}'."))
+        if form.mood and form.mood.lower() not in self.VALID_MOODS:
+            errors.append(ValidationError(form.id, "mood", f"Invalid grammatical mood '{form.mood}'."))
+        if form.grammatical_number and form.grammatical_number.lower() not in self.VALID_NUMBERS:
+            errors.append(ValidationError(form.id, "grammatical_number", f"Invalid grammatical number '{form.grammatical_number}'."))
+        if form.gender and form.gender.lower() not in self.VALID_GENDERS:
+            errors.append(ValidationError(form.id, "gender", f"Invalid grammatical gender '{form.gender}'."))
+        return errors
+
+    def validate_verb_morphology_collection(self, forms: List[VerbFormRecord]) -> ValidationReport:
+        """Validate a collection of verb morphology records for schema integrity, uniqueness, and anti-fabrication."""
+        report = ValidationReport(total_checked=len(forms))
+        seen_ids: Set[str] = set()
+
+        for form in forms:
+            errs = self.validate_verb_form(form)
+            report.errors.extend(errs)
+
+            if form.id in seen_ids:
+                report.errors.append(ValidationError(form.id, "id", f"Duplicate verb form ID '{form.id}'."))
+            else:
+                seen_ids.add(form.id)
+
+        return report
+
+    def validate_resource_synchronization(self) -> ValidationReport:
+        """Verify that all authoritative data/ datasets are 100% synchronized with packaged resources/."""
+        from gaddi.sync import check_resource_sync
+        report = ValidationReport(total_checked=1)
+        is_synced, issues = check_resource_sync()
+        if not is_synced:
+            for issue in issues:
+                report.errors.append(ValidationError("sync", "resources", issue))
         return report

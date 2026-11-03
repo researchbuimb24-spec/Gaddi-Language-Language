@@ -57,6 +57,28 @@
     "notes": "Detailed morphological and paradigm analysis of Gaddi verbal inflection in Kangra variety."
   },
   {
+    "id": "mehta_2019",
+    "title": "The Morphological Realization of Tense, Aspect and Mood in Gaddi",
+    "authors": [
+      "Shreya Mehta"
+    ],
+    "year": 2019,
+    "journal": "Smart Moves Journal IJELLH (International Journal of English Language, Literature in Humanities)",
+    "volume": 7,
+    "issue": 7,
+    "pages": "927-943",
+    "issn": "2582-3574",
+    "url": "https://ijellh.com/index.php/OJS/article/view/9304",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "variety_id": "hp_kangra_palampur",
+    "credibility_tier": 1,
+    "is_jk_primary": false,
+    "evidence_type": "peer_reviewed_journal_tam_morphology",
+    "notes": "Peer-reviewed empirical linguistic study on the morphological realization of Tense, Aspect, and Mood in Gaddi, based on Palampur fieldwork with 14 native speakers. Provides canonical verbal paradigm for həsɳɑ and attested TAM/PNGH inflections. Open access under Creative Commons Attribution 4.0 International (CC BY 4.0).",
+    "publisher": "Smart Moves Journal IJELLH (International Journal of English Language, Literature in Humanities)"
+  },
+  {
     "id": "mehta_2021",
     "title": "Tense, Aspect, and Mood in Gaddi and Neighboring Himalayan Languages",
     "authors": [

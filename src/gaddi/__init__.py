@@ -35,6 +35,11 @@ from gaddi.models import (
 )
 from gaddi.culture import CultureRegistry, default_culture
 from gaddi.oral_heritage import OralHeritageRegistry, default_oral_heritage
+from gaddi.morphology import VerbMorphologyRegistry, default_morphology, get_verb_morphology_registry
+from gaddi.models import (
+    VerbFormRecord,
+    VerbParadigm,
+)
 from gaddi.registry import (
     ResearchLeadRegistry,
     SourceRegistry,
@@ -112,6 +117,9 @@ def info() -> Dict[str, Any]:
         "category_totals_note": f"Multi-label categorization: entries can belong to multiple domains (cumulative domain tags across {len(unified_entries)} unified entries).",
         "translation_coverage_note": "Coverage reflects availability of bilingual descriptive glosses from literature, not independent modern elicitation for all forms.",
         "supported_languages": ["en", "hi", "ur", "pa", "doi", "gaddi"],
+        "verb_morphology_forms": default_morphology.total_forms,
+        "verb_morphology_verbs": default_morphology.total_verbs,
+        "verb_morphology_complete_paradigms": len(default_morphology.get_complete_paradigms()),
     }
 
 
@@ -389,6 +397,16 @@ __all__ = [
     "PronominalForm",
     "GrammarStatement",
     "ResearchStatus",
+    "VerbMorphologyRegistry",
+    "default_morphology",
+    "get_verb_morphology_registry",
+    "VerbFormRecord",
+    "VerbParadigm",
+    "get_verb_paradigms",
+    "get_verb_forms",
+    "get_verb_paradigm",
+    "search_verb_forms",
+    "list_morphology_verbs",
 ]
 
 
@@ -454,3 +472,32 @@ def get_vocabulary_entries(domain: Optional[str] = None) -> List[LexicalEntry]:
 def search_vocabulary(query: str, domain: Optional[str] = None) -> List[LexicalEntry]:
     """Search across the research-expanded vocabulary dataset."""
     return _default_dictionary.search_vocabulary(query=query, domain=domain)
+
+
+# -----------------------------------------------------------------------------
+# Verb Morphology Public API
+# -----------------------------------------------------------------------------
+
+def get_verb_paradigms() -> List[VerbParadigm]:
+    """Return all complete verbal paradigms in the library (e.g. həsɳɑ canonical paradigm)."""
+    return default_morphology.get_complete_paradigms()
+
+
+def get_verb_forms(lemma: str) -> List[VerbFormRecord]:
+    """Retrieve attested inflected verbal forms for a given verb lemma without gap fabrication."""
+    return default_morphology.get_verb(lemma)
+
+
+def get_verb_paradigm(lemma: str) -> Optional[VerbParadigm]:
+    """Return structured VerbParadigm grouping for a lemma, marking completeness vs isolated status."""
+    return default_morphology.get_paradigm(lemma)
+
+
+def search_verb_forms(query: str) -> List[VerbFormRecord]:
+    """Search attested verb forms across surface forms, transcription, gloss, and translation."""
+    return default_morphology.search_forms(query)
+
+
+def list_morphology_verbs() -> List[Dict[str, Any]]:
+    """Return summary list of all verbs recorded in the verb morphology module."""
+    return default_morphology.list_verbs()

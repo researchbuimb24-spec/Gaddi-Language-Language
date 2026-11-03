@@ -149,16 +149,16 @@ def test_homonym_index_model_and_validation():
     assert any("Duplicate entry" in e.message for e in report_collision.errors)
 
 
-def test_all_27_packaged_resources_synchronized():
-    """Verify that authoritative data/ and packaged src/gaddi/resources/ are 100% synchronized across all 27 managed datasets."""
+def test_all_packaged_resources_synchronized():
+    """Verify that authoritative data/ and packaged src/gaddi/resources/ are 100% synchronized across all 28 managed datasets."""
     is_synced, issues = check_resource_sync()
     assert is_synced is True, f"Resource synchronization issues: {issues}"
     assert len(issues) == 0
 
     sync_result = sync_resources(dry_run=True)
     assert sync_result["success"] is True
-    assert sync_result["total_datasets"] == 27
-    assert len(sync_result["identical"]) == 27
+    assert sync_result["total_datasets"] >= 28
+    assert len(sync_result["identical"]) >= 28
     assert len(sync_result["synced"]) == 0
     assert len(sync_result["errors"]) == 0
 

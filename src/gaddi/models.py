@@ -1,4 +1,4 @@
-﻿"""Core data models, schemas, and evidence classifications for Gaddi."""
+"""Core data models, schemas, and evidence classifications for Gaddi."""
 
 from __future__ import annotations
 
@@ -904,3 +904,126 @@ class MediaResource:
             "metadata": self.metadata,
         }
 
+
+@dataclass
+class VerbFormRecord:
+    """Individual inflected verbal form or construction with complete morphological and provenance annotations."""
+    id: str
+    verb_lemma: str
+    verb_meaning_en: str
+    paradigm_type: str  # "complete_paradigm_cell" | "isolated_attested_example"
+    inflected_form: str
+    source_id: str
+    source_reference: str
+    evidence_status: str
+    dialect_variety: str
+    collection_locality: str
+    original_source_form: Optional[str] = None
+    ipa_transcription: Optional[str] = None
+    verb_lemma_devanagari: Optional[str] = None
+    form_devanagari: Optional[str] = None
+    grammatical_person: Optional[str] = None
+    grammatical_number: Optional[str] = None
+    gender: Optional[str] = None
+    honorificity: Optional[str] = None
+    tense: Optional[str] = None
+    aspect: Optional[str] = None
+    mood: Optional[str] = None
+    form_type: Optional[str] = None  # "main_verb", "auxiliary", "causative_transitive", "causative_secondary", "negative_construction", etc.
+    agreement_features: Optional[Dict[str, Any]] = None
+    morpheme_segmentation: Optional[str] = None
+    interlinear_gloss: Optional[str] = None
+    english_translation: Optional[str] = None
+    editorial_notes: Optional[str] = None
+    metadata: Dict[str, Any] = field(default_factory=dict)
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> VerbFormRecord:
+        return cls(
+            id=data["id"],
+            verb_lemma=data["verb_lemma"],
+            verb_meaning_en=data.get("verb_meaning_en", ""),
+            paradigm_type=data.get("paradigm_type", "isolated_attested_example"),
+            inflected_form=data["inflected_form"],
+            source_id=data.get("source_id", ""),
+            source_reference=data.get("source_reference", ""),
+            evidence_status=data.get("evidence_status", "verified_field_attestation"),
+            dialect_variety=data.get("dialect_variety", "hp_kangra_palampur"),
+            collection_locality=data.get("collection_locality", ""),
+            original_source_form=data.get("original_source_form"),
+            ipa_transcription=data.get("ipa_transcription"),
+            verb_lemma_devanagari=data.get("verb_lemma_devanagari"),
+            form_devanagari=data.get("form_devanagari"),
+            grammatical_person=data.get("grammatical_person"),
+            grammatical_number=data.get("grammatical_number"),
+            gender=data.get("gender"),
+            honorificity=data.get("honorificity"),
+            tense=data.get("tense"),
+            aspect=data.get("aspect"),
+            mood=data.get("mood"),
+            form_type=data.get("form_type"),
+            agreement_features=data.get("agreement_features"),
+            morpheme_segmentation=data.get("morpheme_segmentation"),
+            interlinear_gloss=data.get("interlinear_gloss"),
+            english_translation=data.get("english_translation"),
+            editorial_notes=data.get("editorial_notes"),
+            metadata=data.get("metadata", {}),
+        )
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "id": self.id,
+            "verb_lemma": self.verb_lemma,
+            "verb_lemma_devanagari": self.verb_lemma_devanagari,
+            "verb_meaning_en": self.verb_meaning_en,
+            "paradigm_type": self.paradigm_type,
+            "original_source_form": self.original_source_form,
+            "inflected_form": self.inflected_form,
+            "ipa_transcription": self.ipa_transcription,
+            "form_devanagari": self.form_devanagari,
+            "grammatical_person": self.grammatical_person,
+            "grammatical_number": self.grammatical_number,
+            "gender": self.gender,
+            "honorificity": self.honorificity,
+            "tense": self.tense,
+            "aspect": self.aspect,
+            "mood": self.mood,
+            "form_type": self.form_type,
+            "agreement_features": self.agreement_features,
+            "morpheme_segmentation": self.morpheme_segmentation,
+            "interlinear_gloss": self.interlinear_gloss,
+            "english_translation": self.english_translation,
+            "dialect_variety": self.dialect_variety,
+            "collection_locality": self.collection_locality,
+            "source_id": self.source_id,
+            "source_reference": self.source_reference,
+            "evidence_status": self.evidence_status,
+            "editorial_notes": self.editorial_notes,
+            "metadata": self.metadata,
+        }
+
+
+@dataclass
+class VerbParadigm:
+    """Grouped paradigm representation for a verb lemma."""
+    verb_lemma: str
+    verb_meaning_en: str
+    forms: List[VerbFormRecord]
+    is_complete: bool
+    source_ids: List[str]
+    verb_lemma_devanagari: Optional[str] = None
+    notes: Optional[str] = None
+    metadata: Dict[str, Any] = field(default_factory=dict)
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "verb_lemma": self.verb_lemma,
+            "verb_lemma_devanagari": self.verb_lemma_devanagari,
+            "verb_meaning_en": self.verb_meaning_en,
+            "is_complete": self.is_complete,
+            "form_count": len(self.forms),
+            "source_ids": self.source_ids,
+            "notes": self.notes,
+            "forms": [f.to_dict() for f in self.forms],
+            "metadata": self.metadata,
+        }

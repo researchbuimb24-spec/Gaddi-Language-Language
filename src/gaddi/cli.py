@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+from gaddi.morphology import default_morphology
+from gaddi.models import VerbFormRecord
+
 import argparse
 import csv
 import json
@@ -185,6 +188,33 @@ def build_parser() -> argparse.ArgumentParser:
     vocab_parser.add_argument("--domain", help="Filter by semantic domain (family_and_kinship, pastoral_life, etc.).")
     vocab_parser.add_argument("--search", help="Search vocabulary entries.")
     vocab_parser.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # morphology
+    morph_parser = subparsers.add_parser("morphology", help="Inspect Gaddi verb morphology, TAM paradigms, and grammatical forms.")
+    morph_sub = morph_parser.add_subparsers(dest="morph_subcommand", help="Morphology actions")
+
+    # morphology verbs
+    morph_sub.add_parser("verbs", help="List all recorded verb lemmas with paradigm completeness status.")
+
+    # morphology show <lemma>
+    show_p = morph_sub.add_parser("show", help="Display inflectional paradigm or attested forms for a verb.")
+    show_p.add_argument("lemma", help="Verb lemma (e.g. həsɳɑ, kərɳɑ, bədʒɳɑ).")
+    show_p.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # morphology search <query>
+    msearch_p = morph_sub.add_parser("search", help="Search inflected verb forms, glosses, or translations.")
+    msearch_p.add_argument("query", help="Search query (form, transcription, gloss, or translation).")
+    msearch_p.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # morphology tense <tense>
+    tense_p = morph_sub.add_parser("tense", help="Filter verb forms by tense (past, future, perfect, present).")
+    tense_p.add_argument("tense", help="Tense category.")
+    tense_p.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # morphology mood <mood>
+    mood_p = morph_sub.add_parser("mood", help="Filter verb forms by mood (indicative, epistemic, imperative).")
+    mood_p.add_argument("mood", help="Mood category.")
+    mood_p.add_argument("--json", action="store_true", help="Output in JSON format.")
 
     # sync
     sync_parser = subparsers.add_parser("sync", help="Synchronize packaged resources from authoritative data/ directory.")
@@ -393,6 +423,22 @@ def cmd_validate(file_path: Optional[str] = None) -> int:
                     all_valid = False
             else:
                 print(f"Warning: Resource file {p} not found.")
+
+        morph_path = res_dir / "verb_paradigms.json"
+        if morph_path.exists():
+            with open(morph_path, "r", encoding="utf-8") as f:
+                morph_data = json.load(f)
+            morph_records = [VerbFormRecord.from_dict(d) for d in morph_data]
+            report = validator.validate_verb_morphology_collection(morph_records)
+            _print_validation_report(report, "verb_paradigms.json")
+            if not report.is_valid:
+                all_valid = False
+
+        # Validate resource synchronization
+        sync_report = validator.validate_resource_synchronization()
+        _print_validation_report(sync_report, "Resource Synchronization (data/ vs resources/)")
+        if not sync_report.is_valid:
+            all_valid = False
 
         return 0 if all_valid else 1
 
@@ -984,14 +1030,23 @@ def cmd_stories(genre: Optional[str] = None, search_query: Optional[str] = None,
     if as_json:
         print(json.dumps([s.to_dict() for s in items], indent=2, ensure_ascii=False))
         return 0
-    print(f"=== Documented Gaddi Folk Tales & Stories ({len(items)} records) ===")
+    print(f"=== Documented Gaddi Folk Tales & Traditional Narratives ({len(items)} records) ===")
+    print("Note: Distinguishing documented historical specimens from published ethnographic descriptions.")
+    print("Editorial vernacular sentences illustrate narrative themes but are not transcribed oral corpora.\n")
     for s in items:
         deva = f" ({s.title_gaddi})" if s.title_gaddi else ""
+        if s.id == "gaddi-story-001":
+            status_tag = "Historical Documented Specimen (LSI 1916) - Source Inspection Pending"
+            excerpt_label = "Verbatim Text Excerpt"
+        else:
+            status_tag = "Published Description of Tradition (Editorial Paraphrase - Not a Collected Text)"
+            excerpt_label = "Editorial Illustrative Representation (Not verbatim text)"
         print(f"  [{s.id}] {s.title_en}{deva} [Genre: {s.genre}]")
+        print(f"    Text Status: {status_tag}")
         print(f"    Source: {s.source_citation}")
         print(f"    Summary: {s.summary_en[:120]}...")
         if s.text_excerpt_gaddi:
-            print(f"    Gaddi Excerpt: {s.text_excerpt_gaddi}")
+            print(f"    {excerpt_label}: {s.text_excerpt_gaddi}")
     return 0
 
 
@@ -1005,12 +1060,24 @@ def cmd_songs(genre: Optional[str] = None, search_query: Optional[str] = None, a
         print(json.dumps([s.to_dict() for s in items], indent=2, ensure_ascii=False))
         return 0
     print(f"=== Documented Gaddi Folk Songs & Ainchali Ballads ({len(items)} records) ===")
+    print("Note: Distinguishing documented traditional verse from published ethnographic song descriptions.")
+    print("Records gaddi-song-003 to 006 contain editorial illustrative verses, not naturalistic field recordings.\n")
     for s in items:
         deva = f" ({s.title_gaddi})" if s.title_gaddi else ""
+        if s.id == "gaddi-song-001":
+            status_tag = "Documented Traditional Verse / Liturgical Ballad - Archival Verification Pending"
+            verse_label = "Liturgical Verse"
+        elif s.id == "gaddi-song-002":
+            status_tag = "Documented Traditional Love Ballad - Source Inspection Pending"
+            verse_label = "Traditional Folk Ballad Lyrics"
+        else:
+            status_tag = "Published Description of Tradition (Editorial Verse Representation)"
+            verse_label = "Editorial Illustrative Verse (Not field audio transcript)"
         print(f"  [{s.id}] {s.title_en}{deva} [Genre: {s.genre}]")
+        print(f"    Song Status: {status_tag}")
         print(f"    Source: {s.source_citation}")
         if s.text_excerpt_gaddi:
-            print(f"    Gaddi Verse: {s.text_excerpt_gaddi}")
+            print(f"    {verse_label}: {s.text_excerpt_gaddi}")
     return 0
 
 
@@ -1024,8 +1091,10 @@ def cmd_proverbs(search_query: Optional[str] = None, as_json: bool = False) -> i
         print(json.dumps([p.to_dict() for p in items], indent=2, ensure_ascii=False))
         return 0
     print(f"=== Documented Gaddi Pastoral Proverbs & Sayings ({len(items)} records) ===")
+    print("Note: Traditional pastoral sayings documented from published secondary literature. Physical source inspection remains pending.\n")
     for p in items:
         print(f"  • {p.title_gaddi} — {p.title_en}")
+        print(f"    Status: Traditional Saying - Physical Source Inspection Pending")
         print(f"    Meaning: {p.summary_en}")
         print(f"    Source: {p.source_citation}")
     return 0
@@ -1106,6 +1175,122 @@ def cmd_vocabulary(domain: Optional[str] = None, search_query: Optional[str] = N
     return 0
 
 
+def cmd_morphology(subcommand: Optional[str], **kwargs) -> int:
+    """CLI handler for gaddi morphology command group."""
+    if not subcommand or subcommand == "verbs":
+        verbs = default_morphology.list_verbs()
+        print(f"=== Gaddi Verb Morphology: Recorded Verb Lemmas ({len(verbs)}) ===")
+        print(f"Total Attested Forms: {default_morphology.total_forms}")
+        print(f"Complete Canonical Paradigms: {len(default_morphology.get_complete_paradigms())}\n")
+        print(f"{'LEMMA':<12} {'DEVANAGARI':<12} {'GLOSS / MEANING':<24} {'FORMS':<6} {'STATUS':<28} {'SOURCES'}")
+        print("-" * 105)
+        for v in verbs:
+            dev = v["verb_lemma_devanagari"] or "-"
+            status = "[COMPLETE PARADIGM]" if v["is_complete_paradigm"] else "[ISOLATED ATTESTED EXAMPLE]"
+            sources = ", ".join(v["sources"])
+            print(f"{v['verb_lemma']:<12} {dev:<12} {v['verb_meaning_en'][:22]:<24} {v['form_count']:<6} {status:<28} {sources}")
+        print("-" * 105)
+        print("Note: Gaps are never fabricated. Missing forms in incomplete verbs remain missing.")
+        return 0
+
+    as_json = kwargs.get("json", False)
+
+    if subcommand == "show":
+        lemma = kwargs.get("lemma", "")
+        paradigm = default_morphology.get_paradigm(lemma)
+        if not paradigm:
+            print(f"Error: Verb lemma '{lemma}' not found in morphology registry.", file=sys.stderr)
+            return 1
+
+        if as_json:
+            print(json.dumps(paradigm.to_dict(), indent=2, ensure_ascii=False))
+            return 0
+
+        status_lbl = "[COMPLETE CANONICAL PARADIGM]" if paradigm.is_complete else "[ISOLATED ATTESTED EXAMPLE(S)]"
+        print(f"\n=== Verb: {paradigm.verb_lemma} ({paradigm.verb_meaning_en}) {status_lbl} ===")
+        if paradigm.verb_lemma_devanagari:
+            print(f"Devanagari: {paradigm.verb_lemma_devanagari}")
+        print(f"Attested Forms: {len(paradigm.forms)}")
+        print(f"Sources: {', '.join(paradigm.source_ids)}")
+        if not paradigm.is_complete:
+            print("Note: Complete paradigm is NOT attested in published sources. Missing forms are not fabricated.")
+        print()
+
+        for f in paradigm.forms:
+            p_type = "[Complete Cell]" if f.paradigm_type == "complete_paradigm_cell" else "[Isolated Example]"
+            agree = f.agreement_features.get("column_label", "") if f.agreement_features else ""
+            seg = f" ({f.morpheme_segmentation})" if f.morpheme_segmentation else ""
+            gloss = f" [{f.interlinear_gloss}]" if f.interlinear_gloss else ""
+            print(f"  • {f.inflected_form:<15}{seg:<18}{gloss:<24} {agree:<12} {p_type}")
+            if f.english_translation:
+                print(f"    Translation: {f.english_translation}")
+            print(f"    Evidence:    {f.evidence_status} | Source: {f.source_reference}")
+        return 0
+
+    if subcommand == "search":
+        query = kwargs.get("query", "")
+        results = default_morphology.search_forms(query)
+        if as_json:
+            print(json.dumps([r.to_dict() for r in results], indent=2, ensure_ascii=False))
+            return 0
+
+        print(f"\n=== Verb Morphology Search Results for '{query}' ({len(results)} matches) ===\n")
+        if not results:
+            print("No matching verbal forms found.")
+            return 0
+
+        for f in results:
+            p_type = "[Complete Paradigm Cell]" if f.paradigm_type == "complete_paradigm_cell" else "[Isolated Attested Example]"
+            print(f"  • {f.inflected_form} (Lemma: {f.verb_lemma} '{f.verb_meaning_en}') {p_type}")
+            if f.morpheme_segmentation or f.interlinear_gloss:
+                print(f"    Analysis:    {f.morpheme_segmentation or '-'} | Gloss: {f.interlinear_gloss or '-'}")
+            if f.english_translation:
+                print(f"    Translation: {f.english_translation}")
+            print(f"    Source:      {f.source_id} ({f.source_reference})")
+            print(f"    Status:      {f.evidence_status}")
+            print()
+        return 0
+
+    if subcommand == "tense":
+        tense_val = kwargs.get("tense", "")
+        results = default_morphology.filter_by_tense(tense_val)
+        if as_json:
+            print(json.dumps([r.to_dict() for r in results], indent=2, ensure_ascii=False))
+            return 0
+
+        print(f"\n=== Verb Forms Filtered by Tense: '{tense_val}' ({len(results)} matches) ===\n")
+        if not results:
+            print(f"No forms attested for tense '{tense_val}'.")
+            return 0
+
+        for f in results:
+            p_type = "[Complete Cell]" if f.paradigm_type == "complete_paradigm_cell" else "[Isolated Example]"
+            print(f"  • {f.inflected_form:<15} Lemma: {f.verb_lemma:<10} Gloss: {f.interlinear_gloss or '-':<18} {p_type}")
+            print(f"    Ref: {f.source_reference} | Status: {f.evidence_status}")
+        return 0
+
+    if subcommand == "mood":
+        mood_val = kwargs.get("mood", "")
+        results = default_morphology.filter_by_mood(mood_val)
+        if as_json:
+            print(json.dumps([r.to_dict() for r in results], indent=2, ensure_ascii=False))
+            return 0
+
+        print(f"\n=== Verb Forms Filtered by Mood: '{mood_val}' ({len(results)} matches) ===\n")
+        if not results:
+            print(f"No forms attested for mood '{mood_val}'.")
+            return 0
+
+        for f in results:
+            p_type = "[Complete Cell]" if f.paradigm_type == "complete_paradigm_cell" else "[Isolated Example]"
+            print(f"  • {f.inflected_form:<15} Lemma: {f.verb_lemma:<10} Gloss: {f.interlinear_gloss or '-':<18} {p_type}")
+            print(f"    Ref: {f.source_reference} | Status: {f.evidence_status}")
+        return 0
+
+    print(f"Unknown morphology subcommand '{subcommand}'. Use --help for usage.", file=sys.stderr)
+    return 1
+
+
 def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
@@ -1114,7 +1299,9 @@ def main() -> None:
         parser.print_help()
         sys.exit(0)
 
-    if args.command == "stories":
+    if args.command == "morphology":
+        sys.exit(cmd_morphology(getattr(args, "morph_subcommand", None), lemma=getattr(args, "lemma", ""), query=getattr(args, "query", ""), tense=getattr(args, "tense", ""), mood=getattr(args, "mood", ""), json=getattr(args, "json", False)))
+    elif args.command == "stories":
         sys.exit(cmd_stories(getattr(args, "genre", None), getattr(args, "search", None), getattr(args, "json", False)))
     elif args.command == "songs":
         sys.exit(cmd_songs(getattr(args, "genre", None), getattr(args, "search", None), getattr(args, "json", False)))
