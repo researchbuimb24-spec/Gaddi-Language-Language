@@ -229,11 +229,13 @@ class ExampleSentence:
 
 @dataclass
 class Sense:
-    """Word sense with definitions in priority languages (EN, HI, UR)."""
+    """Word sense with definitions in priority languages (EN, HI, UR, AS, BN)."""
     sense_index: int
     definition_en: str
     definition_hi: Optional[str] = None
     definition_ur: Optional[str] = None
+    definition_as: Optional[str] = None
+    definition_bn: Optional[str] = None
     semantic_field: Optional[str] = None
     examples: List[ExampleSentence] = field(default_factory=list)
     source_item: Optional[str] = None
@@ -249,6 +251,8 @@ class Sense:
             definition_en=data["definition_en"],
             definition_hi=data.get("definition_hi"),
             definition_ur=data.get("definition_ur"),
+            definition_as=data.get("definition_as"),
+            definition_bn=data.get("definition_bn"),
             semantic_field=data.get("semantic_field"),
             examples=examples,
             source_item=data.get("source_item"),
@@ -263,6 +267,10 @@ class Sense:
             "semantic_field": self.semantic_field,
             "examples": [ex.to_dict() for ex in self.examples],
         }
+        if self.definition_as is not None:
+            res["definition_as"] = self.definition_as
+        if self.definition_bn is not None:
+            res["definition_bn"] = self.definition_bn
         if self.source_item is not None:
             res["source_item"] = self.source_item
         return res

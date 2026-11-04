@@ -51,6 +51,16 @@ To avoid the linguistic error of merging distinct regional varieties without emp
 - **Licensing & Attribution:** CC BY 4.0 enables reuse and adaptation with proper attribution. Separate provenance is preserved from Kumari et al. (2026).
 
 
+#### 2c. Dar, Hilal Ahmad & Sheikh, Aejaz Mohammed (2022)
+- **Title:** "Gaddi Speech Community of Jammu and Kashmir: The Self-Claimed Descendants of Lord Shiva"
+- **Journal:** *Aligarh Journal of Linguistics*, Vol. 11 (2021–2022), pp. 245–258.
+- **Publisher:** Department of Linguistics, Aligarh Muslim University, Aligarh.
+- **Identifier:** ISSN: `2249-1511` / AMU URL: `https://api.amu.ac.in/storage//file/10353/file_management/1659595804.pdf`.
+- **License:** Academic Research / Open Access (AMU AJL / Author Attribution).
+- **Geographic Variety Documented:** **`jk_doda_bhadarwah`** (Bhaderwah tehsil, Doda District, Jammu & Kashmir).
+- **Reliability:** **Very High (Primary J&K Fieldwork Evidence)**. Documents community background, vocabulary (seasons, months, days, numerals), and exhaustive kinship terminology across 13 tables (Tables 6–13) directly elicited from native J&K Gaddi speakers.
+- **Role in Library:** Serves as the primary source for authentic J&K Gaddi kinship, calendar, seasonal, and daily life lexical entries with full traceability.
+
 ---
 
 ### Tier 2: Historical and Macro-Linguistic Surveys

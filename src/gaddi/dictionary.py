@@ -195,6 +195,8 @@ class GaddiDictionary:
         self._unified_id_index: Dict[str, LexicalEntry] = {}
         self._vocabulary_entries: List[LexicalEntry] = []
         self._vocabulary_id_index: Dict[str, LexicalEntry] = {}
+        self._multilingual_entries: List[LexicalEntry] = []
+        self._multilingual_id_index: Dict[str, LexicalEntry] = {}
 
         if entries:
             for entry in entries:
@@ -260,6 +262,18 @@ class GaddiDictionary:
                 self._vocabulary_entries.append(e)
                 self._vocabulary_id_index[e.id] = e
 
+        # 6. Load research-expanded multilingual dictionary (Expansion 3)
+        multi_path = res_dir / "dictionary_multilingual.json"
+        if not multi_path.exists():
+            multi_path = data_dir / "dictionary_multilingual.json"
+        if multi_path.exists():
+            with open(multi_path, "r", encoding="utf-8") as f:
+                multi_raw = json.load(f)
+            for item in multi_raw:
+                e = LexicalEntry.from_dict(item)
+                self._multilingual_entries.append(e)
+                self._multilingual_id_index[e.id] = e
+
     def add_entry(self, entry: LexicalEntry) -> None:
         """Add a lexical entry to the dictionary and update internal indices."""
         if entry.id in self._id_index:
@@ -287,7 +301,12 @@ class GaddiDictionary:
 
     def get_by_id(self, entry_id: str) -> Optional[LexicalEntry]:
         """Look up an entry by its unique identifier."""
-        return self._id_index.get(entry_id) or self._unified_id_index.get(entry_id)
+        return (
+            self._id_index.get(entry_id)
+            or self._multilingual_id_index.get(entry_id)
+            or self._vocabulary_id_index.get(entry_id)
+            or self._unified_id_index.get(entry_id)
+        )
 
     # -------------------------------------------------------------------------
     # Core Translation Engine: translate()
@@ -324,12 +343,18 @@ class GaddiDictionary:
             effective_jk_only = False if jk_only is None else bool(jk_only)
             effective_allow_comp = True if allow_comparative is None else bool(allow_comparative)
             effective_inc_cult = True if include_cultural is None else bool(include_cultural)
-            active_pool = self._unified_entries if self._unified_entries else self._entries
+            active_pool = list(self._multilingual_entries) + (self._unified_entries if self._unified_entries else self._entries)
         else:
             effective_jk_only = True if jk_only is None else bool(jk_only)
             effective_allow_comp = False if allow_comparative is None else bool(allow_comparative)
             effective_inc_cult = False if include_cultural is None else bool(include_cultural)
-            active_pool = self._entries
+            if src_lang in ("as", "asm", "assamese", "bn", "ben", "bengali", "bangla"):
+                active_pool = list(self._multilingual_entries)
+                if jk_only is None:
+                    effective_jk_only = False
+                    effective_allow_comp = True
+            else:
+                active_pool = self._entries
 
         # Handle reverse direction: Gaddi -> Other language
         if src_lang in ("gaddi", "gad") and tgt_lang not in ("gaddi", "gad"):
@@ -347,10 +372,14 @@ class GaddiDictionary:
             raw_results = self.lookup_punjabi(query, jk_only=False, exact=exact, pool=active_pool)
         elif src_lang in ("doi", "dog", "dogri"):
             raw_results = self.lookup_dogri(query, jk_only=False, exact=exact, pool=active_pool)
+        elif src_lang in ("as", "asm", "assamese"):
+            raw_results = self.lookup_assamese(query, jk_only=False, exact=exact, pool=active_pool)
+        elif src_lang in ("bn", "ben", "bengali", "bangla"):
+            raw_results = self.lookup_bengali(query, jk_only=False, exact=exact, pool=active_pool)
         else:
             raise ValueError(
                 f"Unsupported source language: '{src_lang}'. "
-                f"Supported: 'en', 'hi', 'ur', 'pa', 'doi', 'gaddi'."
+                f"Supported: 'en', 'hi', 'as', 'bn', 'ur', 'pa', 'doi', 'gaddi'."
             )
 
         filtered: List[LexicalEntry] = []
@@ -493,6 +522,96 @@ class GaddiDictionary:
                         break
                 else:
                     if clean_q in defn or clean_q in tokens:
+                        matched = True
+                        break
+
+            if matched and entry.id not in seen:
+                seen.add(entry.id)
+                results.append(entry)
+
+        return self._sort_results(results)
+
+    # -------------------------------------------------------------------------
+    # Priority: Assamese -> Gaddi Lookup
+    # -------------------------------------------------------------------------
+    def lookup_assamese(
+        self,
+        query: str,
+        jk_only: bool = False,
+        exact: bool = False,
+        pool: Optional[List[LexicalEntry]] = None,
+    ) -> List[LexicalEntry]:
+        """Search Assamese definitions and glosses for matching Gaddi entries."""
+        clean_q = normalize_text(query).strip()
+        if not clean_q:
+            return []
+
+        search_pool = pool if pool is not None else (self._multilingual_entries if self._multilingual_entries else self._entries)
+        results: List[LexicalEntry] = []
+        seen: Set[str] = set()
+
+        for entry in search_pool:
+            if jk_only and not self._is_jk_variety(entry.variety_id):
+                continue
+
+            matched = False
+            for sense in entry.senses:
+                defn = getattr(sense, "definition_as", None)
+                if not defn:
+                    continue
+                defn_clean = normalize_text(defn)
+                tokens = [t.strip(",.()[]{}:;\"' /") for t in defn_clean.split()]
+                if exact:
+                    if clean_q == defn_clean or clean_q in tokens:
+                        matched = True
+                        break
+                else:
+                    if clean_q == defn_clean or clean_q in tokens or clean_q in defn_clean:
+                        matched = True
+                        break
+
+            if matched and entry.id not in seen:
+                seen.add(entry.id)
+                results.append(entry)
+
+        return self._sort_results(results)
+
+    # -------------------------------------------------------------------------
+    # Priority: Bengali -> Gaddi Lookup
+    # -------------------------------------------------------------------------
+    def lookup_bengali(
+        self,
+        query: str,
+        jk_only: bool = False,
+        exact: bool = False,
+        pool: Optional[List[LexicalEntry]] = None,
+    ) -> List[LexicalEntry]:
+        """Search Bengali definitions and glosses for matching Gaddi entries."""
+        clean_q = normalize_text(query).strip()
+        if not clean_q:
+            return []
+
+        search_pool = pool if pool is not None else (self._multilingual_entries if self._multilingual_entries else self._entries)
+        results: List[LexicalEntry] = []
+        seen: Set[str] = set()
+
+        for entry in search_pool:
+            if jk_only and not self._is_jk_variety(entry.variety_id):
+                continue
+
+            matched = False
+            for sense in entry.senses:
+                defn = getattr(sense, "definition_bn", None)
+                if not defn:
+                    continue
+                defn_clean = normalize_text(defn)
+                tokens = [t.strip(",.()[]{}:;\"' /") for t in defn_clean.split()]
+                if exact:
+                    if clean_q == defn_clean or clean_q in tokens:
+                        matched = True
+                        break
+                else:
+                    if clean_q == defn_clean or clean_q in tokens or clean_q in defn_clean:
                         matched = True
                         break
 
@@ -1477,6 +1596,59 @@ class GaddiDictionary:
                 " ".join(s.definition_hi or "" for s in e.senses),
                 " ".join(s.definition_ur or "" for s in e.senses),
             ]).lower()
+            if q in haystack:
+                results.append(e)
+        return results
+
+    # -------------------------------------------------------------------------
+    # Multilingual Research Dataset Accessors (Expansion 3)
+    # -------------------------------------------------------------------------
+    def get_multilingual_entries(
+        self,
+        domain: Optional[str] = None,
+        variety_id: Optional[str] = None,
+    ) -> List[LexicalEntry]:
+        """Return research-expanded multilingual dictionary entries, optionally filtered by domain and variety."""
+        entries = self._multilingual_entries
+        if domain:
+            entries = [e for e in entries if e.metadata.get("domain", "").lower() == domain.lower()]
+        if variety_id:
+            entries = [e for e in entries if e.variety_id == variety_id]
+        return list(entries)
+
+    def get_multilingual_by_id(self, entry_id: str) -> Optional[LexicalEntry]:
+        """Look up an entry in the research-expanded multilingual dictionary by ID."""
+        return self._multilingual_id_index.get(entry_id)
+
+    def search_multilingual(
+        self,
+        query: str,
+        domain: Optional[str] = None,
+        variety_id: Optional[str] = None,
+        lang: Optional[str] = None,
+    ) -> List[LexicalEntry]:
+        """Search across the research-expanded multilingual dictionary dataset."""
+        q = query.lower().strip()
+        results: List[LexicalEntry] = []
+        for e in self._multilingual_entries:
+            if domain and e.metadata.get("domain", "").lower() != domain.lower():
+                continue
+            if variety_id and e.variety_id != variety_id:
+                continue
+            if not q:
+                results.append(e)
+                continue
+
+            haystack_parts = [
+                e.lemma_devanagari,
+                e.lemma_ipa or "",
+                e.original_transcription or "",
+                " ".join(s.definition_en for s in e.senses),
+                " ".join(s.definition_hi or "" for s in e.senses),
+                " ".join(getattr(s, "definition_as", "") or "" for s in e.senses),
+                " ".join(getattr(s, "definition_bn", "") or "" for s in e.senses),
+            ]
+            haystack = " ".join(haystack_parts).lower()
             if q in haystack:
                 results.append(e)
         return results

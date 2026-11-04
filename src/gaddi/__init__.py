@@ -116,7 +116,8 @@ def info() -> Dict[str, Any]:
         "categories": categories,
         "category_totals_note": f"Multi-label categorization: entries can belong to multiple domains (cumulative domain tags across {len(unified_entries)} unified entries).",
         "translation_coverage_note": "Coverage reflects availability of bilingual descriptive glosses from literature, not independent modern elicitation for all forms.",
-        "supported_languages": ["en", "hi", "ur", "pa", "doi", "gaddi"],
+        "multilingual_total_entries": len(_default_dictionary._multilingual_entries),
+        "supported_languages": ["en", "hi", "ur", "pa", "doi", "as", "bn", "gaddi"],
         "verb_morphology_forms": default_morphology.total_forms,
         "verb_morphology_verbs": default_morphology.total_verbs,
         "verb_morphology_complete_paradigms": len(default_morphology.get_complete_paradigms()),
@@ -143,7 +144,7 @@ def translate(
     include_cultural: Optional[bool] = None,
     exact: bool = False,
 ) -> List[LexicalEntry]:
-    """Translate between English, Hindi, Urdu, Punjabi, Dogri, and Gaddi.
+    """Translate between English, Hindi, Urdu, Punjabi, Dogri, Assamese, Bengali, and Gaddi.
 
     Supports both functional styles:
       gaddi.translate("water", source="en", target="gaddi")
@@ -407,6 +408,11 @@ __all__ = [
     "get_verb_paradigm",
     "search_verb_forms",
     "list_morphology_verbs",
+    "get_multilingual_entries",
+    "get_multilingual_by_id",
+    "search_multilingual",
+    "lookup_assamese",
+    "lookup_bengali",
 ]
 
 
@@ -501,3 +507,41 @@ def search_verb_forms(query: str) -> List[VerbFormRecord]:
 def list_morphology_verbs() -> List[Dict[str, Any]]:
     """Return summary list of all verbs recorded in the verb morphology module."""
     return default_morphology.list_verbs()
+
+# -----------------------------------------------------------------------------
+# Multilingual Research Dataset Public API (Expansion 3)
+# -----------------------------------------------------------------------------
+
+def get_multilingual_entries(
+    domain: Optional[str] = None,
+    variety_id: Optional[str] = None,
+) -> List[LexicalEntry]:
+    """Return research-expanded multilingual dictionary entries (Expansion 3)."""
+    return _default_dictionary.get_multilingual_entries(domain=domain, variety_id=variety_id)
+
+
+def get_multilingual_by_id(entry_id: str) -> Optional[LexicalEntry]:
+    """Look up an entry in the research-expanded multilingual dictionary by ID."""
+    return _default_dictionary.get_multilingual_by_id(entry_id)
+
+
+def search_multilingual(
+    query: str,
+    domain: Optional[str] = None,
+    variety_id: Optional[str] = None,
+    lang: Optional[str] = None,
+) -> List[LexicalEntry]:
+    """Search across the research-expanded multilingual dictionary dataset."""
+    return _default_dictionary.search_multilingual(
+        query=query, domain=domain, variety_id=variety_id, lang=lang
+    )
+
+
+def lookup_assamese(query: str, exact: bool = False) -> List[LexicalEntry]:
+    """Search Assamese definitions and glosses for matching Gaddi entries."""
+    return _default_dictionary.lookup_assamese(query, exact=exact)
+
+
+def lookup_bengali(query: str, exact: bool = False) -> List[LexicalEntry]:
+    """Search Bengali definitions and glosses for matching Gaddi entries."""
+    return _default_dictionary.lookup_bengali(query, exact=exact)

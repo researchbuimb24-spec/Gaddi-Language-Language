@@ -71,14 +71,14 @@ def build_parser() -> argparse.ArgumentParser:
         "--from",
         dest="from_lang",
         default="en",
-        choices=["en", "hi", "ur", "pa", "doi", "gaddi"],
-        help="Source language of the query (en: English [default], hi: Hindi, ur: Urdu, pa: Punjabi, doi: Dogri, gaddi).",
+        choices=["en", "hi", "ur", "pa", "doi", "as", "bn", "gaddi"],
+        help="Source language of the query (en: English [default], hi: Hindi, ur: Urdu, pa: Punjabi, doi: Dogri, as: Assamese, bn: Bengali, gaddi).",
     )
     translate_parser.add_argument(
         "--to",
         dest="to_lang",
         default=None,
-        choices=["gaddi", "en", "hi", "ur", "pa", "doi"],
+        choices=["gaddi", "en", "hi", "ur", "pa", "doi", "as", "bn"],
         help="Target language (default: gaddi).",
     )
     translate_parser.add_argument(
@@ -188,6 +188,14 @@ def build_parser() -> argparse.ArgumentParser:
     vocab_parser.add_argument("--domain", help="Filter by semantic domain (family_and_kinship, pastoral_life, etc.).")
     vocab_parser.add_argument("--search", help="Search vocabulary entries.")
     vocab_parser.add_argument("--json", action="store_true", help="Output in JSON format.")
+
+    # dictionary (Expansion 3: Research-Expanded Multilingual Lexicon)
+    dict_parser = subparsers.add_parser("dictionary", help="Browse and search research-expanded multilingual dictionary entries.")
+    dict_parser.add_argument("--domain", "-d", help="Filter by semantic domain (e.g. nature_and_physical_world, body_parts, family_and_kinship).")
+    dict_parser.add_argument("--variety", "-v", help="Filter by variety ID (hp_kangra_palampur, hp_chamba_bharmaur, jk_doda_bhadarwah).")
+    dict_parser.add_argument("--search", "-s", help="Search across headwords, IPA, and all translations (EN/HI/AS/BN).")
+    dict_parser.add_argument("--id", help="Lookup a specific entry by unique ID (e.g. gaddi-dict-0001).")
+    dict_parser.add_argument("--json", action="store_true", help="Output entries in JSON format.")
 
     # morphology
     morph_parser = subparsers.add_parser("morphology", help="Inspect Gaddi verb morphology, TAM paradigms, and grammatical forms.")
@@ -434,6 +442,16 @@ def cmd_validate(file_path: Optional[str] = None) -> int:
             if not report.is_valid:
                 all_valid = False
 
+        multi_path = res_dir / "dictionary_multilingual.json"
+        if multi_path.exists():
+            with open(multi_path, "r", encoding="utf-8") as f:
+                multi_data = json.load(f)
+            multi_entries = [LexicalEntry.from_dict(d) for d in multi_data]
+            report = validator.validate_collection(multi_entries)
+            _print_validation_report(report, "dictionary_multilingual.json")
+            if not report.is_valid:
+                all_valid = False
+
         # Validate resource synchronization
         sync_report = validator.validate_resource_synchronization()
         _print_validation_report(sync_report, "Resource Synchronization (data/ vs resources/)")
@@ -487,6 +505,10 @@ def _print_entry(entry: LexicalEntry) -> None:
             print(f"    HI: {s.definition_hi}")
         if s.definition_ur:
             print(f"    UR: {s.definition_ur}")
+        if getattr(s, "definition_as", None):
+            print(f"    AS: {s.definition_as}")
+        if getattr(s, "definition_bn", None):
+            print(f"    BN: {s.definition_bn}")
         if s.semantic_field:
             print(f"    Domain: {s.semantic_field}")
         for ex in s.examples:
@@ -565,6 +587,8 @@ def cmd_translate(
         "ur": "Urdu",
         "pa": "Punjabi",
         "doi": "Dogri",
+        "as": "Assamese",
+        "bn": "Bengali",
         "gaddi": "Gaddi",
     }
     source_name = lang_names.get(from_lang, from_lang)
@@ -1175,6 +1199,46 @@ def cmd_vocabulary(domain: Optional[str] = None, search_query: Optional[str] = N
     return 0
 
 
+def cmd_dictionary(
+    domain: Optional[str] = None,
+    variety_id: Optional[str] = None,
+    search_query: Optional[str] = None,
+    entry_id: Optional[str] = None,
+    as_json: bool = False,
+) -> int:
+    from gaddi.dictionary import GaddiDictionary
+    d = GaddiDictionary()
+    if entry_id:
+        entry = d.get_multilingual_by_id(entry_id)
+        if not entry:
+            print(f"No multilingual entry found with ID '{entry_id}'.", file=sys.stderr)
+            return 1
+        if as_json:
+            print(json.dumps(entry.to_dict(), indent=2, ensure_ascii=False))
+        else:
+            _print_entry(entry)
+        return 0
+
+    items = d.search_multilingual(query=search_query or "", domain=domain, variety_id=variety_id)
+    if as_json:
+        print(json.dumps([e.to_dict() for e in items], indent=2, ensure_ascii=False))
+        return 0
+    print(f"=== Research-Expanded Multilingual Dictionary ({len(items)} entries matched) ===")
+    for e in items[:25]:
+        ipa = f" [{e.lemma_ipa}]" if e.lemma_ipa else ""
+        pos = f" ({e.part_of_speech})" if e.part_of_speech else ""
+        s_en = e.senses[0].definition_en if e.senses else ""
+        s_hi = e.senses[0].definition_hi if e.senses and e.senses[0].definition_hi else ""
+        s_as = getattr(e.senses[0], "definition_as", "") if e.senses else ""
+        s_bn = getattr(e.senses[0], "definition_bn", "") if e.senses else ""
+        dom = e.metadata.get("domain", "")
+        print(f"  • [{e.id}] {e.lemma_devanagari}{ipa}{pos}")
+        print(f"      EN: {s_en} | HI: {s_hi} | AS: {s_as} | BN: {s_bn} [Domain: {dom}, Variety: {e.variety_id}]")
+    if len(items) > 25:
+        print(f"\n... and {len(items) - 25} more entries. Use --json to inspect all entries.")
+    return 0
+
+
 def cmd_morphology(subcommand: Optional[str], **kwargs) -> int:
     """CLI handler for gaddi morphology command group."""
     if not subcommand or subcommand == "verbs":
@@ -1315,6 +1379,8 @@ def main() -> None:
         sys.exit(cmd_culture(getattr(args, "topic", None), getattr(args, "search", None), getattr(args, "json", False)))
     elif args.command == "vocabulary":
         sys.exit(cmd_vocabulary(getattr(args, "domain", None), getattr(args, "search", None), getattr(args, "json", False)))
+    elif args.command == "dictionary":
+        sys.exit(cmd_dictionary(getattr(args, "domain", None), getattr(args, "variety", None), getattr(args, "search", None), getattr(args, "id", None), getattr(args, "json", False)))
     elif args.command == "info":
         sys.exit(cmd_info())
     elif args.command == "sources":
