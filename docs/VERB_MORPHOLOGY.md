@@ -181,4 +181,3 @@ python -m gaddi.cli morphology search "causative"
 # Validate verb morphology dataset schema and integrity
 python -m gaddi.cli validate
 ```
-

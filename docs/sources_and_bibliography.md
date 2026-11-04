@@ -46,7 +46,7 @@ To avoid the linguistic error of merging distinct regional varieties without emp
 - **Journal:** *Smart Moves Journal IJELLH (International Journal of English Language, Literature in Humanities)*, Vol. 7, Issue 7 (July 2019), pp. 927–943.
 - **Identifier:** ISSN: `2582-3574` / OJS URL: [https://ijellh.com/index.php/OJS/article/view/9304](https://ijellh.com/index.php/OJS/article/view/9304).
 - **License:** Open Access under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
-- **Geographic Variety Documented:** **`hp_kangra_palampur`** (Palampur, Kangra District, Himachal Pradesh; fieldwork with 14 named native speakers: Urmila Rana, Bukra Devi, Ritu Kumari, Shabnam Thakur, Sneha Devi, Rajkumar, Amisha Devi, Shagun, Tannu, Pallavi, Aniket, Simran, Nithin, Priya).
+- **Geographic Variety Documented:** **`hp_kangra_palampur`** (Palampur, Kangra District, Himachal Pradesh; empirical fieldwork conducted with 14 native speakers, ages 10–62).
 - **Reliability:** **Very High (Canonical Reference for TAM Paradigm)**. Supplies the canonical 96-cell verbal paradigm table for the verb *həsɳɑ* ('to laugh') across 12 inflectional rows and 8 PNGH agreement columns, along with glossed isolated examples with morpheme segmentation.
 - **Licensing & Attribution:** CC BY 4.0 enables reuse and adaptation with proper attribution. Separate provenance is preserved from Kumari et al. (2026).
 

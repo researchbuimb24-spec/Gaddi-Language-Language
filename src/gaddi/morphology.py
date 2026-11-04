@@ -237,4 +237,3 @@ default_morphology = VerbMorphologyRegistry()
 def get_verb_morphology_registry() -> VerbMorphologyRegistry:
     """Return the global VerbMorphologyRegistry singleton."""
     return default_morphology
-
