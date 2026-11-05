@@ -128,6 +128,13 @@ To avoid the linguistic error of merging distinct regional varieties without emp
 - **Publisher:** Central Institute of Indian Languages, Ministry of Education, Government of India.
 - **Reliability:** **High**. Digital corpora and phonetic surveys for Indian minority languages.
 
+#### 11b. Census of India / Language Division (2023)
+- **Title:** *Linguistic Survey of India: Himachal Pradesh*
+- **Publisher:** Office of the Registrar General & Census Commissioner, India (Language Division, Kolkata / New Delhi).
+- **Resources:** Comparative Lexicon tables (pp. 1078–1100), documenting 507 lexical items across Gaddi / Bharmauri and neighboring Western Pahari speech varieties.
+- **Geographic Variety Documented:** hp_chamba_bharmaur.
+- **Reliability:** **High (Government Linguistic Survey)**. Systematic comparative word lists recorded across Himachal Pradesh field sites.
+
 ---
 
 ### Tier 4: Community, Digital, and Crowdsourced Glossaries (Provisional Only)
@@ -136,22 +143,30 @@ To avoid the linguistic error of merging distinct regional varieties without emp
 - **Reliability:** **Low / Provisional**.
 - **Project Rule:** Crowdsourced entries must NEVER be entered into the library as verified facts. They may only be logged in a quarantine review table to inform directed fieldwork or academic verification.
 
+#### 13. Jambu Indo-Aryan Lexicon Aggregator (Aryaman Arora et al.)
+- **URL:** https://aryaman.io/jambu/languages/ga / GitHub: moli-mandala/data
+- **Reliability:** **Secondary Aggregator / Not Independent Fieldwork**.
+- **Assessment & Provenance:** Forensic inspection confirms that Jambu's 1,118 Gaddi records consist of secondary extractions from Kumari et al. (2026) (392 forms), Census 2023 LSI Himachal Pradesh (507 forms), Grierson 1928 LSI (195 forms), Smith 2022 (2 forms), and Zoller 2023 / CDIAL (22 forms). It serves as a valuable discovery index, but lexical provenance must be credited to the primary monographs and surveys.
+
 ---
 
 ## 3. Summary Assessment Matrix
 
 | Source Short ID | Lead Author / Body | Year | Region | Credibility Tier | Permitted Project Usage |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `kumari_2026` | Kumari et al. (UCL Press) | 2026 | Kangra (HP) | Tier 1 (Linguistic) | Comparative reference only; phonetics/syntax model. |
-| `mehta_2016` | Mehta (JNU) | 2016 | Kangra (HP) | Tier 1 (Linguistic) | Comparative verbal inflection reference. |
-| `mehta_2021` | Mehta (JNU) | 2021 | Kangra (HP) | Tier 1 (Linguistic) | Comparative TAM and aspectual semantics. |
-| `grierson_1916` | Grierson (LSI) | 1916 | Chamba (HP) | Tier 2 (Historical) | Historical baseline vocabulary; Takri script texts. |
-| `bailey_1908` | Bailey (RAS) | 1908 | Chamba / Kangra | Tier 2 (Historical) | Historical phonology and tonal notes. |
+| kumari_2026 | Kumari et al. (UCL Press) | 2026 | Kangra (HP) | Tier 1 (Linguistic) | Comparative reference only; phonetics/syntax model. |
+| mehta_2016 | Mehta (JNU) | 2016 | Kangra (HP) | Tier 1 (Linguistic) | Comparative verbal inflection reference. |
+| mehta_2019 | Mehta (IJELLH) | 2019 | Kangra (HP) | Tier 1 (Linguistic) | 96-cell verbal inflection paradigm reference. |
+| mehta_2021 | Mehta (JNU) | 2021 | Kangra (HP) | Tier 1 (Linguistic) | Comparative TAM and aspectual semantics. |
+| dar_sheikh_2022 | Dar & Sheikh (AMU) | 2022 | Doda / Bhadarwah (J&K) | Tier 1 (Linguistic) | Primary J&K kinship, calendar, seasonal lexical evidence. |
+| grierson_1916 | Grierson (LSI) | 1916 | Chamba (HP) | Tier 2 (Historical) | Historical baseline vocabulary; Takri script texts. |
+| ailey_1908 | Bailey (RAS) | 1908 | Chamba / Kangra | Tier 2 (Historical) | Historical phonology and tonal notes. |
 | `census_2011` | Registrar General of India | 2011 | J&K (all) | Tier 3 (Government) | Demographic anchor; speaker distribution. |
+| `census_2023_lsi` | Language Division, RGI | 2023 | Himachal Pradesh | Tier 2 (Government/LSI) | LSI-HP comparative word lists and dialect vocabulary. |
 | `kumar_2019` | Banti Kumar | 2019 | Kathua / J&K | Tier 3 (Fieldwork) | J&K ethnographic & pastoral terminology. |
 | `chandar_2024` | Subhash Chandar | 2024 | Doda / Saraj (J&K) | Tier 3 (Fieldwork) | Chenab valley settlement & cultural terms. |
-| `chakraborty_2024`| Arka Chakraborty | 2024 | J&K (all) | Tier 3 (Institutional)| Religious ritual terminology (*Nawala*). |
+| chakraborty_2024| Arka Chakraborty | 2024 | J&K (all) | Tier 3 (Institutional)| Religious ritual terminology (*Nawala*). |
 | `nirmohi_duggar` | Shiv Nirmohi | Various | Jammu region | Tier 3 (Folkloric) | Folk literature, oral ballads (*Ainchali*). |
 | `jkaacl_archive` | J&K Culture Academy | Various | Jammu region | Tier 3 (Government) | Oral songs and ritual performances. |
 | `ciil_ldcil` | CIIL Mysore | Ongoing | Western Pahari | Tier 3 (Government) | Corpus data, morphological validation. |
-
+| `jambu_cdial_gaddi` | Arora et al. (Jambu) | 2026 | Multi-regional | Tier 4 (Aggregator) | Digital lexical index; references resolved to primary monographs. |

@@ -285,6 +285,7 @@ class GaddiValidator:
             EvidenceStatus.COMMUNITY_SUBMITTED_UNVERIFIED.value,
             EvidenceStatus.UNVERIFIED_LEAD.value,
             EvidenceStatus.DISPUTED.value,
+            EvidenceStatus.NEEDS_REVIEW.value,
         ):
             warnings.append(
                 ValidationWarning(

@@ -30,6 +30,12 @@ class EvidenceStatus(str, Enum):
     SOURCE_METADATA_ONLY = "source_metadata_only"
     NEEDS_MANUAL_REVIEW = "needs_manual_review"
 
+    # Lexical and translation evidence audit statuses
+    SOURCE_ATTESTED = "source_attested"
+    CROSS_SOURCE_SUPPORTED = "cross_source_supported"
+    TRANSLATION_EQUIVALENT = "translation_equivalent"
+    NEEDS_REVIEW = "needs_review"
+
     # Backwards-compatibility alias
     VERIFIED_JK = "verified_jk_lexical"
 
@@ -239,6 +245,7 @@ class Sense:
     semantic_field: Optional[str] = None
     examples: List[ExampleSentence] = field(default_factory=list)
     source_item: Optional[str] = None
+    translation_status: Optional[str] = None
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> Sense:
@@ -256,6 +263,7 @@ class Sense:
             semantic_field=data.get("semantic_field"),
             examples=examples,
             source_item=data.get("source_item"),
+            translation_status=data.get("translation_status"),
         )
 
     def to_dict(self) -> Dict[str, Any]:
@@ -273,6 +281,8 @@ class Sense:
             res["definition_bn"] = self.definition_bn
         if self.source_item is not None:
             res["source_item"] = self.source_item
+        if self.translation_status is not None:
+            res["translation_status"] = self.translation_status
         return res
 
 
