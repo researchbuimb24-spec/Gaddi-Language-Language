@@ -61,6 +61,13 @@ To avoid the linguistic error of merging distinct regional varieties without emp
 - **Reliability:** **Very High (Primary J&K Fieldwork Evidence)**. Documents community background, vocabulary (seasons, months, days, numerals), and exhaustive kinship terminology across 13 tables (Tables 6–13) directly elicited from native J&K Gaddi speakers.
 - **Role in Library:** Serves as the primary source for authentic J&K Gaddi kinship, calendar, seasonal, and daily life lexical entries with full traceability.
 
+#### 2d. Zoller, Claus Peter (2023)
+- **Title:** *A Grammar and Dictionary of Indus Kohistani (with comparative Western Pahari and Gaddi cognates)*
+- **Publisher:** Harrassowitz Verlag / Academic Research.
+- **Geographic Variety Documented:** **`hp_chamba_bharmaur`** / Comparative Western Pahari.
+- **Reliability:** **Very High (Historical Comparative Linguistics)**. Rigorous Indo-Aryan historical phonology and comparative etymological cognates tracing Gaddi lexemes back to OIA/MIA reconstructions.
+- **Role in Library:** Comparative etymological reference for phonological archaisms and historical cognates.
+
 ---
 
 ### Tier 2: Historical and Macro-Linguistic Surveys
@@ -132,8 +139,24 @@ To avoid the linguistic error of merging distinct regional varieties without emp
 - **Title:** *Linguistic Survey of India: Himachal Pradesh*
 - **Publisher:** Office of the Registrar General & Census Commissioner, India (Language Division, Kolkata / New Delhi).
 - **Resources:** Comparative Lexicon tables (pp. 1078–1100), documenting 507 lexical items across Gaddi / Bharmauri and neighboring Western Pahari speech varieties.
-- **Geographic Variety Documented:** hp_chamba_bharmaur.
+- **Geographic Variety Documented:** `hp_chamba_bharmaur`.
 - **Reliability:** **High (Government Linguistic Survey)**. Systematic comparative word lists recorded across Himachal Pradesh field sites.
+
+#### 11c. Radha, Kumar, S., & Puri, S. (2020)
+- **Title:** "Exploration of Wild Edible Plants Used as Food by Gaddis—A Tribal Community of the Western Himalaya"
+- **Journal:** *Journal of Ethnobiology and Ethnomedicine*, 16:21.
+- **Identifier:** PMC: `PMC7054805` / DOI: `10.1186/s13002-020-00368-4`.
+- **License:** Open Access under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+- **Geographic Variety Documented:** `hp_chamba_bharmaur` (Field sites in Chamba and Kangra districts, HP).
+- **Reliability:** **High (Peer-Reviewed Ethnobotanical Fieldwork)**. Direct field elicitation documenting 49 wild edible plant species along with vernacular Gaddi phytonyms, plant parts consumed, preparation methods, and traditional ecological knowledge.
+
+#### 11d. Singh, K. K. & Kumar, Kaushal (2000)
+- **Title:** *Ethnobotanical Wisdom of Gaddi Tribe in Western Himalaya*
+- **Publisher:** Bishen Singh Mahendra Pal Singh, Dehra Dun.
+- **Identifier:** ISBN: `81-211-0207-1`.
+- **Access Status:** Physical catalogue record.
+- **Geographic Variety Documented:** `hp_chamba_bharmaur`.
+- **Reliability:** **Moderate to High (Specialized Ethnobotanical Monograph)**. Comprehensive catalogue of plant species utilized in traditional medicine, veterinary practices, and material culture by the migratory Gaddi community. Preserved as a catalogue reference.
 
 ---
 
@@ -158,11 +181,14 @@ To avoid the linguistic error of merging distinct regional varieties without emp
 | mehta_2016 | Mehta (JNU) | 2016 | Kangra (HP) | Tier 1 (Linguistic) | Comparative verbal inflection reference. |
 | mehta_2019 | Mehta (IJELLH) | 2019 | Kangra (HP) | Tier 1 (Linguistic) | 96-cell verbal inflection paradigm reference. |
 | mehta_2021 | Mehta (JNU) | 2021 | Kangra (HP) | Tier 1 (Linguistic) | Comparative TAM and aspectual semantics. |
+| zoller_2023 | Claus Peter Zoller | 2023 | Chamba / Regional | Tier 1 (Linguistic) | Historical phonology and comparative etymological cognates. |
 | dar_sheikh_2022 | Dar & Sheikh (AMU) | 2022 | Doda / Bhadarwah (J&K) | Tier 1 (Linguistic) | Primary J&K kinship, calendar, seasonal lexical evidence. |
 | grierson_1916 | Grierson (LSI) | 1916 | Chamba (HP) | Tier 2 (Historical) | Historical baseline vocabulary; Takri script texts. |
-| ailey_1908 | Bailey (RAS) | 1908 | Chamba / Kangra | Tier 2 (Historical) | Historical phonology and tonal notes. |
+| bailey_1908 | Bailey (RAS) | 1908 | Chamba / Kangra | Tier 2 (Historical) | Historical phonology and tonal notes. |
 | `census_2011` | Registrar General of India | 2011 | J&K (all) | Tier 3 (Government) | Demographic anchor; speaker distribution. |
 | `census_2023_lsi` | Language Division, RGI | 2023 | Himachal Pradesh | Tier 2 (Government/LSI) | LSI-HP comparative word lists and dialect vocabulary. |
+| radha_2020 | Radha et al. (PMC7054805) | 2020 | Chamba / Kangra | Tier 3 (Ethnobotany) | Ethnobotanical plant names, food plants, parts used. |
+| singh_kumar_2000 | Singh & Kumar | 2000 | Chamba (HP) | Tier 3 (Catalogue) | Ethnobotanical wisdom catalogue record. |
 | `kumar_2019` | Banti Kumar | 2019 | Kathua / J&K | Tier 3 (Fieldwork) | J&K ethnographic & pastoral terminology. |
 | `chandar_2024` | Subhash Chandar | 2024 | Doda / Saraj (J&K) | Tier 3 (Fieldwork) | Chenab valley settlement & cultural terms. |
 | chakraborty_2024| Arka Chakraborty | 2024 | J&K (all) | Tier 3 (Institutional)| Religious ritual terminology (*Nawala*). |

@@ -27,11 +27,11 @@ def dictionary() -> GaddiDictionary:
 
 
 def test_multilingual_dataset_loading(dictionary: GaddiDictionary):
-    """Verify that all 2,432 research-expanded multilingual entries are loaded."""
+    """Verify that all 3,771 research-expanded multilingual entries are loaded."""
     entries = dictionary.get_multilingual_entries()
-    assert len(entries) == 2432
+    assert len(entries) == 3771
     assert len(entries) >= 2000
-    assert len(dictionary._multilingual_id_index) == 2432
+    assert len(dictionary._multilingual_id_index) == 3771
 
 
 def test_multilingual_translation_coverage(dictionary: GaddiDictionary):
@@ -39,7 +39,7 @@ def test_multilingual_translation_coverage(dictionary: GaddiDictionary):
     entries = dictionary.get_multilingual_entries()
     total_senses = sum(len(e.senses) for e in entries)
     assert total_senses >= 2000
-    assert total_senses == 2489
+    assert total_senses == 3828
 
     for e in entries:
         assert e.id.startswith("gaddi-dict-")
@@ -63,10 +63,10 @@ def test_variety_distribution(dictionary: GaddiDictionary):
     chamba = [e for e in entries if e.variety_id == "hp_chamba_bharmaur"]
     jk = [e for e in entries if e.variety_id == "jk_doda_bhadarwah"]
 
-    assert len(kangra) == 941
-    assert len(chamba) == 1370
+    assert len(kangra) == 1712
+    assert len(chamba) == 1938
     assert len(jk) == 121
-    assert len(kangra) + len(chamba) + len(jk) == 2432
+    assert len(kangra) + len(chamba) + len(jk) == 3771
 
 
 def test_semantic_domains_coverage(dictionary: GaddiDictionary):
@@ -146,7 +146,7 @@ def test_public_api_multilingual_functions(dictionary: GaddiDictionary):
     """Test top-level functional API exports."""
     # get_multilingual_entries
     all_multi = gaddi.get_multilingual_entries()
-    assert len(all_multi) == 2432
+    assert len(all_multi) == 3771
 
     # Filtered by variety
     jk_only = gaddi.get_multilingual_entries(variety_id="jk_doda_bhadarwah")
@@ -184,7 +184,7 @@ def test_baseline_test_invariants():
     assert info["jk_cultural_and_ecological_terms"] == 25
     assert info["comparative_entries"] == 29
     assert len(info["translation_priorities"]) == 3
-    assert info["multilingual_total_entries"] == 2432
+    assert info["multilingual_total_entries"] == 3771
     assert "as" in info["supported_languages"]
     assert "bn" in info["supported_languages"]
 
@@ -204,9 +204,9 @@ def test_translation_status_and_evidence_categories(dictionary: GaddiDictionary)
     # Verify exact reconciled sense counts by evidence tier
     assert status_counts["source_attested"] == 1164
     assert status_counts["cross_source_supported"] == 160
-    assert status_counts["translation_equivalent"] == 1136
+    assert status_counts["translation_equivalent"] == 2475
     assert status_counts["needs_review"] == 29
-    assert sum(status_counts.values()) == 2489
+    assert sum(status_counts.values()) == 3828
 
 
 def test_dialect_isolation_and_anti_conflation(dictionary: GaddiDictionary):
@@ -281,3 +281,32 @@ def test_expansion4_audit_report_integrity():
     with open(csv_report, "r", encoding="utf-8") as f:
         reader = list(csv.DictReader(f))
     assert len(reader) == 2489
+
+
+def test_expansion5_audit_report_integrity():
+    """Verify integrity and schema of Expansion 5 machine-readable audit report files."""
+    repo_root = Path(__file__).resolve().parents[1]
+    json_report = repo_root / "docs" / "expansion5_lexical_audit.json"
+    csv_report = repo_root / "docs" / "expansion5_lexical_audit.csv"
+
+    assert json_report.exists(), "docs/expansion5_lexical_audit.json missing!"
+    assert csv_report.exists(), "docs/expansion5_lexical_audit.csv missing!"
+
+    with open(json_report, "r", encoding="utf-8") as f:
+        rows = json.load(f)
+    assert len(rows) == 3828
+
+    sample = rows[0]
+    required_fields = [
+        "entry_id", "sense_index", "lemma_devanagari", "lemma_ipa",
+        "part_of_speech", "variety_id", "gaddi_evidence_status",
+        "source_id", "page_or_section", "definition_en", "definition_hi",
+        "definition_as", "definition_bn", "translation_status",
+        "translation_evidence_category", "audit_flags", "audit_notes"
+    ]
+    for rf in required_fields:
+        assert rf in sample, f"Missing audit field: {rf}"
+
+    with open(csv_report, "r", encoding="utf-8") as f:
+        reader = list(csv.DictReader(f))
+    assert len(reader) == 3828

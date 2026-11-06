@@ -409,5 +409,53 @@
     "access_status": "source_inaccessible_inquiry_needed",
     "license": "Academic Research",
     "notes": "Research study on Gaddi kinship terminology and sociolinguistics in J&K. Full text was investigated across AMU AJL volumes 11-15, Glottolog, Shodhganga, and ResearchGate; confirmed as currently unhosted/inaccessible in open-access repositories. Preserved as a high-priority research lead."
+  },
+  {
+    "id": "radha_2020",
+    "title": "Exploration of Wild Edible Plants Used as Food by Gaddis—A Tribal Community of the Western Himalaya",
+    "authors": [
+      "Radha",
+      "Sanjeev Kumar",
+      "Sunil Puri"
+    ],
+    "year": 2020,
+    "variety_id": "hp_chamba_bharmaur",
+    "credibility_tier": 3,
+    "is_jk_primary": false,
+    "evidence_type": "ethnobotanical_fieldwork",
+    "access_status": "open_access",
+    "license": "CC BY 4.0",
+    "notes": "Ethnobotanical research documenting 49 wild edible plant species with local Gaddi vernacular names in Chamba and Kangra districts of Himachal Pradesh (PMC7054805)."
+  },
+  {
+    "id": "zoller_2023",
+    "title": "A Grammar and Dictionary of Indus Kohistani (with comparative Western Pahari and Gaddi cognates)",
+    "authors": [
+      "Claus Peter Zoller"
+    ],
+    "year": 2023,
+    "variety_id": "hp_chamba_bharmaur",
+    "credibility_tier": 1,
+    "is_jk_primary": false,
+    "evidence_type": "comparative_linguistics",
+    "access_status": "open_access",
+    "license": "Academic Research",
+    "notes": "Comprehensive grammar and comparative Indo-Aryan dictionary documenting Gaddi cognates and historical phonology."
+  },
+  {
+    "id": "singh_kumar_2000",
+    "title": "Ethnobotanical Wisdom of Gaddi Tribe in Western Himalaya",
+    "authors": [
+      "K. K. Singh",
+      "Kaushal Kumar"
+    ],
+    "year": 2000,
+    "variety_id": "hp_chamba_bharmaur",
+    "credibility_tier": 3,
+    "is_jk_primary": false,
+    "evidence_type": "ethnobotanical_monograph",
+    "access_status": "physical_catalogue_record",
+    "license": "Copyrighted Monograph (Bishen Singh Mahendra Pal Singh, Dehra Dun)",
+    "notes": "Physical monograph catalogued for Gaddi ethnobotanical wisdom and plant names (ISBN: 8121102071). Preserved as a catalogue reference."
   }
 ]
